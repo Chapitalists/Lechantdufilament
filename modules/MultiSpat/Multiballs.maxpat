@@ -570,7 +570,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1308.0, 725.605347, 212.0, 20.0 ],
-					"text" : "j.parameter SpatMonoSub @priority 1"
+					"text" : "ossia.parameter SpatMonoSub @priority 1"
 				}
 
 			}
@@ -585,7 +585,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 208.0, 616.812988, 139.0, 20.0 ],
-					"text" : "j.parameter Remanence"
+					"text" : "ossia.parameter Remanence"
 				}
 
 			}
@@ -630,7 +630,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 79.0, 632.605347, 120.0, 20.0 ],
-					"text" : "j.parameter Intensite"
+					"text" : "ossia.parameter Intensite"
 				}
 
 			}
@@ -645,7 +645,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 346.0, 616.812988, 49.0, 20.0 ],
-					"text" : "j.model"
+					"text" : "ossia.model #1"
 				}
 
 			}
@@ -660,7 +660,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1122.0, 694.605347, 191.0, 20.0 ],
-					"text" : "j.parameter LemurSub @priority 1"
+					"text" : "ossia.parameter LemurSub @priority 1"
 				}
 
 			}
@@ -6114,15 +6114,15 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.remote.mxo",
+				"name" : "ossia.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.parameter.mxo",
+				"name" : "ossia.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.model.mxo",
+				"name" : "ossia.model.mxo",
 				"type" : "iLaX"
 			}
  ]

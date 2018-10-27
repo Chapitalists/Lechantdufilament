@@ -77,7 +77,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 517.502014, 147.897949, 547.0, 22.0 ],
 					"style" : "",
-					"text" : "j.parameter GenereMatrice @type none @priority 6 @range 0 1 @clipmode both @repetitions/filter 1"
+					"text" : "ossia.parameter GenereMatrice @type impulse @priority 6 @range 0 1 @clip both @repetitions 0"
 				}
 
 			}
@@ -138,7 +138,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 378.168671, 186.580322, 137.0, 22.0 ],
 					"style" : "",
-					"text" : "j.remote GenereMatrice"
+					"text" : "ossia.remote GenereMatrice"
 				}
 
 			}
@@ -168,7 +168,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 553.302002, 16.15303, 174.0, 22.0 ],
 					"style" : "",
-					"text" : "j.model GOL @amenities none"
+					"text" : "ossia.model #1 GOL @amenities none"
 				}
 
 			}
@@ -2419,7 +2419,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 309.302063, 43.772049, 505.0, 22.0 ],
 					"style" : "",
-					"text" : "j.parameter Vitesse @priority 3 @type integer @range 22 5000 @clipmode both @default 22"
+					"text" : "ossia.parameter Vitesse @priority 3 @type int @range 22 5000 @clip both @default 22"
 				}
 
 			}
@@ -2435,7 +2435,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 525.701965, 351.178619, 425.0, 22.0 ],
 					"style" : "",
-					"text" : "j.parameter Densite @priority 2 @type integer @range 0 100 @clipmode both"
+					"text" : "ossia.parameter Densite @priority 2 @type int @range 0 100 @clip both"
 				}
 
 			}
@@ -2452,7 +2452,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 633.901978, 554.178589, 510.0, 22.0 ],
 					"style" : "",
-					"text" : "j.parameter Sub @priority 1 @type decimal @range 0. 1. @clipmode both @repetitions/filter 1"
+					"text" : "ossia.parameter Sub @priority 1 @type float @range 0. 1. @clip both @repetitions 0"
 				}
 
 			}
@@ -3044,15 +3044,15 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "j.remote.mxo",
+				"name" : "ossia.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.parameter.mxo",
+				"name" : "ossia.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.model.mxo",
+				"name" : "ossia.model #1.mxo",
 				"type" : "iLaX"
 			}
  ],

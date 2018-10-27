@@ -68,7 +68,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 258.0, 206.771057, 521.0, 20.0 ],
-					"text" : "j.parameter SlideDown @priority 1 @type decimal @range 0. 1000. @default 0 @clipmode both"
+					"text" : "ossia.parameter SlideDown @priority 1 @type float @range 0. 1000. @default 0 @clip both"
 				}
 
 			}
@@ -83,7 +83,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 126.5, 173.771057, 509.0, 20.0 ],
-					"text" : "j.parameter SlideUp @priority 1 @type decimal @range 0. 1000. @default 0. @clipmode both"
+					"text" : "ossia.parameter SlideUp @priority 1 @type float @range 0. 1000. @default 0. @clip both"
 				}
 
 			}
@@ -98,7 +98,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 3.5, 139.771057, 480.0, 20.0 ],
-					"text" : "j.parameter Master @priority 1 @type decimal @range 0. 1. @clipmode both @default 1"
+					"text" : "ossia.parameter Master @priority 1 @type float @range 0. 1. @clip both @default 1"
 				}
 
 			}
@@ -113,7 +113,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 503.659973, 47.041016, 228.0, 20.0 ],
-					"text" : "j.model MasterRemote @amenities none"
+					"text" : "ossia.model MasterRemote @amenities none"
 				}
 
 			}

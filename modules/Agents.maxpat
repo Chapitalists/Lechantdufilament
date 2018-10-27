@@ -72,7 +72,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 16.041992, 194.737732, 95.0, 22.0 ],
 					"style" : "",
-					"text" : "j.remote vitesse"
+					"text" : "ossia.remote vitesse"
 				}
 
 			}
@@ -117,7 +117,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 16.041992, 66.5, 496.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "j.parameter vitesse @priority 2 @type integer @range 1 1000 @clipmode both @default 22"
+					"text" : "ossia.parameter vitesse @priority 2 @type int @range 1 1000 @clip both @default 22"
 				}
 
 			}
@@ -130,7 +130,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 484.0, 460.834839, 406.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "j.parameter Panic @type none @priority 6 @range 0 1 @clipmode both"
+					"text" : "ossia.parameter Panic @type impulse @priority 6 @range 0 1 @clip both"
 				}
 
 			}
@@ -147,7 +147,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 497.0, 430.678772, 185.0, 22.0 ],
 					"style" : "",
-					"text" : "j.send /Agents/agentParameters"
+					"text" : "ossia.remote /Agents/agentParameters"
 				}
 
 			}
@@ -160,7 +160,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 474.333313, 358.751282, 87.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "j.remote Panic"
+					"text" : "ossia.remote Panic"
 				}
 
 			}
@@ -190,7 +190,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 272.796997, 175.460144, 246.0, 35.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "j.parameter Sub @priority 1 @type decimal @range 0. 1. @clipmode both"
+					"text" : "ossia.parameter Sub @priority 1 @type float @range 0. 1. @clip both"
 				}
 
 			}
@@ -215,7 +215,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 251.026123, 254.746277, 247.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "j.parameter agentParameters @type generic"
+					"text" : "ossia.parameter agentParameters @type tuple"
 				}
 
 			}
@@ -515,7 +515,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 116.026123, 21.246277, 49.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "j.model"
+					"text" : "ossia.model #1"
 				}
 
 			}
@@ -853,7 +853,7 @@
 									"outlettype" : [ "", "", "" ],
 									"patching_rect" : [ 85.269943, 258.5, 151.0, 22.0 ],
 									"style" : "Jamoma_highlighted_orange",
-									"text" : "j.receive agentParameters"
+									"text" : "ossia.remote agentParameters"
 								}
 
 							}
@@ -3498,23 +3498,23 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "j.receive.mxo",
+				"name" : "ossia.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.remote.mxo",
+				"name" : "ossia.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.model.mxo",
+				"name" : "ossia.model #1.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.send.mxo",
+				"name" : "ossia.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.parameter.mxo",
+				"name" : "ossia.parameter.mxo",
 				"type" : "iLaX"
 			}
  ],

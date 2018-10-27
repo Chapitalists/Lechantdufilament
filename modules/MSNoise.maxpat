@@ -58,7 +58,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 760.5, 411.0, 135.0, 22.0 ],
 					"style" : "",
-					"text" : "j.remote MSN-MaxAmp"
+					"text" : "ossia.remote MSN-MaxAmp"
 				}
 
 			}
@@ -71,7 +71,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 536.5, 422.0, 132.0, 22.0 ],
 					"style" : "",
-					"text" : "j.remote MSN-MinAmp"
+					"text" : "ossia.remote MSN-MinAmp"
 				}
 
 			}
@@ -127,7 +127,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 52.5, 70.0, 637.0, 22.0 ],
 					"style" : "",
-					"text" : "j.parameter MSN-MaxAmp @type integer @priority 5 @range 0 255 @clipmode both @repetitions/filter 1 @default 20"
+					"text" : "ossia.parameter MSN-MaxAmp @type int @priority 5 @range 0 255 @clip both @repetitions 0 @default 20"
 				}
 
 			}
@@ -144,7 +144,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 52.5, 43.580322, 653.0, 22.0 ],
 					"style" : "",
-					"text" : "j.parameter MSN-MinAmp @type integer @priority 6 @range 0 255 @clipmode both @repetitions/filter 1 @default 0"
+					"text" : "ossia.parameter MSN-MinAmp @type int @priority 6 @range 0 255 @clip both @repetitions 0 @default 0"
 				}
 
 			}
@@ -176,7 +176,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 272.0, 877.419678, 563.0, 22.0 ],
 					"style" : "",
-					"text" : "j.parameter MSN-opposition @type integer @priority 1 @range 0 1 @clipmode both @repetitions/filter 1"
+					"text" : "ossia.parameter MSN-opposition @type int @priority 1 @range 0 1 @clip both @repetitions 0"
 				}
 
 			}
@@ -411,7 +411,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 333.0, 548.0, 196.0, 49.0 ],
 					"style" : "",
-					"text" : "j.parameter MSNRamp @priority 2 @type integer @range 0 10000 @clipmode both"
+					"text" : "ossia.parameter MSNRamp @priority 2 @type int @range 0 10000 @clip both"
 				}
 
 			}
@@ -445,7 +445,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 209.0, 435.178589, 202.0, 49.0 ],
 					"style" : "",
-					"text" : "j.parameter MSNVitesse @priority 2 @type integer @range 10 5000 @clipmode both @default 100"
+					"text" : "ossia.parameter MSNVitesse @priority 2 @type int @range 10 5000 @clip both @default 100"
 				}
 
 			}
@@ -569,7 +569,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 52.5, 14.580322, 241.0, 22.0 ],
 					"style" : "",
-					"text" : "j.model MakeSomeNoise @amenities none"
+					"text" : "ossia.model MakeSomeNoise @amenities none"
 				}
 
 			}
@@ -632,7 +632,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 255.5, 209.0, 434.0, 22.0 ],
 					"style" : "",
-					"text" : "j.parameter MSN-Sub @priority 1 @type decimal @range 0. 1. @clipmode both"
+					"text" : "ossia.parameter MSN-Sub @priority 1 @type float @range 0. 1. @clip both"
 				}
 
 			}

@@ -180,7 +180,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 429.0, 56.5, 122.0, 22.0 ],
 					"style" : "",
-					"text" : "j.receive /:activity/out"
+					"text" : "ossia.remote /:activity/out"
 				}
 
 			}
@@ -209,7 +209,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 280.333344, 56.5, 115.0, 22.0 ],
 					"style" : "",
-					"text" : "j.receive /:activity/in"
+					"text" : "ossia.remote /:activity/in"
 				}
 
 			}

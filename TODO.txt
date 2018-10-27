@@ -11,3 +11,7 @@ Life
 
 Global
 	mousefilter sur les SUB ?
+
+Portage JamomaMax vers libOssia
+	ATTENTION le @priority est inversé, c'est maintenant le chiffre le plus grand qui l'emporte, il faut donc
+	utilité LCDFminuit_device.maxpat ?

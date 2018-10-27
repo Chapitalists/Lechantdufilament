@@ -323,7 +323,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 506.0, 428.0, 185.0, 22.0 ],
 					"style" : "",
-					"text" : "j.send /Agents/agentParameters"
+					"text" : "ossia.remote /Agents/agentParameters"
 				}
 
 			}
@@ -462,7 +462,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1670.232178, 669.5, 199.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Tourneur/Preparation"
+									"text" : "ossia.remote Agents/Tourneur/Preparation"
 								}
 
 							}
@@ -475,7 +475,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 535.862549, 557.0, 184.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Errant/Preparation"
+									"text" : "ossia.remote Agents/Errant/Preparation"
 								}
 
 							}
@@ -670,7 +670,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 78.071442, 472.0, 100.0, 49.0 ],
 									"style" : "",
-									"text" : "j.send Algo/GameOfLife/GenereMatrice"
+									"text" : "ossia.remote Algo/GameOfLife/GenereMatrice"
 								}
 
 							}
@@ -696,7 +696,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1064.714233, 290.0, 181.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Algo/GameOfLife/Densite"
+									"text" : "ossia.remote Algo/GameOfLife/Densite"
 								}
 
 							}
@@ -709,7 +709,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 683.714294, 374.0, 180.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Algo/GameOfLife/Vitesse"
+									"text" : "ossia.remote Algo/GameOfLife/Vitesse"
 								}
 
 							}
@@ -722,7 +722,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 283.714294, 370.0, 162.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Algo/GameOfLife/Sub"
+									"text" : "ossia.remote Algo/GameOfLife/Sub"
 								}
 
 							}
@@ -861,7 +861,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1347.071533, 712.5, 183.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Tourneur/Distance"
+									"text" : "ossia.remote Agents/Tourneur/Distance"
 								}
 
 							}
@@ -874,7 +874,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1316.214355, 682.5, 193.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Tourneur/VitesseSel"
+									"text" : "ossia.remote Agents/Tourneur/VitesseSel"
 								}
 
 							}
@@ -887,7 +887,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1294.214355, 652.5, 177.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Tourneur/SizeSel"
+									"text" : "ossia.remote Agents/Tourneur/SizeSel"
 								}
 
 							}
@@ -900,7 +900,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1267.785767, 621.5, 158.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Tourneur/Sub"
+									"text" : "ossia.remote Agents/Tourneur/Sub"
 								}
 
 							}
@@ -913,7 +913,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1558.5, 800.0, 179.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Tourneur/Teleport"
+									"text" : "ossia.remote Agents/Tourneur/Teleport"
 								}
 
 							}
@@ -926,7 +926,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1535.071533, 743.5, 199.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Tourneur/ReverseSel"
+									"text" : "ossia.remote Agents/Tourneur/ReverseSel"
 								}
 
 							}
@@ -952,7 +952,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1663.232178, 621.5, 179.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Tourneur/Change"
+									"text" : "ossia.remote Agents/Tourneur/Change"
 								}
 
 							}
@@ -965,7 +965,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1505.642944, 666.0, 155.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Tourneur/Rm"
+									"text" : "ossia.remote Agents/Tourneur/Rm"
 								}
 
 							}
@@ -978,7 +978,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1479.214355, 617.0, 158.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Tourneur/Add"
+									"text" : "ossia.remote Agents/Tourneur/Add"
 								}
 
 							}
@@ -1566,7 +1566,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 657.142883, 337.0, 138.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Orchestre/Tempo"
+									"text" : "ossia.remote Orchestre/Tempo"
 								}
 
 							}
@@ -1579,7 +1579,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 257.142853, 337.0, 123.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Orchestre/Sub"
+									"text" : "ossia.remote Orchestre/Sub"
 								}
 
 							}
@@ -1592,7 +1592,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 948.214355, 826.0, 174.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Sorbet/maxBtwn"
+									"text" : "ossia.remote Agents/Sorbet/maxBtwn"
 								}
 
 							}
@@ -1605,7 +1605,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 921.357178, 794.0, 171.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Sorbet/minBtwn"
+									"text" : "ossia.remote Agents/Sorbet/minBtwn"
 								}
 
 							}
@@ -1618,7 +1618,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 872.642883, 739.5, 151.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Sorbet/fonte"
+									"text" : "ossia.remote Agents/Sorbet/fonte"
 								}
 
 							}
@@ -1631,7 +1631,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 848.642883, 707.5, 175.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Sorbet/formation"
+									"text" : "ossia.remote Agents/Sorbet/formation"
 								}
 
 							}
@@ -1644,7 +1644,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 815.642883, 675.5, 192.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Sorbet/lapsCreation"
+									"text" : "ossia.remote Agents/Sorbet/lapsCreation"
 								}
 
 							}
@@ -1670,7 +1670,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1038.776855, 743.5, 165.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Sorbet/goBtwn"
+									"text" : "ossia.remote Agents/Sorbet/goBtwn"
 								}
 
 							}
@@ -1709,7 +1709,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 974.214355, 649.0, 148.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Sorbet/Play"
+									"text" : "ossia.remote Agents/Sorbet/Play"
 								}
 
 							}
@@ -1722,7 +1722,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 789.330322, 645.5, 149.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Sorbet/taille"
+									"text" : "ossia.remote Agents/Sorbet/taille"
 								}
 
 							}
@@ -1735,7 +1735,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 762.785767, 615.0, 161.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Sorbet/energy"
+									"text" : "ossia.remote Agents/Sorbet/energy"
 								}
 
 							}
@@ -2336,7 +2336,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 492.776825, 800.0, 188.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Errant/Felin/go"
+									"text" : "ossia.remote Agents/Errant/Felin/go"
 								}
 
 							}
@@ -2349,7 +2349,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 275.687531, 664.0, 152.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Errant/force"
+									"text" : "ossia.remote Agents/Errant/force"
 								}
 
 							}
@@ -2362,7 +2362,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 306.964294, 694.0, 139.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Errant/diff"
+									"text" : "ossia.remote Agents/Errant/diff"
 								}
 
 							}
@@ -2375,7 +2375,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 332.928589, 728.0, 208.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Errant/lapsFrames"
+									"text" : "ossia.remote Agents/Errant/lapsFrames"
 								}
 
 							}
@@ -2388,7 +2388,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 253.875, 633.5, 161.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Errant/velocity"
+									"text" : "ossia.remote Agents/Errant/velocity"
 								}
 
 							}
@@ -2401,7 +2401,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 577.862549, 588.0, 163.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Errant/Change"
+									"text" : "ossia.remote Agents/Errant/Change"
 								}
 
 							}
@@ -2414,7 +2414,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 227.330383, 604.5, 145.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Errant/size"
+									"text" : "ossia.remote Agents/Errant/size"
 								}
 
 							}
@@ -2427,7 +2427,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 200.785736, 574.0, 158.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Errant/energy"
+									"text" : "ossia.remote Agents/Errant/energy"
 								}
 
 							}
@@ -2453,7 +2453,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 439.687531, 664.0, 141.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Errant/Del"
+									"text" : "ossia.remote Agents/Errant/Del"
 								}
 
 							}
@@ -2466,7 +2466,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 412.285736, 604.5, 145.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Errant/Add"
+									"text" : "ossia.remote Agents/Errant/Add"
 								}
 
 							}
@@ -3629,7 +3629,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1144.428589, 259.0, 179.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send SpatMulti-Mono/Intensite"
+									"text" : "ossia.remote SpatMulti-Mono/Intensite"
 								}
 
 							}
@@ -3642,7 +3642,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 1171.0, 327.0, 176.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send MasterRemotes/SlideUp"
+									"text" : "ossia.remote MasterRemotes/SlideUp"
 								}
 
 							}
@@ -3680,7 +3680,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 763.428589, 264.0, 198.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send SpatMulti-Mono/Remanence"
+									"text" : "ossia.remote SpatMulti-Mono/Remanence"
 								}
 
 							}
@@ -4317,7 +4317,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 630.571411, 301.0, 190.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Algo/MSNoise/MSNVitesse"
+									"text" : "ossia.remote Algo/MSNoise/MSNVitesse"
 								}
 
 							}
@@ -4330,7 +4330,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 604.0, 269.0, 123.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/vitesse"
+									"text" : "ossia.remote Agents/vitesse"
 								}
 
 							}
@@ -5060,7 +5060,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 581.862549, 1025.0, 208.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Algo/MSNoise/MSN-opposition"
+									"text" : "ossia.remote Algo/MSNoise/MSN-opposition"
 								}
 
 							}
@@ -5073,7 +5073,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 230.571426, 308.0, 177.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Algo/MSNoise/MSN-Sub"
+									"text" : "ossia.remote Algo/MSNoise/MSN-Sub"
 								}
 
 							}
@@ -5099,7 +5099,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 363.071442, 1020.0, 158.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Tourneur/Add"
+									"text" : "ossia.remote Agents/Tourneur/Add"
 								}
 
 							}
@@ -5112,7 +5112,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 326.071442, 990.0, 183.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Tourneur/Distance"
+									"text" : "ossia.remote Agents/Tourneur/Distance"
 								}
 
 							}
@@ -5125,7 +5125,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 289.071442, 951.0, 158.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Tourneur/Sub"
+									"text" : "ossia.remote Agents/Tourneur/Sub"
 								}
 
 							}
@@ -5163,7 +5163,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 363.428558, 276.0, 213.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send SpatMulti-Mono/SpatMono-Sub"
+									"text" : "ossia.remote SpatMulti-Mono/SpatMono-Sub"
 								}
 
 							}
@@ -5189,7 +5189,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 239.071442, 1068.0, 148.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Sorbet/Play"
+									"text" : "ossia.remote Agents/Sorbet/Play"
 								}
 
 							}
@@ -5202,7 +5202,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 195.321442, 1032.0, 140.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Errant/Del"
+									"text" : "ossia.remote Agents/Errant/Del"
 								}
 
 							}
@@ -5215,7 +5215,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 151.571442, 998.0, 143.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Errant/Add"
+									"text" : "ossia.remote Agents/Errant/Add"
 								}
 
 							}
@@ -5228,7 +5228,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 204.0, 276.0, 107.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send Agents/Sub"
+									"text" : "ossia.remote Agents/Sub"
 								}
 
 							}
@@ -5267,7 +5267,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 790.0, 329.0, 191.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send MasterRemotes/SlideDown"
+									"text" : "ossia.remote MasterRemotes/SlideDown"
 								}
 
 							}
@@ -5280,7 +5280,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 390.0, 344.0, 171.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send MasterRemotes/Master"
+									"text" : "ossia.remote MasterRemotes/Master"
 								}
 
 							}
@@ -5306,7 +5306,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 633.571411, 1212.0, 176.0, 22.0 ],
 									"style" : "",
-									"text" : "j.send MasterRemotes/SlideUp"
+									"text" : "ossia.remote MasterRemotes/SlideUp"
 								}
 
 							}
@@ -8608,7 +8608,7 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 430.5, 210.0, 189.082642, 49.0 ],
 									"style" : "",
-									"text" : "j.parameter vitesseMainMetro @priority 1 @type integer @default 22"
+									"text" : "ossia.parameter vitesseMainMetro @priority 1 @type int @default 22"
 								}
 
 							}
@@ -14480,15 +14480,15 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "j.remote.mxo",
+				"name" : "ossia.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.model.mxo",
+				"name" : "ossia.model #1.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.parameter.mxo",
+				"name" : "ossia.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -14500,7 +14500,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.send.mxo",
+				"name" : "ossia.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -14516,7 +14516,7 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.receive.mxo",
+				"name" : "ossia.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{

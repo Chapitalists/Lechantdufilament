@@ -47,7 +47,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 5.333313, 3.0, 239.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "j.parameter Tap @type boolean @priority 1"
+					"text" : "ossia.parameter Tap @type bool @priority 1"
 				}
 
 			}
@@ -184,7 +184,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 610.0, 337.833313, 562.0, 22.0 ],
 					"style" : "",
-					"text" : "j.parameter MSP-opposition @type integer @priority 1 @range 0 1 @clipmode both @repetitions/filter 1"
+					"text" : "ossia.parameter MSP-opposition @type int @priority 1 @range 0 1 @clip both @repetitions 0"
 				}
 
 			}
@@ -521,7 +521,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 860.0, 258.580322, 234.0, 22.0 ],
 					"style" : "",
-					"text" : "j.model MakeSomePing @amenities none"
+					"text" : "ossia.model MakeSomePing @amenities none"
 				}
 
 			}
@@ -568,7 +568,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 860.0, 161.0, 437.0, 22.0 ],
 					"style" : "",
-					"text" : "j.parameter PING-Sub @priority 1 @type decimal @range 0. 1. @clipmode both"
+					"text" : "ossia.parameter PING-Sub @priority 1 @type float @range 0. 1. @clip both"
 				}
 
 			}

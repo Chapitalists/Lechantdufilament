@@ -83,7 +83,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1462.0, 733.088379, 109.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "j.send SpatMonoY"
+					"text" : "ossia.remote SpatMonoY"
 				}
 
 			}
@@ -96,7 +96,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1322.385132, 733.088379, 109.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "j.send SpatMonoX"
+					"text" : "ossia.remote SpatMonoX"
 				}
 
 			}
@@ -288,7 +288,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 438.660004, 370.081024, 305.135742, 35.0 ],
 					"style" : "",
-					"text" : "j.parameter Spat4-speed @priority 3 @type decimal @range 0. 8. @clipmode both @repetitions/filter 1"
+					"text" : "ossia.parameter Spat4-speed @priority 3 @type float @range 0. 8. @clip both @repetitions 0"
 				}
 
 			}
@@ -306,7 +306,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 438.660004, 270.720001, 305.135742, 35.0 ],
 					"style" : "",
-					"text" : "j.parameter Spat3-speed @priority 3 @type decimal @range 0. 8. @clipmode both @repetitions/filter 1"
+					"text" : "ossia.parameter Spat3-speed @priority 3 @type float @range 0. 8. @clip both @repetitions 0"
 				}
 
 			}
@@ -324,7 +324,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 434.524261, 169.720001, 305.135742, 35.0 ],
 					"style" : "",
-					"text" : "j.parameter Spat2-speed @priority 3 @type decimal @range 0. 8. @clipmode both @repetitions/filter 1"
+					"text" : "ossia.parameter Spat2-speed @priority 3 @type float @range 0. 8. @clip both @repetitions 0"
 				}
 
 			}
@@ -342,7 +342,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 438.660004, 55.220009, 301.0, 35.0 ],
 					"style" : "",
-					"text" : "j.parameter Spat1-speed @priority 3 @type decimal @range 0. 8. @clipmode both @repetitions/filter 1"
+					"text" : "ossia.parameter Spat1-speed @priority 3 @type float @range 0. 8. @clip both @repetitions 0"
 				}
 
 			}
@@ -360,7 +360,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 58.524158, 337.48172, 196.0, 62.0 ],
 					"style" : "",
-					"text" : "j.parameter Spat4-mode @priority 3 @type integer @range 0 4 @clipmode both @repetitions/filter 1"
+					"text" : "ossia.parameter Spat4-mode @priority 3 @type int @range 0 4 @clip both @repetitions 0"
 				}
 
 			}
@@ -378,7 +378,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 58.524158, 237.48172, 196.0, 62.0 ],
 					"style" : "",
-					"text" : "j.parameter Spat3-mode @priority 3 @type integer @range 0 4 @clipmode both @repetitions/filter 1"
+					"text" : "ossia.parameter Spat3-mode @priority 3 @type int @range 0 4 @clip both @repetitions 0"
 				}
 
 			}
@@ -396,7 +396,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 58.524158, 136.48172, 196.0, 62.0 ],
 					"style" : "",
-					"text" : "j.parameter Spat2-mode @priority 3 @type integer @range 0 4 @clipmode both @repetitions/filter 1"
+					"text" : "ossia.parameter Spat2-mode @priority 3 @type int @range 0 4 @clip both @repetitions 0"
 				}
 
 			}
@@ -414,7 +414,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 58.524158, 39.220009, 196.0, 62.0 ],
 					"style" : "",
-					"text" : "j.parameter Spat1-mode @priority 3 @type integer @range 0 4 @clipmode both @repetitions/filter 1"
+					"text" : "ossia.parameter Spat1-mode @priority 3 @type int @range 0 4 @clip both @repetitions 0"
 				}
 
 			}
@@ -537,7 +537,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 613.000061, 69.0, 114.0, 22.0 ],
 									"style" : "",
-									"text" : "j.remote SpatGain4"
+									"text" : "ossia.remote SpatGain4"
 								}
 
 							}
@@ -554,7 +554,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 427.000061, 69.0, 114.0, 22.0 ],
 									"style" : "",
-									"text" : "j.remote SpatGain3"
+									"text" : "ossia.remote SpatGain3"
 								}
 
 							}
@@ -571,7 +571,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 241.000061, 69.0, 114.0, 22.0 ],
 									"style" : "",
-									"text" : "j.remote SpatGain2"
+									"text" : "ossia.remote SpatGain2"
 								}
 
 							}
@@ -588,7 +588,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 55.000061, 69.0, 114.0, 22.0 ],
 									"style" : "",
-									"text" : "j.remote SpatGain1"
+									"text" : "ossia.remote SpatGain1"
 								}
 
 							}
@@ -905,7 +905,7 @@
 					}
 ,
 					"style" : "",
-					"text" : "p j.remotes!!!!"
+					"text" : "p ossia.remotes!!!!"
 				}
 
 			}
@@ -1112,7 +1112,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 406.975433, 575.45459, 432.0, 22.0 ],
 					"style" : "",
-					"text" : "j.parameter SpatGain4 @priority 3 @type decimal @range 0 1 @clipmode both"
+					"text" : "ossia.parameter SpatGain4 @priority 3 @type float @range 0 1 @clip both"
 				}
 
 			}
@@ -1145,7 +1145,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 352.975433, 538.901855, 432.0, 22.0 ],
 					"style" : "",
-					"text" : "j.parameter SpatGain3 @priority 3 @type decimal @range 0 1 @clipmode both"
+					"text" : "ossia.parameter SpatGain3 @priority 3 @type float @range 0 1 @clip both"
 				}
 
 			}
@@ -1178,7 +1178,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 300.323517, 502.34903, 432.0, 22.0 ],
 					"style" : "",
-					"text" : "j.parameter SpatGain2 @priority 3 @type decimal @range 0 1 @clipmode both"
+					"text" : "ossia.parameter SpatGain2 @priority 3 @type float @range 0 1 @clip both"
 				}
 
 			}
@@ -1211,7 +1211,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 246.524277, 465.081024, 432.0, 22.0 ],
 					"style" : "",
-					"text" : "j.parameter SpatGain1 @priority 3 @type decimal @range 0 1 @clipmode both"
+					"text" : "ossia.parameter SpatGain1 @priority 3 @type float @range 0 1 @clip both"
 				}
 
 			}
@@ -1303,7 +1303,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 556.333313, 107.655914, 120.0, 22.0 ],
 									"style" : "",
-									"text" : "j.remote SpatMonoY"
+									"text" : "ossia.remote SpatMonoY"
 								}
 
 							}
@@ -1319,7 +1319,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 526.333313, 81.0, 120.0, 22.0 ],
 									"style" : "",
-									"text" : "j.remote SpatMonoX"
+									"text" : "ossia.remote SpatMonoX"
 								}
 
 							}
@@ -1380,7 +1380,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 437.0, 107.655914, 97.0, 22.0 ],
 									"style" : "",
-									"text" : "j.remote Spat4Y"
+									"text" : "ossia.remote Spat4Y"
 								}
 
 							}
@@ -1396,7 +1396,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 407.0, 81.0, 97.0, 22.0 ],
 									"style" : "",
-									"text" : "j.remote Spat4X"
+									"text" : "ossia.remote Spat4X"
 								}
 
 							}
@@ -1457,7 +1457,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 310.0, 107.655914, 97.0, 22.0 ],
 									"style" : "",
-									"text" : "j.remote Spat3Y"
+									"text" : "ossia.remote Spat3Y"
 								}
 
 							}
@@ -1473,7 +1473,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 280.0, 81.0, 97.0, 22.0 ],
 									"style" : "",
-									"text" : "j.remote Spat3X"
+									"text" : "ossia.remote Spat3X"
 								}
 
 							}
@@ -1534,7 +1534,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 183.0, 107.655914, 97.0, 22.0 ],
 									"style" : "",
-									"text" : "j.remote Spat2Y"
+									"text" : "ossia.remote Spat2Y"
 								}
 
 							}
@@ -1550,7 +1550,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 153.0, 81.0, 97.0, 22.0 ],
 									"style" : "",
-									"text" : "j.remote Spat2X"
+									"text" : "ossia.remote Spat2X"
 								}
 
 							}
@@ -1611,7 +1611,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 56.0, 107.655914, 97.0, 22.0 ],
 									"style" : "",
-									"text" : "j.remote Spat1Y"
+									"text" : "ossia.remote Spat1Y"
 								}
 
 							}
@@ -1627,7 +1627,7 @@
 									"outlettype" : [ "", "", "", "" ],
 									"patching_rect" : [ 26.0, 81.0, 97.0, 22.0 ],
 									"style" : "",
-									"text" : "j.remote Spat1X"
+									"text" : "ossia.remote Spat1X"
 								}
 
 							}
@@ -1913,7 +1913,7 @@
 					}
 ,
 					"style" : "",
-					"text" : "p j.remotes!!!!"
+					"text" : "p ossia.remotes!!!!"
 				}
 
 			}
@@ -3469,7 +3469,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1171.156494, 298.684784, 428.0, 22.0 ],
 					"style" : "",
-					"text" : "j.parameter Spat4Y @priority 3 @type decimal @range -1. 1. @clipmode both"
+					"text" : "ossia.parameter Spat4Y @priority 3 @type float @range -1. 1. @clip both"
 				}
 
 			}
@@ -3485,7 +3485,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1113.72583, 249.184784, 428.0, 22.0 ],
 					"style" : "",
-					"text" : "j.parameter Spat3Y @priority 3 @type decimal @range -1. 1. @clipmode both"
+					"text" : "ossia.parameter Spat3Y @priority 3 @type float @range -1. 1. @clip both"
 				}
 
 			}
@@ -3501,7 +3501,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1048.28125, 197.468231, 428.0, 22.0 ],
 					"style" : "",
-					"text" : "j.parameter Spat2Y @priority 3 @type decimal @range -1. 1. @clipmode both"
+					"text" : "ossia.parameter Spat2Y @priority 3 @type float @range -1. 1. @clip both"
 				}
 
 			}
@@ -3517,7 +3517,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 981.866577, 145.976227, 428.0, 22.0 ],
 					"style" : "",
-					"text" : "j.parameter Spat1Y @priority 3 @type decimal @range -1. 1. @clipmode both"
+					"text" : "ossia.parameter Spat1Y @priority 3 @type float @range -1. 1. @clip both"
 				}
 
 			}
@@ -3533,7 +3533,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1138.156494, 273.684784, 428.0, 22.0 ],
 					"style" : "",
-					"text" : "j.parameter Spat4X @priority 3 @type decimal @range -1. 1. @clipmode both"
+					"text" : "ossia.parameter Spat4X @priority 3 @type float @range -1. 1. @clip both"
 				}
 
 			}
@@ -3549,7 +3549,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1082.210938, 224.184784, 428.0, 22.0 ],
 					"style" : "",
-					"text" : "j.parameter Spat3X @priority 3 @type decimal @range -1. 1. @clipmode both"
+					"text" : "ossia.parameter Spat3X @priority 3 @type float @range -1. 1. @clip both"
 				}
 
 			}
@@ -3565,7 +3565,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1016.281189, 172.468231, 428.0, 22.0 ],
 					"style" : "",
-					"text" : "j.parameter Spat2X @priority 3 @type decimal @range -1. 1. @clipmode both"
+					"text" : "ossia.parameter Spat2X @priority 3 @type float @range -1. 1. @clip both"
 				}
 
 			}
@@ -3581,7 +3581,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 950.351562, 121.48172, 428.0, 22.0 ],
 					"style" : "",
-					"text" : "j.parameter Spat1X @priority 3 @type decimal @range -1. 1. @clipmode both"
+					"text" : "ossia.parameter Spat1X @priority 3 @type float @range -1. 1. @clip both"
 				}
 
 			}
@@ -5353,7 +5353,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 434.524261, 747.817017, 444.0, 35.0 ],
 					"style" : "",
-					"text" : "j.parameter Intensite @priority 2 @type decimal @range 0. 255. @clipmode both @default 255."
+					"text" : "ossia.parameter Intensite @priority 2 @type float @range 0. 255. @clip both @default 255."
 				}
 
 			}
@@ -5526,7 +5526,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1229.171631, 396.172577, 452.0, 22.0 ],
 					"style" : "",
-					"text" : "j.parameter SpatMonoY @priority 3 @type decimal @range -1. 1. @clipmode both"
+					"text" : "ossia.parameter SpatMonoY @priority 3 @type float @range -1. 1. @clip both"
 				}
 
 			}
@@ -5542,7 +5542,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1197.656738, 347.021851, 452.0, 22.0 ],
 					"style" : "",
-					"text" : "j.parameter SpatMonoX @priority 3 @type decimal @range -1. 1. @clipmode both"
+					"text" : "ossia.parameter SpatMonoX @priority 3 @type float @range -1. 1. @clip both"
 				}
 
 			}
@@ -5576,7 +5576,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 514.524231, 928.075684, 293.0, 35.0 ],
 					"style" : "",
-					"text" : "j.parameter SpatMono-Sub @priority 3 @type decimal @range 0. 1. @clipmode both @default 0."
+					"text" : "ossia.parameter SpatMono-Sub @priority 3 @type float @range 0. 1. @clip both @default 0."
 				}
 
 			}
@@ -5593,7 +5593,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 941.233643, 974.187622, 241.0, 35.0 ],
 					"style" : "",
-					"text" : "j.parameter Remanence @priority 2 @type decimal @range 0 50 @clipmode both"
+					"text" : "ossia.parameter Remanence @priority 2 @type float @range 0 50 @clip both"
 				}
 
 			}
@@ -5626,7 +5626,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 15.66, 570.041016, 241.0, 22.0 ],
 					"style" : "",
-					"text" : "j.model SpatMultiEtMono @amenities none"
+					"text" : "ossia.model SpatMultiEtMono @amenities none"
 				}
 
 			}
@@ -5643,7 +5643,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 281.524323, 891.994995, 291.0, 35.0 ],
 					"style" : "",
-					"text" : "j.parameter SpatMulti-Sub @priority 1 @type decimal @range 0. 1. @clipmode both @default 0."
+					"text" : "ossia.parameter SpatMulti-Sub @priority 1 @type float @range 0. 1. @clip both @default 0."
 				}
 
 			}

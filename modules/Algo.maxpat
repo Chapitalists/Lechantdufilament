@@ -164,7 +164,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 363.191162, 1.331, 49.0, 20.0 ],
 					"style" : "",
-					"text" : "j.model"
+					"text" : "ossia.model #1"
 				}
 
 			}

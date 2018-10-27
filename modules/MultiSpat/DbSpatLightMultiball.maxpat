@@ -38,7 +38,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 1174.0, 609.605347, 49.0, 20.0 ],
-					"text" : "j.model"
+					"text" : "ossia.model #1"
 				}
 
 			}
@@ -53,7 +53,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 827.0, 609.605347, 130.0, 20.0 ],
-					"text" : "j.parameter LemurSub"
+					"text" : "ossia.parameter LemurSub"
 				}
 
 			}
@@ -5510,11 +5510,11 @@
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.parameter.mxo",
+				"name" : "ossia.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.model.mxo",
+				"name" : "ossia.model.mxo",
 				"type" : "iLaX"
 			}
  ]

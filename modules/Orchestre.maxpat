@@ -147,7 +147,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 201.0, 67.0, 438.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "j.parameter Tempo @priority 1 @type decimal @range 20. 300. @clipmode both"
+					"text" : "ossia.parameter Tempo @priority 1 @type float @range 20. 300. @clip both"
 				}
 
 			}
@@ -160,7 +160,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 860.52002, 140.253723, 93.0, 22.0 ],
 					"style" : "",
-					"text" : "j.remote Tempo"
+					"text" : "ossia.remote Tempo"
 				}
 
 			}
@@ -187,7 +187,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 730.52002, 98.253723, 79.0, 22.0 ],
 					"style" : "",
-					"text" : "j.remote Sub"
+					"text" : "ossia.remote Sub"
 				}
 
 			}
@@ -200,7 +200,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 201.0, 34.903595, 417.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "j.parameter Sub @priority 1 @type decimal @range 0. 1. @clipmode both"
+					"text" : "ossia.parameter Sub @priority 1 @type float @range 0. 1. @clip both"
 				}
 
 			}
@@ -213,7 +213,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 79.25, 40.0, 49.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "j.model"
+					"text" : "ossia.model #1"
 				}
 
 			}
@@ -257,7 +257,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 501.02002, 229.0, 153.0, 22.0 ],
 					"style" : "",
-					"text" : "j.receive vitesseMainMetro"
+					"text" : "ossia.remote vitesseMainMetro"
 				}
 
 			}
@@ -2206,7 +2206,7 @@
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 409.0, 283.0, 92.0, 18.0 ],
 																	"style" : "",
-																	"text" : "to nearest integer"
+																	"text" : "to nearest int"
 																}
 
 															}
@@ -9223,7 +9223,7 @@
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 409.0, 283.0, 92.0, 18.0 ],
 																	"style" : "",
-																	"text" : "to nearest integer"
+																	"text" : "to nearest int"
 																}
 
 															}
@@ -13777,7 +13777,7 @@
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 409.0, 283.0, 92.0, 18.0 ],
 																	"style" : "",
-																	"text" : "to nearest integer"
+																	"text" : "to nearest int"
 																}
 
 															}
@@ -18330,7 +18330,7 @@
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 409.0, 283.0, 92.0, 18.0 ],
 																	"style" : "",
-																	"text" : "to nearest integer"
+																	"text" : "to nearest int"
 																}
 
 															}
@@ -23011,7 +23011,7 @@
 																	"numoutlets" : 0,
 																	"patching_rect" : [ 409.0, 283.0, 92.0, 18.0 ],
 																	"style" : "",
-																	"text" : "to nearest integer"
+																	"text" : "to nearest int"
 																}
 
 															}
@@ -28203,19 +28203,15 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "j.receive.mxo",
+				"name" : "ossia.model.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.model.mxo",
+				"name" : "ossia.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.remote.mxo",
+				"name" : "ossia.remote.mxo",
 				"type" : "iLaX"
 			}
  ],

@@ -45,7 +45,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 148.541138, 132.141907, 439.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "j.parameter Preparation @type none @priority 6 @range 0 1 @clipmode both"
+					"text" : "ossia.parameter Preparation @type impulse @priority 6 @range 0 1 @clip both"
 				}
 
 			}
@@ -106,7 +106,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 4.541138, 645.588135, 185.0, 22.0 ],
 					"style" : "",
-					"text" : "j.send /Agents/agentParameters"
+					"text" : "ossia.remote /Agents/agentParameters"
 				}
 
 			}
@@ -123,7 +123,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 27.333344, 538.660645, 119.0, 22.0 ],
 					"style" : "",
-					"text" : "j.remote Preparation"
+					"text" : "ossia.remote Preparation"
 				}
 
 			}
@@ -415,7 +415,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1094.248901, 234.718689, 106.0, 22.0 ],
 					"style" : "",
-					"text" : "j.remote StopSolo"
+					"text" : "ossia.remote StopSolo"
 				}
 
 			}
@@ -428,7 +428,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 642.541138, 172.141907, 419.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "j.parameter StopSolo @type none @priority 6 @range 0 1 @clipmode both"
+					"text" : "ossia.parameter StopSolo @type impulse @priority 6 @range 0 1 @clip both"
 				}
 
 			}
@@ -441,7 +441,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 642.541138, 143.141907, 432.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "j.parameter SizeSel @type decimal @priority 6 @range 0. 9. @clipmode both"
+					"text" : "ossia.parameter SizeSel @type float @priority 6 @range 0. 9. @clip both"
 				}
 
 			}
@@ -458,7 +458,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1330.333374, 434.718689, 185.0, 22.0 ],
 					"style" : "",
-					"text" : "j.send /Agents/agentParameters"
+					"text" : "ossia.remote /Agents/agentParameters"
 				}
 
 			}
@@ -484,7 +484,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1304.0, 359.628601, 98.0, 22.0 ],
 					"style" : "",
-					"text" : "j.remote SizeSel"
+					"text" : "ossia.remote SizeSel"
 				}
 
 			}
@@ -534,7 +534,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1253.0, 251.761658, 185.0, 22.0 ],
 					"style" : "",
-					"text" : "j.send /Agents/agentParameters"
+					"text" : "ossia.remote /Agents/agentParameters"
 				}
 
 			}
@@ -560,7 +560,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 1221.333374, 173.67157, 114.0, 22.0 ],
 					"style" : "",
-					"text" : "j.remote VitesseSel"
+					"text" : "ossia.remote VitesseSel"
 				}
 
 			}
@@ -606,7 +606,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 642.541138, 112.141907, 461.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "j.parameter VitesseSel @type decimal @priority 6 @range 0. 200. @clipmode both"
+					"text" : "ossia.parameter VitesseSel @type float @priority 6 @range 0. 200. @clip both"
 				}
 
 			}
@@ -654,7 +654,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 984.582275, 364.718689, 99.0, 22.0 ],
 					"style" : "",
-					"text" : "j.remote Change"
+					"text" : "ossia.remote Change"
 				}
 
 			}
@@ -702,7 +702,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 817.333374, 362.229614, 119.0, 22.0 ],
 					"style" : "",
-					"text" : "j.remote ReverseSel"
+					"text" : "ossia.remote ReverseSel"
 				}
 
 			}
@@ -715,7 +715,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 642.541138, 81.141907, 479.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "j.parameter ReverseSel @type none @priority 6 @range 0 1 @clipmode both"
+					"text" : "ossia.parameter ReverseSel @type impulse @priority 6 @range 0 1 @clip both"
 				}
 
 			}
@@ -728,7 +728,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 148.541138, 74.141907, 413.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "j.parameter Change @type none @priority 6 @range 0 1 @clipmode both"
+					"text" : "ossia.parameter Change @type impulse @priority 6 @range 0 1 @clip both"
 				}
 
 			}
@@ -741,7 +741,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 642.541138, 47.141907, 413.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "j.parameter Teleport @type none @priority 6 @range 0 1 @clipmode both"
+					"text" : "ossia.parameter Teleport @type impulse @priority 6 @range 0 1 @clip both"
 				}
 
 			}
@@ -767,7 +767,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 507.541138, 375.587219, 105.0, 22.0 ],
 					"style" : "",
-					"text" : "j.receive Distance"
+					"text" : "ossia.remote Distance"
 				}
 
 			}
@@ -848,7 +848,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 416.541138, 504.288269, 185.0, 22.0 ],
 					"style" : "",
-					"text" : "j.send /Agents/agentParameters"
+					"text" : "ossia.remote /Agents/agentParameters"
 				}
 
 			}
@@ -865,7 +865,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 396.874481, 392.076294, 100.0, 22.0 ],
 					"style" : "",
-					"text" : "j.remote Teleport"
+					"text" : "ossia.remote Teleport"
 				}
 
 			}
@@ -878,7 +878,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 704.0, 375.587219, 79.0, 22.0 ],
 					"style" : "",
-					"text" : "j.remote Sub"
+					"text" : "ossia.remote Sub"
 				}
 
 			}
@@ -891,7 +891,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 474.541138, 270.887085, 104.0, 22.0 ],
 					"style" : "",
-					"text" : "j.remote Distance"
+					"text" : "ossia.remote Distance"
 				}
 
 			}
@@ -917,7 +917,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 116.541138, 300.37616, 105.0, 22.0 ],
 					"style" : "",
-					"text" : "j.receive Distance"
+					"text" : "ossia.remote Distance"
 				}
 
 			}
@@ -1062,7 +1062,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 42.541142, 412.588135, 185.0, 22.0 ],
 					"style" : "",
-					"text" : "j.send /Agents/agentParameters"
+					"text" : "ossia.remote /Agents/agentParameters"
 				}
 
 			}
@@ -1079,7 +1079,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 261.333344, 292.660645, 76.0, 22.0 ],
 					"style" : "",
-					"text" : "j.remote Rm"
+					"text" : "ossia.remote Rm"
 				}
 
 			}
@@ -1096,7 +1096,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 22.874475, 300.37616, 78.0, 22.0 ],
 					"style" : "",
-					"text" : "j.remote Add"
+					"text" : "ossia.remote Add"
 				}
 
 			}
@@ -1125,7 +1125,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 148.541138, 105.141907, 468.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "j.parameter Sub @type decimal @priority 6 @range 0. 1. @clipmode both @default 1."
+					"text" : "ossia.parameter Sub @type float @priority 6 @range 0. 1. @clip both @default 1."
 				}
 
 			}
@@ -1138,7 +1138,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 148.541138, 44.141907, 391.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "j.parameter Rm @type none @priority 6 @range 0 1 @clipmode both"
+					"text" : "ossia.parameter Rm @type impulse @priority 6 @range 0 1 @clip both"
 				}
 
 			}
@@ -1151,7 +1151,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 148.541138, 13.688416, 391.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "j.parameter Add @type none @priority 6 @range 0 1 @clipmode both"
+					"text" : "ossia.parameter Add @type impulse @priority 6 @range 0 1 @clip both"
 				}
 
 			}
@@ -1164,7 +1164,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 642.541138, 13.688416, 503.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "j.parameter Distance @type decimal @priority 6 @range 1. 4. @clipmode both @default 4."
+					"text" : "ossia.parameter Distance @type float @priority 6 @range 1. 4. @clip both @default 4."
 				}
 
 			}
@@ -1177,7 +1177,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 63.541138, 44.141907, 49.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "j.model"
+					"text" : "ossia.model #1"
 				}
 
 			}
@@ -1271,7 +1271,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 821.541138, 506.209595, 185.0, 22.0 ],
 					"style" : "",
-					"text" : "j.send /Agents/agentParameters"
+					"text" : "ossia.remote /Agents/agentParameters"
 				}
 
 			}
@@ -1923,23 +1923,23 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "j.send.mxo",
+				"name" : "ossia.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.model.mxo",
+				"name" : "ossia.model.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.parameter.mxo",
+				"name" : "ossia.parameter.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.remote.mxo",
+				"name" : "ossia.remote.mxo",
 				"type" : "iLaX"
 			}
 , 			{
-				"name" : "j.receive.mxo",
+				"name" : "ossia.remote.mxo",
 				"type" : "iLaX"
 			}
  ],

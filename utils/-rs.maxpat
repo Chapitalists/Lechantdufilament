@@ -47,7 +47,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 158.0, 231.0, 228.0, 22.0 ],
 					"style" : "",
-					"text" : "j.remote #2"
+					"text" : "ossia.remote #2"
 				}
 
 			}
@@ -311,7 +311,7 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "j.remote.mxo",
+				"name" : "ossia.remote.mxo",
 				"type" : "iLaX"
 			}
  ],
