@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 164.0, 214.0, 329.0, 317.0 ],
+		"rect" : [ 34.0, 79.0, 1372.0, 783.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -72,9 +72,8 @@
 					"fontsize" : 12.0,
 					"id" : "obj-10",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numinlets" : 0,
+					"numoutlets" : 0,
 					"patching_rect" : [ 517.502014, 147.897949, 547.0, 22.0 ],
 					"style" : "",
 					"text" : "ossia.parameter GenereMatrice @type impulse @priority 6 @range 0 1 @clip both @repetitions 0"
@@ -134,8 +133,8 @@
 					"id" : "obj-185",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 378.168671, 186.580322, 161.0, 22.0 ],
 					"style" : "",
 					"text" : "ossia.remote GenereMatrice"
@@ -163,9 +162,8 @@
 					"fontsize" : 12.0,
 					"id" : "obj-4",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numinlets" : 0,
+					"numoutlets" : 0,
 					"patching_rect" : [ 553.302002, 16.15303, 214.0, 22.0 ],
 					"style" : "",
 					"text" : "ossia.model GOL"
@@ -2258,8 +2256,8 @@
 					"id" : "obj-66",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 309.302063, 43.772049, 505.0, 22.0 ],
 					"style" : "",
 					"text" : "ossia.parameter Vitesse @priority 3 @type int @range 22 5000 @clip both @default 22"
@@ -2274,8 +2272,8 @@
 					"id" : "obj-42",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 525.701965, 351.178619, 425.0, 22.0 ],
 					"style" : "",
 					"text" : "ossia.parameter Densite @priority 2 @type int @range 0 100 @clip both"
@@ -2291,8 +2289,8 @@
 					"id" : "obj-15",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 633.901978, 554.178589, 510.0, 22.0 ],
 					"style" : "",
 					"text" : "ossia.parameter Sub @priority 1 @type float @range 0. 1. @clip both @repetitions 0"
@@ -2645,23 +2643,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
-					"order" : 1,
 					"source" : [ "obj-145", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-97", 0 ],
-					"order" : 0,
-					"source" : [ "obj-145", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-93", 0 ],
-					"source" : [ "obj-146", 0 ]
 				}
 
 			}
@@ -2710,23 +2692,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
-					"source" : [ "obj-27", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
-					"order" : 1,
-					"source" : [ "obj-28", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-27", 0 ],
-					"order" : 0,
 					"source" : [ "obj-28", 0 ]
 				}
 
@@ -2789,33 +2755,17 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-146", 0 ],
-					"order" : 0,
-					"source" : [ "obj-93", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
-					"order" : 1,
 					"source" : [ "obj-93", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-145", 0 ],
-					"source" : [ "obj-97", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
 			"obj-28" : [ "live.slider[4]", "GOLSub", 0 ],
-			"obj-7" : [ "live.text[5]", "live.text", 0 ],
 			"obj-145" : [ "live.slider[18]", "Densite", 0 ],
-			"obj-11" : [ "live.text[1]", "live.text[1]", 0 ]
+			"obj-11" : [ "live.text[1]", "live.text[1]", 0 ],
+			"obj-7" : [ "live.text[5]", "live.text", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -2831,18 +2781,6 @@
 				"patcherrelativepath" : "../utils",
 				"type" : "JSON",
 				"implicit" : 1
-			}
-, 			{
-				"name" : "ossia.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ossia.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ossia.model.mxo",
-				"type" : "iLaX"
 			}
  ],
 		"autosave" : 0

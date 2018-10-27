@@ -1,0 +1,38 @@
+.//dev/_IntegrationJamoma.maxpat
+					"text" : "j-rs /caca/cucu @autoname",
+					"text" : "j-rs toto @autoname",
+.//dev/ExampleJamoma/DevNico.maxpat
+					"text" : "-rs intensite /JDLV/intensite"
+.//dev/testModel.model.maxpat
+					"text" : "j-rs #1/cucu @autoname",
+.//modules/Agents.maxpat
+					"text" : "-rs AgentSub Sub"
+.//modules/GameOfLife.maxpat
+					"text" : "-rs GOLSub Sub"
+					"text" : "-rs GOLVitesse Vitesse"
+					"text" : "-rs GOLDensite Densite"
+.//modules/MasterRemotes.maxpat
+					"text" : "-rs SlideDown SlideDown"
+					"text" : "-rs Master Master"
+					"text" : "-rs SlideUp SlideUp"
+.//modules/MSNoise.maxpat
+					"text" : "-rs MSNopposition MSN-opposition"
+					"text" : "-rs MSNramp MSNRamp"
+					"text" : "-rs MSNvitesse MSNVitesse"
+					"text" : "-rs MSNSub MSN-Sub"
+.//modules/MSPing.maxpat
+					"text" : "-rs MSPopposition MSP-opposition"
+					"text" : "-rs PINGSub PING-Sub"
+.//modules/MultiSpat/Lemur.maxpat
+					"text" : "-rs MultiSub SpatMulti-Sub"
+					"text" : "-rs SpatMonoSub SpatMono-Sub"
+					"text" : "-rs Intensite Intensite"
+					"text" : "-rs Remanence Remanence"
+.//modules/MultiSpat/Multiballs.maxpat
+					"text" : "-rs Intensite /Multiballs/Intensite"
+					"text" : "-rs Remanence /Multiballs/Remanence"
+.//modules/MultiSpat/SpatMulti-Mono.maxpat
+					"text" : "-rs MultiSub SpatMulti-Sub"
+					"text" : "-rs SpatMonoSub SpatMono-Sub"
+					"text" : "-rs Intensite Intensite"
+					"text" : "-rs Remanence Remanence"
