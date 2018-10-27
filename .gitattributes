@@ -1,0 +1,2 @@
+# Maxpat should be treated as text to replace line endings according to OS
+*.maxpat text
