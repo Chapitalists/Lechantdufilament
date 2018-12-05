@@ -15,3 +15,11 @@ Global
 Portage JamomaMax vers libOssia
 	ATTENTION le @priority est inversé, c'est maintenant le chiffre le plus grand qui l'emporte, il faut donc
 	utilité LCDFminuit_device.maxpat ?
+
+MXMapOsc contient un j.oscroute -> à remplacer (par quoi ?)
+
+idée interface : arrêter les bpatcher et mettre un matériel par patch (notamment pour observer plusieurs types d'agent à la fois).
+
+LES objets -rs SONT DECABLES car CRASH (commit 4ed9f0c3bfe06200ff9846b18cc0d4426e1af281)
+
+SpatMulti
