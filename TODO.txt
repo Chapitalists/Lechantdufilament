@@ -22,4 +22,7 @@ idée interface : arrêter les bpatcher et mettre un matériel par patch (notamm
 
 LES objets -rs SONT DECABLES car CRASH (commit 4ed9f0c3bfe06200ff9846b18cc0d4426e1af281)
 
-SpatMulti
+SpatMulti-Mono buggé (lemur aussi?), remplacé par Multiballs (penser 
+En fait il n'y a qu'un patch spat chargé à la fois, quelle est la différence entre les 4 patchs (Multiballs et dbspatlight semblent identiques)
+
+option Overdrive très gourmande en CPU (peut être régler spécifiquement pour le projet (voir https://docs.cycling74.com/max7/vignettes/advanced_scheduler)
