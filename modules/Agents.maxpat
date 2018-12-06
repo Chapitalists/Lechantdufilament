@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
+			"revision" : 6,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -94,7 +94,7 @@
 					"relative" : 1,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.slider[30]",
+							"parameter_longname" : "live.slider[23]",
 							"parameter_shortname" : "Vitesse Agents",
 							"parameter_type" : 1,
 							"parameter_mmin" : 1.0,
@@ -263,7 +263,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
+							"revision" : 6,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -525,7 +525,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-136",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -656,7 +656,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
+							"revision" : 6,
 							"architecture" : "x86",
 							"modernui" : 1
 						}
@@ -896,7 +896,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 4,
+											"revision" : 6,
 											"architecture" : "x86",
 											"modernui" : 1
 										}
@@ -972,7 +972,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 3,
-															"revision" : 4,
+															"revision" : 6,
 															"architecture" : "x86",
 															"modernui" : 1
 														}
@@ -1764,7 +1764,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 3,
-															"revision" : 4,
+															"revision" : 6,
 															"architecture" : "x86",
 															"modernui" : 1
 														}
@@ -2981,7 +2981,7 @@
 					"presentation_rect" : [ 802.333313, 18.57605, 52.0, 26.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.text[14]",
+							"parameter_longname" : "live.text[15]",
 							"parameter_shortname" : "live.text[3]",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
@@ -3020,23 +3020,7 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-113", 0 ],
-					"source" : [ "obj-112", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-112", 0 ],
-					"order" : 0,
-					"source" : [ "obj-113", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-182", 0 ],
-					"order" : 1,
 					"source" : [ "obj-113", 0 ]
 				}
 
@@ -3163,113 +3147,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-139::obj-2::obj-33" : [ "live.text[8]", "live.text[3]", 0 ],
-			"obj-113" : [ "live.slider[36]", "AgentSub", 0 ],
-			"obj-139::obj-120::obj-168" : [ "live.slider[25]", "Distance", 0 ],
-			"obj-139::obj-2::obj-6" : [ "live.slider[1]", "Distance", 0 ],
-			"obj-139::obj-2::obj-29" : [ "live.text[13]", "live.text[3]", 0 ],
-			"obj-139::obj-120::obj-22" : [ "live.slider[12]", "Force", 0 ],
-			"obj-139::obj-120::obj-119" : [ "live.text[3]", "live.text[3]", 0 ],
-			"obj-139::obj-2::obj-61" : [ "live.text[10]", "live.text[3]", 0 ],
-			"obj-139::obj-129::obj-90" : [ "live.slider[9]", "Sorbet-Energie", 0 ],
-			"obj-3" : [ "live.text[14]", "live.text[3]", 0 ],
-			"obj-139::obj-2::obj-42" : [ "live.slider[16]", "SizeSel", 0 ],
-			"obj-139::obj-2::obj-28" : [ "live.slider[14]", "VitesseSel", 0 ],
-			"obj-139::obj-120::obj-32" : [ "live.text[5]", "live.text[3]", 0 ],
-			"obj-139::obj-129::obj-92" : [ "live.slider[20]", "Sorbet-temps-creation", 0 ],
-			"obj-139::obj-2::obj-34" : [ "live.text[6]", "live.text[3]", 0 ],
-			"obj-139::obj-120::obj-24" : [ "live.slider[17]", "Energie", 0 ],
-			"obj-139::obj-120::obj-34" : [ "live.text[9]", "live.text[3]", 0 ],
-			"obj-139::obj-129::obj-7" : [ "live.slider[8]", "Sorbet-Formation", 0 ],
-			"obj-139::obj-120::obj-166" : [ "live.slider[24]", "Masse", 0 ],
-			"obj-139::obj-120::obj-150" : [ "live.slider[22]", "Changement direction", 0 ],
-			"obj-139::obj-120::obj-188" : [ "live.slider[28]", "Vélocité", 0 ],
-			"obj-139::obj-2::obj-26" : [ "live.text[7]", "live.text[3]", 0 ],
-			"obj-139::obj-120::obj-178" : [ "live.slider[27]", "Diff", 0 ],
-			"obj-139::obj-120::obj-171" : [ "live.slider[26]", "Radius", 0 ],
-			"obj-139::obj-120::obj-13" : [ "live.slider[15]", "Taille", 0 ],
-			"obj-139::obj-120::obj-112" : [ "live.text[2]", "live.text[3]", 0 ],
-			"obj-139::obj-2::obj-71" : [ "live.slider[33]", "SubTourneur", 0 ],
-			"obj-139::obj-129::obj-9" : [ "live.text[4]", "live.text", 0 ],
-			"obj-150" : [ "live.slider[30]", "Vitesse Agents", 0 ],
-			"obj-139::obj-129::obj-19" : [ "live.slider[7]", "Temps-inter-sorbets", 0 ],
-			"obj-139::obj-129::obj-101" : [ "live.slider[13]", "Taille", 0 ],
-			"obj-139::obj-129::obj-1" : [ "live.slider[21]", "Sorbet-Fonte", 0 ],
-			"obj-139::obj-2::obj-32" : [ "live.text[12]", "live.text[3]", 0 ],
-			"obj-139::obj-2::obj-19" : [ "live.text[11]", "live.text[3]", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "agentMax.js",
-				"bootpath" : "~/Workspace/Lechantdufilament/javascript",
-				"patcherrelativepath" : "../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "-rs.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/utils",
-				"patcherrelativepath" : "../utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "AgentsOffsetPatch.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Sorbet.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Errant.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "randBetween.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "set_bang.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/utils",
-				"patcherrelativepath" : "../utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Tourneur.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ossia.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ossia.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ossia.parameter.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Jamoma_highlighted_orange",
 				"default" : 				{
