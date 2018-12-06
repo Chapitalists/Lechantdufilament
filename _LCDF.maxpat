@@ -439,7 +439,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 417.0, 605.0, 286.0, 22.0 ],
+					"patching_rect" : [ 475.0, 601.0, 286.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -460,7 +460,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 417.0, 486.0, 73.0, 22.0 ],
+					"patching_rect" : [ 475.0, 482.0, 73.0, 22.0 ],
 					"style" : "",
 					"text" : "namespace"
 				}
@@ -480,7 +480,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 4,
 					"outlettype" : [ "list", "", "", "" ],
-					"patching_rect" : [ 417.0, 642.0, 324.0, 163.0 ],
+					"patching_rect" : [ 475.0, 638.0, 324.0, 163.0 ],
 					"rows" : 50
 				}
 
@@ -493,7 +493,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 417.0, 560.0, 111.0, 22.0 ],
+					"patching_rect" : [ 475.0, 556.0, 111.0, 22.0 ],
 					"style" : "",
 					"text" : "ossia.device LCDF"
 				}
@@ -13309,7 +13309,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-69", 0 ],
-					"midpoints" : [ 426.5, 633.0, 426.5, 633.0 ],
+					"midpoints" : [ 484.5, 629.0, 484.5, 629.0 ],
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -13485,7 +13485,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-4", 1 ],
-					"midpoints" : [ 426.5, 537.5, 693.5, 537.5 ],
+					"midpoints" : [ 484.5, 533.5, 751.5, 533.5 ],
 					"order" : 0,
 					"source" : [ "obj-66", 0 ]
 				}
@@ -13748,6 +13748,13 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "TUNGoscdestinations.txt",
+				"bootpath" : "~/Workspace/Lechantdufilament/LCDFColl",
+				"patcherrelativepath" : "./LCDFColl",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "MXmapOSC.maxpat",
 				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/MX",
 				"patcherrelativepath" : "./dependencies/MX",
@@ -13755,9 +13762,23 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "TUNGoscinputs.txt",
+				"bootpath" : "~/Workspace/Lechantdufilament/LCDFColl",
+				"patcherrelativepath" : "./LCDFColl",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "MXpattrPaths.maxpat",
 				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/MX",
 				"patcherrelativepath" : "./dependencies/MX",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "OscMapping.json",
+				"bootpath" : "~/Workspace/Lechantdufilament/LCDFColl",
+				"patcherrelativepath" : "./LCDFColl",
 				"type" : "JSON",
 				"implicit" : 1
 			}
