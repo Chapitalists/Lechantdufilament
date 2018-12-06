@@ -1,20 +1,8 @@
-.//dev/_IntegrationJamoma.maxpat
-					"text" : "j-rs /caca/cucu @autoname",
-					"text" : "j-rs toto @autoname",
-.//dev/ExampleJamoma/DevNico.maxpat
-					"text" : "-rs intensite /JDLV/intensite"
-.//dev/testModel.model.maxpat
-					"text" : "j-rs #1/cucu @autoname",
-.//modules/Agents.maxpat
-					"text" : "-rs AgentSub Sub"
+
 .//modules/GameOfLife.maxpat
 					"text" : "-rs GOLSub Sub"
 					"text" : "-rs GOLVitesse Vitesse"
 					"text" : "-rs GOLDensite Densite"
-.//modules/MasterRemotes.maxpat
-					"text" : "-rs SlideDown SlideDown"
-					"text" : "-rs Master Master"
-					"text" : "-rs SlideUp SlideUp"
 .//modules/MSNoise.maxpat
 					"text" : "-rs MSNopposition MSN-opposition"
 					"text" : "-rs MSNramp MSNRamp"
