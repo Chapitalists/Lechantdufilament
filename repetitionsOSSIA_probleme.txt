@@ -1,0 +1,42 @@
+JAMOMA repetitions/filter [boolean]
+The @repetitions/filter attribute defines whether repetited values will be filtered out or not (off by default)
+"repetitions/filter 1" enable the filter
+
+OSSIA repetitions [boolean]
+The repetitions attribute defines whether identical values will be repeated (on by default)
+
+j2ossia.sh
+ s/@repetitions\/filter 0/@repetitions 1/g   -- devrait être ->  s/@repetitions\/filter 1/@repetitions 0/g
+
+jaimechao@Lechantdufilament find ./ -name "*.maxpat" -print -exec grep 'repetitions ' {} \;
+.//_LCDF.maxpat
+.//modules/GameOfLife.maxpat
+					"text" : "ossia.parameter GenereMatrice @type impulse @priority 6 @range 0 1 @clip both @repetitions 0"
+					"text" : "ossia.parameter Sub @priority 1 @type float @range 0. 1. @clip both @repetitions 0"
+.//modules/Interface.maxpat
+.//modules/MakeSomeNoise.maxpat
+.//modules/MakeSomePings.maxpat
+.//modules/MasterRemotes.maxpat
+.//modules/MatriceLights.maxpat
+.//modules/MatriceValue.maxpat
+.//modules/MSNoise.maxpat
+					"text" : "ossia.parameter MSN-MaxAmp @type int @priority 5 @range 0 255 @clip both @repetitions 0 @default 20"
+					"text" : "ossia.parameter MSN-MinAmp @type int @priority 6 @range 0 255 @clip both @repetitions 0 @default 0"
+					"text" : "ossia.parameter MSN-opposition @type int @priority 1 @range 0 1 @clip both @repetitions 0"
+.//modules/MSPing.maxpat
+					"text" : "ossia.parameter MSP-opposition @type int @priority 1 @range 0 1 @clip both @repetitions 0"
+.//modules/Multidelays.maxpat
+.//modules/MultiSpat/DbSpatLightMultiball.maxpat
+.//modules/MultiSpat/Lemur.maxpat
+.//modules/MultiSpat/Multiballs.maxpat
+.//modules/MultiSpat/SpatMulti-Mono.maxpat
+					"text" : "ossia.parameter Spat4-speed @priority 3 @type float @range 0. 8. @clip both @repetitions 0"
+					"text" : "ossia.parameter Spat3-speed @priority 3 @type float @range 0. 8. @clip both @repetitions 0"
+					"text" : "ossia.parameter Spat2-speed @priority 3 @type float @range 0. 8. @clip both @repetitions 0"
+					"text" : "ossia.parameter Spat1-speed @priority 3 @type float @range 0. 8. @clip both @repetitions 0"
+					"text" : "ossia.parameter Spat4-mode @priority 3 @type int @range 0 4 @clip both @repetitions 0"
+					"text" : "ossia.parameter Spat3-mode @priority 3 @type int @range 0 4 @clip both @repetitions 0"
+					"text" : "ossia.parameter Spat2-mode @priority 3 @type int @range 0 4 @clip both @repetitions 0"
+					"text" : "ossia.parameter Spat1-mode @priority 3 @type int @range 0 4 @clip both @repetitions 0"
+.//modules/OOsc2.maxpat
+.//modules/Orchestre.maxpat
