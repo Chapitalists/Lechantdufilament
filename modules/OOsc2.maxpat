@@ -75,7 +75,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 697.0, 445.0, 165.0, 49.0 ],
 					"style" : "",
-					"text" : "j.parameter seqGo @priority 2 @type integer @range 0 255 @clipmode both"
+					"text" : "ossia.parameter seqGo @priority 2 @type int @range 0 255 @clip both"
 				}
 
 			}
@@ -130,7 +130,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 574.0, 438.0, 98.0, 89.0 ],
 					"style" : "",
-					"text" : "j.parameter lampesPublic @priority 2 @type integer @range 0 255 @clipmode both"
+					"text" : "ossia.parameter lampesPublic @priority 2 @type int @range 0 255 @clip both"
 				}
 
 			}

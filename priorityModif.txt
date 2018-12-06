@@ -1,0 +1,186 @@
+.//_LCDF.maxpat
+									"text" : "ossia.parameter vitesseMainMetro @priority 1 @type int @default 22"
+.//dependencies/MX/m-btwn.maxpat
+.//dependencies/MX/m-colltools.maxpat
+.//dependencies/MX/m-countbang.maxpat
+.//dependencies/MX/m-del.maxpat
+.//dependencies/MX/m-lramp.maxpat
+.//dependencies/MX/m-multidel.maxpat
+.//dependencies/MX/MidiNoteOut.maxpat
+.//dependencies/MX/MXkey.maxpat
+.//dependencies/MX/MXmapOSC.maxpat
+.//dependencies/MX/MXmultidel.maxpat
+.//dependencies/MX/MXpattrPaths.maxpat
+.//dependencies/MX/MXssr.maxpat
+.//dependencies/MX/MXtgtOSC.maxpat
+.//dependencies/MX/OLine.maxpat
+.//dependencies/MX/OM-2.maxpat
+.//dependencies/MX/SmallSeq.maxpat
+.//dependencies/MX/SOR.maxpat
+.//dependencies/MX/SRinhibit.maxpat
+.//dependencies/MX/SuperGlider.maxpat
+.//dependencies/nanoKontrol2/Korg Controller.maxpat
+.//dependencies/nanoKontrol2/nanoKontrolButton.maxpat
+.//dependencies/nanoKontrol2/nanoKontrolDialSlider.maxpat
+.//dependencies/nanoKontrol2/nanoKontrolHelper.maxpat
+.//dependencies/SpatLibs/AmbiRemote.maxpat
+.//dependencies/SpatLibs/spattype.maxpat
+.//dependencies/SpatLibs/traj.maxpat
+.//deprecated/i-score/i-score.maxpat
+.//dev/_FragmentorRemote.maxpat
+.//dev/_IntegrationJamoma.maxpat
+.//dev/ExampleJamoma/DevNico.maxpat
+					"text" : "UneAmpoule JDLV @priority 1"
+.//dev/ExampleJamoma/MainPatche.maxpat
+					"text" : "MyPlayer bar @priority 2"
+					"text" : "MyPlayer foo @priority 1"
+.//dev/ExampleJamoma/MyPlayer.maxpat
+.//dev/ExampleJamoma/testJamoma.maxpat
+																	"text" : "j.parameter number @priority 1"
+.//dev/ExampleJamoma/UneAmpoule.maxpat
+.//dev/testModel.model.maxpat
+.//dev/testSSSS.maxpat
+.//modules/Agents.maxpat
+					"text" : "ossia.parameter vitesse @priority 2 @type int @range 1 1000 @clip both @default 22"
+					"text" : "ossia.parameter Panic @type impulse @priority 6 @range 0 1 @clip both"
+					"text" : "ossia.parameter Sub @priority 1 @type float @range 0. 1. @clip both"
+.//modules/AgentsOffsetPatch.maxpat
+.//modules/Algo.maxpat
+.//modules/AudioPing.maxpat
+.//modules/Errant.maxpat
+					"text" : "ossia.parameter Preparation @type impulse @priority 6 @range 0 1 @clip both"
+					"text" : "ossia.parameter Mode @type int @priority 6 @range 0 3 @clip both"
+					"text" : "ossia.parameter Change @type impulse @priority 6 @range 0 1 @clip both"
+					"text" : "ossia.parameter Felin/minTimeLent @type int @priority 6 @range 1 20000 @clip both @default 3500"
+					"text" : "ossia.parameter Felin/maxTimeLent @type int @priority 5 @range 1 20000 @clip both @default 8000"
+					"text" : "ossia.parameter Felin/minTimeRapide @type int @priority 6 @range 1 20000 @clip both @default 2000"
+					"text" : "ossia.parameter Felin/maxTimeRapide @type int @priority 5 @range 1 20000 @clip both @default 5000"
+					"text" : "ossia.parameter Felin/minLent @type int @priority 6 @range 1 20000 @clip both @default 90"
+					"text" : "ossia.parameter Felin/maxLent @type int @priority 5 @range 1 20000 @clip both @default 150"
+					"text" : "ossia.parameter Felin/go @type int @priority 7 @range 0 1 @clip both"
+					"text" : "ossia.parameter Felin/minRapide @type int @priority 6 @range 1 20000 @clip both @default 2"
+					"text" : "ossia.parameter Felin/maxRapide @type int @priority 5 @range 1 20000 @clip both @default 5"
+					"text" : "ossia.parameter energy @type int @priority 2 @range 0 255 @clip both @default 100"
+					"text" : "ossia.parameter lapsFrames @type float @priority 2 @range 1. 5000. @clip both @default 1."
+					"text" : "ossia.parameter Del @type impulse @priority 6 @range 0 1 @clip both"
+					"text" : "ossia.parameter Add @type impulse @priority 6 @range 0 1 @clip both"
+					"text" : "ossia.parameter mass @type float @priority 6 @range 1. 50. @clip both @default 1."
+					"text" : "ossia.parameter force @type float @priority 6 @range 0. 5. @clip both @default 0.5"
+					"text" : "ossia.parameter velocity @type float @priority 6 @range 0. 12. @clip both @default 4."
+					"text" : "ossia.parameter radius @type float @priority 6 @range 0. 15. @clip both @default 1."
+					"text" : "ossia.parameter distance @type float @priority 6 @range 1. 15. @clip both @default 4."
+.//modules/FeuilleDePatche.maxpat
+.//modules/GameOfLife.maxpat
+					"text" : "ossia.parameter GenereMatrice @type impulse @priority 6 @range 0 1 @clip both @repetitions 0"
+					"text" : "ossia.parameter Vitesse @priority 3 @type int @range 22 5000 @clip both @default 22"
+					"text" : "ossia.parameter Densite @priority 2 @type int @range 0 100 @clip both"
+					"text" : "ossia.parameter Sub @priority 1 @type float @range 0. 1. @clip both @repetitions 0"
+.//modules/Interface.maxpat
+.//modules/LCDFminuit_device.maxpat
+.//modules/MakeSomeNoise.maxpat
+.//modules/MakeSomePings.maxpat
+.//modules/MasterRemotes.maxpat
+					"text" : "ossia.parameter SlideDown @priority 1 @type float @range 0. 1000. @default 0 @clip both"
+					"text" : "ossia.parameter SlideUp @priority 1 @type float @range 0. 1000. @default 0. @clip both"
+					"text" : "ossia.parameter Master @priority 1 @type float @range 0. 1. @clip both @default 1"
+.//modules/MatriceLights.maxpat
+.//modules/MatriceValue.maxpat
+.//modules/MSNoise.maxpat
+					"text" : "ossia.parameter MSN-MaxAmp @type int @priority 5 @range 0 255 @clip both @repetitions 0 @default 20"
+					"text" : "ossia.parameter MSN-MinAmp @type int @priority 6 @range 0 255 @clip both @repetitions 0 @default 0"
+					"text" : "ossia.parameter MSN-opposition @type int @priority 1 @range 0 1 @clip both @repetitions 0"
+					"text" : "ossia.parameter MSNRamp @priority 2 @type int @range 0 10000 @clip both"
+					"text" : "ossia.parameter MSNVitesse @priority 2 @type int @range 10 5000 @clip both @default 100"
+					"text" : "ossia.parameter MSN-Sub @priority 1 @type float @range 0. 1. @clip both"
+.//modules/MSPing.maxpat
+					"text" : "ossia.parameter Tap @type bool @priority 1"
+					"text" : "ossia.parameter MSP-opposition @type int @priority 1 @range 0 1 @clip both @repetitions 0"
+					"text" : "ossia.parameter PING-Sub @priority 1 @type float @range 0. 1. @clip both"
+.//modules/Multidelays.maxpat
+.//modules/MultiSpat/DbSpatLightMultiball.maxpat
+.//modules/MultiSpat/Lemur.maxpat
+					"text" : "ossia.parameter SpatGain4 @priority 4 @type float @range 0 1 @clip both"
+					"text" : "ossia.parameter SpatGain3 @priority 4 @type float @range 0 1 @clip both"
+					"text" : "ossia.parameter SpatGain2 @priority 4 @type float @range 0 1 @clip both"
+					"text" : "ossia.parameter SpatGain1 @priority 4 @type float @range 0 1 @clip both"
+					"text" : "ossia.parameter Spat4Y @priority 3 @type float @range -1. 1. @clip both"
+					"text" : "ossia.parameter Spat3Y @priority 3 @type float @range -1. 1. @clip both"
+					"text" : "ossia.parameter Spat2Y @priority 3 @type float @range -1. 1. @clip both"
+					"text" : "ossia.parameter Spat1Y @priority 3 @type float @range -1. 1. @clip both"
+					"text" : "ossia.parameter Spat4X @priority 3 @type float @range -1. 1. @clip both"
+					"text" : "ossia.parameter Spat3X @priority 3 @type float @range -1. 1. @clip both"
+					"text" : "ossia.parameter Spat2X @priority 3 @type float @range -1. 1. @clip both"
+					"text" : "ossia.parameter Spat1X @priority 3 @type float @range -1. 1. @clip both"
+					"text" : "ossia.parameter Intensite @priority 2 @type float @range 0 255 @clip both @default 255"
+					"text" : "ossia.parameter SpatMonoY @priority 3 @type float @range -1. 1. @clip both"
+					"text" : "ossia.parameter SpatMonoX @priority 3 @type float @range -1. 1. @clip both"
+					"text" : "ossia.parameter SpatMono-Sub @priority 1 @type float @range 0. 1. @clip both @default 0."
+					"text" : "ossia.parameter Remanence @priority 2 @type float @range 0 50 @clip both"
+					"text" : "ossia.parameter SpatMulti-Sub @priority 1 @type float @range 0. 1. @clip both @default 0."
+.//modules/MultiSpat/Multiballs.maxpat
+					"text" : "ossia.parameter SpatMonoSub @priority 1"
+					"text" : "ossia.parameter LemurSub @priority 1"
+.//modules/MultiSpat/SpatMulti-Mono.maxpat
+					"text" : "ossia.parameter Spat4-speed @priority 3 @type float @range 0. 8. @clip both @repetitions 0"
+					"text" : "ossia.parameter Spat3-speed @priority 3 @type float @range 0. 8. @clip both @repetitions 0"
+					"text" : "ossia.parameter Spat2-speed @priority 3 @type float @range 0. 8. @clip both @repetitions 0"
+					"text" : "ossia.parameter Spat1-speed @priority 3 @type float @range 0. 8. @clip both @repetitions 0"
+					"text" : "ossia.parameter Spat4-mode @priority 3 @type int @range 0 4 @clip both @repetitions 0"
+					"text" : "ossia.parameter Spat3-mode @priority 3 @type int @range 0 4 @clip both @repetitions 0"
+					"text" : "ossia.parameter Spat2-mode @priority 3 @type int @range 0 4 @clip both @repetitions 0"
+					"text" : "ossia.parameter Spat1-mode @priority 3 @type int @range 0 4 @clip both @repetitions 0"
+					"text" : "ossia.parameter SpatGain4 @priority 3 @type float @range 0 1 @clip both"
+					"text" : "ossia.parameter SpatGain3 @priority 3 @type float @range 0 1 @clip both"
+					"text" : "ossia.parameter SpatGain2 @priority 3 @type float @range 0 1 @clip both"
+					"text" : "ossia.parameter SpatGain1 @priority 3 @type float @range 0 1 @clip both"
+					"text" : "ossia.parameter Spat4Y @priority 3 @type float @range -1. 1. @clip both"
+					"text" : "ossia.parameter Spat3Y @priority 3 @type float @range -1. 1. @clip both"
+					"text" : "ossia.parameter Spat2Y @priority 3 @type float @range -1. 1. @clip both"
+					"text" : "ossia.parameter Spat1Y @priority 3 @type float @range -1. 1. @clip both"
+					"text" : "ossia.parameter Spat4X @priority 3 @type float @range -1. 1. @clip both"
+					"text" : "ossia.parameter Spat3X @priority 3 @type float @range -1. 1. @clip both"
+					"text" : "ossia.parameter Spat2X @priority 3 @type float @range -1. 1. @clip both"
+					"text" : "ossia.parameter Spat1X @priority 3 @type float @range -1. 1. @clip both"
+					"text" : "ossia.parameter Intensite @priority 2 @type float @range 0. 255. @clip both @default 255."
+					"text" : "ossia.parameter SpatMonoY @priority 3 @type float @range -1. 1. @clip both"
+					"text" : "ossia.parameter SpatMonoX @priority 3 @type float @range -1. 1. @clip both"
+					"text" : "ossia.parameter SpatMono-Sub @priority 3 @type float @range 0. 1. @clip both @default 0."
+					"text" : "ossia.parameter Remanence @priority 2 @type float @range 0 50 @clip both"
+					"text" : "ossia.parameter SpatMulti-Sub @priority 1 @type float @range 0. 1. @clip both @default 0."
+.//modules/OOsc2.maxpat
+					"text" : "ossia.parameter seqGo @priority 2 @type int @range 0 255 @clip both"
+					"text" : "ossia.parameter lampesPublic @priority 2 @type int @range 0 255 @clip both"
+.//modules/Orchestre.maxpat
+					"text" : "ossia.parameter Tempo @priority 1 @type float @range 20. 300. @clip both"
+					"text" : "ossia.parameter Sub @priority 1 @type float @range 0. 1. @clip both"
+.//modules/randBetween.maxpat
+.//modules/Sorbet.maxpat
+					"text" : "ossia.parameter goBtwn @type int @priority 7 @range 0 1 @clip both"
+					"text" : "ossia.parameter minBtwn @type int @priority 6 @range 1 20000 @clip both @default 500"
+					"text" : "ossia.parameter maxBtwn @type int @priority 5 @range 1 20000 @clip both @default 2000"
+					"text" : "ossia.parameter fonte @priority 2 @type float @range 1 30000 @clip both @default 3500"
+					"text" : "ossia.parameter formation @priority 2 @type float @range 1 30000 @clip both @default 1500"
+					"text" : "ossia.parameter energy @priority 2 @type int @range 0 255 @clip both @default 50"
+					"text" : "ossia.parameter taille @priority 2 @type float @range 0. 20. @clip both @default 0.2"
+					"text" : "ossia.parameter Play @type int @priority 6 @range 0 1 @clip both"
+					"text" : "ossia.parameter lapsCreation @priority 2 @type int @range 1 20000 @clip both @default 2000"
+.//modules/SpacesChanger.maxpat
+.//modules/TapRythm.maxpat
+.//modules/Tourneur.maxpat
+					"text" : "ossia.parameter Preparation @type impulse @priority 6 @range 0 1 @clip both"
+					"text" : "ossia.parameter StopSolo @type impulse @priority 6 @range 0 1 @clip both"
+					"text" : "ossia.parameter SizeSel @type float @priority 6 @range 0. 9. @clip both"
+					"text" : "ossia.parameter VitesseSel @type float @priority 6 @range 0. 200. @clip both"
+					"text" : "ossia.parameter ReverseSel @type impulse @priority 6 @range 0 1 @clip both"
+					"text" : "ossia.parameter Change @type impulse @priority 6 @range 0 1 @clip both"
+					"text" : "ossia.parameter Teleport @type impulse @priority 6 @range 0 1 @clip both"
+					"text" : "ossia.parameter Sub @type float @priority 6 @range 0. 1. @clip both @default 1."
+					"text" : "ossia.parameter Rm @type impulse @priority 6 @range 0 1 @clip both"
+					"text" : "ossia.parameter Add @type impulse @priority 6 @range 0 1 @clip both"
+					"text" : "ossia.parameter Distance @type float @priority 6 @range 1. 4. @clip both @default 4."
+.//utils/-rs.maxpat
+.//utils/81ListesDe3.maxpat
+.//utils/FilterMap.maxpat
+.//utils/FiltreBoutons.maxpat
+.//utils/j-rs.maxpat
+.//utils/set_bang.maxpat

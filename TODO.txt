@@ -11,3 +11,30 @@ Life
 
 Global
 	mousefilter sur les SUB ?
+
+Portage JamomaMax vers libOssia
+	ATTENTION le @priority est inversé, c'est maintenant le chiffre le plus grand qui l'emporte, il faut donc
+	utilité LCDFminuit_device.maxpat ?
+
+MXMapOsc contient un j.oscroute -> à remplacer (par quoi ?)
+	par OSC-route de CNMAT ?
+
+idée interface : arrêter les bpatcher et mettre un matériel par patch (notamment pour observer plusieurs types d'agent à la fois).
+
+LES objets -rs SONT DECABLES car CRASH (commit 4ed9f0c3bfe06200ff9846b18cc0d4426e1af281)
+
+SpatMulti-Mono buggé (lemur aussi?), remplacé par Multiballs (penser 
+En fait il n'y a qu'un patch spat chargé à la fois, quelle est la différence entre les 4 patchs (Multiballs et dbspatlight semblent identiques)
+
+option Overdrive très gourmande en CPU (peut être régler spécifiquement pour le projet (voir https://docs.cycling74.com/max7/vignettes/advanced_scheduler)
+
+les -rs ne sont pas cablés dans la plupart des patchs d'ossification (utilité d'avoir des forward 
+à quoi sert l'osc de max dans LCDF
+
+orchestre.js nonlinké dans LCDF
+
+ambimonitor.mxo ne fonctionne qu'en 32bits !!
+
+ossia.device in root patcher ?
+ossia.model et ossia.view pour adresser les instanciations d'errant
+

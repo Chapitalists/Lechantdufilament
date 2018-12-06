@@ -267,7 +267,7 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 422.203003, 461.157593, 97.0, 24.0 ],
 					"style" : "",
-					"text" : "j.remote #1",
+					"text" : "ossia.remote #1",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 
