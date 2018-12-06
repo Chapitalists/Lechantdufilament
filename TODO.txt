@@ -35,4 +35,7 @@ orchestre.js nonlinké dans LCDF
 
 ambimonitor.mxo ne fonctionne qu'en 32bits !!
 
+ossia.device in root patcher ?
+ossia.model et ossia.view pour adresser les instanciations d'errant
 
+changer les intit de namespace par conformPATH ?
