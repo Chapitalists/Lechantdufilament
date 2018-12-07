@@ -1,13 +1,3 @@
-
-.//modules/GameOfLife.maxpat
-					"text" : "-rs GOLSub Sub"
-					"text" : "-rs GOLVitesse Vitesse"
-					"text" : "-rs GOLDensite Densite"
-.//modules/MSNoise.maxpat
-					"text" : "-rs MSNopposition MSN-opposition"
-					"text" : "-rs MSNramp MSNRamp"
-					"text" : "-rs MSNvitesse MSNVitesse"
-					"text" : "-rs MSNSub MSN-Sub"
 .//modules/MSPing.maxpat
 					"text" : "-rs MSPopposition MSP-opposition"
 					"text" : "-rs PINGSub PING-Sub"
