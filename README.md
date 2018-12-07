@@ -14,3 +14,10 @@ FTDIUSBSerialDriver_v2_3
 En cas de conflit avec les drivers D2XX, il faut s’assurer que l’app FTDIdriverControl laisse le driver ftdi serial allumé.
 En cas de problème consulter le manuel « AN_134_FTDI_Drivers_Installation_Guide_for_MAC_OSX »
 
+
+Dépendences Package Manager :
+ejies (ej.lslide)
+ICST Ambisonics (ambimonitor)
+CNMAT Externals (OSC-route & OpenSoundControl)
+Jamoma (j.dbap, éviter le reste, risque de conflit avec OSSIA)
+OSSIA
