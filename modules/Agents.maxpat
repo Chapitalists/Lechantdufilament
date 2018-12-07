@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 331.0, 636.0, 71.0, 22.0 ],
+					"style" : "",
+					"text" : "print param"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontface" : 3,
 					"fontname" : "Arial",
 					"fontsize" : 14.0,
@@ -406,7 +418,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 335.519592, 1008.728516, 79.0, 22.0 ],
+					"patching_rect" : [ 335.519592, 1012.728516, 79.0, 22.0 ],
 					"style" : "",
 					"text" : "s FromAgent"
 				}
@@ -2743,7 +2755,7 @@
 					"name" : "AgentsOffsetPatch.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -1050.0, 1.0 ],
+					"offset" : [ 1.0, 1.0 ],
 					"patching_rect" : [ 605.0, 149.107361, 240.0, 48.825562 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 80.5, 61.0, 990.0, 205.5 ],
@@ -2998,6 +3010,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-57", 0 ],
+					"order" : 1,
+					"source" : [ "obj-36", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"order" : 0,
 					"source" : [ "obj-36", 0 ]
 				}
 
@@ -3147,12 +3168,12 @@
 , 			{
 				"name" : "patchLCDF",
 				"default" : 				{
-					"fontname" : [ "Helvetica Neue Bold" ],
 					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 					"fontface" : [ 3 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 					"fontsize" : [ 18.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ]
+					"fontname" : [ "Helvetica Neue Bold" ]
 				}
 ,
 				"parentstyle" : "",

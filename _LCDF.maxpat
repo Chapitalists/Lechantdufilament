@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 903.0, 783.0 ],
+		"rect" : [ 34.0, 79.0, 1372.0, 783.0 ],
 		"bgcolor" : [ 0.694118, 0.694118, 0.694118, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -760,7 +760,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1351.0, 500.0, 59.0, 22.0 ],
+					"patching_rect" : [ 1424.0, 481.102234, 59.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 955.75, 314.0, 26.5, 53.0 ],
@@ -915,7 +915,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1406.0, 677.0, 31.0, 22.0 ],
 					"style" : "",
-					"text" : "80"
+					"text" : "26"
 				}
 
 			}
@@ -5353,7 +5353,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 311.0, 132.0, 74.0, 22.0 ],
 									"style" : "",
-									"text" : "0 96 1"
+									"text" : "127 97 1"
 								}
 
 							}
@@ -8551,8 +8551,33 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-77",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 589.0, 132.5, 171.0, 47.0 ],
+									"style" : "",
+									"text" : "ATTENTION rajout vexpr à agent car semblerait que comp.js bug avec les float"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-75",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 661.417358, 58.0, 59.0, 22.0 ],
+									"style" : "",
+									"text" : "vexpr $i1"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -8564,22 +8589,6 @@
 									"patching_rect" : [ 377.917358, 529.0, 59.0, 22.0 ],
 									"style" : "",
 									"text" : "vexpr $i1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-8",
-									"maxclass" : "newobj",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 665.784546, 437.0, 221.715454, 22.0 ],
-									"presentation_rect" : [ 665.0, 436.0, 0.0, 0.0 ],
-									"style" : "",
-									"text" : "vexpr $f1 * $f2 @scalarmode 1"
 								}
 
 							}
@@ -9834,7 +9843,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 526.607422, 247.5, 97.0, 20.0 ],
+									"patching_rect" : [ 312.607422, 279.5, 97.0, 20.0 ],
 									"style" : "",
 									"text" : "effet de trainée"
 								}
@@ -10234,22 +10243,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-10", 0 ],
-									"order" : 1,
-									"source" : [ "obj-15", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-23", 0 ],
-									"order" : 0,
-									"source" : [ "obj-15", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-5", 0 ],
 									"source" : [ "obj-16", 1 ]
 								}
@@ -10285,7 +10278,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-20", 1 ],
+									"destination" : [ "obj-75", 0 ],
 									"source" : [ "obj-2", 0 ]
 								}
 
@@ -10618,6 +10611,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-20", 1 ],
+									"source" : [ "obj-75", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-153", 0 ],
 									"source" : [ "obj-9", 0 ]
 								}
@@ -10632,8 +10632,24 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-10", 0 ],
+									"order" : 1,
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-12", 0 ],
 									"order" : 2,
+									"source" : [ "obj-15", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"order" : 0,
 									"source" : [ "obj-15", 0 ]
 								}
 
