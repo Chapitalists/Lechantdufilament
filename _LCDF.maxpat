@@ -5,11 +5,11 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 6,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 217.0, 79.0, 1123.0, 783.0 ],
+		"rect" : [ 34.0, 79.0, 1372.0, 783.0 ],
 		"bgcolor" : [ 0.694118, 0.694118, 0.694118, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -50,7 +50,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 6,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -794,7 +794,7 @@
 					"id" : "obj-44",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "orchestre.js",
+					"name" : "Orchestre.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 1.0, -1.0 ],
@@ -850,7 +850,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 6,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1449,7 +1449,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 6,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -1927,11 +1927,11 @@
 												"name" : "patchLCDF",
 												"default" : 												{
 													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-													"fontname" : [ "Helvetica Neue Bold" ],
-													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 													"fontface" : [ 3 ],
-													"fontsize" : [ 18.0 ]
+													"fontsize" : [ 18.0 ],
+													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+													"fontname" : [ "Helvetica Neue Bold" ],
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2185,7 +2185,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 6,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -2663,11 +2663,11 @@
 												"name" : "patchLCDF",
 												"default" : 												{
 													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-													"fontname" : [ "Helvetica Neue Bold" ],
-													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 													"fontface" : [ 3 ],
-													"fontsize" : [ 18.0 ]
+													"fontsize" : [ 18.0 ],
+													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+													"fontname" : [ "Helvetica Neue Bold" ],
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2894,7 +2894,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 6,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -3372,11 +3372,11 @@
 												"name" : "patchLCDF",
 												"default" : 												{
 													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-													"fontname" : [ "Helvetica Neue Bold" ],
-													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 													"fontface" : [ 3 ],
-													"fontsize" : [ 18.0 ]
+													"fontsize" : [ 18.0 ],
+													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+													"fontname" : [ "Helvetica Neue Bold" ],
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3425,7 +3425,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 6,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -3903,11 +3903,11 @@
 												"name" : "patchLCDF",
 												"default" : 												{
 													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-													"fontname" : [ "Helvetica Neue Bold" ],
-													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 													"fontface" : [ 3 ],
-													"fontsize" : [ 18.0 ]
+													"fontsize" : [ 18.0 ],
+													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+													"fontname" : [ "Helvetica Neue Bold" ],
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ]
 												}
 ,
 												"parentstyle" : "",
@@ -4035,7 +4035,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 6,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -4570,11 +4570,11 @@
 												"name" : "patchLCDF",
 												"default" : 												{
 													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-													"fontname" : [ "Helvetica Neue Bold" ],
-													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 													"fontface" : [ 3 ],
-													"fontsize" : [ 18.0 ]
+													"fontsize" : [ 18.0 ],
+													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+													"fontname" : [ "Helvetica Neue Bold" ],
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ]
 												}
 ,
 												"parentstyle" : "",
@@ -4663,7 +4663,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 6,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -5141,11 +5141,11 @@
 												"name" : "patchLCDF",
 												"default" : 												{
 													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-													"fontname" : [ "Helvetica Neue Bold" ],
-													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 													"fontface" : [ 3 ],
-													"fontsize" : [ 18.0 ]
+													"fontsize" : [ 18.0 ],
+													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+													"fontname" : [ "Helvetica Neue Bold" ],
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ]
 												}
 ,
 												"parentstyle" : "",
@@ -6209,7 +6209,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-85", 0 ],
-									"midpoints" : [ 606.848267, 535.0, 50.5, 535.0 ],
+									"midpoints" : [ 606.848236, 535.0, 50.5, 535.0 ],
 									"order" : 1,
 									"source" : [ "obj-6", 15 ]
 								}
@@ -6507,7 +6507,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-110", 0 ],
-									"midpoints" : [ 1673.714355, 574.5, 1920.232178, 574.5 ],
+									"midpoints" : [ 1673.714342, 574.5, 1920.232178, 574.5 ],
 									"order" : 0,
 									"source" : [ "obj-92", 15 ]
 								}
@@ -6516,7 +6516,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-110", 0 ],
-									"midpoints" : [ 1568.0, 574.5, 1920.232178, 574.5 ],
+									"midpoints" : [ 1568.000056, 574.5, 1920.232178, 574.5 ],
 									"order" : 0,
 									"source" : [ "obj-92", 11 ]
 								}
@@ -6525,7 +6525,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-110", 0 ],
-									"midpoints" : [ 1541.571533, 574.5, 1920.232178, 574.5 ],
+									"midpoints" : [ 1541.571484, 574.5, 1920.232178, 574.5 ],
 									"order" : 0,
 									"source" : [ "obj-92", 10 ]
 								}
@@ -6534,7 +6534,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-110", 0 ],
-									"midpoints" : [ 1515.142944, 574.5, 1920.232178, 574.5 ],
+									"midpoints" : [ 1515.142912, 574.5, 1920.232178, 574.5 ],
 									"order" : 0,
 									"source" : [ "obj-92", 9 ]
 								}
@@ -6543,7 +6543,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-110", 0 ],
-									"midpoints" : [ 1488.714355, 574.5, 1920.232178, 574.5 ],
+									"midpoints" : [ 1488.714341, 574.5, 1920.232178, 574.5 ],
 									"order" : 0,
 									"source" : [ "obj-92", 8 ]
 								}
@@ -6552,7 +6552,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-110", 0 ],
-									"midpoints" : [ 1462.285767, 574.5, 1920.232178, 574.5 ],
+									"midpoints" : [ 1462.285769, 574.5, 1920.232178, 574.5 ],
 									"order" : 0,
 									"source" : [ "obj-92", 7 ]
 								}
@@ -6561,7 +6561,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-110", 0 ],
-									"midpoints" : [ 1435.857178, 574.5, 1920.232178, 574.5 ],
+									"midpoints" : [ 1435.857197, 574.5, 1920.232178, 574.5 ],
 									"order" : 0,
 									"source" : [ "obj-92", 6 ]
 								}
@@ -6570,7 +6570,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-110", 0 ],
-									"midpoints" : [ 1409.428589, 574.5, 1920.232178, 574.5 ],
+									"midpoints" : [ 1409.428625, 574.5, 1920.232178, 574.5 ],
 									"order" : 0,
 									"source" : [ "obj-92", 5 ]
 								}
@@ -6579,7 +6579,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-110", 0 ],
-									"midpoints" : [ 1383.0, 574.5, 1920.232178, 574.5 ],
+									"midpoints" : [ 1383.000054, 574.5, 1920.232178, 574.5 ],
 									"order" : 0,
 									"source" : [ "obj-92", 4 ]
 								}
@@ -6588,7 +6588,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-110", 0 ],
-									"midpoints" : [ 1356.571533, 574.5, 1920.232178, 574.5 ],
+									"midpoints" : [ 1356.571482, 574.5, 1920.232178, 574.5 ],
 									"order" : 0,
 									"source" : [ "obj-92", 3 ]
 								}
@@ -6597,7 +6597,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-110", 0 ],
-									"midpoints" : [ 1330.142944, 574.5, 1920.232178, 574.5 ],
+									"midpoints" : [ 1330.14291, 574.5, 1920.232178, 574.5 ],
 									"order" : 0,
 									"source" : [ "obj-92", 2 ]
 								}
@@ -6606,7 +6606,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-110", 0 ],
-									"midpoints" : [ 1303.714355, 574.5, 1920.232178, 574.5 ],
+									"midpoints" : [ 1303.714339, 574.5, 1920.232178, 574.5 ],
 									"order" : 0,
 									"source" : [ "obj-92", 1 ]
 								}
@@ -6806,7 +6806,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-86", 0 ],
-									"midpoints" : [ 1036.571533, 587.0, 1156.5, 587.0 ],
+									"midpoints" : [ 1036.571484, 587.0, 1156.5, 587.0 ],
 									"order" : 0,
 									"source" : [ "obj-99", 10 ]
 								}
@@ -6815,7 +6815,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-86", 0 ],
-									"midpoints" : [ 1010.142883, 587.0, 1156.5, 587.0 ],
+									"midpoints" : [ 1010.142912, 587.0, 1156.5, 587.0 ],
 									"source" : [ "obj-99", 9 ]
 								}
 
@@ -6823,7 +6823,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-86", 0 ],
-									"midpoints" : [ 983.714355, 587.0, 1156.5, 587.0 ],
+									"midpoints" : [ 983.71434, 587.0, 1156.5, 587.0 ],
 									"order" : 0,
 									"source" : [ "obj-99", 8 ]
 								}
@@ -6832,7 +6832,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-86", 0 ],
-									"midpoints" : [ 957.285767, 587.0, 1156.5, 587.0 ],
+									"midpoints" : [ 957.285769, 587.0, 1156.5, 587.0 ],
 									"order" : 0,
 									"source" : [ "obj-99", 7 ]
 								}
@@ -6841,7 +6841,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-86", 0 ],
-									"midpoints" : [ 930.857178, 587.0, 1156.5, 587.0 ],
+									"midpoints" : [ 930.857197, 587.0, 1156.5, 587.0 ],
 									"order" : 0,
 									"source" : [ "obj-99", 6 ]
 								}
@@ -6850,7 +6850,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-86", 0 ],
-									"midpoints" : [ 904.42865, 587.0, 1156.5, 587.0 ],
+									"midpoints" : [ 904.428625, 587.0, 1156.5, 587.0 ],
 									"order" : 0,
 									"source" : [ "obj-99", 5 ]
 								}
@@ -6859,7 +6859,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-86", 0 ],
-									"midpoints" : [ 878.000061, 587.0, 1156.5, 587.0 ],
+									"midpoints" : [ 878.000054, 587.0, 1156.5, 587.0 ],
 									"order" : 0,
 									"source" : [ "obj-99", 4 ]
 								}
@@ -6868,7 +6868,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-86", 0 ],
-									"midpoints" : [ 851.571472, 587.0, 1156.5, 587.0 ],
+									"midpoints" : [ 851.571482, 587.0, 1156.5, 587.0 ],
 									"order" : 0,
 									"source" : [ "obj-99", 3 ]
 								}
@@ -6877,7 +6877,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-86", 0 ],
-									"midpoints" : [ 825.142883, 587.0, 1156.5, 587.0 ],
+									"midpoints" : [ 825.14291, 587.0, 1156.5, 587.0 ],
 									"order" : 0,
 									"source" : [ "obj-99", 2 ]
 								}
@@ -6886,7 +6886,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-86", 0 ],
-									"midpoints" : [ 798.714355, 587.0, 1156.5, 587.0 ],
+									"midpoints" : [ 798.714339, 587.0, 1156.5, 587.0 ],
 									"order" : 0,
 									"source" : [ "obj-99", 1 ]
 								}
@@ -6979,11 +6979,11 @@
 								"name" : "patchLCDF",
 								"default" : 								{
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-									"fontname" : [ "Helvetica Neue Bold" ],
-									"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 									"fontface" : [ 3 ],
-									"fontsize" : [ 18.0 ]
+									"fontsize" : [ 18.0 ],
+									"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+									"fontname" : [ "Helvetica Neue Bold" ],
+									"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ]
 								}
 ,
 								"parentstyle" : "",
@@ -7125,7 +7125,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 6,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -7601,7 +7601,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 6,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -7983,7 +7983,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 6,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -8386,7 +8386,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 6,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -8418,7 +8418,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontface" : 3,
@@ -8748,7 +8747,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 6,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -8969,7 +8968,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 6,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -9272,7 +9271,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 6,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -9391,7 +9390,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 6,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -10541,7 +10540,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 6,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -11064,7 +11063,7 @@
 											"major" : 7,
 											"minor" : 3,
 											"revision" : 6,
-											"architecture" : "x86",
+											"architecture" : "x64",
 											"modernui" : 1
 										}
 ,
@@ -12865,7 +12864,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-72", 0 ],
-									"midpoints" : [ 168.166672, 191.0, 173.5, 191.0 ],
+									"midpoints" : [ 168.166667, 191.0, 173.5, 191.0 ],
 									"source" : [ "obj-65", 1 ]
 								}
 
@@ -13619,58 +13618,55 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-194::obj-139::obj-2::obj-29" : [ "live.text[11]", "live.text[3]", 0 ],
-			"obj-194::obj-18" : [ "live.text[19]", "live.text[3]", 0 ],
-			"obj-134::obj-488" : [ "live.text", "live.text", 0 ],
-			"obj-194::obj-139::obj-2::obj-6" : [ "live.slider[34]", "Distance", 0 ],
-			"obj-180::obj-188::obj-145" : [ "live.slider[18]", "Densite", 0 ],
-			"obj-194::obj-139::obj-129::obj-1" : [ "live.slider[21]", "Sorbet-Fonte", 0 ],
-			"obj-194::obj-139::obj-2::obj-71" : [ "live.slider[33]", "SubTourneur", 0 ],
-			"obj-194::obj-139::obj-120::obj-13" : [ "live.slider[15]", "Taille", 0 ],
-			"obj-194::obj-139::obj-120::obj-168" : [ "live.slider[25]", "Distance", 0 ],
-			"obj-194::obj-139::obj-120::obj-32" : [ "live.text[6]", "live.text[3]", 0 ],
-			"obj-71" : [ "Flash", "Flash", 0 ],
-			"obj-194::obj-139::obj-120::obj-22" : [ "live.slider[12]", "Force", 0 ],
-			"obj-149::obj-1" : [ "live.slider[29]", "SlideDown", 0 ],
-			"obj-194::obj-139::obj-120::obj-119" : [ "live.text[3]", "live.text[3]", 0 ],
-			"obj-180::obj-188::obj-28" : [ "live.slider[4]", "GOLSub", 0 ],
-			"obj-194::obj-139::obj-2::obj-34" : [ "live.text[13]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-129::obj-90" : [ "live.slider[9]", "Sorbet-Energie", 0 ],
-			"obj-194::obj-139::obj-120::obj-112" : [ "live.text[2]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-120::obj-166" : [ "live.slider[24]", "Masse", 0 ],
-			"obj-180::obj-188::obj-11" : [ "live.text[1]", "live.text[1]", 0 ],
-			"obj-194::obj-139::obj-120::obj-150" : [ "live.slider[22]", "Changement direction", 0 ],
 			"obj-55" : [ "live.text[16]", "live.text[1]", 0 ],
-			"obj-149::obj-162" : [ "live.slider[14]", "Master", 0 ],
-			"obj-1" : [ "live.slider[19]", "Sorbet-Fonte", 0 ],
-			"obj-180::obj-188::obj-7" : [ "live.text[5]", "live.text", 0 ],
-			"obj-194::obj-139::obj-129::obj-9" : [ "live.text[4]", "live.text", 0 ],
-			"obj-17::obj-102" : [ "live.slider", "Intensite", 0 ],
-			"obj-194::obj-139::obj-2::obj-32" : [ "live.text[14]", "live.text[3]", 0 ],
-			"obj-17::obj-61" : [ "live.slider[2]", "Multi-Sub", 0 ],
-			"obj-194::obj-139::obj-129::obj-92" : [ "live.slider[20]", "Sorbet-temps-creation", 0 ],
-			"obj-194::obj-139::obj-129::obj-7" : [ "live.slider[8]", "Sorbet-Formation", 0 ],
 			"obj-194::obj-139::obj-120::obj-34" : [ "live.text[9]", "live.text[3]", 0 ],
-			"obj-180::obj-1::obj-28" : [ "live.slider[6]", "MSNSub", 0 ],
-			"obj-194::obj-113" : [ "live.slider[36]", "AgentSub", 0 ],
-			"obj-194::obj-139::obj-120::obj-188" : [ "live.slider[28]", "Vélocité", 0 ],
-			"obj-194::obj-139::obj-2::obj-26" : [ "live.text[7]", "live.text[3]", 0 ],
-			"obj-17::obj-42" : [ "live.slider[31]", "Mono-Sub", 0 ],
-			"obj-194::obj-139::obj-120::obj-178" : [ "live.slider[27]", "Diff", 0 ],
-			"obj-194::obj-139::obj-2::obj-28" : [ "live.slider[30]", "VitesseSel", 0 ],
-			"obj-194::obj-16" : [ "live.text[18]", "live.text[3]", 0 ],
-			"obj-149::obj-46" : [ "live.slider[5]", "SlideUp", 0 ],
 			"obj-194::obj-139::obj-120::obj-171" : [ "live.slider[26]", "Radius", 0 ],
 			"obj-194::obj-139::obj-2::obj-61" : [ "live.text[10]", "live.text[3]", 0 ],
+			"obj-149::obj-162" : [ "live.slider[14]", "Master", 0 ],
 			"obj-194::obj-150" : [ "live.slider[23]", "Vitesse Agents", 0 ],
-			"obj-194::obj-139::obj-2::obj-33" : [ "live.text[8]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-129::obj-101" : [ "live.slider[13]", "Taille", 0 ],
-			"obj-180::obj-3::obj-86" : [ "live.slider[11]", "PINGSub", 0 ],
-			"obj-194::obj-139::obj-120::obj-24" : [ "live.slider[17]", "Energie", 0 ],
+			"obj-134::obj-488" : [ "live.text", "live.text", 0 ],
+			"obj-180::obj-188::obj-7" : [ "live.text[5]", "live.text", 0 ],
+			"obj-194::obj-139::obj-129::obj-9" : [ "live.text[4]", "live.text", 0 ],
+			"obj-1" : [ "live.slider[19]", "Sorbet-Fonte", 0 ],
+			"obj-194::obj-18" : [ "live.text[19]", "live.text[3]", 0 ],
 			"obj-194::obj-139::obj-2::obj-19" : [ "live.text[12]", "live.text[3]", 0 ],
-			"obj-17::obj-106" : [ "live.slider[1]", "Remanence", 0 ],
+			"obj-44::obj-113" : [ "live.slider[37]", "Sub", 0 ],
 			"obj-194::obj-139::obj-2::obj-42" : [ "live.slider[16]", "SizeSel", 0 ],
-			"obj-194::obj-139::obj-129::obj-19" : [ "live.slider[7]", "Temps-inter-sorbets", 0 ]
+			"obj-194::obj-139::obj-129::obj-7" : [ "live.slider[8]", "Sorbet-Formation", 0 ],
+			"obj-194::obj-139::obj-129::obj-19" : [ "live.slider[7]", "Temps-inter-sorbets", 0 ],
+			"obj-194::obj-139::obj-120::obj-166" : [ "live.slider[24]", "Masse", 0 ],
+			"obj-194::obj-139::obj-2::obj-29" : [ "live.text[11]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-120::obj-119" : [ "live.text[3]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-120::obj-150" : [ "live.slider[22]", "Changement direction", 0 ],
+			"obj-194::obj-139::obj-2::obj-34" : [ "live.text[13]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-120::obj-13" : [ "live.slider[15]", "Taille", 0 ],
+			"obj-194::obj-139::obj-120::obj-32" : [ "live.text[6]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-129::obj-101" : [ "live.slider[13]", "Taille", 0 ],
+			"obj-194::obj-139::obj-120::obj-22" : [ "live.slider[12]", "Force", 0 ],
+			"obj-194::obj-139::obj-120::obj-168" : [ "live.slider[25]", "Distance", 0 ],
+			"obj-71" : [ "Flash", "Flash", 0 ],
+			"obj-194::obj-113" : [ "live.slider[36]", "AgentSub", 0 ],
+			"obj-180::obj-188::obj-28" : [ "live.slider[4]", "GOLSub", 0 ],
+			"obj-194::obj-139::obj-2::obj-6" : [ "live.slider[34]", "Distance", 0 ],
+			"obj-180::obj-188::obj-11" : [ "live.text[1]", "live.text[1]", 0 ],
+			"obj-194::obj-16" : [ "live.text[18]", "live.text[3]", 0 ],
+			"obj-180::obj-188::obj-145" : [ "live.slider[18]", "Densite", 0 ],
+			"obj-194::obj-139::obj-2::obj-33" : [ "live.text[8]", "live.text[3]", 0 ],
+			"obj-149::obj-46" : [ "live.slider[5]", "SlideUp", 0 ],
+			"obj-194::obj-139::obj-129::obj-1" : [ "live.slider[21]", "Sorbet-Fonte", 0 ],
+			"obj-194::obj-139::obj-129::obj-92" : [ "live.slider[20]", "Sorbet-temps-creation", 0 ],
+			"obj-194::obj-139::obj-120::obj-112" : [ "live.text[2]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-2::obj-32" : [ "live.text[14]", "live.text[3]", 0 ],
+			"obj-180::obj-1::obj-28" : [ "live.slider[6]", "MSNSub", 0 ],
+			"obj-194::obj-139::obj-2::obj-26" : [ "live.text[7]", "live.text[3]", 0 ],
+			"obj-149::obj-1" : [ "live.slider[29]", "SlideDown", 0 ],
+			"obj-194::obj-139::obj-129::obj-90" : [ "live.slider[9]", "Sorbet-Energie", 0 ],
+			"obj-194::obj-139::obj-120::obj-24" : [ "live.slider[17]", "Energie", 0 ],
+			"obj-194::obj-139::obj-120::obj-188" : [ "live.slider[28]", "Vélocité", 0 ],
+			"obj-180::obj-3::obj-86" : [ "live.slider[11]", "PINGSub", 0 ],
+			"obj-194::obj-139::obj-2::obj-71" : [ "live.slider[33]", "SubTourneur", 0 ],
+			"obj-194::obj-139::obj-120::obj-178" : [ "live.slider[27]", "Diff", 0 ],
+			"obj-194::obj-139::obj-2::obj-28" : [ "live.slider[30]", "VitesseSel", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -13682,20 +13678,6 @@
 			}
 , 			{
 				"name" : "-rs.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/utils",
-				"patcherrelativepath" : "./utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "SpatMulti-Mono.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
-				"patcherrelativepath" : "./modules",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "FilterMap.maxpat",
 				"bootpath" : "~/Workspace/Lechantdufilament/utils",
 				"patcherrelativepath" : "./utils",
 				"type" : "JSON",
@@ -13996,6 +13978,62 @@
 				"implicit" : 1
 			}
 , 			{
+				"name" : "Orchestre.maxpat",
+				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"patcherrelativepath" : "./modules",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "orchestre.js",
+				"bootpath" : "~/Workspace/Lechantdufilament/javascript",
+				"patcherrelativepath" : "./javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "X.groove.maxpat",
+				"bootpath" : "/Users/Shared/Max 7/Examples/sequencing-looping/CyclistMusic/lib/abstractions",
+				"patcherrelativepath" : "../../../Shared/Max 7/Examples/sequencing-looping/CyclistMusic/lib/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "X.note2number-C3.txt",
+				"bootpath" : "/Users/Shared/Max 7/Examples/sequencing-looping/CyclistMusic/lib/others",
+				"patcherrelativepath" : "../../../Shared/Max 7/Examples/sequencing-looping/CyclistMusic/lib/others",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "X.number2note-C3.txt",
+				"bootpath" : "/Users/Shared/Max 7/Examples/sequencing-looping/CyclistMusic/lib/others",
+				"patcherrelativepath" : "../../../Shared/Max 7/Examples/sequencing-looping/CyclistMusic/lib/others",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "X.Groover.xml",
+				"bootpath" : "/Users/Shared/Max 7/Examples/sequencing-looping/CyclistMusic/lib/presets",
+				"patcherrelativepath" : "../../../Shared/Max 7/Examples/sequencing-looping/CyclistMusic/lib/presets",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "SpacesChanger.maxpat",
+				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"patcherrelativepath" : "./modules",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "spaces.txt",
+				"bootpath" : "~/Workspace/Lechantdufilament/LCDFColl",
+				"patcherrelativepath" : "./LCDFColl",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "ossia.remote.mxo",
 				"type" : "iLaX"
 			}
@@ -14005,10 +14043,6 @@
 			}
 , 			{
 				"name" : "ossia.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.dbap.mxo",
 				"type" : "iLaX"
 			}
 , 			{
@@ -14042,11 +14076,11 @@
 				"name" : "patchLCDF",
 				"default" : 				{
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-					"fontname" : [ "Helvetica Neue Bold" ],
-					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 					"fontface" : [ 3 ],
-					"fontsize" : [ 18.0 ]
+					"fontsize" : [ 18.0 ],
+					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+					"fontname" : [ "Helvetica Neue Bold" ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ]
 				}
 ,
 				"parentstyle" : "",
