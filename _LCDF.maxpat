@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 6,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1372.0, 783.0 ],
+		"rect" : [ 489.0, 136.0, 1125.0, 787.0 ],
 		"bgcolor" : [ 0.694118, 0.694118, 0.694118, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -49,7 +49,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -586,10 +586,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 860.0, 434.0, 59.0, 22.0 ],
+					"patching_rect" : [ 860.0, 434.0, 59.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 955.75, 314.0, 26.5, 53.0 ],
+					"presentation_rect" : [ 955.75, 314.0, 26.5, 55.0 ],
 					"style" : "",
 					"text" : "(F)lash",
 					"textjustification" : 1
@@ -741,7 +741,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 915.0, 611.0, 31.0, 22.0 ],
 					"style" : "",
-					"text" : "0"
+					"text" : "43"
 				}
 
 			}
@@ -849,7 +849,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1448,7 +1448,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1926,12 +1926,12 @@
 , 											{
 												"name" : "patchLCDF",
 												"default" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 3 ],
-													"fontsize" : [ 18.0 ],
-													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 													"fontname" : [ "Helvetica Neue Bold" ],
-													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ]
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+													"fontface" : [ 3 ],
+													"fontsize" : [ 18.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2184,7 +2184,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -2662,12 +2662,12 @@
 , 											{
 												"name" : "patchLCDF",
 												"default" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 3 ],
-													"fontsize" : [ 18.0 ],
-													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 													"fontname" : [ "Helvetica Neue Bold" ],
-													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ]
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+													"fontface" : [ 3 ],
+													"fontsize" : [ 18.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -2893,7 +2893,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3371,12 +3371,12 @@
 , 											{
 												"name" : "patchLCDF",
 												"default" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 3 ],
-													"fontsize" : [ 18.0 ],
-													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 													"fontname" : [ "Helvetica Neue Bold" ],
-													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ]
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+													"fontface" : [ 3 ],
+													"fontsize" : [ 18.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3424,7 +3424,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -3902,12 +3902,12 @@
 , 											{
 												"name" : "patchLCDF",
 												"default" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 3 ],
-													"fontsize" : [ 18.0 ],
-													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 													"fontname" : [ "Helvetica Neue Bold" ],
-													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ]
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+													"fontface" : [ 3 ],
+													"fontsize" : [ 18.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -4034,7 +4034,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4569,12 +4569,12 @@
 , 											{
 												"name" : "patchLCDF",
 												"default" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 3 ],
-													"fontsize" : [ 18.0 ],
-													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 													"fontname" : [ "Helvetica Neue Bold" ],
-													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ]
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+													"fontface" : [ 3 ],
+													"fontsize" : [ 18.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -4662,7 +4662,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5140,12 +5140,12 @@
 , 											{
 												"name" : "patchLCDF",
 												"default" : 												{
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-													"fontface" : [ 3 ],
-													"fontsize" : [ 18.0 ],
-													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 													"fontname" : [ "Helvetica Neue Bold" ],
-													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ]
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+													"fontface" : [ 3 ],
+													"fontsize" : [ 18.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -6978,12 +6978,12 @@
 , 							{
 								"name" : "patchLCDF",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"fontface" : [ 3 ],
-									"fontsize" : [ 18.0 ],
-									"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 									"fontname" : [ "Helvetica Neue Bold" ],
-									"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ]
+									"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+									"fontface" : [ 3 ],
+									"fontsize" : [ 18.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6992,9 +6992,9 @@
  ]
 					}
 ,
-					"patching_rect" : [ 13.0, 132.666656, 63.0, 30.0 ],
+					"patching_rect" : [ 13.0, 132.666656, 63.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 379.0, 745.928589, 172.0, 30.0 ],
+					"presentation_rect" : [ 379.0, 745.928589, 172.0, 29.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -7082,7 +7082,6 @@
 				"box" : 				{
 					"activebgcolor" : [ 0.439216, 0.74902, 0.254902, 1.0 ],
 					"activebgoncolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
-					"fontface" : 0,
 					"fontsize" : 11.0,
 					"id" : "obj-1",
 					"maxclass" : "live.text",
@@ -7124,7 +7123,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7370,9 +7369,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1090.5, 38.479858, 55.0, 24.0 ],
+					"patching_rect" : [ 1090.5, 38.479858, 55.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 502.0, 4.0, 59.0, 24.0 ],
+					"presentation_rect" : [ 502.0, 4.0, 59.0, 25.0 ],
 					"style" : "",
 					"text" : "Values",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -7413,9 +7412,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 928.5, 38.479858, 52.0, 24.0 ],
+					"patching_rect" : [ 928.5, 38.479858, 52.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 566.0, 4.0, 59.0, 24.0 ],
+					"presentation_rect" : [ 566.0, 4.0, 59.0, 25.0 ],
 					"style" : "",
 					"text" : "Lights",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -7535,9 +7534,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1069.5, 272.067078, 171.0, 35.0 ],
+					"patching_rect" : [ 1069.5, 272.067078, 171.0, 62.0 ],
 					"style" : "",
-					"text" : ";\rmax sortpatcherdictonsave 1;\r"
+					"text" : ";\r\nmax sortpatcherdictonsave 1;\r\n"
 				}
 
 			}
@@ -7600,7 +7599,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -7898,10 +7897,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 405.0, 56.666664, 158.0, 31.0 ],
+					"patching_rect" : [ 405.0, 56.666664, 165.0, 32.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 340.0, 0.5, 158.0, 31.0 ],
+					"presentation_rect" : [ 340.0, 0.5, 165.0, 32.0 ],
 					"style" : "",
 					"text" : "developpement Max Bruckert \nClement Bossut / Jaime Chao"
 				}
@@ -7910,7 +7909,6 @@
 , 			{
 				"box" : 				{
 					"activebgoncolor" : [ 1.0, 0.897387, 0.065898, 1.0 ],
-					"fontface" : 0,
 					"fontsize" : 11.0,
 					"id" : "obj-55",
 					"maxclass" : "live.text",
@@ -7982,7 +7980,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -8385,12 +8383,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 242.0, 107.0, 1159.0, 734.0 ],
+						"rect" : [ 2212.0, 158.0, 1301.0, 734.0 ],
 						"bgcolor" : [ 0.861592, 0.861592, 0.861592, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -8420,6 +8418,100 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
+									"color" : [ 1.0, 1.0, 0.0, 1.0 ],
+									"fontname" : "Arial",
+									"fontsize" : 12.0,
+									"id" : "obj-69",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 141.607452, 312.5, 75.0, 22.0 ],
+									"style" : "",
+									"text" : "r MainMetro"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-67",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 397.917358, 353.5, 85.0, 22.0 ],
+									"style" : "",
+									"text" : "slide_down $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-66",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 227.607452, 353.5, 70.0, 22.0 ],
+									"style" : "",
+									"text" : "slide_up $1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-51",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 59.0, 312.5, 74.0, 22.0 ],
+									"style" : "",
+									"text" : "jit.fill slider 0"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-53",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 59.0, 428.0, 41.0, 22.0 ],
+									"style" : "",
+									"text" : "jit.spill"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-58",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "jit_matrix", "" ],
+									"patching_rect" : [ 59.0, 353.5, 144.0, 22.0 ],
+									"style" : "",
+									"text" : "jit.matrix slider 1 char 9 9"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-64",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "jit_matrix", "" ],
+									"patching_rect" : [ 59.0, 390.5, 208.0, 22.0 ],
+									"style" : "",
+									"text" : "jit.slide @slide_up 1. @slide_down 1."
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"fontface" : 3,
 									"fontname" : "Arial",
 									"fontsize" : 14.0,
@@ -8427,7 +8519,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 563.5, 477.5, 86.0, 22.0 ],
+									"patching_rect" : [ 563.5, 521.5, 86.0, 23.0 ],
 									"style" : "",
 									"text" : "Serial"
 								}
@@ -8441,7 +8533,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 496.107422, 494.0, 24.0, 24.0 ],
+									"patching_rect" : [ 496.107422, 538.0, 24.0, 24.0 ],
 									"style" : ""
 								}
 
@@ -8453,7 +8545,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 496.107422, 529.0, 34.0, 22.0 ],
+									"patching_rect" : [ 496.107422, 573.0, 34.0, 22.0 ],
 									"style" : "",
 									"text" : "gate"
 								}
@@ -8473,7 +8565,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 496.107422, 560.0, 176.0, 51.0 ],
+									"patching_rect" : [ 496.107422, 604.0, 176.0, 51.0 ],
 									"viewvisibility" : 1
 								}
 
@@ -8487,7 +8579,7 @@
 									"mode" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 480.357422, 466.0, 205.059937, 163.0 ],
+									"patching_rect" : [ 480.357422, 510.0, 205.059937, 163.0 ],
 									"proportion" : 0.39,
 									"style" : ""
 								}
@@ -8530,7 +8622,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 289.834686, 432.0, 50.0, 22.0 ],
+									"patching_rect" : [ 289.834686, 476.0, 50.0, 22.0 ],
 									"style" : ""
 								}
 
@@ -8542,7 +8634,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 170.715454, 393.0, 201.0, 22.0 ],
+									"patching_rect" : [ 198.834686, 437.0, 201.0, 22.0 ],
 									"style" : "Jamoma_highlighted_orange",
 									"text" : "ossia.remote MasterRemote/Master"
 								}
@@ -8584,7 +8676,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1157.0, 52.0, 91.0, 24.0 ],
+									"patching_rect" : [ 1157.0, 52.0, 91.0, 25.0 ],
 									"style" : "",
 									"text" : "r FromFlash"
 								}
@@ -8600,7 +8692,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 1103.0, 18.0, 121.0, 24.0 ],
+									"patching_rect" : [ 1103.0, 18.0, 121.0, 25.0 ],
 									"style" : "",
 									"text" : "r FromOrchestre"
 								}
@@ -8618,7 +8710,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 801.5, 210.5, 133.917358, 49.0 ],
+									"patching_rect" : [ 801.5, 210.5, 133.917358, 50.0 ],
 									"style" : "",
 									"text" : "ossia.parameter vitesseMainMetro @type int @default 22"
 								}
@@ -8664,7 +8756,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 978.417358, 11.0, 85.0, 24.0 ],
+									"patching_rect" : [ 978.417358, 11.0, 85.0, 25.0 ],
 									"style" : "",
 									"text" : "r FromPing"
 								}
@@ -8726,7 +8818,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 766.417358, 11.0, 93.0, 24.0 ],
+									"patching_rect" : [ 766.417358, 11.0, 93.0, 25.0 ],
 									"style" : "",
 									"text" : "r FromNoise"
 								}
@@ -8746,7 +8838,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8840,7 +8932,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 459.417358, 11.0, 105.0, 24.0 ],
+									"patching_rect" : [ 459.417358, 11.0, 105.0, 25.0 ],
 									"style" : "",
 									"text" : "r FromLemur5"
 								}
@@ -8886,7 +8978,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1013.5, 246.5, 100.0, 22.0 ],
+									"patching_rect" : [ 1013.5, 246.5, 100.0, 23.0 ],
 									"style" : "",
 									"text" : "PlayersClock"
 								}
@@ -8947,7 +9039,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 59.0, 437.0, 221.715454, 22.0 ],
+									"patching_rect" : [ 59.0, 481.0, 221.715454, 22.0 ],
 									"style" : "",
 									"text" : "vexpr $f1 * $f2 @scalarmode 1"
 								}
@@ -8967,7 +9059,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9250,7 +9342,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 1010.417358, 352.5, 212.0, 22.0 ],
+									"patching_rect" : [ 1010.417358, 352.5, 212.0, 23.0 ],
 									"style" : "",
 									"text" : "Pour les comments des Qlists"
 								}
@@ -9270,7 +9362,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9389,7 +9481,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -9546,7 +9638,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 661.417358, 11.0, 94.0, 24.0 ],
+									"patching_rect" : [ 661.417358, 11.0, 94.0, 25.0 ],
 									"style" : "",
 									"text" : "r FromAgent"
 								}
@@ -9561,7 +9653,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 261.0, 495.0, 62.0, 33.0 ],
+									"patching_rect" : [ 248.0, 539.0, 62.0, 34.0 ],
 									"style" : "",
 									"text" : "vers vizu Lights"
 								}
@@ -9590,7 +9682,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 801.5, 176.5, 86.0, 22.0 ],
+									"patching_rect" : [ 801.5, 176.5, 86.0, 23.0 ],
 									"style" : "",
 									"text" : "Main clock"
 								}
@@ -9606,7 +9698,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 348.252045, 11.0, 105.0, 24.0 ],
+									"patching_rect" : [ 348.252045, 11.0, 105.0, 25.0 ],
 									"style" : "",
 									"text" : "r FromLemur4"
 								}
@@ -9622,7 +9714,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 234.834686, 11.0, 105.0, 24.0 ],
+									"patching_rect" : [ 234.834686, 11.0, 105.0, 25.0 ],
 									"style" : "",
 									"text" : "r FromLemur3"
 								}
@@ -9638,7 +9730,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 121.417328, 11.0, 105.0, 24.0 ],
+									"patching_rect" : [ 121.417328, 11.0, 105.0, 25.0 ],
 									"style" : "",
 									"text" : "r FromLemur2"
 								}
@@ -9714,7 +9806,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 7.5, 174.0, 122.0, 24.0 ],
+									"patching_rect" : [ 7.5, 174.0, 122.0, 25.0 ],
 									"saved_object_attributes" : 									{
 										"filename" : "comp.js",
 										"parameter_enable" : 0
@@ -9734,7 +9826,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 167.0, 504.0, 92.0, 22.0 ],
+									"patching_rect" : [ 141.607452, 539.0, 92.0, 22.0 ],
 									"style" : "",
 									"text" : "s forMatrixView"
 								}
@@ -9749,7 +9841,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "list" ],
-									"patching_rect" : [ 59.0, 495.0, 68.0, 22.0 ],
+									"patching_rect" : [ 59.0, 539.0, 68.0, 22.0 ],
 									"style" : "",
 									"text" : "listfunnel 1"
 								}
@@ -9812,7 +9904,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 568.0, 11.0, 85.0, 24.0 ],
+									"patching_rect" : [ 568.0, 11.0, 85.0, 25.0 ],
 									"style" : "",
 									"text" : "r FromGOL"
 								}
@@ -9828,7 +9920,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 7.999973, 11.0, 105.0, 24.0 ],
+									"patching_rect" : [ 7.999973, 11.0, 105.0, 25.0 ],
 									"style" : "",
 									"text" : "r FromLemur1"
 								}
@@ -9843,7 +9935,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 59.0, 521.0, 39.0, 22.0 ],
+									"patching_rect" : [ 59.0, 565.0, 39.0, 22.0 ],
 									"style" : "",
 									"text" : "zl rev"
 								}
@@ -9857,7 +9949,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 226.0, 570.0, 204.0, 20.0 ],
+									"patching_rect" : [ 226.0, 614.0, 204.0, 20.0 ],
 									"style" : "",
 									"text" : "<- formatés pour causer à forward"
 								}
@@ -9871,7 +9963,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 124.0, 545.0, 148.0, 20.0 ],
+									"patching_rect" : [ 124.0, 589.0, 148.0, 20.0 ],
 									"style" : "",
 									"text" : "<- séparés de leur valeur"
 								}
@@ -9885,7 +9977,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 114.0, 599.0, 279.0, 20.0 ],
+									"patching_rect" : [ 114.0, 643.0, 279.0, 20.0 ],
 									"style" : "",
 									"text" : "<-envoyés vers chaque number box de la matrice"
 								}
@@ -9900,7 +9992,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 102.0, 570.0, 122.0, 22.0 ],
+									"patching_rect" : [ 102.0, 614.0, 122.0, 22.0 ],
 									"style" : "",
 									"text" : "sprintf send %ldLight"
 								}
@@ -9915,7 +10007,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 59.0, 600.0, 51.0, 22.0 ],
+									"patching_rect" : [ 59.0, 644.0, 51.0, 22.0 ],
 									"style" : "",
 									"text" : "forward"
 								}
@@ -9930,24 +10022,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "int" ],
-									"patching_rect" : [ 59.0, 545.0, 62.0, 22.0 ],
+									"patching_rect" : [ 59.0, 589.0, 62.0, 22.0 ],
 									"style" : "",
 									"text" : "unpack i i"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-27",
-									"maxclass" : "newobj",
-									"numinlets" : 3,
-									"numoutlets" : 2,
-									"outlettype" : [ "list", "" ],
-									"patching_rect" : [ 59.0, 318.0, 357.917358, 22.0 ],
-									"style" : "",
-									"text" : "mxj ej.lslide 1. 1."
 								}
 
 							}
@@ -10006,7 +10083,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-60", 0 ],
+									"destination" : [ "obj-56", 1 ],
 									"order" : 0,
 									"source" : [ "obj-15", 0 ]
 								}
@@ -10098,7 +10175,7 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-15", 0 ],
-									"source" : [ "obj-27", 0 ]
+									"source" : [ "", 0 ]
 								}
 
 							}
@@ -10119,7 +10196,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-27", 0 ],
+									"destination" : [ "obj-51", 0 ],
 									"source" : [ "obj-31", 0 ]
 								}
 
@@ -10170,16 +10247,16 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-27", 1 ],
-									"order" : 1,
+									"destination" : [ "obj-52", 0 ],
+									"order" : 0,
 									"source" : [ "obj-41", 1 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-52", 0 ],
-									"order" : 0,
+									"destination" : [ "obj-66", 0 ],
+									"order" : 1,
 									"source" : [ "obj-41", 1 ]
 								}
 
@@ -10264,6 +10341,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-15", 0 ],
+									"source" : [ "obj-53", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-15", 1 ],
 									"order" : 1,
 									"source" : [ "obj-54", 1 ]
@@ -10294,6 +10378,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-64", 0 ],
+									"source" : [ "obj-58", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
 									"midpoints" : [ 1112.5, 126.5, 17.0, 126.5 ],
 									"source" : [ "obj-59", 0 ]
@@ -10302,16 +10393,16 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-27", 2 ],
-									"order" : 1,
+									"destination" : [ "obj-38", 0 ],
+									"order" : 0,
 									"source" : [ "obj-6", 1 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-38", 0 ],
-									"order" : 0,
+									"destination" : [ "obj-67", 0 ],
+									"order" : 1,
 									"source" : [ "obj-6", 1 ]
 								}
 
@@ -10332,9 +10423,39 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-53", 0 ],
+									"source" : [ "obj-64", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-64", 0 ],
+									"midpoints" : [ 237.107452, 386.0, 69.0, 386.0, 69.0, 384.0, 68.5, 384.0 ],
+									"source" : [ "obj-66", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-64", 0 ],
+									"midpoints" : [ 407.417358, 385.0, 68.5, 385.0 ],
+									"source" : [ "obj-67", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-13", 0 ],
 									"midpoints" : [ 468.917358, 123.5, 17.0, 123.5 ],
 									"source" : [ "obj-68", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-58", 0 ],
+									"source" : [ "obj-69", 0 ]
 								}
 
 							}
@@ -10358,9 +10479,9 @@
  ]
 					}
 ,
-					"patching_rect" : [ 13.0, 6.0, 172.0, 30.0 ],
+					"patching_rect" : [ 13.0, 6.0, 172.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 192.0, 745.928589, 172.0, 30.0 ],
+					"presentation_rect" : [ 192.0, 745.928589, 172.0, 29.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -10441,9 +10562,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 218.0, 227.067078, 39.0, 24.0 ],
+					"patching_rect" : [ 218.0, 227.067078, 39.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1010.5, 18.25, 42.0, 24.0 ],
+					"presentation_rect" : [ 1010.5, 18.25, 42.0, 25.0 ],
 					"style" : "",
 					"text" : "INIT",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -10504,9 +10625,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 306.0, 226.067078, 55.0, 24.0 ],
+					"patching_rect" : [ 306.0, 226.067078, 55.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1055.5, 18.25, 55.0, 24.0 ],
+					"presentation_rect" : [ 1055.5, 18.25, 55.0, 25.0 ],
 					"style" : "",
 					"text" : "Kill All",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -10519,9 +10640,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.0, 91.0, 72.0, 30.0 ],
+					"patching_rect" : [ 13.0, 91.0, 72.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 563.5, 745.928589, 170.0, 30.0 ],
+					"presentation_rect" : [ 563.5, 745.928589, 170.0, 29.0 ],
 					"style" : "patchLCDF",
 					"text" : "OOsc2",
 					"varname" : "OSc"
@@ -10539,7 +10660,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -11062,7 +11183,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -11223,7 +11344,6 @@
 , 							{
 								"box" : 								{
 									"activebgoncolor" : [ 0.544251, 0.566326, 0.036694, 1.0 ],
-									"fontface" : 0,
 									"id" : "obj-488",
 									"maxclass" : "live.text",
 									"numinlets" : 1,
@@ -11509,7 +11629,7 @@
 									"fontsize" : 11.0,
 									"hint" : "",
 									"id" : "obj-48",
-									"items" : [ 1, ",", 2, ",", 4, ",", 8, ",", 16, ",", 32, ",", 64, ",", 128, ",", 256, ",", 512, ",", 1024, ",", 2048, ",", 4096 ],
+									"items" : [ 1, ",", 2, ",", 4, ",", 8, ",", 16, ",", 32, ",", 64, ",", 128, ",", 256, ",", 512, ",", 1024, ",", 2048 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -11617,7 +11737,7 @@
 									"fontsize" : 11.0,
 									"hint" : "",
 									"id" : "obj-93",
-									"items" : [ 44100, ",", 48000, ",", 88200, ",", 96000 ],
+									"items" : [ 11025, ",", 12000, ",", 16000, ",", 22050, ",", 24000, ",", 32000, ",", 44100, ",", 48000, ",", 88200, ",", 96000, ",", 192000 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -11893,7 +12013,7 @@
 									"fontsize" : 11.0,
 									"hint" : "",
 									"id" : "obj-64",
-									"items" : [ "Built-in Output", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)", ",", "Périphérique à sortie multiple" ],
+									"items" : [ "None", ",", "Haut-parleurs (Realtek High Def", ",", "PLX2380H (Son Intel(R) pour écr" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -11938,7 +12058,7 @@
 									"fontsize" : 11.0,
 									"hint" : "",
 									"id" : "obj-69",
-									"items" : [ "Built-in Microphone", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)" ],
+									"items" : [ "None", ",", "Microphone (Realtek High Defini" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -11983,7 +12103,7 @@
 									"fontsize" : 11.0,
 									"hint" : "",
 									"id" : "obj-71",
-									"items" : [ "None", ",", "Core Audio", ",", "NonRealTime", ",", "ad_portaudio", "Core Audio", ",", "ad_rewire", ",", "Live" ],
+									"items" : [ "None", ",", "ad_asio", "Audient USB Audio ASIO Driver", ",", "ad_asio", "Novation USB ASIO Driver", ",", "ad_directsound", "", ",", "ad_mme", "", ",", "NonRealTime", ",", "ad_rewire", ",", "Live" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -12429,7 +12549,7 @@
 									"fontsize" : 11.0,
 									"hint" : "",
 									"id" : "obj-62",
-									"items" : "<empty>",
+									"items" : [ "Low", ",", "Medium", ",", "High", ",", "Highest" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -13024,9 +13144,9 @@
  ]
 					}
 ,
-					"patching_rect" : [ 13.0, 47.666664, 172.0, 30.0 ],
+					"patching_rect" : [ 13.0, 47.666664, 172.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 748.0, 171.0, 30.0 ],
+					"presentation_rect" : [ 7.0, 748.0, 171.0, 29.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -13114,9 +13234,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 399.0, 6.0, 190.0, 42.0 ],
+					"patching_rect" : [ 399.0, 6.0, 190.0, 43.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 4.0, 486.0, 24.0 ],
+					"presentation_rect" : [ 7.0, 4.0, 486.0, 25.0 ],
 					"style" : "",
 					"text" : "Introspectiv Tungsten - Nicolas Villenave",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -13618,448 +13738,470 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-55" : [ "live.text[16]", "live.text[1]", 0 ],
-			"obj-194::obj-139::obj-120::obj-34" : [ "live.text[9]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-120::obj-171" : [ "live.slider[26]", "Radius", 0 ],
-			"obj-194::obj-139::obj-2::obj-61" : [ "live.text[10]", "live.text[3]", 0 ],
-			"obj-149::obj-162" : [ "live.slider[14]", "Master", 0 ],
+			"obj-194::obj-139::obj-120::obj-188" : [ "live.slider[28]", "Vélocité", 0 ],
 			"obj-194::obj-150" : [ "live.slider[23]", "Vitesse Agents", 0 ],
-			"obj-134::obj-488" : [ "live.text", "live.text", 0 ],
-			"obj-180::obj-188::obj-7" : [ "live.text[5]", "live.text", 0 ],
-			"obj-194::obj-139::obj-129::obj-9" : [ "live.text[4]", "live.text", 0 ],
-			"obj-1" : [ "live.slider[19]", "Sorbet-Fonte", 0 ],
-			"obj-194::obj-18" : [ "live.text[19]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-2::obj-19" : [ "live.text[12]", "live.text[3]", 0 ],
-			"obj-44::obj-113" : [ "live.slider[37]", "Sub", 0 ],
-			"obj-194::obj-139::obj-2::obj-42" : [ "live.slider[16]", "SizeSel", 0 ],
-			"obj-194::obj-139::obj-129::obj-7" : [ "live.slider[8]", "Sorbet-Formation", 0 ],
-			"obj-194::obj-139::obj-129::obj-19" : [ "live.slider[7]", "Temps-inter-sorbets", 0 ],
-			"obj-194::obj-139::obj-120::obj-166" : [ "live.slider[24]", "Masse", 0 ],
-			"obj-194::obj-139::obj-2::obj-29" : [ "live.text[11]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-120::obj-119" : [ "live.text[3]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-120::obj-150" : [ "live.slider[22]", "Changement direction", 0 ],
 			"obj-194::obj-139::obj-2::obj-34" : [ "live.text[13]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-120::obj-13" : [ "live.slider[15]", "Taille", 0 ],
-			"obj-194::obj-139::obj-120::obj-32" : [ "live.text[6]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-129::obj-101" : [ "live.slider[13]", "Taille", 0 ],
+			"obj-180::obj-3::obj-86" : [ "live.slider[11]", "PINGSub", 0 ],
+			"obj-194::obj-139::obj-120::obj-24" : [ "live.slider[17]", "Energie", 0 ],
+			"obj-194::obj-139::obj-129::obj-9" : [ "live.text[4]", "live.text", 0 ],
+			"obj-194::obj-139::obj-120::obj-178" : [ "live.slider[27]", "Diff", 0 ],
+			"obj-194::obj-18" : [ "live.text[19]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-120::obj-171" : [ "live.slider[26]", "Radius", 0 ],
 			"obj-194::obj-139::obj-120::obj-22" : [ "live.slider[12]", "Force", 0 ],
-			"obj-194::obj-139::obj-120::obj-168" : [ "live.slider[25]", "Distance", 0 ],
-			"obj-71" : [ "Flash", "Flash", 0 ],
-			"obj-194::obj-113" : [ "live.slider[36]", "AgentSub", 0 ],
-			"obj-180::obj-188::obj-28" : [ "live.slider[4]", "GOLSub", 0 ],
-			"obj-194::obj-139::obj-2::obj-6" : [ "live.slider[34]", "Distance", 0 ],
-			"obj-180::obj-188::obj-11" : [ "live.text[1]", "live.text[1]", 0 ],
-			"obj-194::obj-16" : [ "live.text[18]", "live.text[3]", 0 ],
+			"obj-134::obj-488" : [ "live.text", "live.text", 0 ],
 			"obj-180::obj-188::obj-145" : [ "live.slider[18]", "Densite", 0 ],
-			"obj-194::obj-139::obj-2::obj-33" : [ "live.text[8]", "live.text[3]", 0 ],
-			"obj-149::obj-46" : [ "live.slider[5]", "SlideUp", 0 ],
-			"obj-194::obj-139::obj-129::obj-1" : [ "live.slider[21]", "Sorbet-Fonte", 0 ],
 			"obj-194::obj-139::obj-129::obj-92" : [ "live.slider[20]", "Sorbet-temps-creation", 0 ],
 			"obj-194::obj-139::obj-120::obj-112" : [ "live.text[2]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-2::obj-32" : [ "live.text[14]", "live.text[3]", 0 ],
-			"obj-180::obj-1::obj-28" : [ "live.slider[6]", "MSNSub", 0 ],
+			"obj-180::obj-188::obj-11" : [ "live.text[1]", "live.text[1]", 0 ],
+			"obj-194::obj-139::obj-2::obj-6" : [ "live.slider[34]", "Distance", 0 ],
+			"obj-17::obj-61" : [ "live.slider[2]", "Multi-Sub", 0 ],
+			"obj-180::obj-188::obj-28" : [ "live.slider[4]", "GOLSub", 0 ],
+			"obj-194::obj-139::obj-120::obj-119" : [ "live.text[3]", "live.text[3]", 0 ],
+			"obj-149::obj-162" : [ "live.slider[14]", "Master", 0 ],
+			"obj-194::obj-139::obj-129::obj-101" : [ "live.slider[13]", "Taille", 0 ],
+			"obj-194::obj-139::obj-129::obj-1" : [ "live.slider[21]", "Sorbet-Fonte", 0 ],
+			"obj-180::obj-188::obj-7" : [ "live.text[5]", "live.text", 0 ],
+			"obj-17::obj-106" : [ "live.slider[1]", "Remanence", 0 ],
 			"obj-194::obj-139::obj-2::obj-26" : [ "live.text[7]", "live.text[3]", 0 ],
-			"obj-149::obj-1" : [ "live.slider[29]", "SlideDown", 0 ],
-			"obj-194::obj-139::obj-129::obj-90" : [ "live.slider[9]", "Sorbet-Energie", 0 ],
-			"obj-194::obj-139::obj-120::obj-24" : [ "live.slider[17]", "Energie", 0 ],
-			"obj-194::obj-139::obj-120::obj-188" : [ "live.slider[28]", "Vélocité", 0 ],
-			"obj-180::obj-3::obj-86" : [ "live.slider[11]", "PINGSub", 0 ],
+			"obj-194::obj-139::obj-129::obj-7" : [ "live.slider[8]", "Sorbet-Formation", 0 ],
+			"obj-194::obj-139::obj-2::obj-32" : [ "live.text[14]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-2::obj-42" : [ "live.slider[16]", "SizeSel", 0 ],
+			"obj-194::obj-139::obj-129::obj-19" : [ "live.slider[7]", "Temps-inter-sorbets", 0 ],
+			"obj-180::obj-1::obj-28" : [ "live.slider[6]", "MSNSub", 0 ],
+			"obj-194::obj-16" : [ "live.text[18]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-120::obj-13" : [ "live.slider[15]", "Taille", 0 ],
+			"obj-194::obj-139::obj-120::obj-166" : [ "live.slider[24]", "Masse", 0 ],
+			"obj-71" : [ "Flash", "Flash", 0 ],
+			"obj-149::obj-46" : [ "live.slider[5]", "SlideUp", 0 ],
+			"obj-194::obj-139::obj-120::obj-150" : [ "live.slider[22]", "Changement direction", 0 ],
+			"obj-194::obj-139::obj-120::obj-168" : [ "live.slider[25]", "Distance", 0 ],
+			"obj-194::obj-139::obj-2::obj-29" : [ "live.text[11]", "live.text[3]", 0 ],
+			"obj-1" : [ "live.slider[19]", "Sorbet-Fonte", 0 ],
+			"obj-194::obj-139::obj-120::obj-34" : [ "live.text[9]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-2::obj-28" : [ "live.slider[30]", "VitesseSel", 0 ],
+			"obj-17::obj-42" : [ "live.slider[31]", "Mono-Sub", 0 ],
+			"obj-194::obj-113" : [ "live.slider[36]", "AgentSub", 0 ],
+			"obj-194::obj-139::obj-120::obj-32" : [ "live.text[6]", "live.text[3]", 0 ],
+			"obj-55" : [ "live.text[16]", "live.text[1]", 0 ],
+			"obj-194::obj-139::obj-2::obj-19" : [ "live.text[12]", "live.text[3]", 0 ],
 			"obj-194::obj-139::obj-2::obj-71" : [ "live.slider[33]", "SubTourneur", 0 ],
-			"obj-194::obj-139::obj-120::obj-178" : [ "live.slider[27]", "Diff", 0 ],
-			"obj-194::obj-139::obj-2::obj-28" : [ "live.slider[30]", "VitesseSel", 0 ]
+			"obj-194::obj-139::obj-2::obj-61" : [ "live.text[10]", "live.text[3]", 0 ],
+			"obj-17::obj-102" : [ "live.slider", "Intensite", 0 ],
+			"obj-194::obj-139::obj-129::obj-90" : [ "live.slider[9]", "Sorbet-Energie", 0 ],
+			"obj-149::obj-1" : [ "live.slider[29]", "SlideDown", 0 ],
+			"obj-194::obj-139::obj-2::obj-33" : [ "live.text[8]", "live.text[3]", 0 ],
+			"obj-44::obj-113" : [ "live.slider[37]", "Sub", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "MasterRemotes.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "-rs.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/utils",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/utils",
+				"patcherrelativepath" : "./utils",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "SpatMulti-Mono.maxpat",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
+				"patcherrelativepath" : "./modules",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "FilterMap.maxpat",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/utils",
 				"patcherrelativepath" : "./utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "setLights.js",
-				"bootpath" : "~/Workspace/Lechantdufilament/javascript",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/javascript",
 				"patcherrelativepath" : "./javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OOsc2.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MXtgtOSC.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/MX",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/dependencies/MX",
 				"patcherrelativepath" : "./dependencies/MX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "TUNGoscdestinations.txt",
-				"bootpath" : "~/Workspace/Lechantdufilament/LCDFColl",
-				"patcherrelativepath" : "./LCDFColl",
+				"bootpath" : "D:/User/Documents/Lechantdufilament//LCDFColl",
+				"patcherrelativepath" : ".//LCDFColl",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MXmapOSC.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/MX",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/dependencies/MX",
 				"patcherrelativepath" : "./dependencies/MX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SRinhibit.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/MX",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/dependencies/MX",
 				"patcherrelativepath" : "./dependencies/MX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "TUNGoscinputs.txt",
-				"bootpath" : "~/Workspace/Lechantdufilament/LCDFColl",
-				"patcherrelativepath" : "./LCDFColl",
+				"bootpath" : "D:/User/Documents/Lechantdufilament//LCDFColl",
+				"patcherrelativepath" : ".//LCDFColl",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MXpattrPaths.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/MX",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/dependencies/MX",
 				"patcherrelativepath" : "./dependencies/MX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OscMapping.json",
-				"bootpath" : "~/Workspace/Lechantdufilament/LCDFColl",
-				"patcherrelativepath" : "./LCDFColl",
+				"bootpath" : "D:/User/Documents/Lechantdufilament//LCDFColl",
+				"patcherrelativepath" : ".//LCDFColl",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "FeuilleDePatche.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "FeuilleDePatcheOLA_KDK.txt",
-				"bootpath" : "~/Workspace/Lechantdufilament/LCDFColl",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/LCDFColl",
 				"patcherrelativepath" : "./LCDFColl",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.js",
-				"bootpath" : "~/Workspace/Lechantdufilament/javascript",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/javascript",
 				"patcherrelativepath" : "./javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "serialSender.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/utils",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/utils",
 				"patcherrelativepath" : "./utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "patchCB",
-				"bootpath" : "~/Workspace/Lechantdufilament/LCDFColl",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/LCDFColl",
 				"patcherrelativepath" : "./LCDFColl",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Algo.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GameOfLife.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "set_bang.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/utils",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/utils",
 				"patcherrelativepath" : "./utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MSNoise.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MakeSomeNoise.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MSPing.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioPing.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "TapRythm.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m-countbang.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/MX",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/dependencies/MX",
 				"patcherrelativepath" : "./dependencies/MX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Multidelays.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m-multidel.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/MX",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/dependencies/MX",
 				"patcherrelativepath" : "./dependencies/MX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MakeSomePings.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m-del.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/MX",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/dependencies/MX",
 				"patcherrelativepath" : "./dependencies/MX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m-lramp.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/MX",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/dependencies/MX",
 				"patcherrelativepath" : "./dependencies/MX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MXkey.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/MX",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/dependencies/MX",
 				"patcherrelativepath" : "./dependencies/MX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MatriceLights.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "matrixView.js",
-				"bootpath" : "~/Workspace/Lechantdufilament/javascript",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/javascript",
 				"patcherrelativepath" : "./javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MatriceValue.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Interface.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Agents.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AgentsOffsetPatch.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Sorbet.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Errant.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "randBetween.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Tourneur.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "agentMax.js",
-				"bootpath" : "~/Workspace/Lechantdufilament/javascript",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/javascript",
 				"patcherrelativepath" : "./javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "nanoKontrolHelper.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/nanoKontrol2",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/dependencies/nanoKontrol2",
 				"patcherrelativepath" : "./dependencies/nanoKontrol2",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "FiltreBoutons.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/utils",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/utils",
 				"patcherrelativepath" : "./utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Orchestre.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "orchestre.js",
-				"bootpath" : "~/Workspace/Lechantdufilament/javascript",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/javascript",
 				"patcherrelativepath" : "./javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "X.groove.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Examples/sequencing-looping/CyclistMusic/lib/abstractions",
-				"patcherrelativepath" : "../../../Shared/Max 7/Examples/sequencing-looping/CyclistMusic/lib/abstractions",
+				"bootpath" : "./examples/sequencing-looping/CyclistMusic/lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "X.note2number-C3.txt",
-				"bootpath" : "/Users/Shared/Max 7/Examples/sequencing-looping/CyclistMusic/lib/others",
-				"patcherrelativepath" : "../../../Shared/Max 7/Examples/sequencing-looping/CyclistMusic/lib/others",
+				"bootpath" : "./examples/sequencing-looping/CyclistMusic/lib/others",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "X.number2note-C3.txt",
-				"bootpath" : "/Users/Shared/Max 7/Examples/sequencing-looping/CyclistMusic/lib/others",
-				"patcherrelativepath" : "../../../Shared/Max 7/Examples/sequencing-looping/CyclistMusic/lib/others",
+				"bootpath" : "./examples/sequencing-looping/CyclistMusic/lib/others",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "X.Groover.xml",
-				"bootpath" : "/Users/Shared/Max 7/Examples/sequencing-looping/CyclistMusic/lib/presets",
-				"patcherrelativepath" : "../../../Shared/Max 7/Examples/sequencing-looping/CyclistMusic/lib/presets",
+				"bootpath" : "./examples/sequencing-looping/CyclistMusic/lib/presets",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SpacesChanger.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spaces.txt",
-				"bootpath" : "~/Workspace/Lechantdufilament/LCDFColl",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/LCDFColl",
 				"patcherrelativepath" : "./LCDFColl",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "ossia.remote.mxo",
-				"type" : "iLaX"
+				"name" : "ossia.remote.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "ossia.model.mxo",
-				"type" : "iLaX"
+				"name" : "ossia.model.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "ossia.parameter.mxo",
-				"type" : "iLaX"
+				"name" : "ossia.parameter.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "ambimonitor.mxo",
-				"type" : "iLaX"
+				"name" : "ambimonitor.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "OpenSoundControl.mxo",
-				"type" : "iLaX"
+				"name" : "OpenSoundControl.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "OSC-route.mxo",
-				"type" : "iLaX"
+				"name" : "OSC-route.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "ossia.device.mxo",
-				"type" : "iLaX"
+				"name" : "mxj.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "jit.pass.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "ossia.device.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0,
@@ -14075,12 +14217,12 @@
 , 			{
 				"name" : "patchLCDF",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontface" : [ 3 ],
-					"fontsize" : [ 18.0 ],
-					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 					"fontname" : [ "Helvetica Neue Bold" ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ]
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+					"fontface" : [ 3 ],
+					"fontsize" : [ 18.0 ]
 				}
 ,
 				"parentstyle" : "",
