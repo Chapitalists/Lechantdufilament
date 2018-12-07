@@ -60,7 +60,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 478.02002, 912.0, 104.0, 22.0 ],
-					"presentation_rect" : [ 471.0, 764.0, 0.0, 0.0 ],
 					"style" : "Jamoma_highlighted_orange",
 					"text" : "ossia.remote Sub"
 				}
@@ -87,21 +86,8 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 194.02002, 456.751221, 119.0, 22.0 ],
-					"presentation_rect" : [ 159.026123, 475.737732, 0.0, 0.0 ],
 					"style" : "Jamoma_highlighted_orange",
 					"text" : "ossia.remote vitesse"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-34",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 264.0, 651.0, 93.0, 22.0 ],
-					"style" : "",
-					"text" : "print @popup 1"
 				}
 
 			}
@@ -2336,7 +2322,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 284.0, 217.394287, 39.0, 22.0 ],
-					"presentation_rect" : [ 700.0, 308.466797, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "panic"
 				}
@@ -2488,9 +2473,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 23.414917, 41.746277, 257.0, 22.0 ],
+					"patching_rect" : [ 23.414917, 41.746277, 248.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "ossia.parameter agentParameters @type tuple"
+					"text" : "ossia.parameter agentParameters @type list"
 				}
 
 			}
@@ -2758,7 +2743,7 @@
 					"name" : "AgentsOffsetPatch.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ 1.0, 1.0 ],
+					"offset" : [ -1050.0, 1.0 ],
 					"patching_rect" : [ 605.0, 149.107361, 240.0, 48.825562 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 80.5, 61.0, 990.0, 205.5 ],
@@ -3012,16 +2997,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
-					"order" : 0,
-					"source" : [ "obj-36", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-57", 0 ],
-					"order" : 1,
 					"source" : [ "obj-36", 0 ]
 				}
 
@@ -3044,9 +3020,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-81", 0 ],
 					"midpoints" : [ 107.019928, 957.751343, 345.019592, 957.751343 ],
-					"source" : [ "obj-39", 0 ],
-					"watchpoint_flags" : 1,
-					"watchpoint_id" : 1
+					"source" : [ "obj-39", 0 ]
 				}
 
 			}
@@ -3173,12 +3147,12 @@
 , 			{
 				"name" : "patchLCDF",
 				"default" : 				{
-					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : [ "Helvetica Neue Bold" ],
+					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 					"fontface" : [ 3 ],
-					"fontsize" : [ 18.0 ]
+					"fontsize" : [ 18.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ]
 				}
 ,
 				"parentstyle" : "",
