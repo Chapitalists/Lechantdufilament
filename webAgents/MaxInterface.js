@@ -84,6 +84,24 @@ var MaxInterface = {
   {
   },
   
+//////////////////// Balais
+  
+  balaiGD:function() {bGD.play();post("go")},
+  
+  balaiDG:function() {bDG.play()},
+  
+  balaiBH:function() {bBH.play()},
+  
+  balaiHB:function() {bHB.play()},
+  
+  balaiVitesse:function(v) {
+    balayage.balayeur.maxV = v
+  },
+  
+  balaiSize:function(s) {
+    balayage.balayeur.s = s
+  },
+  
 //////////////////// Tourneur
   
   tourneurAdd:function(a) {tourneur.add(a)},
