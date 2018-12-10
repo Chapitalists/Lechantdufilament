@@ -102,6 +102,10 @@ var MaxInterface = {
     balayage.balayeur.s = s
   },
   
+  balaiSub:function(e) {
+    balayage.balayeur.e = e
+  },
+  
 //////////////////// Tourneur
   
   tourneurAdd:function(a) {tourneur.add(a)},
