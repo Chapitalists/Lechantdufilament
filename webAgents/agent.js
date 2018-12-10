@@ -1,5 +1,14 @@
 // Author : Clément Bossut
-
+/*
+post("Agents included !")
+post()
+if (!this.included_tools) {
+  post("Including tools")
+  post()
+  include('tools')
+}
+var included_agents = true
+*/
 var space = {
   lamps:[9,9],
   dist:100,

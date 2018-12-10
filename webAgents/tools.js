@@ -1,5 +1,17 @@
 // Author : Clément Bossut
 
+// For browser compatibility
+if (!this.post) {
+  this.post = console.log
+  this.include = function(a){console.log("Non Include ", a)}
+  this.setoutletassist = function(){}
+  this.outlets = undefined
+}
+/*
+post("Tools included !")
+post()
+var included_tools = true
+*/
 var v2D = {
 
   length:function(v) {

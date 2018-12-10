@@ -1,28 +1,48 @@
 // Author : Clément Bossut
+/*
+post(this.included_scenarios)
+if (!this.included_scenarios) {
+  post("Including scenarios")
+  post()
+  include('scenarios')
+}
+var included_MaxInterface = true
+*/
+autowatch = 1
 
-Object.assign = function(obj, props) { 
-  for (var prop in props) { 
-    if (props.hasOwnProperty(prop)) { 
-      obj[prop] = props[prop] 
+post("Chargé")
+post()
+
+if (!Object.assign) {
+  Object.assign = function(obj, props) { 
+    for (var prop in props) { 
+      if (props.hasOwnProperty(prop)) { 
+        obj[prop] = props[prop] 
+      } 
     } 
-  } 
-} 
+  }
+}
 
-include("tools")
-include("agent")
-include("scenarios")
+if (this.post) {
+  include("tools")
+  include("agent")
+  include("scenarios")
 
-outlets = 2
-setoutletassist(1,"agents")
-setoutletassist(0,"bang when finished")
+  outlets = 2
+  setoutletassist(1,"agents")
+  setoutletassist(0,"bang when finished")
+}
+
 ready = false
 
-function ready() {
+function unblock() {
+  post("raidie")
+  post()
   ready = true
 }
 
 function anything() { //TODO Should use apply to call functions with any args number
-  if (ready()) MaxInterface[messagename](arguments[0])
+  if (ready) MaxInterface[messagename](arguments[0])
 }
 
 function bang() {
@@ -50,29 +70,35 @@ function panic() { // Should go in MaxInterface (see comment for anything())
 }
 
 var MaxInterface = {
+  
+  myDebug:function() {
+    post("lamps", space.lamps[0], space.lamps[1])
+    post()
+    post(agents.length, " agents in ", scenari.length, " scenari")
+    post()  
+  },
 
 //todo function to modify a parameter change("parameter",value)
 
   change:function(parameter, value)
   {
-
   },
   
 //////////////////// Tourneur
   
-  tourneurAdd:tourneur.add,
+  tourneurAdd:function(a) {tourneur.add(a)},
   
-  tourneurChange:tourneur.changeSel,
+  tourneurChange:function() {tourneur.changeSel()},
   
   tourneurPrep:function() {tourneur.sel = -1},
   
-  tourneurRm:tourneur.removeSel,
+  tourneurRm:function() {tourneur.removeSel()},
   
   tourneurReverseSel:function() {
     tourneur.getSel().trajectReverse()
   },
   
-  tourneurTeleport:tourneur.tpSel,
+  tourneurTeleport:function(a) {tourneur.tpSel(a)},
   
   tourneurSub:function(e) { //TODO sub per agent and sub per scenario, how to mix the two ?
     tourneur.derviche.e = e
@@ -90,7 +116,7 @@ var MaxInterface = {
     var ag = tourneur.getSel()
     ag.trajectory.push([(x-1)*space.dist, (y-1)*space.dist])
     ag.trajectMode = 3
-  }
+  },
 
 //////////////////// Sorbet
 
@@ -110,21 +136,21 @@ var MaxInterface = {
     if (m <= 0) return
     with (danseDuSorbet) {
       sorbet.maxGrow    = m
-      sorbet.growDose   = m / incFrames
-      sorbet.consumDose = m / decFrames
+      sorbet.growDose   = m / this.incFrames
+      sorbet.consumDose = m / this.decFrames
     }
   },
 
   sorbetIncFrames:function(ti) {
     if (ti < 1) ti = 1
-    incFrames = ti
+    this.incFrames = ti
     with (danseDuSorbet.sorbet)
       growDose = maxGrow / ti
   },
 
   sorbetDecFrames:function(td) {
     if (td < 1) td = 1
-    decFrames = td
+    this.decFrames = td
     with (danseDuSorbet.sorbet)
       consumeDose = maxGrow / td
   },
@@ -143,7 +169,7 @@ var MaxInterface = {
     errants.changeSel()
   },
   
-  tourneurPrep:function() {tourneur.sel = -1},
+  tourneurPrep:function() {errants.sel = -1},
 
   errantDel:function() {
     errants.removeSel()

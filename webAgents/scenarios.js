@@ -1,5 +1,14 @@
 // Author : Clément Bossut
-
+/*
+post("Scenarios included !")
+post()
+if (!this.included_agents) {
+  post("Including agents")
+  post()
+  include('agent')
+}
+var included_scenarios = true
+*/
 var agents = [],
     scenari = []
 
