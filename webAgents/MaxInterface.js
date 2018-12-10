@@ -86,7 +86,7 @@ var MaxInterface = {
   
 //////////////////// Balais
   
-  balaiGD:function() {bGD.play();post("go")},
+  balaiGD:function() {bGD.play()},
   
   balaiDG:function() {bDG.play()},
   
@@ -191,7 +191,7 @@ var MaxInterface = {
     errants.changeSel()
   },
   
-  tourneurPrep:function() {errants.sel = -1},
+  errantPrep:function() {errants.sel = -1},
 
   errantDel:function() {
     errants.removeSel()
