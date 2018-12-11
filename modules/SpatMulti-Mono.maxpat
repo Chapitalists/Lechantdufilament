@@ -1639,7 +1639,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 530.851562, -139.16391, 452.0, 22.0 ],
+					"patching_rect" : [ 530.851562, -139.16391, 425.0, 22.0 ],
 					"style" : "",
 					"text" : "ossia.parameter SpatMonoX @priority 3 @type float @range -1. 1. @clip both"
 				}
@@ -4222,7 +4222,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 1 ],
+					"destination" : [ "obj-35", 0 ],
 					"source" : [ "obj-125", 0 ]
 				}
 
@@ -5012,7 +5012,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
+					"destination" : [ "obj-36", 0 ],
 					"source" : [ "obj-65", 0 ]
 				}
 
@@ -5221,49 +5221,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-61" : [ "live.slider[2]", "Multi-Sub", 0 ],
-			"obj-42" : [ "live.slider[31]", "Mono-Sub", 0 ],
-			"obj-102" : [ "live.slider", "Intensite", 0 ],
-			"obj-106" : [ "live.slider[1]", "Remanence", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "-rs.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/utils",
-				"patcherrelativepath" : "../utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "FilterMap.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/utils",
-				"patcherrelativepath" : "../utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ossia.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ossia.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ossia.parameter.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ambimonitor.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "j.dbap.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Jamoma_highlighted_orange",
 				"default" : 				{
