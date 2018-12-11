@@ -38,6 +38,36 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-57",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 460.0, 534.0, 150.0, 33.0 ],
+					"style" : "",
+					"text" : "nombre balayeurs (par défaut 9)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "none",
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-55",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 463.041138, 508.290894, 81.0, 22.0 ],
+					"presentation_rect" : [ 463.041138, 544.290894, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "balaiDiag 1 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"annotation" : "none",
 					"id" : "obj-51",
 					"maxclass" : "live.text",
@@ -1207,6 +1237,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
 					"source" : [ "obj-52", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-55", 0 ]
 				}
 
 			}

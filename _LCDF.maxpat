@@ -8849,7 +8849,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 558.0, 109.0, 832.0, 734.0 ],
+						"rect" : [ 484.0, 97.0, 832.0, 734.0 ],
 						"bgcolor" : [ 0.861592, 0.861592, 0.861592, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -9303,7 +9303,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 801.5, 210.5, 131.0, 49.0 ],
+									"patching_rect" : [ 829.5, 306.5, 131.0, 49.0 ],
 									"style" : "",
 									"text" : "ossia.parameter vitesseMainMetro @type int @default 25"
 								}
@@ -9798,7 +9798,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 801.5, 176.5, 86.0, 22.0 ],
+									"patching_rect" : [ 829.5, 272.5, 86.0, 22.0 ],
 									"style" : "",
 									"text" : "Main clock"
 								}
@@ -9972,7 +9972,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 806.0, 305.5, 77.0, 22.0 ],
+									"patching_rect" : [ 834.0, 401.5, 77.0, 22.0 ],
 									"style" : "",
 									"text" : "s MainMetro"
 								}
@@ -9988,7 +9988,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 806.0, 279.5, 111.0, 22.0 ],
+									"patching_rect" : [ 834.0, 375.5, 111.0, 22.0 ],
 									"style" : "",
 									"text" : "qmetro @active 25"
 								}
@@ -10137,7 +10137,7 @@
 									"mode" : 0,
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 769.917358, 164.0, 184.5, 172.5 ],
+									"patching_rect" : [ 797.917358, 260.0, 190.5, 182.5 ],
 									"proportion" : 0.39,
 									"style" : ""
 								}
