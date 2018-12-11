@@ -111,59 +111,102 @@ Object.assign(tourneur.derviche,
 )
 tourneur.protoAgent = tourneur.derviche
 
-var balayage = Object.create(scenario) //TODO Use traject
+
+var balayage = Object.create(scenario)
 Object.assign(balayage,
   {
-    starts:[],
-    destinations:[],
     balayeur:Object.create(agent),
-    init:function() {
-      this.agents = []
-      for (var i = 0 ; i < this.starts.length ; i++) {
-        var b = Object.create(this.balayeur)
-        b.p = this.starts[i].slice() //copy
-        b.destination = this.destinations[i].slice() //copy
-        this.agents.push(b) //todo could be independant agents
-        agents.push(b)
+  /* TODO Version complètement généralisée pour tout angle, toute matrice, tout départ et arrivée
+    launch:function(angle=0, width, startX, startY, length, nAg) {
+      this.agents = this.agents.slice() //TODO this copy could be made by init, see scenario
+      var radians = angle * Math.PI / 180
+        , projV = space.lamps[0] + space.lamps[1]*Math.abs(Math.tan(radians))
+        , projH = space.lamps[1] + space.lamps[0]*Math.abs(Math.tan(Math.PI/2 - radians))
+        , width = width || (angle+45)%180 < 90 ? projV : projH
+      if (!startY) {
+        var cornerOut =
+          [
+            Math.sin(radians) > 0 ?
+              -Math.sin(radians) * this.balayeur.s :
+              space.lamps[0] + Math.sin(radians) * this.balayeur.s
+          , Math.cos(radians) > 0 ?
+              -Math.cos(radians) * this.balayeur.s :
+              space.lamps[1] + Math.cos(radians) * this.balayeur.s
+          ]
       }
-    }, //todo cf up : here call goNdie on this.agents cutting update ?
-    update:function() { // Why do this scenario kills its own agents ? They couldd die by themselves
-      for (var i = this.agents.length-1 ; i >= 0 ; i--) {
-        if (this.agents[i].toDie) this.agents.splice(i, 1)
+      En attendant, version pour matrice carré et diagonales pures */
+    squareLaunch:function(dir) { // 0 up puis huitième de tour en sens horaire jusqu'à 7
+      var startP, endP, vec
+        , size = this.balayeur.s
+        , lamps = space.lamps[0]-1
+        , dist = space.dist
+        , diagSize = size/Math.sqrt(2)
+      switch (dir) {
+        case 0:
+          startP = v2D.mult([lamps/2, lamps+size], dist)
+          endP = v2D.mult([lamps/2, -size], dist)
+          vec = [dist/2, 0]
+          break;
+        case 2:
+          startP = v2D.mult([-size, lamps/2], dist)
+          endP = v2D.mult([lamps+size, lamps/2], dist)
+          vec = [0, dist/2]
+          break;
+        case 4:
+          startP = v2D.mult([lamps/2, -size], dist)
+          endP = v2D.mult([lamps/2, lamps+size], dist)
+          vec = [dist/2, 0]
+          break;
+        case 6:
+          startP = v2D.mult([lamps+size, lamps/2], dist)
+          endP = v2D.mult([-size, lamps/2], dist)
+          vec = [0, dist/2]
+          break;
+        case 1:
+          startP = v2D.mult([-diagSize, lamps+diagSize], dist)
+          endP = v2D.mult([lamps+diagSize, -diagSize], dist)
+          vec = v2D.mult([1/2, 1/2], dist)
+          break;
+        case 3:
+          startP = v2D.mult([-diagSize, -diagSize], dist)
+          endP = v2D.mult([lamps+diagSize, lamps+diagSize], dist)
+          vec = v2D.mult([1/2, -1/2], dist)
+          break;
+        case 5:
+          startP = v2D.mult([lamps+diagSize, -diagSize], dist)
+          endP = v2D.mult([-diagSize, lamps+diagSize], dist)
+          vec = v2D.mult([1/2, 1/2], dist)
+          break;
+        case 7:
+          startP = v2D.mult([lamps+diagSize, lamps+diagSize], dist)
+          endP = v2D.mult([-diagSize, -diagSize], dist)
+          vec = v2D.mult([1/2, -1/2], dist)
+          break;
       }
-      if (!this.agents.length) this.stop()
+      var ags = [Object.create(this.balayeur)]
+      ags[0].trajectory = [startP, endP]
+      ags[0].p = startP
+      agents.push(ags[0])
+      for (var i = 1 ; i < space.lamps[0] ; i++) {
+        var ag1 = Object.create(ags[0])
+          , ag2 = Object.create(ags[0])
+          , dec = v2D.mult(vec, i)
+        ag1.trajectory = [v2D.add(startP, dec), v2D.add(endP, dec)]
+        ag2.trajectory = [v2D.sub(startP, dec), v2D.sub(endP, dec)]
+        ag1.p = ag1.trajectory[0]
+        ag2.p = ag2.trajectory[0]
+        agents.push(ag1)
+        agents.push(ag2)
+      }
     }
   }
 )
 Object.assign(balayage.balayeur,
   {
     maxV:5,
-    forces:["goNdie"]
+    only:agent.traject
   }
 )
-var bGD = Object.create(balayage),
-    bDG = Object.create(balayage),
-    bHB = Object.create(balayage),
-    bBH = Object.create(balayage),
-    bCP = Object.create(balayage),//todo
-    bCF = Object.create(balayage),//todo
-    bals = [bGD,bDG,bHB,bBH,bCP,bCF]
-for (var i = 0 ; i < bals.length ; i++) {
-  bals[i].starts = [], bals[i].destinations = []
-}
-for (var i = 0 ; i < space.lamps[1] ; i++) {
-  bGD.starts.push([0, space.dist * i])
-  bGD.destinations.push([(space.lamps[0] - 1) * space.dist, space.dist * i])
-}
-bDG.starts = bGD.destinations, bDG.destinations = bGD.starts
-for (var i = 0 ; i < space.lamps[0] ; i++) {
-  bHB.starts.push([space.dist*i,0])
-  bHB.destinations.push([space.dist*i,(space.lamps[1]-1)*space.dist])
-}
-bBH.starts = bHB.destinations, bBH.destinations = bHB.starts
-
-
-
 
 
 var danseDuSorbet = Object.create(scenario)
