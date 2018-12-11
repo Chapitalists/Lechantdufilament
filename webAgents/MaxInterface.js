@@ -18,8 +18,8 @@ if (!Object.assign) {
     for (var prop in props) { 
       if (props.hasOwnProperty(prop)) { 
         obj[prop] = props[prop] 
-      } 
-    } 
+      }
+    }
   }
 }
 
@@ -83,18 +83,18 @@ var MaxInterface = {
   change:function(parameter, value)
   {
   },
-  
+
 //////////////////// Balais
   
-  balaiGD:function() {balayage.squareLaunch(2)},
+  balaiGD:function(b,c) {balayage.squareLaunch(2,b,c)},
   
-  balaiDG:function() {balayage.squareLaunch(6)},
+  balaiDG:function(b,c) {balayage.squareLaunch(6,b,c)},
   
-  balaiBH:function() {balayage.squareLaunch(0)},
+  balaiBH:function(b,c) {balayage.squareLaunch(0,b,c)},
   
-  balaiHB:function() {balayage.squareLaunch(4)},
+  balaiHB:function(b,c) {balayage.squareLaunch(4,b,c)},
   
-  balaiDiag:function(a) {balayage.squareLaunch(a*2+1)},
+  balaiDiag:function(a,b,c) {balayage.squareLaunch(a*2+1,b,c)},
   
   balaiCP:function() {balayage.centriLaunch(0)},
   
