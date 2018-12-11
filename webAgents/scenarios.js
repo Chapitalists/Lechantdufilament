@@ -199,7 +199,7 @@ Object.assign(balayage,
         agents.push(ag2)
       }
     },
-    centriLaunch(petifuge) {
+    centriLaunch:function(petifuge) {
       var square = []
         , center = []
         , c = [(space.lamps[0]-1)*space.dist/2, (space.lamps[1]-1)*space.dist/2]
