@@ -312,7 +312,7 @@ agent.traject = function() {
           case 3:
             this.trajectory = [this.trajectory[this.trajectory.length -1]]
             this.trajectPoint = 0
-            for (var i = 0 ; i < tourneur.agents.length ; i++) {
+            for (var i = 0 ; i < tourneur.agents.length ; i++) { // TODO, WTF lien avec tourneur ?
               if (tourneur.agents[i] != this) tourneur.agents[i].toDie = true
             }
             tourneur.agents = [this]
@@ -336,7 +336,7 @@ agent.traject = function() {
           case 3:
             this.trajectory = [this.trajectory[this.trajectory.length -1]]
             this.trajectPoint = 0
-            for (var i = 0 ; i < tourneur.agents.length ; i++) {
+            for (var i = 0 ; i < tourneur.agents.length ; i++) { // TODO, WTF lien avec tourneur ?
               if (tourneur.agents[i] != this) tourneur.agents[i].toDie = true
             }
             tourneur.agents = [this]

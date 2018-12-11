@@ -86,13 +86,15 @@ var MaxInterface = {
   
 //////////////////// Balais
   
-  balaiGD:function() {bGD.play()},
+  balaiGD:function() {balayage.squareLaunch(2)},
   
-  balaiDG:function() {bDG.play()},
+  balaiDG:function() {balayage.squareLaunch(6)},
   
-  balaiBH:function() {bBH.play()},
+  balaiBH:function() {balayage.squareLaunch(0)},
   
-  balaiHB:function() {bHB.play()},
+  balaiHB:function() {balayage.squareLaunch(4)},
+  
+  balaiDiag:function(a) {balayage.squareLaunch(a*2+1)},
   
   balaiVitesse:function(v) {
     balayage.balayeur.maxV = v
