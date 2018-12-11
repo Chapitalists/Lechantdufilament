@@ -42,7 +42,7 @@ function unblock() {
 }
 
 function anything() { //TODO Should use apply to call functions with any args number
-  if (ready) MaxInterface[messagename](arguments[0])
+  if (ready) MaxInterface[messagename].apply(this, arguments)
 }
 
 function bang() {
