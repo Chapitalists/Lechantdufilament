@@ -69,8 +69,9 @@ function map() { //TODO should take agents as argument ?
   for (var k = 0; k < agents.length; k++) {
     with (agents[k]) {
       if (!s) {
-        if (!(p[0] % 100) && !(p[1] % 100)) { // TODO 100 should be dist ?
-          lights[p[0] / 100][p[1] / 100] = e*255
+        if (!(p[0] % space.dist) && lights[p[0] / space.dist] &&
+            !(p[1] % space.dist) && lights[p[0] / space.dist][P[1] / space.dist]) {
+          lights[p[0] / space.dist][p[1] / space.dist] = e*255
         }
         continue
       }
