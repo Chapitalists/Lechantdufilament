@@ -198,6 +198,62 @@ Object.assign(balayage,
         agents.push(ag1)
         agents.push(ag2)
       }
+    },
+    centriLaunch(petifuge) {
+      var square = []
+        , center = []
+        , c = [(space.lamps[0]-1)*space.dist/2, (space.lamps[1]-1)*space.dist/2]
+        , corners = [ // TODO il suffit des deux valeurs de distance au bord
+          [0,0],
+          [(space.lamps[0]-1)*space.dist,0],
+          [(space.lamps[0]-1)*space.dist,(space.lamps[1]-1)*space.dist],
+          [0,(space.lamps[1]-1)*space.dist]
+        ]
+        , minBorder = Math.floor(Math.min(space.lamps[0], space.lamps[1])/2)
+        , maxBorder = Math.floor(Math.max(space.lamps[0], space.lamps[1])/2)
+      //TODO que faire des coins ?
+      for (var i = 0 ; i < maxBorder ; i++) {
+        square.push([corners[0][0]+i*space.dist, corners[0][1]])
+        center.push([corners[0][0]+i*space.dist, i<minBorder ? corners[0][1]+i*space.dist : c[1]])
+        square.push([corners[1][0]-i*space.dist, corners[1][1]])
+        center.push([corners[1][0]-i*space.dist, i<minBorder ? corners[1][1]+i*space.dist : c[1]])
+        square.push([corners[2][0]-i*space.dist, corners[2][1]])
+        center.push([corners[2][0]-i*space.dist, i<minBorder ? corners[2][1]-i*space.dist : c[1]])
+        square.push([corners[3][0]+i*space.dist, corners[3][1]])
+        center.push([corners[3][0]+i*space.dist, i<minBorder ? corners[3][1]-i*space.dist : c[1]])
+        if (i < minBorder) {
+          square.push([corners[0][0], corners[0][1]+i*space.dist])
+          center.push([corners[0][0]+i*space.dist, corners[0][1]+i*space.dist])
+          square.push([corners[1][0], corners[1][1]+i*space.dist])
+          center.push([corners[1][0]-i*space.dist, corners[1][1]+i*space.dist])
+          square.push([corners[2][0], corners[2][1]-i*space.dist])
+          center.push([corners[2][0]-i*space.dist, corners[2][1]-i*space.dist])
+          square.push([corners[3][0], corners[3][1]-i*space.dist])
+          center.push([corners[3][0]+i*space.dist, corners[3][1]-i*space.dist])
+        }
+      }
+      if (space.lamps[0] % 2) {
+        square.push([c[0], 0])
+        center.push(c)
+        square.push([c[0], corners[2][1]])
+        center.push(c)
+      }
+      if (space.lamps[1] % 2) {
+        square.push([0, c[1]])
+        center.push(c)
+        square.push([corners[2][0], c[1]])
+        center.push(c)
+      }
+      if (space.lamps[1] > space.lamps[0]) {
+        square = square.map(function(p) {return [p[1], p[0]]})
+        center = center.map(function(p) {return [p[1], p[0]]})
+      }
+      for (var j = 0 ; j < square.length ; j++) {
+        var ag = Object.create(this.balayeur)
+        ag.trajectory = petifuge ? [center[j], square[j]] : [square[j], center[j]]
+        ag.p = petifuge ? center[j] : square[j]
+        agents.push(ag)
+      }
     }
   }
 )

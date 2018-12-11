@@ -96,6 +96,10 @@ var MaxInterface = {
   
   balaiDiag:function(a) {balayage.squareLaunch(a*2+1)},
   
+  balaiCP:function() {balayage.centriLaunch(0)},
+  
+  balaiCF:function() {balayage.centriLaunch(1)},
+  
   balaiVitesse:function(v) {
     balayage.balayeur.maxV = v
   },
