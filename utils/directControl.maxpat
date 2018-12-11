@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1324.0, 115.0, 91.0, 213.0 ],
+		"rect" : [ 270.0, 236.0, 800.0, 600.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -190,7 +190,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 539.0, 36.0, 150.0, 20.0 ],
+					"patching_rect" : [ 599.0, 36.0, 150.0, 20.0 ],
 					"style" : "",
 					"text" : "save matrix"
 				}
@@ -271,9 +271,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 13.0, 65.0, 387.0, 22.0 ],
+					"patching_rect" : [ 13.0, 65.0, 468.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "ossia.parameter scene @type int @range 0 255 @clip both @default 0"
+					"text" : "ossia.parameter scene @type int @range 0 255 @clip both @default 0 @repetitions 0"
 				}
 
 			}
@@ -284,9 +284,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 13.0, 36.0, 387.0, 22.0 ],
+					"patching_rect" : [ 13.0, 36.0, 468.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "ossia.parameter public @type int @range 0 255 @clip both @default 0"
+					"text" : "ossia.parameter public @type int @range 0 255 @clip both @default 0 @repetitions 0"
 				}
 
 			}
@@ -518,7 +518,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 468.0, 33.0, 55.0, 22.0 ],
+					"patching_rect" : [ 528.0, 33.0, 55.0, 22.0 ],
 					"style" : "",
 					"text" : "getrow 0"
 				}
@@ -544,7 +544,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 468.0, 75.0, 107.0, 22.0 ],
+					"patching_rect" : [ 528.0, 75.0, 107.0, 22.0 ],
 					"style" : "",
 					"text" : "grab 2 matrix-grab"
 				}
@@ -979,12 +979,12 @@
 , 			{
 				"name" : "patchLCDF",
 				"default" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 					"fontname" : [ "Helvetica Neue Bold" ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 3 ],
 					"fontsize" : [ 18.0 ],
-					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
+					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

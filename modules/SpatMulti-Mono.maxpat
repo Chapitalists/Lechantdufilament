@@ -719,7 +719,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 89.0, 1096.17749, 127.000061, 22.0 ],
 					"style" : "",
-					"text" : "blurall 0."
+					"text" : "rolloff 50."
 				}
 
 			}
@@ -1623,9 +1623,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 530.851562, -110.812881, 452.0, 22.0 ],
+					"patching_rect" : [ 530.851562, -110.812881, 506.0, 22.0 ],
 					"style" : "",
-					"text" : "ossia.parameter SpatMonoY @priority 3 @type float @range -1. 1. @clip both"
+					"text" : "ossia.parameter SpatMonoY @priority 3 @type float @range -1. 1. @clip both @repetitions 0"
 				}
 
 			}
@@ -1639,9 +1639,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 530.851562, -139.16391, 425.0, 22.0 ],
+					"patching_rect" : [ 530.851562, -139.16391, 506.0, 22.0 ],
 					"style" : "",
-					"text" : "ossia.parameter SpatMonoX @priority 3 @type float @range -1. 1. @clip both"
+					"text" : "ossia.parameter SpatMonoX @priority 3 @type float @range -1. 1. @clip both @repetitions 0"
 				}
 
 			}
