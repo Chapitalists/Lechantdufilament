@@ -2322,6 +2322,7 @@
 , 											{
 												"name" : "patchLCDF",
 												"default" : 												{
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 													"fontname" : [ "Helvetica Neue Bold" ],
 													"fontface" : [ 3 ],
 													"fontsize" : [ 18.0 ],
@@ -3058,6 +3059,7 @@
 , 											{
 												"name" : "patchLCDF",
 												"default" : 												{
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 													"fontname" : [ "Helvetica Neue Bold" ],
 													"fontface" : [ 3 ],
 													"fontsize" : [ 18.0 ],
@@ -3767,6 +3769,7 @@
 , 											{
 												"name" : "patchLCDF",
 												"default" : 												{
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 													"fontname" : [ "Helvetica Neue Bold" ],
 													"fontface" : [ 3 ],
 													"fontsize" : [ 18.0 ],
@@ -4298,6 +4301,7 @@
 , 											{
 												"name" : "patchLCDF",
 												"default" : 												{
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 													"fontname" : [ "Helvetica Neue Bold" ],
 													"fontface" : [ 3 ],
 													"fontsize" : [ 18.0 ],
@@ -4939,6 +4943,7 @@
 , 											{
 												"name" : "patchLCDF",
 												"default" : 												{
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 													"fontname" : [ "Helvetica Neue Bold" ],
 													"fontface" : [ 3 ],
 													"fontsize" : [ 18.0 ],
@@ -5510,6 +5515,7 @@
 , 											{
 												"name" : "patchLCDF",
 												"default" : 												{
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 													"fontname" : [ "Helvetica Neue Bold" ],
 													"fontface" : [ 3 ],
 													"fontsize" : [ 18.0 ],
@@ -7410,6 +7416,7 @@
 , 							{
 								"name" : "patchLCDF",
 								"default" : 								{
+									"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 									"fontname" : [ "Helvetica Neue Bold" ],
 									"fontface" : [ 3 ],
 									"fontsize" : [ 18.0 ],
@@ -14504,6 +14511,7 @@
 , 			{
 				"name" : "patchLCDF",
 				"default" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 					"fontname" : [ "Helvetica Neue Bold" ],
 					"fontface" : [ 3 ],
 					"fontsize" : [ 18.0 ],
