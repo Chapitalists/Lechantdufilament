@@ -136,6 +136,7 @@ Object.assign(balayage,
       }
       En attendant, version pour matrice carré et diagonales pures */
     squareLaunch:function(dir, width, length) { // 0 up puis huitième de tour en sens horaire jusqu'à 7
+      length-- // transforme intervalle en lampes (poteaux et barrières)
       var startP, endP, vec
         , size = this.balayeur.s
         , lamps = space.lamps[0]-1
