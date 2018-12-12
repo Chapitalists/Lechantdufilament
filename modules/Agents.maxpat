@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 602.0, 114.0, 828.0, 783.0 ],
+		"rect" : [ 237.0, 79.0, 828.0, 783.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -2406,7 +2406,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 23.414917, 68.5, 406.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "ossia.parameter vitesse @type int @range 1 1000 @clip both @default 22"
+					"text" : "ossia.parameter vitesse @type int @range 1 1000 @clip both @default 25"
 				}
 
 			}
@@ -2755,7 +2755,7 @@
 					"name" : "AgentsOffsetPatch.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -1650.0, 1.0 ],
+					"offset" : [ 1.0, 1.0 ],
 					"patching_rect" : [ 605.0, 149.107361, 240.0, 48.825562 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 80.5, 61.0, 990.0, 205.5 ],
@@ -3169,10 +3169,10 @@
 				"name" : "patchLCDF",
 				"default" : 				{
 					"fontname" : [ "Helvetica Neue Bold" ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontface" : [ 3 ],
 					"fontsize" : [ 18.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
 				}
 ,
