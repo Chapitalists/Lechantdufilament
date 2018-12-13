@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 161.0, 135.0, 230.0, 492.0 ],
+		"rect" : [ 1253.0, 59.0, 91.0, 366.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -25,11 +25,11 @@
 		"toptoolbarpinned" : 0,
 		"righttoolbarpinned" : 0,
 		"bottomtoolbarpinned" : 2,
-		"toolbars_unpinned_last_save" : 0,
+		"toolbars_unpinned_last_save" : 9,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
 		"enablehscroll" : 1,
-		"enablevscroll" : 1,
+		"enablevscroll" : 0,
 		"devicewidth" : 0.0,
 		"description" : "",
 		"digest" : "",
@@ -38,14 +38,27 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 71.0, 283.0, 102.0, 22.0 ],
+					"style" : "Jamoma_highlighted_orange",
+					"text" : "ossia.remote sub"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-2",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 7.0, 58.0, 286.0, 22.0 ],
+					"patching_rect" : [ 7.0, 58.0, 340.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "ossia.parameter sub @min 0 @max 255 @clip both"
+					"text" : "ossia.parameter sub @type int @min 0 @max 255 @clip both"
 				}
 
 			}
@@ -85,7 +98,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 157.0, 134.0, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 22.5, 251.5, 24.0, 24.0 ],
+					"presentation_rect" : [ 31.5, 251.5, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -144,32 +157,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-77",
-					"maxclass" : "number",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 91.0, 230.0, 50.0, 22.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-75",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 97.0, 184.0, 75.0, 22.0 ],
-					"style" : "",
-					"text" : "r Flash_Sub"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"bgcolor" : [ 0.095481, 0.100396, 0.100293, 0.47 ],
 					"fontface" : 1,
 					"fontsize" : 14.0,
@@ -180,7 +167,7 @@
 					"patching_rect" : [ 205.0, 134.102234, 59.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 21.25, 293.0, 26.5, 53.0 ],
+					"presentation_rect" : [ 30.25, 293.0, 26.5, 53.0 ],
 					"style" : "",
 					"text" : "(F)lash",
 					"textjustification" : 1
@@ -198,7 +185,7 @@
 					"outlettype" : [ "bang", "bang", "", "int" ],
 					"patching_rect" : [ 189.0, 119.0, 91.0, 54.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 279.5, 47.0, 81.5 ]
+					"presentation_rect" : [ 20.0, 279.5, 47.0, 81.5 ]
 				}
 
 			}
@@ -210,9 +197,9 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 137.0, 222.0, 39.0, 95.0 ],
+					"patching_rect" : [ 19.0, 246.5, 39.0, 95.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 6.5, 39.0, 244.0 ],
+					"presentation_rect" : [ 24.0, 6.5, 39.0, 244.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Flash",
@@ -332,7 +319,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 187.0, 330.0, 31.0, 22.0 ],
 					"style" : "",
-					"text" : "0"
+					"text" : "22"
 				}
 
 			}
@@ -364,6 +351,20 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-53", 1 ],
+					"source" : [ "obj-3", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-71", 0 ],
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-50", 0 ],
 					"source" : [ "obj-46", 0 ]
@@ -465,24 +466,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-53", 1 ],
+					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-71", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-71", 0 ],
-					"order" : 0,
-					"source" : [ "obj-75", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-77", 0 ],
-					"order" : 1,
-					"source" : [ "obj-75", 0 ]
 				}
 
 			}
@@ -517,20 +502,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-71" : [ "Flash", "Flash", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "ossia.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ossia.parameter.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Jamoma_highlighted_orange",
 				"default" : 				{
