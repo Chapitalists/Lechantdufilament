@@ -33,7 +33,7 @@ if (this.post) {
   setoutletassist(0,"bang when finished")
 }
 
-ready = false
+var ready = false
 
 function unblock() {
   post("raidie")
@@ -41,7 +41,7 @@ function unblock() {
   ready = true
 }
 
-function anything() { //TODO Should use apply to call functions with any args number
+function anything() {
   if (ready) MaxInterface[messagename].apply(this, arguments)
 }
 

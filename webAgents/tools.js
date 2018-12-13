@@ -93,7 +93,7 @@ function map() { //TODO should take agents as argument ?
                   space.dist    // dist)
                 )
               )
-            )/(s*space.dist))    // / size
+            )/(s*space.dist))   // / size
           )
         }
       }
