@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 237.0, 79.0, 828.0, 783.0 ],
+		"rect" : [ 106.0, 79.0, 828.0, 783.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -43,7 +43,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 331.0, 636.0, 71.0, 22.0 ],
+					"patching_rect" : [ 244.02002, 649.0, 71.0, 22.0 ],
 					"style" : "",
 					"text" : "print param"
 				}
@@ -263,7 +263,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 167.02002, 569.5, 173.0, 22.0 ],
+					"patching_rect" : [ 167.02002, 572.5, 173.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
 					"text" : "ossia.remote agentParameters"
 				}
@@ -3169,11 +3169,11 @@
 				"name" : "patchLCDF",
 				"default" : 				{
 					"fontname" : [ "Helvetica Neue Bold" ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
+					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 					"fontface" : [ 3 ],
 					"fontsize" : [ 18.0 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

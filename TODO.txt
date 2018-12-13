@@ -33,3 +33,4 @@ ambimonitor.mxo ne fonctionne qu'en 32bits !!
 ossia.device in root patcher ?
 ossia.model et ossia.view pour adresser les instanciations d'errant
 
+désossifier param vitesse d'agent (qu'il reste à 25ms intouchable)
