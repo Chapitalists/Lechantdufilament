@@ -191,6 +191,14 @@ var MaxInterface = {
   sorbetLapsFrames:function(l) {
     danseDuSorbet.frameLaps = l
   },
+  
+  sorbetSpace:function(x,y) {
+    danseDuSorbet.space.lamps = [x,y]
+  },
+  
+  sorbetTranslate:function(x,y) {
+    danseDuSorbet.sorbet.translate = [x,y]
+  },
 
 /////////////////// Errant
 

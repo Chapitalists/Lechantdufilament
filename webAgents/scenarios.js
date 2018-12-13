@@ -269,6 +269,7 @@ Object.assign(balayage.balayeur,
 var danseDuSorbet = Object.create(scenario)
 Object.assign(danseDuSorbet,
   {
+    space:Object.create(space),
     frameLaps:100,
     remaining:0,
     lastP:[-1,-1],
@@ -283,8 +284,8 @@ Object.assign(danseDuSorbet,
         var newAgent = Object.create(this.sorbet)
         do {
           newAgent.p = [
-            Math.floor(Math.random() * space.lamps[0]) * space.dist,
-            Math.floor(Math.random() * space.lamps[1]) * space.dist
+            Math.floor(Math.random() * this.space.lamps[0]) * this.space.dist,
+            Math.floor(Math.random() * this.space.lamps[1]) * this.space.dist
           ]
         } while (v2D.equal(newAgent.p, this.lastP))
         this.lastP = newAgent.p

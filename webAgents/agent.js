@@ -63,6 +63,7 @@ var agent = {
   lates:[],
   only:undefined, // For complex rules down there, special pseudo-agents en devenir, instead of forces
   speedCentRemaining:-1,
+  translate:undefined,
   update:function(speedCent) {
     speedCent = this.speedCent || speedCent || 1
     
