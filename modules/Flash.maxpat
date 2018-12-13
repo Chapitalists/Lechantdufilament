@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1253.0, 59.0, 91.0, 366.0 ],
+		"rect" : [ 0.0, 66.0, 91.0, 398.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 56.0, 186.0, 117.0, 22.0 ],
+					"style" : "Jamoma_highlighted_orange",
+					"text" : "ossia.remote trigger"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
@@ -69,9 +82,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 7.0, 31.0, 217.0, 22.0 ],
+					"patching_rect" : [ 7.0, 31.0, 341.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "ossia.parameter trigger @type impulse"
+					"text" : "ossia.parameter trigger @type int @min 0 @max 1 @clip both"
 				}
 
 			}
@@ -96,9 +109,9 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 157.0, 134.0, 24.0, 24.0 ],
+					"patching_rect" : [ 11.0, 183.102234, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 31.5, 251.5, 24.0, 24.0 ],
+					"presentation_rect" : [ 17.5, 253.5, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -167,7 +180,7 @@
 					"patching_rect" : [ 205.0, 134.102234, 59.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 30.25, 293.0, 26.5, 53.0 ],
+					"presentation_rect" : [ 16.25, 295.0, 26.5, 53.0 ],
 					"style" : "",
 					"text" : "(F)lash",
 					"textjustification" : 1
@@ -185,7 +198,7 @@
 					"outlettype" : [ "bang", "bang", "", "int" ],
 					"patching_rect" : [ 189.0, 119.0, 91.0, 54.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 20.0, 279.5, 47.0, 81.5 ]
+					"presentation_rect" : [ 6.0, 281.5, 47.0, 81.5 ]
 				}
 
 			}
@@ -199,10 +212,10 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 19.0, 246.5, 39.0, 95.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 24.0, 6.5, 39.0, 244.0 ],
+					"presentation_rect" : [ 10.0, 8.5, 39.0, 244.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "Flash",
+							"parameter_longname" : "Flash[1]",
 							"parameter_shortname" : "Flash",
 							"parameter_type" : 1,
 							"parameter_mmax" : 255.0,
@@ -319,7 +332,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 187.0, 330.0, 31.0, 22.0 ],
 					"style" : "",
-					"text" : "22"
+					"text" : "112"
 				}
 
 			}
@@ -349,8 +362,40 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"angle" : 100.0,
+					"bgcolor" : [ 0.603922, 0.603922, 0.603922, 1.0 ],
+					"border" : 1,
+					"id" : "obj-163",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 19.0, 90.697647, 55.0, 41.302353 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -1.0, -1.25, 107.5, 376.0 ],
+					"proportion" : 0.39,
+					"style" : ""
+				}
+
+			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-58", 0 ],
+					"source" : [ "obj-10", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-93", 0 ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-53", 1 ],
 					"source" : [ "obj-3", 1 ]
@@ -466,13 +511,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-3", 0 ],
-					"source" : [ "obj-71", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-89", 0 ],
 					"source" : [ "obj-76", 0 ]
 				}
@@ -496,7 +534,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-58", 0 ],
+					"destination" : [ "obj-10", 0 ],
 					"source" : [ "obj-93", 0 ]
 				}
 
@@ -514,12 +552,12 @@
 , 			{
 				"name" : "patchLCDF",
 				"default" : 				{
+					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 					"fontname" : [ "Helvetica Neue Bold" ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 					"fontface" : [ 3 ],
 					"fontsize" : [ 18.0 ],
-					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ]
 				}
 ,
 				"parentstyle" : "",
