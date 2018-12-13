@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 324.0, 79.0, 570.0, 783.0 ],
+		"rect" : [ 557.0, 81.0, 570.0, 783.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,49 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"annotation" : "none",
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-25",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 525.041138, 583.290894, 81.0, 22.0 ],
+					"presentation_rect" : [ 525.041138, 583.290894, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "balaiDiag 2 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-12",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 501.0, 630.0, 115.0, 22.0 ],
+					"style" : "",
+					"text" : "ossia.remote vague"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 148.541138, 186.881714, 342.0, 22.0 ],
+					"style" : "Jamoma_highlighted_orange",
+					"text" : "ossia.parameter vague @type impulse @range 0 1 @clip both"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-57",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -60,9 +103,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 463.041138, 508.290894, 81.0, 22.0 ],
-					"presentation_rect" : [ 463.041138, 544.290894, 0.0, 0.0 ],
 					"style" : "",
-					"text" : "balaiDiag 1 2"
+					"text" : "balaiDiag 0 2"
 				}
 
 			}
@@ -125,7 +167,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 390.0, 590.349854, 52.0, 22.0 ],
-					"presentation_rect" : [ 390.0, 590.349854, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "balaiCF"
 				}
@@ -190,7 +231,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 247.0, 479.349854, 53.0, 22.0 ],
-					"presentation_rect" : [ 247.0, 480.586304, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "balaiCP"
 				}
@@ -233,7 +273,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 28.041138, 516.586304, 74.0, 22.0 ],
-					"presentation_rect" : [ 45.0, 492.586304, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "balaiGD 8 8"
 				}
@@ -1018,6 +1057,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-55", 0 ],
+					"source" : [ "obj-12", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
 					"source" : [ "obj-13", 1 ]
 				}
@@ -1086,6 +1132,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-25", 0 ]
 				}
 
 			}
@@ -1237,6 +1290,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-53", 0 ],
 					"source" : [ "obj-52", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-53", 0 ]
 				}
 
 			}
