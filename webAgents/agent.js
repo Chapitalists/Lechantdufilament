@@ -63,15 +63,30 @@ var agent = {
   lates:[],
   only:undefined, // For complex rules down there, special pseudo-agents en devenir, instead of forces
   speedCentRemaining:-1,
+  framesAdd:0,
+  framesAdded:0,
+  framesCent:0,
   translate:undefined,
   update:function(speedCent) {
-    speedCent = this.speedCent || speedCent || 1
+    speedCent = this.speedCent || speedCent || 100
+    this.framesCent = (this.framesCent + 1) % 100
     
     var nTimes = Math.floor(speedCent/100)
+    this.framesAdd = speedCent % 100
     
-    if (--this.speedCentRemaining <= 0) {
-      nTimes++
-      this.speedCentRemaining = speedCent%100
+    if (!this.framesCent) {
+      this.framesAdded = 0
+      this.speedCentRemaining = Math.floor(100 / this.framesAdd)
+    }
+    
+    this.speedCentRemaining = Math.min(this.speedCentRemaining, Math.floor(100 / this.framesAdd))
+    
+    if (this.framesAdded < this.framesAdd || speedCent < 100) {
+      if (--this.speedCentRemaining <= 0) {
+        nTimes++
+        this.framesAdded++
+        this.speedCentRemaining = Math.floor(100 / this.framesAdd)
+      }
     }
 
     for (var n = 0 ; n < nTimes ; n++) {
