@@ -73,7 +73,7 @@ function map() { //TODO should take agents as argument ?
       if (translate) pp = v2D.add(p, translate)
       if (!s) {
         if (!(pp[0] % space.dist) && lights[pp[0] / space.dist] &&
-            !(pp[1] % space.dist) && lights[pp[0] / space.dist][P[1] / space.dist]) {
+            !(pp[1] % space.dist) && lights[pp[0] / space.dist][pp[1] / space.dist]) {
           lights[pp[0] / space.dist][pp[1] / space.dist] = e*255
         }
         continue
