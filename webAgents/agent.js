@@ -12,7 +12,7 @@ var included_agents = true
 var space = {
   lamps:[9,9],
   dist:100,
-  x1:-100,
+  x1:-100, // used for lates and nearVect
   y1:-100,
   x2:900,
   y2:900,
