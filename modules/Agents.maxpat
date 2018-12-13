@@ -43,9 +43,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 244.02002, 649.0, 71.0, 22.0 ],
+					"patching_rect" : [ 244.02002, 649.0, 85.0, 22.0 ],
 					"style" : "",
-					"text" : "print param"
+					"text" : "print paramJS"
 				}
 
 			}
@@ -358,7 +358,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 138.02002, 692.751282, 126.0, 26.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "MaxInterface",
+						"filename" : "MaxInterface.js",
 						"parameter_enable" : 0
 					}
 ,
@@ -2755,7 +2755,7 @@
 					"name" : "AgentsOffsetPatch.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ 1.0, 1.0 ],
+					"offset" : [ -1050.0, 1.0 ],
 					"patching_rect" : [ 605.0, 149.107361, 240.0, 48.825562 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 80.5, 61.0, 990.0, 205.5 ],
@@ -3169,11 +3169,11 @@
 				"name" : "patchLCDF",
 				"default" : 				{
 					"fontname" : [ "Helvetica Neue Bold" ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 					"fontface" : [ 3 ],
 					"fontsize" : [ 18.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

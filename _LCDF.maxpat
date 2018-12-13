@@ -46,6 +46,8 @@
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 1376.0, 481.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 960.75, 271.5, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -881,7 +883,7 @@
 					"outlettype" : [ "bang", "bang", "", "int" ],
 					"patching_rect" : [ 1408.0, 466.0, 91.0, 54.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 945.5, 299.0, 47.0, 83.0 ]
+					"presentation_rect" : [ 945.5, 300.5, 47.0, 81.5 ]
 				}
 
 			}
@@ -895,7 +897,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1356.0, 569.0, 39.0, 95.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 949.5, 25.5, 39.0, 266.0 ],
+					"presentation_rect" : [ 949.5, 25.5, 39.0, 244.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "Flash",
@@ -1015,7 +1017,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1406.0, 677.0, 31.0, 22.0 ],
 					"style" : "",
-					"text" : "0"
+					"text" : "8"
 				}
 
 			}
@@ -2365,11 +2367,11 @@
 												"name" : "patchLCDF",
 												"default" : 												{
 													"fontname" : [ "Helvetica Neue Bold" ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 													"fontface" : [ 3 ],
 													"fontsize" : [ 18.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3101,11 +3103,11 @@
 												"name" : "patchLCDF",
 												"default" : 												{
 													"fontname" : [ "Helvetica Neue Bold" ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 													"fontface" : [ 3 ],
 													"fontsize" : [ 18.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -3810,11 +3812,11 @@
 												"name" : "patchLCDF",
 												"default" : 												{
 													"fontname" : [ "Helvetica Neue Bold" ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 													"fontface" : [ 3 ],
 													"fontsize" : [ 18.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -4341,11 +4343,11 @@
 												"name" : "patchLCDF",
 												"default" : 												{
 													"fontname" : [ "Helvetica Neue Bold" ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 													"fontface" : [ 3 ],
 													"fontsize" : [ 18.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -4982,11 +4984,11 @@
 												"name" : "patchLCDF",
 												"default" : 												{
 													"fontname" : [ "Helvetica Neue Bold" ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 													"fontface" : [ 3 ],
 													"fontsize" : [ 18.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -5553,11 +5555,11 @@
 												"name" : "patchLCDF",
 												"default" : 												{
 													"fontname" : [ "Helvetica Neue Bold" ],
+													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 													"fontface" : [ 3 ],
 													"fontsize" : [ 18.0 ],
-													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
 												}
 ,
 												"parentstyle" : "",
@@ -5614,7 +5616,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 311.0, 132.0, 74.0, 22.0 ],
 									"style" : "",
-									"text" : "0 41 2"
+									"text" : "4 102 1"
 								}
 
 							}
@@ -7453,11 +7455,11 @@
 								"name" : "patchLCDF",
 								"default" : 								{
 									"fontname" : [ "Helvetica Neue Bold" ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-									"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 									"fontface" : [ 3 ],
 									"fontsize" : [ 18.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -10224,6 +10226,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-9", 1 ],
+									"source" : [ "obj-183", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-80", 0 ],
 									"source" : [ "obj-19", 0 ]
 								}
@@ -10512,6 +10521,13 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-73", 0 ],
+									"source" : [ "obj-65", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-64", 0 ],
 									"midpoints" : [ 237.107452, 386.0, 69.0, 386.0, 69.0, 384.0, 68.5, 384.0 ],
 									"source" : [ "obj-66", 0 ]
@@ -10584,20 +10600,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-9", 1 ],
-									"source" : [ "obj-183", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-73", 0 ],
-									"source" : [ "obj-65", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-153", 0 ],
 									"source" : [ "obj-9", 0 ]
 								}
@@ -10617,11 +10619,11 @@
 								"name" : "patchLCDF",
 								"default" : 								{
 									"fontname" : [ "Helvetica Neue Bold" ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-									"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 									"fontface" : [ 3 ],
 									"fontsize" : [ 18.0 ],
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+									"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -13930,69 +13932,69 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-194::obj-139::obj-2::obj-34" : [ "live.text[13]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-2::obj-42" : [ "live.slider[16]", "SizeSel", 0 ],
-			"obj-180::obj-188::obj-145" : [ "live.slider[18]", "Densite", 0 ],
-			"obj-194::obj-139::obj-2::obj-32" : [ "live.text[14]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-120::obj-32" : [ "live.text[6]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-120::obj-22" : [ "live.slider[12]", "Force", 0 ],
+			"obj-180::obj-188::obj-11" : [ "live.text[1]", "live.text[1]", 0 ],
+			"obj-180::obj-1::obj-28" : [ "live.slider[6]", "MSNSub", 0 ],
+			"obj-194::obj-139::obj-2::obj-33" : [ "live.text[8]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-3::obj-28" : [ "live.slider[39]", "Vitesse", 0 ],
+			"obj-194::obj-16" : [ "live.text[18]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-120::obj-188" : [ "live.slider[28]", "Vélocité", 0 ],
+			"obj-194::obj-139::obj-120::obj-24" : [ "live.slider[17]", "Energie", 0 ],
+			"obj-55" : [ "live.text[16]", "live.text[1]", 0 ],
+			"obj-194::obj-139::obj-3::obj-51" : [ "live.text[28]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-3::obj-34" : [ "live.text[24]", "live.text[3]", 0 ],
+			"obj-180::obj-188::obj-7" : [ "live.text[5]", "live.text", 0 ],
+			"obj-17::obj-61" : [ "live.slider[2]", "Multi-Sub", 0 ],
+			"obj-194::obj-139::obj-120::obj-166" : [ "live.slider[24]", "Masse", 0 ],
 			"obj-194::obj-139::obj-2::obj-71" : [ "live.slider[33]", "SubTourneur", 0 ],
+			"obj-194::obj-139::obj-120::obj-150" : [ "live.slider[22]", "Changement direction", 0 ],
+			"obj-180::obj-188::obj-145" : [ "live.slider[18]", "Densite", 0 ],
+			"obj-194::obj-113" : [ "live.slider[36]", "AgentSub", 0 ],
+			"obj-194::obj-139::obj-129::obj-92" : [ "live.slider[20]", "Sorbet-temps-creation", 0 ],
 			"obj-17::obj-102" : [ "live.slider", "Intensite", 0 ],
 			"obj-194::obj-139::obj-129::obj-101" : [ "live.slider[13]", "Taille", 0 ],
-			"obj-194::obj-139::obj-120::obj-112" : [ "live.text[2]", "live.text[3]", 0 ],
-			"obj-194::obj-16" : [ "live.text[18]", "live.text[3]", 0 ],
-			"obj-71" : [ "Flash", "Flash", 0 ],
-			"obj-180::obj-188::obj-11" : [ "live.text[1]", "live.text[1]", 0 ],
-			"obj-194::obj-113" : [ "live.slider[36]", "AgentSub", 0 ],
-			"obj-194::obj-139::obj-2::obj-29" : [ "live.text[11]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-3::obj-19" : [ "live.text[23]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-120::obj-188" : [ "live.slider[28]", "Vélocité", 0 ],
-			"obj-194::obj-139::obj-120::obj-168" : [ "live.slider[25]", "Distance", 0 ],
-			"obj-162" : [ "live.slider[14]", "Master", 0 ],
-			"obj-194::obj-139::obj-120::obj-166" : [ "live.slider[24]", "Masse", 0 ],
-			"obj-194::obj-139::obj-3::obj-14" : [ "live.text[17]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-120::obj-150" : [ "live.slider[22]", "Changement direction", 0 ],
-			"obj-194::obj-139::obj-3::obj-71" : [ "live.slider[41]", "SubBalais", 0 ],
-			"obj-194::obj-139::obj-3::obj-48" : [ "live.text[27]", "live.text[3]", 0 ],
-			"obj-92" : [ "live.slider[5]", "SlideUp", 0 ],
-			"obj-194::obj-139::obj-2::obj-61" : [ "live.text[10]", "live.text[3]", 0 ],
-			"obj-180::obj-1::obj-28" : [ "live.slider[6]", "MSNSub", 0 ],
-			"obj-194::obj-139::obj-129::obj-1" : [ "live.slider[21]", "Sorbet-Fonte", 0 ],
-			"obj-194::obj-139::obj-120::obj-34" : [ "live.text[9]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-3::obj-42" : [ "live.slider[38]", "Size", 0 ],
 			"obj-194::obj-139::obj-120::obj-178" : [ "live.slider[27]", "Diff", 0 ],
-			"obj-194::obj-18" : [ "live.text[19]", "live.text[3]", 0 ],
-			"obj-44::obj-113" : [ "live.slider[37]", "Sub", 0 ],
-			"obj-194::obj-139::obj-3::obj-51" : [ "live.text[28]", "live.text[3]", 0 ],
-			"obj-194::obj-150" : [ "live.slider[23]", "Vitesse Agents", 0 ],
-			"obj-180::obj-188::obj-28" : [ "live.slider[4]", "GOLSub", 0 ],
-			"obj-17::obj-106" : [ "live.slider[1]", "Remanence", 0 ],
-			"obj-194::obj-139::obj-3::obj-33" : [ "live.text[26]", "live.text[3]", 0 ],
-			"obj-84" : [ "live.slider[29]", "SlideDown", 0 ],
-			"obj-134::obj-488" : [ "live.text", "live.text", 0 ],
-			"obj-194::obj-139::obj-120::obj-24" : [ "live.slider[17]", "Energie", 0 ],
-			"obj-194::obj-139::obj-3::obj-28" : [ "live.slider[39]", "Vitesse", 0 ],
-			"obj-194::obj-139::obj-120::obj-119" : [ "live.text[3]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-120::obj-171" : [ "live.slider[26]", "Radius", 0 ],
-			"obj-194::obj-139::obj-3::obj-34" : [ "live.text[24]", "live.text[3]", 0 ],
-			"obj-180::obj-3::obj-86" : [ "live.slider[11]", "PINGSub", 0 ],
-			"obj-194::obj-139::obj-129::obj-90" : [ "live.slider[9]", "Sorbet-Energie", 0 ],
-			"obj-194::obj-139::obj-129::obj-7" : [ "live.slider[8]", "Sorbet-Formation", 0 ],
-			"obj-194::obj-139::obj-2::obj-6" : [ "live.slider[34]", "Distance", 0 ],
-			"obj-55" : [ "live.text[16]", "live.text[1]", 0 ],
-			"obj-17::obj-61" : [ "live.slider[2]", "Multi-Sub", 0 ],
-			"obj-180::obj-188::obj-7" : [ "live.text[5]", "live.text", 0 ],
-			"obj-1" : [ "live.slider[19]", "Sorbet-Fonte", 0 ],
-			"obj-194::obj-139::obj-3::obj-7" : [ "live.text[15]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-2::obj-28" : [ "live.slider[30]", "VitesseSel", 0 ],
-			"obj-17::obj-42" : [ "live.slider[31]", "Mono-Sub", 0 ],
-			"obj-194::obj-139::obj-129::obj-92" : [ "live.slider[20]", "Sorbet-temps-creation", 0 ],
+			"obj-194::obj-139::obj-2::obj-42" : [ "live.slider[16]", "SizeSel", 0 ],
 			"obj-194::obj-139::obj-129::obj-19" : [ "live.slider[7]", "Temps-inter-sorbets", 0 ],
-			"obj-194::obj-139::obj-129::obj-9" : [ "live.text[4]", "live.text", 0 ],
-			"obj-194::obj-139::obj-2::obj-19" : [ "live.text[12]", "live.text[3]", 0 ],
 			"obj-194::obj-139::obj-120::obj-13" : [ "live.slider[15]", "Taille", 0 ],
-			"obj-194::obj-139::obj-2::obj-33" : [ "live.text[8]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-2::obj-26" : [ "live.text[7]", "live.text[3]", 0 ]
+			"obj-194::obj-139::obj-129::obj-90" : [ "live.slider[9]", "Sorbet-Energie", 0 ],
+			"obj-194::obj-139::obj-120::obj-32" : [ "live.text[6]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-129::obj-7" : [ "live.slider[8]", "Sorbet-Formation", 0 ],
+			"obj-194::obj-139::obj-2::obj-29" : [ "live.text[11]", "live.text[3]", 0 ],
+			"obj-92" : [ "live.slider[5]", "SlideUp", 0 ],
+			"obj-17::obj-106" : [ "live.slider[1]", "Remanence", 0 ],
+			"obj-194::obj-139::obj-3::obj-14" : [ "live.text[17]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-120::obj-119" : [ "live.text[3]", "live.text[3]", 0 ],
+			"obj-71" : [ "Flash", "Flash", 0 ],
+			"obj-194::obj-139::obj-120::obj-112" : [ "live.text[2]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-2::obj-26" : [ "live.text[7]", "live.text[3]", 0 ],
+			"obj-162" : [ "live.slider[14]", "Master", 0 ],
+			"obj-17::obj-42" : [ "live.slider[31]", "Mono-Sub", 0 ],
+			"obj-1" : [ "live.slider[19]", "Sorbet-Fonte", 0 ],
+			"obj-180::obj-188::obj-28" : [ "live.slider[4]", "GOLSub", 0 ],
+			"obj-194::obj-139::obj-2::obj-61" : [ "live.text[10]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-3::obj-19" : [ "live.text[23]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-120::obj-34" : [ "live.text[9]", "live.text[3]", 0 ],
+			"obj-84" : [ "live.slider[29]", "SlideDown", 0 ],
+			"obj-194::obj-139::obj-3::obj-7" : [ "live.text[15]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-2::obj-34" : [ "live.text[13]", "live.text[3]", 0 ],
+			"obj-194::obj-150" : [ "live.slider[23]", "Vitesse Agents", 0 ],
+			"obj-194::obj-139::obj-2::obj-32" : [ "live.text[14]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-3::obj-48" : [ "live.text[27]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-129::obj-9" : [ "live.text[4]", "live.text", 0 ],
+			"obj-194::obj-139::obj-3::obj-42" : [ "live.slider[38]", "Size", 0 ],
+			"obj-194::obj-139::obj-129::obj-1" : [ "live.slider[21]", "Sorbet-Fonte", 0 ],
+			"obj-194::obj-139::obj-2::obj-19" : [ "live.text[12]", "live.text[3]", 0 ],
+			"obj-194::obj-18" : [ "live.text[19]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-120::obj-22" : [ "live.slider[12]", "Force", 0 ],
+			"obj-194::obj-139::obj-2::obj-6" : [ "live.slider[34]", "Distance", 0 ],
+			"obj-134::obj-488" : [ "live.text", "live.text", 0 ],
+			"obj-180::obj-3::obj-86" : [ "live.slider[11]", "PINGSub", 0 ],
+			"obj-194::obj-139::obj-120::obj-171" : [ "live.slider[26]", "Radius", 0 ],
+			"obj-194::obj-139::obj-2::obj-28" : [ "live.slider[30]", "VitesseSel", 0 ],
+			"obj-44::obj-113" : [ "live.slider[37]", "Sub", 0 ],
+			"obj-194::obj-139::obj-120::obj-168" : [ "live.slider[25]", "Distance", 0 ],
+			"obj-194::obj-139::obj-3::obj-71" : [ "live.slider[41]", "SubBalais", 0 ],
+			"obj-194::obj-139::obj-3::obj-33" : [ "live.text[26]", "live.text[3]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -14427,11 +14429,11 @@
 				"name" : "patchLCDF",
 				"default" : 				{
 					"fontname" : [ "Helvetica Neue Bold" ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 					"fontface" : [ 3 ],
 					"fontsize" : [ 18.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
