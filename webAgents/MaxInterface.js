@@ -46,6 +46,58 @@ function anything() {
   if (ready) MaxInterface[messagename].apply(this, arguments)
 }
 
+function direct() {
+  if (arguments.length == 0) {
+    post("Direct args ?")
+    post()
+    return;
+  }
+  var obj = this
+    , i = 0
+  for (i = 0 ; i < arguments.length - 2 ; i++) {
+    if (typeof obj[arguments[i]] == "function") {
+      obj[arguments[i]].apply(obj, Array.apply(null, arguments).slice(i+1, arguments.length))
+      post("Direct call: " + arguments[i])
+      post(", " + (arguments.length - i - 1) + " args ")
+      post("starting with: " + arguments[i+1])
+      post()
+      return;
+    }
+    if (typeof obj[arguments[i]] != "object") {
+      post("Direct Wrong argument: " + arguments[i])
+      post()
+      return;
+    }
+    if (typeof obj[arguments[i]] != "undefined" && !obj.hasOwnProperty(arguments[i])) {
+      if (Array.isArray(obj[arguments[i]])) obj[arguments[i]] = obj[arguments[i]].slice()
+      else obj[arguments[i]] = Object.create(obj[arguments[i]])
+    }
+    obj = obj[arguments[i]]
+  }
+  if (typeof obj[arguments[i]] == "function") {
+    obj[arguments[i]].call(obj, arguments[i+1])
+    post("Direct call: " + arguments[i] + "(" + arguments[i+1] + ")")
+    post()
+  } else if (typeof obj[arguments[i]] != "object") {
+    if (typeof obj[arguments[i]] == "undefined") post("Beware undefined ! ")
+    obj[arguments[i]] = arguments[i+1]
+    post("Direct change: " + arguments[i])
+    post()
+  } else {
+    obj = obj[arguments[i]]
+    i++
+    if (typeof obj[arguments[i]] == "function") {
+      obj[arguments[i]].apply(obj)
+      post("Direct call: " + arguments[i] + " without args")
+      post()
+    } else {
+      post("Direct Can't affect over object: " + arguments[i-1])
+      post(" or not a function: " + arguments[i])
+      post()
+    }
+  }
+}
+
 function speed(s) {
   speedCent = s
 }

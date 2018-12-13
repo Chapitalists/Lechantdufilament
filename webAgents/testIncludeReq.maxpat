@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -1459.0, -162.0, 603.0, 480.0 ],
+		"rect" : [ 301.0, 223.0, 603.0, 480.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,32 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-35",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 335.0, 27.0, 192.0, 22.0 ],
+					"style" : "",
+					"text" : "direct balayage balayeur maxV 10"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-29",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 85.0, 19.0, 201.0, 22.0 ],
+					"style" : "",
+					"text" : "direct balayage squareLaunch 0 3 6"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-39",
 					"maxclass" : "newobj",
@@ -476,7 +502,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 199.0, 224.0, 92.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "MaxInterface.js",
+						"filename" : "MaxInterface",
 						"parameter_enable" : 0
 					}
 ,
@@ -635,6 +661,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-29", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"source" : [ "obj-30", 0 ]
 				}
@@ -658,6 +691,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-35", 0 ]
 				}
 
 			}

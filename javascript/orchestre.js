@@ -26,8 +26,13 @@ for (var i = 1 ; i < inlets ; i++) {
 
 var lights = [],
     nothing = true
-for (var i = 0 ; i < lamps[0]*lamps[1] ; i++) {
-  lights[i] = 0
+
+cut()
+
+function cut() {
+  for (var i = 0 ; i < lamps[0]*lamps[1] ; i++) {
+    lights[i] = 0
+  }
 }
 
 function bang() {
