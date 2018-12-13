@@ -116,7 +116,23 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Helvetica Neue",
+									"fontsize" : 12.0,
+									"id" : "obj-3",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 241.5, 293.0, 163.0, 20.0 ],
+									"presentation_rect" : [ 243.0, 293.0, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "formattage pour Dlight"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Helvetica Neue",
 									"fontsize" : 12.0,
@@ -347,7 +363,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 532.5, 56.0, 164.0, 20.0 ],
+									"patching_rect" : [ 488.0, 58.0, 164.0, 20.0 ],
 									"style" : "",
 									"text" : "toutes les valeures OSC"
 								}
@@ -452,7 +468,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 19.0, 602.0, 141.0, 22.0 ],
+									"patching_rect" : [ 241.5, 437.0, 141.0, 22.0 ],
 									"style" : "",
 									"text" : "udpsend 127.0.0.1 7000"
 								}
