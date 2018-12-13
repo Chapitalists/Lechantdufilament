@@ -33,7 +33,8 @@ if (this.post) {
   setoutletassist(0,"bang when finished")
 }
 
-ready = false
+var ready = false
+  , speedCent = 100
 
 function unblock() {
   post("raidie")
@@ -41,12 +42,16 @@ function unblock() {
   ready = true
 }
 
-function anything() { //TODO Should use apply to call functions with any args number
+function anything() {
   if (ready) MaxInterface[messagename].apply(this, arguments)
 }
 
+function speed(s) {
+  speedCent = s
+}
+
 function bang() {
-  update()
+  update(speedCent)
   var lights = map()
   for (var j = 0; j < space.lamps[1]; j++) {
     for (var i = 0; i < space.lamps[0]; i++) {
@@ -83,7 +88,7 @@ var MaxInterface = {
   change:function(parameter, value)
   {
   },
-
+  
 //////////////////// Balais
   
   balaiGD:function(b,c) {balayage.squareLaunch(2,b,c)},
@@ -185,6 +190,14 @@ var MaxInterface = {
 
   sorbetLapsFrames:function(l) {
     danseDuSorbet.frameLaps = l
+  },
+  
+  sorbetSpace:function(x,y) {
+    danseDuSorbet.space.lamps = [x,y]
+  },
+  
+  sorbetTranslate:function(x,y) {
+    danseDuSorbet.sorbet.translate = [x,y]
   },
 
 /////////////////// Errant

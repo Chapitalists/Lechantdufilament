@@ -12,7 +12,7 @@ var included_agents = true
 var space = {
   lamps:[9,9],
   dist:100,
-  x1:-100,
+  x1:-100, // used for lates and nearVect
   y1:-100,
   x2:900,
   y2:900,
@@ -62,34 +62,46 @@ var agent = {
   moves:[], // todo doesn't exist anymore ? see // Move in update()
   lates:[],
   only:undefined, // For complex rules down there, special pseudo-agents en devenir, instead of forces
-  update:function() {
-
-    if (this.only) {
-      this.only()
-    } else {
+  speedCentRemaining:-1,
+  translate:undefined,
+  update:function(speedCent) {
+    speedCent = this.speedCent || speedCent || 1
     
-      // Compute forces
-      this.f = [0,0]
-      for (var i = 0 ; i < this.forces.length ; i++) this[this.forces[i]]()
-
-      // Truncate forces
-      if (this.maxF !== -1) this.f = v2D.truncate(this.f, this.maxF)
-
-      // Apply forces
-      this.v = v2D.add(this.v, v2D.mult(this.f, 1/this.m))
-      
+    var nTimes = Math.floor(speedCent/100)
+    
+    if (--this.speedCentRemaining <= 0) {
+      nTimes++
+      this.speedCentRemaining = speedCent%100
     }
 
-    // Limit velocity
-    if (this.maxV !== -1) this.v = v2D.truncate(this.v, this.maxV) // max
-    if (v2D.length(this.v) < this.minV)
-      this.v = v2D.normalize(this.v, this.minV) // min
+    for (var n = 0 ; n < nTimes ; n++) {
+      if (this.only) {
+        this.only()
+      } else {
 
-    // Move
-    this.p = v2D.add(this.p, this.v)
+        // Compute forces
+        this.f = [0,0]
+        for (var i = 0 ; i < this.forces.length ; i++) this[this.forces[i]]()
 
-    // Late rules
-    for (var k = 0 ; k < this.lates.length ; k++) this[this.lates[k]]()
+        // Truncate forces
+        if (this.maxF !== -1) this.f = v2D.truncate(this.f, this.maxF)
+
+        // Apply forces
+        this.v = v2D.add(this.v, v2D.mult(this.f, 1/this.m))
+
+      }
+
+      // Limit velocity
+      if (this.maxV !== -1) this.v = v2D.truncate(this.v, this.maxV) // max
+      if (v2D.length(this.v) < this.minV)
+        this.v = v2D.normalize(this.v, this.minV) // min
+
+      // Move
+      this.p = v2D.add(this.p, this.v)
+
+      // Late rules
+      for (var k = 0 ; k < this.lates.length ; k++) this[this.lates[k]]()
+    }
   }
 }
 

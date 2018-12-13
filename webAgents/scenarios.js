@@ -136,6 +136,7 @@ Object.assign(balayage,
       }
       En attendant, version pour matrice carré et diagonales pures */
     squareLaunch:function(dir, width, length) { // 0 up puis huitième de tour en sens horaire jusqu'à 7
+      length-- // transforme intervalle en lampes (poteaux et barrières)
       var startP, endP, vec
         , size = this.balayeur.s
         , lamps = space.lamps[0]-1
@@ -268,6 +269,7 @@ Object.assign(balayage.balayeur,
 var danseDuSorbet = Object.create(scenario)
 Object.assign(danseDuSorbet,
   {
+    space:Object.create(space),
     frameLaps:100,
     remaining:0,
     lastP:[-1,-1],
@@ -282,8 +284,8 @@ Object.assign(danseDuSorbet,
         var newAgent = Object.create(this.sorbet)
         do {
           newAgent.p = [
-            Math.floor(Math.random() * space.lamps[0]) * space.dist,
-            Math.floor(Math.random() * space.lamps[1]) * space.dist
+            Math.floor(Math.random() * this.space.lamps[0]) * this.space.dist,
+            Math.floor(Math.random() * this.space.lamps[1]) * this.space.dist
           ]
         } while (v2D.equal(newAgent.p, this.lastP))
         this.lastP = newAgent.p
@@ -387,10 +389,10 @@ seeker.seeker.lates = ["fold"]
 seeker.seeker.maxV = 5
 
 
-function update() {
+function update(speedCent) {
   for (var j = 0 ; j < scenari.length ; j++) scenari[j].update()
   for (var i = agents.length-1 ; i >= 0 ; i--) {
-    agents[i].update()
+    agents[i].update(speedCent)
     if (agents[i].toDie) agents.splice(i,1)
     /*else {
       var tab = formatForDBAP(agents[i])
