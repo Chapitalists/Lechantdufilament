@@ -388,10 +388,10 @@ seeker.seeker.lates = ["fold"]
 seeker.seeker.maxV = 5
 
 
-function update() {
+function update(speedCent) {
   for (var j = 0 ; j < scenari.length ; j++) scenari[j].update()
   for (var i = agents.length-1 ; i >= 0 ; i--) {
-    agents[i].update()
+    agents[i].update(speedCent)
     if (agents[i].toDie) agents.splice(i,1)
     /*else {
       var tab = formatForDBAP(agents[i])

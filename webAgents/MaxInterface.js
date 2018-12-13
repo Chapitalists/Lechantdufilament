@@ -34,6 +34,7 @@ if (this.post) {
 }
 
 var ready = false
+  , speedCent = 100
 
 function unblock() {
   post("raidie")
@@ -45,8 +46,12 @@ function anything() {
   if (ready) MaxInterface[messagename].apply(this, arguments)
 }
 
+function speed(s) {
+  speedCent = s
+}
+
 function bang() {
-  update()
+  update(speedCent)
   var lights = map()
   for (var j = 0; j < space.lamps[1]; j++) {
     for (var i = 0; i < space.lamps[0]; i++) {
@@ -83,7 +88,7 @@ var MaxInterface = {
   change:function(parameter, value)
   {
   },
-
+  
 //////////////////// Balais
   
   balaiGD:function(b,c) {balayage.squareLaunch(2,b,c)},
