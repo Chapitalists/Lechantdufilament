@@ -47,6 +47,7 @@ function anything() {
 }
 
 function direct() {
+  if (!ready) return;
   if (arguments.length == 0) {
     post("Direct args ?")
     post()
@@ -81,7 +82,7 @@ function direct() {
   } else if (typeof obj[arguments[i]] != "object") {
     if (typeof obj[arguments[i]] == "undefined") post("Beware undefined ! ")
     obj[arguments[i]] = arguments[i+1]
-    post("Direct change: " + arguments[i])
+    post("Direct change: " + arguments[i] + "=" + arguments[i+1])
     post()
   } else {
     obj = obj[arguments[i]]
