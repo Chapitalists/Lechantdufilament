@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 311.0, 108.0, 525.0, 842.0 ],
+		"rect" : [ 207.0, 79.0, 525.0, 842.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -55,10 +55,10 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 282.0, 305.0, 34.0, 22.0 ],
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 282.0, 305.0, 33.0, 22.0 ],
 					"style" : "",
-					"text" : "t b b"
+					"text" : "t b s"
 				}
 
 			}
@@ -188,7 +188,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-4",
@@ -744,7 +743,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-55",
-					"items" : [ "ROBOTISBT-210-SPPDev", ",", "MBPro-OSSIA-Bluetooth-S", ",", "Uconnect-SerialCOM", ",", "MBPro-OSSIA-Bluetooth-S-1", ",", "MBPro-OSSIA-Bluetooth-P", ",", "MacProdeSergeBabkine-Bl", ",", "white-DevB", ",", "MBPro-OSSIA-Bluetooth-S-2", ",", "iPhoneCarolina-Wireless", ",", "Bluetooth-Incoming-Port", ",", "orange-DevB", ",", "MP-Bluetooth-Incoming-P", ",", "iPhonedeMathieu-Wireles", ",", "MBPro-OSSIA-Bluetooth-S-3", ",", "iPhonedeTanguy-Wireless" ],
+					"items" : [ "ROBOTISBT-210-SPPDev", ",", "MBPro-OSSIA-Bluetooth-S", ",", "Uconnect-SerialCOM", ",", "MBPro-OSSIA-Bluetooth-S-1", ",", "MBPro-OSSIA-Bluetooth-P", ",", "MacProdeSergeBabkine-Bl", ",", "white-DevB", ",", "MBPro-OSSIA-Bluetooth-S-2", ",", "iPhoneCarolina-Wireless", ",", "Bluetooth-Incoming-Port", ",", "orange-DevB", ",", "MP-Bluetooth-Incoming-P", ",", "iPhonedeMathieu-Wireles", ",", "MBPro-OSSIA-Bluetooth-S-3", ",", "iPhonedeTanguy-Wireless", ",", "usbserial-ENXQOF37" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
