@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -125,7 +125,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 217.0, 436.5, 156.0, 34.0 ],
+					"patching_rect" : [ 217.0, 436.5, 156.0, 33.0 ],
 					"style" : "",
 					"text" : "From Paroles éclairées for inspiration"
 				}
@@ -138,7 +138,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 11.0, 366.5, 126.0, 89.0 ],
+					"patching_rect" : [ 11.0, 366.5, 126.0, 87.0 ],
 					"style" : "",
 					"text" : "override permet de contrôler des adresses DMX en-dehors du patch\nInsérer entre patch et usb"
 				}
@@ -156,12 +156,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 280.0, 136.0, 842.0, 530.0 ],
+						"rect" : [ 119.0, 154.0, 842.0, 530.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -188,7 +188,44 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-4",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 649.0, 93.0, 150.0, 20.0 ],
+									"style" : "",
+									"text" : "j.send slidlist.*/bang"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-8",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 641.0, 93.0, 100.0, 22.0 ],
+									"style" : ""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-6",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 638.0, 137.0, 150.0, 20.0 ],
+									"style" : "",
+									"text" : "j.receive slidlist.*/output"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-80",
 									"maxclass" : "newobj",
@@ -322,24 +359,11 @@
 								"box" : 								{
 									"id" : "obj-77",
 									"maxclass" : "newobj",
-									"numinlets" : 0,
+									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 638.0, 136.0, 136.0, 22.0 ],
-									"style" : "",
-									"text" : "j.receive slidlist.*/output"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-78",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 638.0, 95.0, 117.0, 22.0 ],
-									"style" : "",
-									"text" : "j.send slidlist.*/bang"
+									"style" : ""
 								}
 
 							}
@@ -366,26 +390,6 @@
 									"patching_rect" : [ 50.0, 120.0, 29.5, 22.0 ],
 									"style" : "",
 									"text" : "1 4"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"annotation" : "none",
-									"bgmode" : 0,
-									"border" : 0,
-									"clickthrough" : 0,
-									"enablehscroll" : 0,
-									"enablevscroll" : 0,
-									"id" : "obj-19",
-									"lockeddragscroll" : 0,
-									"maxclass" : "bpatcher",
-									"name" : "slidlist.model.maxpat",
-									"numinlets" : 0,
-									"numoutlets" : 0,
-									"offset" : [ 0.0, 0.0 ],
-									"patching_rect" : [ 50.0, 162.0, 20.0, 140.0 ],
-									"viewvisibility" : 1
 								}
 
 							}
@@ -524,16 +528,16 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-78", 0 ],
-									"source" : [ "obj-76", 1 ]
+									"destination" : [ "obj-79", 1 ],
+									"midpoints" : [ 658.0, 84.0, 786.0, 84.0, 786.0, 360.0, 716.5, 360.0 ],
+									"source" : [ "obj-76", 2 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-79", 1 ],
-									"midpoints" : [ 658.0, 84.0, 786.0, 84.0, 786.0, 360.0, 716.5, 360.0 ],
-									"source" : [ "obj-76", 2 ]
+									"destination" : [ "obj-8", 0 ],
+									"source" : [ "obj-76", 1 ]
 								}
 
 							}
@@ -583,7 +587,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 263.0, 238.0, 150.0, 48.0 ],
+					"patching_rect" : [ 263.0, 238.0, 150.0, 47.0 ],
 					"style" : "",
 					"text" : "TODO add another entry to access a circuit directly from its number"
 				}
@@ -740,7 +744,7 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-55",
-					"items" : "<empty>",
+					"items" : [ "ROBOTISBT-210-SPPDev", ",", "MBPro-OSSIA-Bluetooth-S", ",", "Uconnect-SerialCOM", ",", "MBPro-OSSIA-Bluetooth-S-1", ",", "MBPro-OSSIA-Bluetooth-P", ",", "MacProdeSergeBabkine-Bl", ",", "white-DevB", ",", "MBPro-OSSIA-Bluetooth-S-2", ",", "iPhoneCarolina-Wireless", ",", "Bluetooth-Incoming-Port", ",", "orange-DevB", ",", "MP-Bluetooth-Incoming-P", ",", "iPhonedeMathieu-Wireles", ",", "MBPro-OSSIA-Bluetooth-S-3", ",", "iPhonedeTanguy-Wireless" ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -1056,7 +1060,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-15",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1408,23 +1412,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "patchCB",
-				"bootpath" : "D:/User/Documents/Lechantdufilament/LCDFColl",
-				"patcherrelativepath" : "../LCDFColl",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "config.txt",
-				"bootpath" : "D:/User/Documents/Lechantdufilament/LCDFColl",
-				"patcherrelativepath" : "../LCDFColl",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }

@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
-			"architecture" : "x86",
+			"revision" : 6,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -1064,7 +1064,7 @@
 					"presentation_rect" : [ 7.874474, 11.17157, 40.0, 20.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_longname" : "live.text[5]",
+							"parameter_longname" : "live.text[6]",
 							"parameter_shortname" : "live.text[3]",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
@@ -2249,8 +2249,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-120", 0 ],
-					"midpoints" : [ 137.707794, 842.56366, 21.874454, 842.56366, 21.874454, 772.56366, 45.707802, 772.56366 ],
-					"source" : [ "obj-100", 2 ]
+					"midpoints" : [ 45.707802, 842.56366, 21.874454, 842.56366, 21.874454, 772.56366, 45.707802, 772.56366 ],
+					"source" : [ "obj-100", 0 ]
 				}
 
 			}
