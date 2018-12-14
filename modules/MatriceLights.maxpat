@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 4,
-			"architecture" : "x86",
+			"revision" : 6,
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 5.0, 50.0, 301.0, 301.0 ],
+		"rect" : [ 0.0, 50.0, 300.0, 300.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -189,7 +189,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 369.0, 115.0, 62.0, 20.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 5, 50, 306, 351, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 0, 50, 300, 350, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"style" : "",
 					"text" : "thispatcher"
 				}
@@ -210,8 +210,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 4,
-							"architecture" : "x86",
+							"revision" : 6,
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1545,7 +1545,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-42",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -1718,23 +1718,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "matrixView.js",
-				"bootpath" : "~/Workspace/Lechantdufilament/javascript",
-				"patcherrelativepath" : "../javascript",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "MXkey.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/MX",
-				"patcherrelativepath" : "../dependencies/MX",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
