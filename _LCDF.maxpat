@@ -39,6 +39,45 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-54",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 932.0, 656.0, 140.0, 22.0 ],
+					"style" : "",
+					"text" : "ossia.remote SlideDown"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-53",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 956.0, 583.0, 125.0, 22.0 ],
+					"style" : "",
+					"text" : "ossia.remote SlideUp"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-50",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 930.0, 516.102234, 119.0, 22.0 ],
+					"style" : "",
+					"text" : "ossia.remote Master"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 11.0,
 					"id" : "obj-49",
@@ -185,7 +224,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 837.0, 610.067078, 57.0, 50.0 ],
+					"patching_rect" : [ 854.0, 632.067078, 57.0, 50.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1010.0, 212.0, 54.0, 152.0 ],
 					"saved_attribute_attributes" : 					{
@@ -211,9 +250,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 837.0, 447.0, 433.0, 22.0 ],
+					"patching_rect" : [ 837.0, 447.0, 486.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "ossia.parameter SlideDown @type float @range 1. 100. @default 0. @clip both"
+					"text" : "ossia.parameter SlideDown @type float @range 1. 100. @default 1. @clip both @rate 25"
 				}
 
 			}
@@ -224,9 +263,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 837.0, 419.0, 417.0, 22.0 ],
+					"patching_rect" : [ 837.0, 419.0, 470.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "ossia.parameter SlideUp @type float @range 1. 100. @default 1. @clip both"
+					"text" : "ossia.parameter SlideUp @type float @range 1. 100. @default 1. @clip both @rate 25"
 				}
 
 			}
@@ -237,9 +276,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 837.0, 389.0, 399.0, 22.0 ],
+					"patching_rect" : [ 837.0, 389.0, 452.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "ossia.parameter Master @type float @range 0. 1. @clip both @default 1."
+					"text" : "ossia.parameter Master @type float @range 0. 1. @clip both @default 1. @rate 25"
 				}
 
 			}
@@ -253,7 +292,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 927.5, 624.067078, 146.0, 22.0 ],
+					"patching_rect" : [ 1107.5, 646.067078, 146.0, 22.0 ],
 					"style" : "",
 					"text" : "-rs SlideDown SlideDown"
 				}
@@ -269,7 +308,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 914.0, 495.102234, 105.0, 22.0 ],
+					"patching_rect" : [ 1105.0, 516.102234, 105.0, 22.0 ],
 					"style" : "",
 					"text" : "-rs Master Master"
 				}
@@ -285,7 +324,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 833.5, 481.102234, 64.0, 50.0 ],
+					"patching_rect" : [ 848.5, 503.0, 64.0, 50.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1063.0, 53.0, 42.0, 319.0 ],
 					"relative" : 1,
@@ -314,7 +353,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 913.5, 557.490479, 115.0, 22.0 ],
+					"patching_rect" : [ 1097.5, 578.0, 115.0, 22.0 ],
 					"style" : "",
 					"text" : "-rs SlideUp SlideUp"
 				}
@@ -330,7 +369,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 837.0, 543.490479, 57.0, 50.0 ],
+					"patching_rect" : [ 854.0, 565.490479, 57.0, 50.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 1009.0, 53.0, 54.0, 152.0 ],
 					"saved_attribute_attributes" : 					{
@@ -2143,11 +2182,11 @@
 , 											{
 												"name" : "patchLCDF",
 												"default" : 												{
-													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
+													"fontname" : [ "Helvetica Neue Bold" ],
 													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 													"fontface" : [ 3 ],
 													"fontsize" : [ 18.0 ],
-													"fontname" : [ "Helvetica Neue Bold" ],
 													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 ,
@@ -2879,11 +2918,11 @@
 , 											{
 												"name" : "patchLCDF",
 												"default" : 												{
-													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
+													"fontname" : [ "Helvetica Neue Bold" ],
 													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 													"fontface" : [ 3 ],
 													"fontsize" : [ 18.0 ],
-													"fontname" : [ "Helvetica Neue Bold" ],
 													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 ,
@@ -3588,11 +3627,11 @@
 , 											{
 												"name" : "patchLCDF",
 												"default" : 												{
-													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
+													"fontname" : [ "Helvetica Neue Bold" ],
 													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 													"fontface" : [ 3 ],
 													"fontsize" : [ 18.0 ],
-													"fontname" : [ "Helvetica Neue Bold" ],
 													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 ,
@@ -4119,11 +4158,11 @@
 , 											{
 												"name" : "patchLCDF",
 												"default" : 												{
-													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
+													"fontname" : [ "Helvetica Neue Bold" ],
 													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 													"fontface" : [ 3 ],
 													"fontsize" : [ 18.0 ],
-													"fontname" : [ "Helvetica Neue Bold" ],
 													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 ,
@@ -4760,11 +4799,11 @@
 , 											{
 												"name" : "patchLCDF",
 												"default" : 												{
-													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
+													"fontname" : [ "Helvetica Neue Bold" ],
 													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 													"fontface" : [ 3 ],
 													"fontsize" : [ 18.0 ],
-													"fontname" : [ "Helvetica Neue Bold" ],
 													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 ,
@@ -5331,11 +5370,11 @@
 , 											{
 												"name" : "patchLCDF",
 												"default" : 												{
-													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
+													"fontname" : [ "Helvetica Neue Bold" ],
 													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 													"fontface" : [ 3 ],
 													"fontsize" : [ 18.0 ],
-													"fontname" : [ "Helvetica Neue Bold" ],
 													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 												}
 ,
@@ -7238,11 +7277,11 @@
 , 							{
 								"name" : "patchLCDF",
 								"default" : 								{
-									"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
+									"fontname" : [ "Helvetica Neue Bold" ],
 									"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+									"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 									"fontface" : [ 3 ],
 									"fontsize" : [ 18.0 ],
-									"fontname" : [ "Helvetica Neue Bold" ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
@@ -10402,11 +10441,11 @@
 , 							{
 								"name" : "patchLCDF",
 								"default" : 								{
-									"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
+									"fontname" : [ "Helvetica Neue Bold" ],
 									"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+									"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 									"fontface" : [ 3 ],
 									"fontsize" : [ 18.0 ],
-									"fontname" : [ "Helvetica Neue Bold" ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
@@ -10602,7 +10641,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 881.0, 75.0, 525.0, 773.0 ],
+						"rect" : [ 759.0, 183.0, 525.0, 773.0 ],
 						"bgcolor" : [ 0.537255, 0.537255, 0.537255, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 1,
@@ -10631,6 +10670,19 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-23",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 331.0, 570.0, 147.0, 22.0 ],
+									"style" : "",
+									"text" : "ossia.remote Remanence"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
@@ -10990,22 +11042,6 @@
 									"patching_rect" : [ 948.0, 243.0, 45.0, 21.0 ],
 									"style" : "",
 									"text" : "r Audio"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"color" : [ 1.0, 1.0, 0.0, 1.0 ],
-									"fontname" : "Arial",
-									"fontsize" : 12.0,
-									"id" : "obj-109",
-									"maxclass" : "newobj",
-									"numinlets" : 0,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 249.0, 536.0, 125.0, 22.0 ],
-									"style" : "",
-									"text" : "r RemoteRemanence"
 								}
 
 							}
@@ -12591,13 +12627,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-53", 0 ],
-									"source" : [ "obj-109", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-10", 0 ],
 									"source" : [ "obj-11", 0 ]
 								}
@@ -12656,6 +12685,13 @@
 								"patchline" : 								{
 									"destination" : [ "obj-53", 0 ],
 									"source" : [ "obj-22", 2 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-53", 0 ],
+									"source" : [ "obj-23", 0 ]
 								}
 
 							}
@@ -12833,7 +12869,16 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-23", 0 ],
+									"order" : 0,
+									"source" : [ "obj-53", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-55", 0 ],
+									"order" : 1,
 									"source" : [ "obj-53", 0 ]
 								}
 
@@ -13078,6 +13123,16 @@
 								}
 
 							}
+ ],
+						"styles" : [ 							{
+								"name" : "Jamoma_highlighted_orange",
+								"default" : 								{
+									"accentcolor" : [ 1.0, 0.5, 0.0, 1.0 ]
+								}
+,
+								"parentstyle" : "",
+								"multi" : 0
+							}
  ]
 					}
 ,
@@ -13182,7 +13237,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-84", 0 ],
+					"destination" : [ "obj-54", 0 ],
 					"source" : [ "obj-118", 0 ]
 				}
 
@@ -13238,14 +13293,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-162", 0 ],
+					"destination" : [ "obj-50", 0 ],
 					"source" : [ "obj-160", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-160", 0 ],
+					"destination" : [ "obj-50", 0 ],
 					"source" : [ "obj-162", 0 ]
 				}
 
@@ -13423,6 +13478,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-160", 0 ],
+					"source" : [ "obj-50", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-162", 0 ],
+					"source" : [ "obj-50", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-52", 0 ],
 					"source" : [ "obj-51", 0 ]
 				}
@@ -13432,6 +13501,34 @@
 				"patchline" : 				{
 					"destination" : [ "obj-74", 0 ],
 					"source" : [ "obj-52", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-91", 0 ],
+					"source" : [ "obj-53", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-92", 0 ],
+					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-118", 0 ],
+					"source" : [ "obj-54", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-84", 0 ],
+					"source" : [ "obj-54", 0 ]
 				}
 
 			}
@@ -13517,7 +13614,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-118", 0 ],
+					"destination" : [ "obj-54", 0 ],
 					"source" : [ "obj-84", 0 ]
 				}
 
@@ -13531,84 +13628,84 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-92", 0 ],
+					"destination" : [ "obj-53", 0 ],
 					"source" : [ "obj-91", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-91", 0 ],
+					"destination" : [ "obj-53", 0 ],
 					"source" : [ "obj-92", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
-			"obj-180::obj-188::obj-28" : [ "live.slider[4]", "GOLSub", 0 ],
-			"obj-194::obj-139::obj-120::obj-166" : [ "live.slider[24]", "Masse", 0 ],
-			"obj-48::obj-42" : [ "vitesseProcess", "vitesseProcess", 0 ],
-			"obj-55" : [ "live.text[16]", "live.text[1]", 0 ],
-			"obj-194::obj-139::obj-120::obj-150" : [ "live.slider[22]", "Changement direction", 0 ],
-			"obj-194::obj-139::obj-3::obj-48" : [ "live.text[27]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-129::obj-101" : [ "live.slider[13]", "Taille", 0 ],
-			"obj-194::obj-139::obj-129::obj-1" : [ "live.slider[21]", "Sorbet-Fonte", 0 ],
-			"obj-194::obj-139::obj-129::obj-19" : [ "live.slider[7]", "Temps-inter-sorbets", 0 ],
-			"obj-92" : [ "live.slider[5]", "SlideUp", 0 ],
-			"obj-194::obj-139::obj-129::obj-9" : [ "live.text[4]", "live.text", 0 ],
-			"obj-180::obj-1::obj-28" : [ "live.slider[6]", "MSNSub", 0 ],
-			"obj-17::obj-42" : [ "live.slider[31]", "Mono-Sub", 0 ],
-			"obj-194::obj-139::obj-120::obj-13" : [ "live.slider[15]", "Taille", 0 ],
-			"obj-194::obj-18" : [ "live.text[19]", "live.text[3]", 0 ],
-			"obj-180::obj-3::obj-86" : [ "live.slider[11]", "PINGSub", 0 ],
-			"obj-194::obj-139::obj-120::obj-188" : [ "live.slider[28]", "Vélocité", 0 ],
-			"obj-180::obj-188::obj-145" : [ "live.slider[18]", "Densite", 0 ],
-			"obj-194::obj-139::obj-2::obj-71" : [ "live.slider[33]", "SubTourneur", 0 ],
-			"obj-194::obj-139::obj-120::obj-32" : [ "live.text[6]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-129::obj-90" : [ "live.slider[9]", "Sorbet-Energie", 0 ],
 			"obj-194::obj-139::obj-3::obj-42" : [ "live.slider[38]", "Size", 0 ],
 			"obj-17::obj-61" : [ "live.slider[2]", "Multi-Sub", 0 ],
-			"obj-194::obj-139::obj-129::obj-7" : [ "live.slider[8]", "Sorbet-Formation", 0 ],
-			"obj-194::obj-139::obj-120::obj-119" : [ "live.text[3]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-2::obj-33" : [ "live.text[8]", "live.text[3]", 0 ],
-			"obj-162" : [ "live.slider[14]", "Master", 0 ],
-			"obj-46::obj-71" : [ "Flash[1]", "Flash", 0 ],
-			"obj-194::obj-139::obj-3::obj-71" : [ "live.slider[41]", "SubBalais", 0 ],
-			"obj-194::obj-150" : [ "live.slider[23]", "Vitesse Agents", 0 ],
-			"obj-194::obj-139::obj-2::obj-42" : [ "live.slider[16]", "SizeSel", 0 ],
-			"obj-194::obj-139::obj-3::obj-33" : [ "live.text[26]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-120::obj-171" : [ "live.slider[26]", "Radius", 0 ],
-			"obj-84" : [ "live.slider[29]", "SlideDown", 0 ],
-			"obj-194::obj-139::obj-120::obj-168" : [ "live.slider[25]", "Distance", 0 ],
-			"obj-194::obj-139::obj-2::obj-26" : [ "live.text[7]", "live.text[3]", 0 ],
-			"obj-194::obj-113" : [ "live.slider[36]", "AgentSub", 0 ],
-			"obj-194::obj-139::obj-2::obj-29" : [ "live.text[11]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-2::obj-34" : [ "live.text[13]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-3::obj-14" : [ "live.text[17]", "live.text[3]", 0 ],
-			"obj-194::obj-16" : [ "live.text[18]", "live.text[3]", 0 ],
-			"obj-180::obj-188::obj-11" : [ "live.text[1]", "live.text[1]", 0 ],
-			"obj-194::obj-139::obj-2::obj-32" : [ "live.text[14]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-120::obj-112" : [ "live.text[2]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-120::obj-178" : [ "live.slider[27]", "Diff", 0 ],
-			"obj-194::obj-139::obj-120::obj-24" : [ "live.slider[17]", "Energie", 0 ],
-			"obj-44::obj-113" : [ "live.slider[37]", "Sub", 0 ],
-			"obj-17::obj-102" : [ "live.slider", "Intensite", 0 ],
+			"obj-194::obj-139::obj-129::obj-19" : [ "live.slider[7]", "Temps-inter-sorbets", 0 ],
 			"obj-194::obj-139::obj-2::obj-28" : [ "live.slider[30]", "VitesseSel", 0 ],
+			"obj-92" : [ "live.slider[5]", "SlideUp", 0 ],
+			"obj-194::obj-150" : [ "live.slider[23]", "Vitesse Agents", 0 ],
+			"obj-194::obj-139::obj-120::obj-166" : [ "live.slider[24]", "Masse", 0 ],
+			"obj-48::obj-42" : [ "vitesseProcess", "vitesseProcess", 0 ],
+			"obj-194::obj-139::obj-120::obj-150" : [ "live.slider[22]", "Changement direction", 0 ],
+			"obj-194::obj-139::obj-2::obj-61" : [ "live.text[10]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-3::obj-33" : [ "live.text[26]", "live.text[3]", 0 ],
+			"obj-134::obj-488" : [ "live.text", "live.text", 0 ],
+			"obj-180::obj-3::obj-86" : [ "live.slider[11]", "PINGSub", 0 ],
+			"obj-46::obj-71" : [ "Flash[1]", "Flash", 0 ],
+			"obj-17::obj-42" : [ "live.slider[31]", "Mono-Sub", 0 ],
+			"obj-194::obj-139::obj-2::obj-26" : [ "live.text[7]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-2::obj-19" : [ "live.text[12]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-3::obj-14" : [ "live.text[17]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-2::obj-6" : [ "live.slider[34]", "Distance", 0 ],
+			"obj-180::obj-188::obj-11" : [ "live.text[1]", "live.text[1]", 0 ],
+			"obj-180::obj-1::obj-28" : [ "live.slider[6]", "MSNSub", 0 ],
+			"obj-194::obj-139::obj-120::obj-13" : [ "live.slider[15]", "Taille", 0 ],
+			"obj-194::obj-139::obj-120::obj-112" : [ "live.text[2]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-129::obj-9" : [ "live.text[4]", "live.text", 0 ],
+			"obj-194::obj-139::obj-120::obj-188" : [ "live.slider[28]", "Vélocité", 0 ],
+			"obj-194::obj-18" : [ "live.text[19]", "live.text[3]", 0 ],
+			"obj-162" : [ "live.slider[14]", "Master", 0 ],
 			"obj-194::obj-139::obj-3::obj-19" : [ "live.text[23]", "live.text[3]", 0 ],
 			"obj-194::obj-139::obj-3::obj-51" : [ "live.text[28]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-120::obj-34" : [ "live.text[9]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-120::obj-22" : [ "live.slider[12]", "Force", 0 ],
-			"obj-180::obj-188::obj-7" : [ "live.text[5]", "live.text", 0 ],
-			"obj-194::obj-139::obj-3::obj-28" : [ "live.slider[39]", "Vitesse", 0 ],
-			"obj-194::obj-139::obj-2::obj-61" : [ "live.text[10]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-3::obj-7" : [ "live.text[15]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-3::obj-34" : [ "live.text[24]", "live.text[3]", 0 ],
-			"obj-17::obj-106" : [ "live.slider[1]", "Remanence", 0 ],
+			"obj-194::obj-139::obj-2::obj-71" : [ "live.slider[33]", "SubTourneur", 0 ],
 			"obj-1" : [ "live.slider[19]", "Sorbet-Fonte", 0 ],
+			"obj-180::obj-188::obj-7" : [ "live.text[5]", "live.text", 0 ],
 			"obj-194::obj-139::obj-129::obj-92" : [ "live.slider[20]", "Sorbet-temps-creation", 0 ],
-			"obj-194::obj-139::obj-2::obj-19" : [ "live.text[12]", "live.text[3]", 0 ],
-			"obj-134::obj-488" : [ "live.text", "live.text", 0 ],
-			"obj-194::obj-139::obj-2::obj-6" : [ "live.slider[34]", "Distance", 0 ]
+			"obj-194::obj-139::obj-129::obj-90" : [ "live.slider[9]", "Sorbet-Energie", 0 ],
+			"obj-194::obj-139::obj-3::obj-28" : [ "live.slider[39]", "Vitesse", 0 ],
+			"obj-55" : [ "live.text[16]", "live.text[1]", 0 ],
+			"obj-194::obj-139::obj-129::obj-7" : [ "live.slider[8]", "Sorbet-Formation", 0 ],
+			"obj-194::obj-139::obj-3::obj-7" : [ "live.text[15]", "live.text[3]", 0 ],
+			"obj-84" : [ "live.slider[29]", "SlideDown", 0 ],
+			"obj-194::obj-139::obj-3::obj-34" : [ "live.text[24]", "live.text[3]", 0 ],
+			"obj-180::obj-188::obj-28" : [ "live.slider[4]", "GOLSub", 0 ],
+			"obj-194::obj-139::obj-120::obj-119" : [ "live.text[3]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-129::obj-101" : [ "live.slider[13]", "Taille", 0 ],
+			"obj-194::obj-139::obj-129::obj-1" : [ "live.slider[21]", "Sorbet-Fonte", 0 ],
+			"obj-194::obj-139::obj-3::obj-71" : [ "live.slider[41]", "SubBalais", 0 ],
+			"obj-194::obj-113" : [ "live.slider[36]", "AgentSub", 0 ],
+			"obj-194::obj-139::obj-120::obj-171" : [ "live.slider[26]", "Radius", 0 ],
+			"obj-44::obj-113" : [ "live.slider[37]", "Sub", 0 ],
+			"obj-194::obj-139::obj-120::obj-168" : [ "live.slider[25]", "Distance", 0 ],
+			"obj-194::obj-139::obj-3::obj-48" : [ "live.text[27]", "live.text[3]", 0 ],
+			"obj-180::obj-188::obj-145" : [ "live.slider[18]", "Densite", 0 ],
+			"obj-194::obj-139::obj-2::obj-33" : [ "live.text[8]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-2::obj-42" : [ "live.slider[16]", "SizeSel", 0 ],
+			"obj-194::obj-139::obj-120::obj-178" : [ "live.slider[27]", "Diff", 0 ],
+			"obj-194::obj-139::obj-120::obj-24" : [ "live.slider[17]", "Energie", 0 ],
+			"obj-194::obj-16" : [ "live.text[18]", "live.text[3]", 0 ],
+			"obj-17::obj-106" : [ "live.slider[1]", "Remanence", 0 ],
+			"obj-194::obj-139::obj-2::obj-29" : [ "live.text[11]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-2::obj-34" : [ "live.text[13]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-120::obj-22" : [ "live.slider[12]", "Force", 0 ],
+			"obj-194::obj-139::obj-120::obj-34" : [ "live.text[9]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-120::obj-32" : [ "live.text[6]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-2::obj-32" : [ "live.text[14]", "live.text[3]", 0 ],
+			"obj-17::obj-102" : [ "live.slider", "Intensite", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -14063,11 +14160,11 @@
 , 			{
 				"name" : "patchLCDF",
 				"default" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
+					"fontname" : [ "Helvetica Neue Bold" ],
 					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 					"fontface" : [ 3 ],
 					"fontsize" : [ 18.0 ],
-					"fontname" : [ "Helvetica Neue Bold" ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
