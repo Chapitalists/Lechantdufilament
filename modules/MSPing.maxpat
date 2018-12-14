@@ -5,7 +5,7 @@
 			"major" : 7,
 			"minor" : 3,
 			"revision" : 6,
-			"architecture" : "x86",
+			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
@@ -224,7 +224,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 940.0, 48.580322, 167.0, 22.0 ],
+					"patching_rect" : [ 769.0, 449.333313, 167.0, 22.0 ],
 					"style" : "",
 					"text" : "-rs MSPopposition opposition"
 				}
@@ -256,7 +256,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 825.0, -33.419678, 125.0, 74.0 ],
+					"patching_rect" : [ 602.0, 310.333313, 125.0, 74.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
 					"presentation_rect" : [ 141.25, 178.0, 198.0, 47.0 ],
@@ -290,7 +290,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 829.0, 48.580322, 100.0, 22.0 ],
+					"patching_rect" : [ 606.0, 392.333313, 100.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 61.5, 190.5, 73.0, 22.0 ],
 					"style" : ""
@@ -489,7 +489,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 676.0, 12.178589, 101.0, 22.0 ],
+					"patching_rect" : [ 665.0, 130.0, 101.0, 22.0 ],
 					"style" : "",
 					"text" : "-rs PINGSub sub"
 				}
@@ -578,7 +578,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 594.5, -5.321411, 60.0, 50.0 ],
+					"patching_rect" : [ 466.5, 116.0, 60.0, 50.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.5, 1.0, 56.0, 313.0 ],
 					"relative" : 1,
@@ -818,7 +818,7 @@
 							"major" : 7,
 							"minor" : 3,
 							"revision" : 6,
-							"architecture" : "x86",
+							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
@@ -1227,12 +1227,12 @@
 							}
 , 							{
 								"name" : "MyDefault1",
-								"gain~" : 								{
-									"color" : [ 0.185124, 0.524821, 0.708093, 1.0 ]
-								}
-,
 								"slider" : 								{
 									"color" : [ 0.264126, 0.491047, 0.586341, 1.0 ]
+								}
+,
+								"gain~" : 								{
+									"color" : [ 0.185124, 0.524821, 0.708093, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1246,8 +1246,7 @@
 , 							{
 								"name" : "MyDefault3",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+									"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -1258,10 +1257,11 @@
 										"autogradient" : 0
 									}
 ,
+									"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
 									"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
-									"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-									"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ]
+									"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1270,8 +1270,7 @@
 , 							{
 								"name" : "MyDefault3-1",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+									"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
 									"bgfillcolor" : 									{
 										"type" : "color",
 										"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -1282,10 +1281,11 @@
 										"autogradient" : 0
 									}
 ,
+									"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
 									"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-									"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-									"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ]
+									"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1294,9 +1294,9 @@
 , 							{
 								"name" : "number001",
 								"default" : 								{
-									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
 									"fontface" : [ 2 ],
-									"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ]
+									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -1660,7 +1660,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-39", 0 ],
+					"destination" : [ "obj-38", 0 ],
 					"source" : [ "obj-34", 0 ]
 				}
 
@@ -1697,14 +1697,30 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-34", 0 ],
+					"source" : [ "obj-38", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
+					"order" : 1,
 					"source" : [ "obj-38", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
+					"destination" : [ "obj-39", 0 ],
+					"order" : 0,
+					"source" : [ "obj-38", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
 					"source" : [ "obj-39", 0 ]
 				}
 
@@ -1768,7 +1784,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-86", 0 ],
+					"destination" : [ "obj-87", 0 ],
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -1782,16 +1798,31 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-7", 0 ],
+					"destination" : [ "obj-87", 0 ],
 					"source" : [ "obj-86", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-84", 0 ],
+					"destination" : [ "obj-7", 0 ],
 					"order" : 1,
 					"source" : [ "obj-87", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-84", 0 ],
+					"order" : 2,
+					"source" : [ "obj-87", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-86", 0 ],
+					"source" : [ "obj-87", 0 ]
 				}
 
 			}
@@ -1828,87 +1859,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-86" : [ "live.slider[11]", "PINGSub", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "AudioPing.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "TapRythm.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "m-countbang.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/MX",
-				"patcherrelativepath" : "../dependencies/MX",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Multidelays.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "m-multidel.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/MX",
-				"patcherrelativepath" : "../dependencies/MX",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "MakeSomePings.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "m-del.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/MX",
-				"patcherrelativepath" : "../dependencies/MX",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "m-lramp.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/MX",
-				"patcherrelativepath" : "../dependencies/MX",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "-rs.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/utils",
-				"patcherrelativepath" : "../utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ossia.remote.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ossia.model.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ossia.parameter.mxo",
-				"type" : "iLaX"
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
@@ -1938,12 +1888,12 @@
 			}
 , 			{
 				"name" : "MyDefault1",
-				"gain~" : 				{
-					"color" : [ 0.185124, 0.524821, 0.708093, 1.0 ]
-				}
-,
 				"slider" : 				{
 					"color" : [ 0.264126, 0.491047, 0.586341, 1.0 ]
+				}
+,
+				"gain~" : 				{
+					"color" : [ 0.185124, 0.524821, 0.708093, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1957,8 +1907,7 @@
 , 			{
 				"name" : "MyDefault3",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+					"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -1969,10 +1918,11 @@
 						"autogradient" : 0
 					}
 ,
+					"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
-					"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-					"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ]
+					"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ]
 				}
 ,
 				"parentstyle" : "",
@@ -1981,8 +1931,7 @@
 , 			{
 				"name" : "MyDefault3-1",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ],
+					"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.290196, 0.309804, 0.301961, 0.9 ],
@@ -1993,10 +1942,11 @@
 						"autogradient" : 0
 					}
 ,
+					"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ],
 					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"color" : [ 0.095481, 0.100396, 0.100293, 1.0 ],
-					"accentcolor" : [ 0.479171, 0.485793, 0.505657, 1.0 ],
-					"selectioncolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ]
+					"patchlinecolor" : [ 0.239216, 0.254902, 0.278431, 0.9 ]
 				}
 ,
 				"parentstyle" : "",
@@ -2005,9 +1955,9 @@
 , 			{
 				"name" : "number001",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ],
 					"fontface" : [ 2 ],
-					"bgcolor" : [ 0.290196, 0.309804, 0.301961, 0.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
