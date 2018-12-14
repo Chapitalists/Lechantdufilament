@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 931.0, 241.0, 300.0, 300.0 ],
+		"rect" : [ 0.0, 50.0, 300.0, 300.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,13 +38,39 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 471.0, 40.0, 43.0, 22.0 ],
+					"style" : "",
+					"text" : "sel 76"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 4,
+					"outlettype" : [ "int", "int", "int", "int" ],
+					"patching_rect" : [ 471.0, 10.0, 50.5, 22.0 ],
+					"style" : "",
+					"text" : "keyup"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-12",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 549.0, 31.576904, 150.0, 20.0 ],
 					"style" : "",
-					"text" : "\"F\" déconnecté"
+					"text" : "\"L\" déconnecté"
 				}
 
 			}
@@ -189,7 +215,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 369.0, 115.0, 62.0, 20.0 ],
-					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "float", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 931, 241, 1231, 541, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+					"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "float", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 0, 50, 300, 350, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 					"style" : "",
 					"text" : "thispatcher"
 				}
@@ -1395,22 +1421,6 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.944336, 0.398754, 0.180641, 1.0 ],
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-1",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "int" ],
-					"patching_rect" : [ 471.0, 31.576904, 64.0, 22.0 ],
-					"style" : "",
-					"text" : "MXkey 70"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-11",
@@ -1462,9 +1472,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 471.0, 365.5, 92.0, 22.0 ],
+					"patching_rect" : [ 471.0, 365.5, 99.0, 22.0 ],
 					"style" : "",
-					"text" : "s forMatrixView"
+					"text" : "s forMatrixLights"
 				}
 
 			}
@@ -1564,15 +1574,15 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 28.0, 31.576904, 90.0, 22.0 ],
+					"patching_rect" : [ 28.0, 31.576904, 97.0, 22.0 ],
 					"style" : "",
-					"text" : "r forMatrixView"
+					"text" : "r forMatrixLights"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"filename" : "matrixView.js",
+					"filename" : "matrixLights.js",
 					"id" : "obj-84",
 					"maxclass" : "jsui",
 					"nofsaa" : 1,
@@ -1631,6 +1641,13 @@
 					"color" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"destination" : [ "obj-142", 0 ],
 					"source" : [ "obj-140", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"source" : [ "obj-15", 0 ]
 				}
 
 			}

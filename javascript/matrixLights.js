@@ -1,4 +1,4 @@
-// matrixView.js
+// matrixLights.js
 //
 // simulates a simple grid of lights
 // inspired by Max JS Tutorial 4
@@ -117,7 +117,7 @@ function list(v)
         }
     }
     else {
-        error("MatrixView error: Bad list arguments.");
+        error("MatrixLights error: Bad list arguments.");
         post();
         return;
     }            
