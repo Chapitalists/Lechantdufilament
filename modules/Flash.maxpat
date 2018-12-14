@@ -82,9 +82,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 7.0, 58.0, 340.0, 22.0 ],
+					"patching_rect" : [ 7.0, 58.0, 375.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "ossia.parameter sub @type int @min 0 @max 255 @clip both"
+					"text" : "ossia.parameter sub @type int @range 0 255 @clip both @default 0"
 				}
 
 			}
@@ -345,7 +345,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 187.0, 330.0, 31.0, 22.0 ],
 					"style" : "",
-					"text" : "38"
+					"text" : "0"
 				}
 
 			}
@@ -583,8 +583,8 @@
 				"default" : 				{
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 					"fontface" : [ 3 ],
-					"fontsize" : [ 18.0 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontsize" : [ 18.0 ],
 					"fontname" : [ "Helvetica Neue Bold" ],
 					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
 				}
