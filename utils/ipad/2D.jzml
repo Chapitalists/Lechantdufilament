@@ -1,0 +1,89 @@
+<JZML>
+<PROJECT version="5340" width="1024" height="724" osc_target="-1" midi_target="-1" kbmouse_target="-1" skin="Pixel"/>
+<WINDOW class="JAZZINTERFACE" text="Default" x="0" y="0" width="1024" height="724" state="1" group="0" font="tahoma,11,0" >
+<WINDOW class="Canvas" text="ui" x="0" y="0" width="642" height="724" id="60" state="5" group="0" font="tahoma,10,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" capture="1" redrawMode="1" touchSupport="2">
+<VARIABLE name="z=0" send="0" osc_target="0" osc_trigger="1" osc_message="/ui/z" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="iX=0" send="0" osc_target="0" osc_trigger="1" osc_message="/ui/iX" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="iY=0" send="0" osc_target="0" osc_trigger="1" osc_message="/ui/iY" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="iHit=0" send="0" osc_target="0" osc_trigger="1" osc_message="/ui/iHit" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<VARIABLE name="iCursor=0" send="0" osc_target="0" osc_trigger="1" osc_message="/ui/iCursor" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+<SCRIPT name="trig()" script="canvas_refresh(getobject());" trigger_script="" trigger_type="5" trigger="1" clock="0" clock_div="4" osc_message="/ui/trig" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
+<SCRIPT name="press(cursor,hit,x,y)" script="decl i,r = getobjectrect(getobject());
+
+decl xx=x/r[2];
+decl yy=y/r[3];
+//iX and iY use 0-1 values
+
+for(i=0;i<10;i++){
+	if(z[i]==0) break;
+}
+
+	z[i]=1;
+	iCursor[i]=cursor;
+	iX[i]=xx;
+	iY[i]=yy;
+
+//Add more arrays for desired values to be stored with index i
+
+if(hit>0){
+	iHit[i]=hit;
+}
+
+canvas_refresh(getobject());" trigger_script="" trigger_type="255" trigger_name="onCursorDown" trigger="1" clock="0" clock_div="4" osc_message="/ui/press" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
+<SCRIPT name="rel(cursor,hit,x,y)" script="decl index = find(iCursor,cursor);	
+
+	z[index]=0;
+	iCursor[index]=0;
+	iX[index]=0;
+	iY[index]=0;
+	iHit[index]=0;
+
+canvas_refresh(getobject());" trigger_script="" trigger_type="255" trigger_name="onCursorUp" trigger="1" clock="0" clock_div="4" osc_message="/ui/rel" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
+<SCRIPT name="touchin(cursor,hit,x,y)" script="decl rect = getobjectrect(getobject());
+decl index = find(iCursor,cursor);
+
+decl xx=x/rect[2];
+decl yy=y/rect[3];
+//iX and iY use a 0-1 value, thus dividing by the w and h
+
+//use index to refer to the iX, iY and iHit arrays for corresponding value
+
+oscout(0,'/p'+index+'/x',xx);
+oscout(0,'/p'+index+'/y',yy);
+oscout(0,'/x',xx);
+oscout(0,'/y',yy);
+
+canvas_refresh(getobject());" trigger_script="" trigger_type="255" trigger_name="onCursorMove" trigger="1" clock="0" clock_div="4" osc_message="/ui/touchin" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
+<SCRIPT name="find(a, val)" script="decl i, len=sizeof(a);
+
+for(i=0; i<len; i++) 
+	if(a[i]==val) return i;" trigger_script="" trigger_type="4" trigger="1" clock="0" clock_div="4" osc_message="/ui/find" midi_message="0x90,0x90,0,0" midi_target="-1" flag="0"/>
+<SCRIPT name="README()" script="//This is for using canvas as an interface. I made it very generic
+//so you can mold it to your project
+
+//Cursor, x, y and hit are recorded for up to 10 fingers
+//To use this take advantage of the 5 arrays
+
+//iCursor stores the cursor id for each finger pressed. I use it to identify the finger
+//and give you the index for the other arrays
+
+//iHit stores the hits. Make sure you start your hit regions at 1 or higher!
+
+//iX and iY store the initial x and y values for each finger pressed
+
+//z is...... same as usual" trigger_script="" trigger_type="4" trigger="1" clock="0" clock_div="4" osc_message="/ui/README" midi_message="0x90,0x90,0,0" midi_target="-1" flag="0"/>
+<SCRIPT name="matrice()" script="decl x = 9, y = 9, c = getobject(), r = getobjectrect(c), i, j;
+
+canvas_setFillStyle(c, {0,1,1});
+
+for (i = 0 ; i < x ; i++) {
+  for (j = 0 ; j < y ; j++) {
+    canvas_fillRect(c, r[2]*(i+1)/(x+1), r[3]*(j+1)/(y+1), 10, 10);
+  }
+}" trigger_script="" trigger_type="255" trigger_name="onRedraw" trigger="1" clock="0" clock_div="4" osc_message="/ui/matrice" midi_message="0x90,0x90,0,0" midi_target="-1" flag="1"/>
+</WINDOW>
+<WINDOW class="Text" text="Text" x="833" y="79" width="160" height="48" id="61" state="241" group="0" font="tahoma,14,0" send="1" osc_target="-2" midi_target="-2" kbmouse_target="-2" color="1596013" content="Text">
+<VARIABLE name="light=0" send="0" osc_target="0" osc_trigger="1" osc_message="/Text/light" midi_target="-1" midi_trigger="1" midi_message="0x90,0x90,0,0" midi_scale="0,16383" kbmouse_target="-1" kbmouse_trigger="1" kbmouse_message="0,0,0" kbmouse_scale="0,1,0,1"/>
+</WINDOW>
+</WINDOW>
+</JZML>
