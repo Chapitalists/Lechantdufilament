@@ -117,7 +117,8 @@ var agent = {
       // Late rules
       for (var k = 0 ; k < this.lates.length ; k++) this[this.lates[k]]()
     }
-  }
+  },
+  translateXY:function(x,y) {this.translate = [x,y]}
 }
 
 //////////////////////////// FORCES
