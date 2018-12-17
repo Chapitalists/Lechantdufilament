@@ -10,14 +10,11 @@ var included_MaxInterface = true
 */
 autowatch = 1
 
-debugPrint("Chargé")
-debugPrint()
-
 if (!Object.assign) {
-  Object.assign = function(obj, props) { 
-    for (var prop in props) { 
-      if (props.hasOwnProperty(prop)) { 
-        obj[prop] = props[prop] 
+  Object.assign = function(obj, props) {
+    for (var prop in props) {
+      if (props.hasOwnProperty(prop)) {
+        obj[prop] = props[prop]
       }
     }
   }
@@ -32,6 +29,9 @@ if (this.post) { // If in Max/MSP
   setoutletassist(1,"agents")
   setoutletassist(0,"bang when finished")
 }
+
+debugPrint("Chargé")
+debugPrint()
 
 var ready = false
   , speedCent = 100
@@ -125,12 +125,12 @@ function panic() { // Should go in MaxInterface (see comment for anything())
 }
 
 var MaxInterface = {
-  
+
   myDebug:function() {
     debugPrint("lamps", space.lamps[0], space.lamps[1])
     debugPrint()
     debugPrint(agents.length, " agents in ", scenari.length, " scenari")
-    debugPrint()  
+    debugPrint()
   },
 
 //todo function to modify a parameter change("parameter",value)
@@ -138,63 +138,63 @@ var MaxInterface = {
   change:function(parameter, value)
   {
   },
-  
+
 //////////////////// Balais
-  
+
   balaiGD:function(b,c) {balayage.squareLaunch(2,b,c)},
-  
+
   balaiDG:function(b,c) {balayage.squareLaunch(6,b,c)},
-  
+
   balaiBH:function(b,c) {balayage.squareLaunch(0,b,c)},
-  
+
   balaiHB:function(b,c) {balayage.squareLaunch(4,b,c)},
-  
+
   balaiDiag:function(a,b,c) {balayage.squareLaunch(a*2+1,b,c)},
-  
+
   balaiCP:function() {balayage.centriLaunch(0)},
-  
+
   balaiCF:function() {balayage.centriLaunch(1)},
-  
+
   balaiVitesse:function(v) {
     balayage.balayeur.maxV = v
   },
-  
+
   balaiSize:function(s) {
     balayage.balayeur.s = s
   },
-  
+
   balaiSub:function(e) {
     balayage.balayeur.e = e
   },
-  
+
 //////////////////// Tourneur
-  
+
   tourneurAdd:function(a) {tourneur.add(a)},
-  
+
   tourneurChange:function() {tourneur.changeSel()},
-  
+
   tourneurPrep:function() {tourneur.sel = -1},
-  
+
   tourneurRm:function() {tourneur.removeSel()},
-  
+
   tourneurReverseSel:function() {
     tourneur.getSel().trajectReverse()
   },
-  
+
   tourneurTeleport:function(a) {tourneur.tpSel(a)},
-  
+
   tourneurSub:function(e) { //TODO sub per agent and sub per scenario, how to mix the two ?
     tourneur.derviche.e = e
   },
-  
+
   tourneurVitesseSel:function(v) {
     tourneur.getSel().maxV = v
   },
-  
+
   tourneurSizeSel:function(s) {
     tourneur.getSel().s = s
   },
-  
+
   tourneurStopSolo:function(x,y) {
     var ag = tourneur.getSel()
     ag.trajectory.push([(x-1)*space.dist, (y-1)*space.dist])
@@ -241,11 +241,11 @@ var MaxInterface = {
   sorbetLapsFrames:function(l) {
     danseDuSorbet.frameLaps = l
   },
-  
+
   sorbetSpace:function(x,y) {
     danseDuSorbet.space.lamps = [x,y]
   },
-  
+
   sorbetTranslate:function(x,y) {
     danseDuSorbet.sorbet.translate = [x,y]
   },
@@ -255,11 +255,11 @@ var MaxInterface = {
   errantAdd:function() {
     errants.add()
   },
-  
+
   errantChange:function() {
     errants.changeSel()
   },
-  
+
   errantPrep:function() {errants.sel = -1},
 
   errantDel:function() {
@@ -301,7 +301,7 @@ var MaxInterface = {
   errantSize:function(s) {
     errants.getSel().s = s
   },
-  
+
   errantMode:function(m) { // 0:inside, 1:fold, 2:wrap, 3:clip
     var ag = errants.getSel()
     if (m == 0) {
@@ -322,7 +322,7 @@ var MaxInterface = {
       }
     }
   },
-  
+
   errantSquare:function(x, y, dx, dy) { // x y in lamps from 1, apply to all errants
     errants.errant.insideSquare = [
       (x - 1) * space.dist,
