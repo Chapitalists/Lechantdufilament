@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 42.0, 85.0, 1852.0, 929.0 ],
+		"rect" : [ -1900.0, 79.0, 1392.0, 967.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -43,7 +43,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 66.780609, 574.206726, 112.419495, 62.0 ],
+					"patching_rect" : [ 66.780609, 574.206726, 112.419495, 60.0 ],
 					"style" : "",
 					"text" : "Pour conserver les secondes réelles en changeant la vitesse"
 				}
@@ -230,7 +230,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 914.0, 610.0, 156.0, 48.0 ],
+					"patching_rect" : [ 914.0, 610.0, 156.0, 47.0 ],
 					"style" : "",
 					"text" : "Ce bang ne colle pas avec le switch entre temps inter et temps créa, mais bon ..."
 				}
@@ -334,9 +334,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 193.091553, 14.266968, 485.0, 22.0 ],
+					"patching_rect" : [ 193.091553, 14.266968, 455.0, 22.0 ],
 					"style" : "jamomaLCDF",
-					"text" : "ossia.parameter taille @priority 2 @type float @range 0. 20. @clip both @default 0.2"
+					"text" : "ossia.parameter taille @priority 2 @type float @range 0. 10. @clip both @default 1."
 				}
 
 			}
@@ -416,9 +416,9 @@
 					"orientation" : 1,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 417.52002, 249.447083, 103.0, 46.0 ],
+					"patching_rect" : [ 417.52002, 249.447083, 103.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.090881, 103.75, 278.0, 46.0 ],
+					"presentation_rect" : [ 14.090881, 103.75, 278.0, 45.0 ],
 					"relative" : 1,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -780,9 +780,9 @@
 					"orientation" : 1,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 647.091553, 540.626404, 99.0, 46.0 ],
+					"patching_rect" : [ 647.091553, 540.626404, 99.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.090881, 150.75, 278.0, 46.0 ],
+					"presentation_rect" : [ 14.090881, 150.75, 278.0, 45.0 ],
 					"relative" : 1,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -882,7 +882,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 700.091553, 226.370361, 50.0, 34.0 ],
+					"patching_rect" : [ 700.091553, 226.370361, 50.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 298.840881, 13.40509, 58.0, 20.0 ],
 					"style" : "",
@@ -1013,9 +1013,9 @@
 					"orientation" : 1,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 57.490356, 652.046082, 110.0, 46.0 ],
+					"patching_rect" : [ 57.490356, 652.046082, 110.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 296.090881, 103.75, 278.0, 46.0 ],
+					"presentation_rect" : [ 296.090881, 103.75, 278.0, 45.0 ],
 					"relative" : 1,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -1074,9 +1074,9 @@
 					"orientation" : 1,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 300.439514, 654.011047, 103.0, 46.0 ],
+					"patching_rect" : [ 300.439514, 654.011047, 103.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 296.090881, 150.75, 278.0, 46.0 ],
+					"presentation_rect" : [ 296.090881, 150.75, 278.0, 45.0 ],
 					"relative" : 1,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -1149,9 +1149,9 @@
 					"orientation" : 1,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 891.5, 666.626404, 99.0, 46.0 ],
+					"patching_rect" : [ 891.5, 666.626404, 99.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 296.090881, 56.75, 278.0, 46.0 ],
+					"presentation_rect" : [ 296.090881, 56.75, 278.0, 45.0 ],
 					"relative" : 1,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -1182,9 +1182,9 @@
 					"orientation" : 1,
 					"outlettype" : [ "", "float" ],
 					"parameter_enable" : 1,
-					"patching_rect" : [ 219.939514, 249.447083, 103.0, 46.0 ],
+					"patching_rect" : [ 219.939514, 249.447083, 103.0, 45.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 14.090881, 56.75, 278.0, 46.0 ],
+					"presentation_rect" : [ 14.090881, 56.75, 278.0, 45.0 ],
 					"relative" : 1,
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -1949,10 +1949,10 @@
 		"styles" : [ 			{
 				"name" : "jamomaLCDF",
 				"default" : 				{
+					"accentcolor" : [ 1.0, 0.558253, 0.0, 1.0 ],
 					"fontface" : [ 0 ],
 					"fontsize" : [ 12.0 ],
-					"fontname" : [ "Arial" ],
-					"accentcolor" : [ 1.0, 0.558253, 0.0, 1.0 ]
+					"fontname" : [ "Arial" ]
 				}
 ,
 				"parentstyle" : "",
