@@ -48,7 +48,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1308.443237, -263.119141, 75.0, 22.0 ],
-					"presentation_rect" : [ 1086.999878, 720.522217, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "r MainMetro"
 				}
@@ -374,9 +373,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 645.451294, 1315.441895, 162.0, 22.0 ],
+					"patching_rect" : [ 645.451294, 1315.441895, 75.0, 22.0 ],
 					"style" : "",
-					"text" : "-rs MultiSub SpatMulti-Sub"
+					"text" : "-rs MultiSub"
 				}
 
 			}
@@ -390,9 +389,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 834.000061, 1363.522217, 187.0, 22.0 ],
+					"patching_rect" : [ 834.000061, 1363.522217, 104.0, 22.0 ],
 					"style" : "",
-					"text" : "-rs SpatMonoSub SpatMono-Sub"
+					"text" : "-rs SpatMonoSub"
 				}
 
 			}
@@ -496,9 +495,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 933.0, 742.420288, 122.0, 22.0 ],
+					"patching_rect" : [ 933.0, 742.420288, 73.0, 22.0 ],
 					"style" : "",
-					"text" : "-rs Intensite Intensite"
+					"text" : "-rs Intensite"
 				}
 
 			}
@@ -1842,9 +1841,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 212.659912, -396.759949, 369.0, 22.0 ],
+					"patching_rect" : [ 212.659912, -396.759949, 433.0, 22.0 ],
 					"style" : "",
-					"text" : "ossia.parameter Remanence @type float @range 0. 50. @clip both"
+					"text" : "ossia.parameter Remanence @type float @range 0. 50. @clip both @default 0."
 				}
 
 			}
@@ -1957,7 +1956,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 594.659912, -396.759949, 498.0, 22.0 ],
+					"patching_rect" : [ 654.659912, -396.759949, 498.0, 22.0 ],
 					"style" : "",
 					"text" : "ossia.parameter Intensite @priority 2 @type float @range 0. 255. @clip both @default 255."
 				}
@@ -2085,8 +2084,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 204.115906, -3.0, 100.0, 33.0 ],
 					"style" : "",
-					"text" : "(S)ouris",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "(S)ouris"
 				}
 
 			}
@@ -3983,9 +3981,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1439.721313, 654.5, 161.0, 22.0 ],
+					"patching_rect" : [ 1439.721313, 654.5, 93.0, 22.0 ],
 					"style" : "",
-					"text" : "-rs Remanence Remanence"
+					"text" : "-rs Remanence"
 				}
 
 			}
@@ -5314,12 +5312,12 @@
 , 			{
 				"name" : "patchLCDF",
 				"default" : 				{
-					"fontface" : [ 3 ],
-					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
-					"fontsize" : [ 18.0 ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
+					"fontface" : [ 3 ],
+					"fontsize" : [ 18.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : [ "Helvetica Neue Bold" ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

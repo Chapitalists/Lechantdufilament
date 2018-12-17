@@ -63,9 +63,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 738.102173, 416.678589, 99.0, 22.0 ],
+					"patching_rect" : [ 738.102173, 416.678589, 75.0, 22.0 ],
 					"style" : "",
-					"text" : "-rs GOLSub Sub"
+					"text" : "-rs GOLSub"
 				}
 
 			}
@@ -126,9 +126,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.302063, 105.178619, 335.0, 22.0 ],
+					"patching_rect" : [ 15.302063, 105.178619, 403.0, 22.0 ],
 					"style" : "",
-					"text" : "ossia.parameter Densite @type int @range 0 100 @clip both"
+					"text" : "ossia.parameter Densite @type int @range 0 100 @clip both @default 50"
 				}
 
 			}
@@ -154,9 +154,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.302063, 46.15303, 415.0, 22.0 ],
+					"patching_rect" : [ 15.302063, 46.15303, 421.0, 22.0 ],
 					"style" : "",
-					"text" : "ossia.parameter Vitesse @type int @range 22 5000 @clip both @default 22"
+					"text" : "ossia.parameter Vitesse @type int @range 22 5000 @clip both @default 250"
 				}
 
 			}
@@ -2356,9 +2356,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 280.78299, 384.461609, 134.0, 22.0 ],
+					"patching_rect" : [ 280.78299, 384.461609, 91.0, 22.0 ],
 					"style" : "",
-					"text" : "-rs GOLVitesse Vitesse"
+					"text" : "-rs GOLVitesse"
 				}
 
 			}
@@ -2448,9 +2448,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 774.701965, 296.461609, 138.0, 22.0 ],
+					"patching_rect" : [ 774.701965, 296.461609, 94.0, 22.0 ],
 					"style" : "",
-					"text" : "-rs GOLDensite Densite"
+					"text" : "-rs GOLDensite"
 				}
 
 			}
