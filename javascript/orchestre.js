@@ -67,9 +67,11 @@ function bang() {
   }
 }
 
-function space(banger, x, y, dx, dy) { //TODO something if out of bounds ( < 1 | > lamps)
+function space(banger, x, y, dx, dy, add) { //TODO something if out of bounds ( < 1 | > lamps)
   var oldList = lists[banger]
-  lists[banger] = []
+  if (!add){
+    lists[banger] = []
+  }
   for (var i = x - 1 ; i < x + dx - 1 ; i++) {
     for (var j = y - 1 ; j < y + dy - 1; j++) {
       var newLight = j*lamps[0] + i,
