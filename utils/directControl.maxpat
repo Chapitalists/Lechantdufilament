@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1204.0, 62.0, 94.0, 219.0 ],
+		"rect" : [ 1198.0, 45.0, 94.0, 219.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -178,7 +178,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 277.0, 425.0, 67.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 43.5, 186.0, 43.5, 20.0 ],
+					"presentation_rect" : [ 42.5, 186.0, 43.5, 20.0 ],
 					"style" : "",
 					"text" : "scene"
 				}
@@ -351,7 +351,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 523.5, 574.0, 396.0, 35.0 ],
 					"style" : "",
-					"text" : "0 8 0 9 0 10 0 11 1 0 1 1 1 2 1 3 1 4 1 5 1 6 1 7 2 0 2 4 3 1 3 5 4 2 4 6 5 3 5 7 6 0 6 1 6 2 6 3 7 4 7 5 7 6 7 7"
+					"text" : "0 9 0 11 1 0 1 1 1 2 1 3 1 4 1 5 1 6 1 7 1 8 1 10 2 0 2 4 3 1 3 5 4 2 4 6 5 3 5 7 6 0 6 1 6 2 6 3 7 4 7 5 7 6 7 7"
 				}
 
 			}
@@ -946,12 +946,12 @@
 , 			{
 				"name" : "patchLCDF",
 				"default" : 				{
+					"fontsize" : [ 18.0 ],
 					"fontname" : [ "Helvetica Neue Bold" ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
-					"fontface" : [ 3 ],
-					"fontsize" : [ 18.0 ]
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
+					"fontface" : [ 3 ]
 				}
 ,
 				"parentstyle" : "",
