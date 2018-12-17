@@ -1,17 +1,17 @@
 // Author : Clément Bossut
 /*
-post(this.included_scenarios)
+debugPrint(this.included_scenarios)
 if (!this.included_scenarios) {
-  post("Including scenarios")
-  post()
+  debugPrint("Including scenarios")
+  debugPrint()
   include('scenarios')
 }
 var included_MaxInterface = true
 */
 autowatch = 1
 
-post("Chargé")
-post()
+debugPrint("Chargé")
+debugPrint()
 
 if (!Object.assign) {
   Object.assign = function(obj, props) { 
@@ -23,7 +23,7 @@ if (!Object.assign) {
   }
 }
 
-if (this.post) {
+if (this.post) { // If in Max/MSP
   include("tools")
   include("agent")
   include("scenarios")
@@ -37,8 +37,8 @@ var ready = false
   , speedCent = 100
 
 function unblock() {
-  post("raidie")
-  post()
+  debugPrint("raidie")
+  debugPrint()
   ready = true
 }
 
@@ -49,8 +49,7 @@ function anything() {
 function direct() {
   if (!ready) return;
   if (arguments.length == 0) {
-    post("Direct args ?")
-    post()
+    error("Direct args ?\n")
     return;
   }
   var obj = this
@@ -58,15 +57,14 @@ function direct() {
   for (i = 0 ; i < arguments.length - 2 ; i++) {
     if (typeof obj[arguments[i]] == "function") {
       obj[arguments[i]].apply(obj, Array.apply(null, arguments).slice(i+1, arguments.length))
-      post("Direct call: " + arguments[i])
-      post(", " + (arguments.length - i - 1) + " args ")
-      post("starting with: " + arguments[i+1])
-      post()
+      debugPrint("Direct call: " + arguments[i])
+      debugPrint(", " + (arguments.length - i - 1) + " args ")
+      debugPrint("starting with: " + arguments[i+1])
+      debugPrint()
       return;
     }
     if (typeof obj[arguments[i]] != "object") {
-      post("Direct Wrong argument: " + arguments[i])
-      post()
+      error("Direct Wrong argument: " + arguments[i] + '\n')
       return;
     }
     if (typeof obj[arguments[i]] != "undefined" && !obj.hasOwnProperty(arguments[i])) {
@@ -77,24 +75,23 @@ function direct() {
   }
   if (typeof obj[arguments[i]] == "function") {
     obj[arguments[i]].call(obj, arguments[i+1])
-    post("Direct call: " + arguments[i] + "(" + arguments[i+1] + ")")
-    post()
+    debugPrint("Direct call: " + arguments[i] + "(" + arguments[i+1] + ")")
+    debugPrint()
   } else if (typeof obj[arguments[i]] != "object") {
-    if (typeof obj[arguments[i]] == "undefined") post("Beware undefined ! ")
+    if (typeof obj[arguments[i]] == "undefined") error("Beware undefined !\n")
     obj[arguments[i]] = arguments[i+1]
-    post("Direct change: " + arguments[i] + "=" + arguments[i+1])
-    post()
+    debugPrint("Direct change: " + arguments[i] + "=" + arguments[i+1])
+    debugPrint()
   } else {
     obj = obj[arguments[i]]
     i++
     if (typeof obj[arguments[i]] == "function") {
       obj[arguments[i]].apply(obj)
-      post("Direct call: " + arguments[i] + " without args")
-      post()
+      debugPrint("Direct call: " + arguments[i] + " without args")
+      debugPrint()
     } else {
-      post("Direct Can't affect over object: " + arguments[i-1])
-      post(" or not a function: " + arguments[i])
-      post()
+      error("Direct Can't affect over object: " + arguments[i-1] +
+            " or not a function: " + arguments[i] + '\n')
     }
   }
 }
@@ -130,10 +127,10 @@ function panic() { // Should go in MaxInterface (see comment for anything())
 var MaxInterface = {
   
   myDebug:function() {
-    post("lamps", space.lamps[0], space.lamps[1])
-    post()
-    post(agents.length, " agents in ", scenari.length, " scenari")
-    post()  
+    debugPrint("lamps", space.lamps[0], space.lamps[1])
+    debugPrint()
+    debugPrint(agents.length, " agents in ", scenari.length, " scenari")
+    debugPrint()  
   },
 
 //todo function to modify a parameter change("parameter",value)

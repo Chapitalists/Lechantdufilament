@@ -1,10 +1,10 @@
 // Author : Clément Bossut
 /*
-post("Scenarios included !")
-post()
+debugPrint("Scenarios included !")
+debugPrint()
 if (!this.included_agents) {
-  post("Including agents")
-  post()
+  debugPrint("Including agents")
+  debugPrint()
   include('agent')
 }
 var included_scenarios = true

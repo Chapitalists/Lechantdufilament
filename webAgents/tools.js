@@ -3,13 +3,14 @@
 // For browser compatibility
 if (!this.post) {
   this.post = console.log
+  this.error = console.error
   this.include = function(a){console.log("Non Include ", a)}
   this.setoutletassist = function(){}
   this.outlets = undefined
 }
 /*
-post("Tools included !")
-post()
+debugPrint("Tools included !")
+debugPrint()
 var included_tools = true
 */
 var v2D = {
@@ -103,6 +104,16 @@ function map() { //TODO should take agents as argument ?
     }
   }
   return lights
+}
+
+var debugate = false
+
+function log(b) {
+  debugate = b
+}
+
+function debugPrint(mess) {
+  if (debugate) post(mess)
 }
 
 ///////////////////// Send to webSocket for Max

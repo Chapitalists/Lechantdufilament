@@ -1,10 +1,10 @@
 // Author : Clément Bossut
 /*
-post("Agents included !")
-post()
+debugPrint("Agents included !")
+debugPrint()
 if (!this.included_tools) {
-  post("Including tools")
-  post()
+  debugPrint("Including tools")
+  debugPrint()
   include('tools')
 }
 var included_agents = true
