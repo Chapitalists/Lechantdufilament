@@ -447,10 +447,10 @@
 								"name" : "patchLCDF",
 								"default" : 								{
 									"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
-									"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 									"fontface" : [ 3 ],
 									"fontsize" : [ 18.0 ],
 									"fontname" : [ "Helvetica Neue Bold" ],
+									"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 								}
 ,
@@ -1052,7 +1052,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 788.269653, 321.607361, 98.0, 22.0 ],
+					"patching_rect" : [ 791.722595, 333.107361, 98.0, 22.0 ],
 					"style" : "",
 					"text" : "-rs AgentVitesse"
 				}
@@ -2964,9 +2964,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 23.414917, 68.5, 419.0, 22.0 ],
+					"patching_rect" : [ 23.414917, 68.5, 439.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "ossia.parameter vitesse @type int @range 10 1000 @clip both @default 100"
+					"text" : "ossia.parameter vitesse @type float @range 10. 1000. @clip both @default 100."
 				}
 
 			}
@@ -3315,7 +3315,7 @@
 					"name" : "AgentsOffsetPatch.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"offset" : [ -1050.0, 1.0 ],
+					"offset" : [ 1.0, 1.0 ],
 					"patching_rect" : [ 605.0, 149.107361, 240.0, 48.825562 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 80.5, 61.0, 990.0, 205.5 ],
@@ -3860,10 +3860,10 @@
 				"name" : "patchLCDF",
 				"default" : 				{
 					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 					"fontface" : [ 3 ],
 					"fontsize" : [ 18.0 ],
 					"fontname" : [ "Helvetica Neue Bold" ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
