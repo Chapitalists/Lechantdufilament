@@ -3,6 +3,8 @@
 
 // js comp nCalques
 
+autowatch = 1
+
 inlets = (jsarguments[1] || 0) + 1
 outlets = 3
 setinletassist(0, "bang computes the output")
@@ -99,15 +101,19 @@ function list() {
     error("comp.js : different list length (" + arguments.length +
           " instead of " + lists[0].length + ") from inlet " + inlet)
   } else if (inlet) {
-    calques[inlet] = arguments
+    calques[inlet-1] = arguments
   } else {
     lists.push(arguments)
   }
 }
 
-for (var i = 0 ; i < modes.length ; i++) modes[i] = [1]
+for (var i = 0 ; i < modes.length ; i++) modes[i] = [1], calques[i] = []
 function mode(n, m, add) {
-  var nm = modes.indexOf(m)
+  if (--n < 0 || n >= modes.length) {
+    error("Out of inlets\n")
+    return;
+  }
+  var nm = mm.indexOf(m)
   if (nm == -1) error("Wrong mode " + m + '\n')
   else if (add) modes[n].push(nm)
   else modes[n] = [nm]
