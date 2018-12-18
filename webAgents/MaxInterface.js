@@ -25,7 +25,8 @@ if (this.post) { // If in Max/MSP
   include("agent")
   include("scenarios")
 
-  outlets = 2
+  outlets = 3
+  setoutletassist(2,"agents2")
   setoutletassist(1,"agents")
   setoutletassist(0,"bang when finished")
 }
@@ -103,9 +104,11 @@ function speed(s) {
 function bang() {
   update(speedCent)
   var lights = map()
+    , lights2 = map(2)
   for (var j = 0; j < space.lamps[1]; j++) {
     for (var i = 0; i < space.lamps[0]; i++) {
       outlet(1, lights[i][j])
+      outlet(2, lights2[i][j])
     }
   }
   outlet(0, "bang");

@@ -59,7 +59,7 @@ function removeFrom(tab, elt, unique) { // Todo check where it could be used
   }
 }
 
-function map() { //TODO should take agents as argument ?
+function map(group) { //TODO should take agents as argument ?
   var lights = []
   for (var i = 0 ; i < space.lamps[0] ; i++) {
     lights[i] = []
@@ -68,6 +68,7 @@ function map() { //TODO should take agents as argument ?
     }
   }
   for (var k = 0; k < agents.length; k++) {
+    if ((agents[k].group || 1) != (group || 1)) continue;
     with (agents[k]) {
       var pp = p.slice()
       //if (translate) p = v2D.add(p, translate) Intéressant, à revoir plus tard correctement
