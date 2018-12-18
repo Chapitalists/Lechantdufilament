@@ -553,7 +553,7 @@
 					"outlettype" : [ "int", "", "", "int" ],
 					"patching_rect" : [ 690.269958, 281.0, 67.0, 22.0 ],
 					"style" : "",
-					"text" : "counter 10"
+					"text" : "counter 15"
 				}
 
 			}
@@ -1176,7 +1176,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u687008072"
+													"varname" : "u658022785"
 												}
 
 											}
@@ -7891,7 +7891,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u726008064"
+													"varname" : "u643022777"
 												}
 
 											}
@@ -12215,7 +12215,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u276008061"
+													"varname" : "u561022774"
 												}
 
 											}
@@ -16539,7 +16539,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u181008058"
+													"varname" : "u614022771"
 												}
 
 											}
@@ -20989,7 +20989,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u800008055"
+													"varname" : "u239022768"
 												}
 
 											}
