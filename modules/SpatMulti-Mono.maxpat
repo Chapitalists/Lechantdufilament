@@ -39,6 +39,32 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 186.0, 26.5, 66.0, 22.0 ],
+					"style" : "",
+					"text" : "r InitLights"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "float" ],
+					"patching_rect" : [ 1049.0, 49.655914, 31.0, 22.0 ],
+					"style" : "",
+					"text" : "t b f"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"color" : [ 1.0, 1.0, 0.0, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -1221,7 +1247,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1018.024048, 49.655914, 144.0, 22.0 ],
+					"patching_rect" : [ 1018.024048, 19.655914, 144.0, 22.0 ],
 					"style" : "",
 					"text" : "ossia.remote SpatMonoY"
 				}
@@ -1237,7 +1263,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 978.548035, 12.0, 144.0, 22.0 ],
+					"patching_rect" : [ 978.548035, -18.0, 144.0, 22.0 ],
 					"style" : "",
 					"text" : "ossia.remote SpatMonoX"
 				}
@@ -1841,9 +1867,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 212.659912, -396.759949, 433.0, 22.0 ],
+					"patching_rect" : [ 212.659912, -396.759949, 447.0, 22.0 ],
 					"style" : "",
-					"text" : "ossia.parameter Remanence @type float @range 0. 50. @clip both @default 0."
+					"text" : "ossia.parameter Remanence @type float @range 0.1 50. @clip both @default 50."
 				}
 
 			}
@@ -1956,7 +1982,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 654.659912, -396.759949, 498.0, 22.0 ],
+					"patching_rect" : [ 674.659912, -396.759949, 498.0, 22.0 ],
 					"style" : "",
 					"text" : "ossia.parameter Intensite @priority 2 @type float @range 0. 255. @clip both @default 255."
 				}
@@ -2184,12 +2210,12 @@
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
 					"id" : "obj-38",
-					"linecount" : 6,
+					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 113.233643, 58.0, 167.0, 89.0 ],
+					"patching_rect" : [ 113.233643, 58.0, 172.646973, 76.0 ],
 					"style" : "",
 					"text" : "xyz 1 -0.52872 0.729585 0., xyz 2 0.504152 0.699135 0., xyz 3 -0.529066 -0.621453 0., xyz 4 0.573495 -0.60263 0., xyz 5 -0.014934 0.004116 0."
 				}
@@ -3841,22 +3867,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
-					"format" : 6,
-					"id" : "obj-44",
-					"maxclass" : "flonum",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 1269.028198, 736.5, 50.0, 22.0 ],
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
 					"id" : "obj-72",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -3958,21 +3968,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-32",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 1269.028198, 698.5, 38.0, 22.0 ],
-					"style" : "",
-					"text" : "!- 50."
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"color" : [ 0.239216, 0.643137, 0.709804, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 12.0,
@@ -4004,7 +3999,9 @@
 							"parameter_longname" : "live.slider[1]",
 							"parameter_shortname" : "Remanence",
 							"parameter_type" : 0,
+							"parameter_mmin" : 1.0,
 							"parameter_mmax" : 50.0,
+							"parameter_initial" : [ 1.0 ],
 							"parameter_unitstyle" : 1,
 							"parameter_exponent" : 0.65
 						}
@@ -4131,6 +4128,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-22", 1 ],
+					"source" : [ "obj-11", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-22", 0 ],
+					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-104", 2 ],
 					"source" : [ "obj-111", 1 ]
 				}
@@ -4232,7 +4243,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-35", 0 ],
-					"midpoints" : [ 1366.443237, 40.0, 1027.524048, 40.0 ],
+					"midpoints" : [ 1366.443237, 10.0, 1027.524048, 10.0 ],
 					"source" : [ "obj-125", 0 ]
 				}
 
@@ -4831,6 +4842,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-38", 0 ],
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-43", 0 ],
 					"source" : [ "obj-26", 0 ]
 				}
@@ -4852,13 +4870,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-44", 0 ],
-					"source" : [ "obj-32", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-94", 0 ],
 					"source" : [ "obj-33", 0 ]
 				}
@@ -4866,7 +4877,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 1 ],
+					"destination" : [ "obj-11", 0 ],
 					"source" : [ "obj-35", 1 ]
 				}
 
@@ -5248,16 +5259,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-32", 0 ],
-					"order" : 1,
-					"source" : [ "obj-94", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-33", 0 ],
-					"order" : 0,
 					"source" : [ "obj-94", 1 ]
 				}
 
@@ -5312,12 +5314,12 @@
 , 			{
 				"name" : "patchLCDF",
 				"default" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
+					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 					"fontface" : [ 3 ],
 					"fontsize" : [ 18.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"fontname" : [ "Helvetica Neue Bold" ],
-					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
+					"fontname" : [ "Helvetica Neue Bold" ]
 				}
 ,
 				"parentstyle" : "",
