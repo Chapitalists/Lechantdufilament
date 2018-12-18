@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 45.0, 439.0, 107.0 ],
+		"rect" : [ 0.0, 45.0, 1440.0, 851.0 ],
 		"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -70,7 +70,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 283.75, 385.0, 51.0, 22.0 ],
-					"presentation_rect" : [ 84.678574, 684.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "0 108 1"
 				}
@@ -530,6 +529,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 46.0, 11.5, 384.666626, 35.0 ],
 					"style" : "",
+					"text" : "SerieVagues",
 					"textjustification" : 1
 				}
 
@@ -566,6 +566,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-57", 0 ],
+					"source" : [ "obj-17", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-21", 0 ],
 					"source" : [ "obj-18", 2 ]
 				}
@@ -597,15 +604,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-17", 0 ],
-					"order" : 1,
-					"source" : [ "obj-25", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-57", 0 ],
-					"order" : 0,
 					"source" : [ "obj-25", 0 ]
 				}
 
@@ -735,11 +733,11 @@
 , 			{
 				"name" : "patchLCDF",
 				"default" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 					"fontface" : [ 3 ],
 					"fontsize" : [ 18.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : [ "Helvetica Neue Bold" ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
 				}
 ,
