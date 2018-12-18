@@ -71,14 +71,14 @@ function map(group) { //TODO should take agents as argument ?
     if ((agents[k].group || 1) != (group || 1)) continue;
     with (agents[k]) {
       var pp = p.slice()
-      //if (translate) p = v2D.add(p, translate) Intéressant, à revoir plus tard correctement
+      //if (translate) p = v2D.add(p, translate) TODO Intéressant, à revoir plus tard correctement
       if (translate) pp = v2D.add(p, translate)
       if (!s) {
         if (!(pp[0] % space.dist) && lights[pp[0] / space.dist] &&
             !(pp[1] % space.dist) && lights[pp[0] / space.dist][pp[1] / space.dist]) {
           lights[pp[0] / space.dist][pp[1] / space.dist] = e*255
         }
-        continue
+        continue;
       }
       var square = [
         Math.max(0, Math.floor(pp[0]/space.dist - s)),
@@ -110,6 +110,7 @@ function map(group) { //TODO should take agents as argument ?
 var debugate = false
 
 function log(b) {
+  post("log " + b + '\n')
   debugate = b
 }
 
