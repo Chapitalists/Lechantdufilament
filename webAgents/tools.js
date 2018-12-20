@@ -59,6 +59,10 @@ function removeFrom(tab, elt, unique) { // Todo check where it could be used
   }
 }
 
+var judaSize = 0 // en nombre de lampes
+  , vecMultiMap = [0,0] // en dist
+  , nMultiMap = 0
+
 function map(group) { //TODO should take agents as argument ?
   var lights = []
   for (var i = 0 ; i < space.lamps[0] ; i++) {
@@ -73,33 +77,35 @@ function map(group) { //TODO should take agents as argument ?
       var pp = p.slice()
       //if (translate) p = v2D.add(p, translate) TODO Intéressant, à revoir plus tard correctement
       if (translate) pp = v2D.add(p, translate)
-      if (!s) {
-        if (!(pp[0] % space.dist) && lights[pp[0] / space.dist] &&
-            !(pp[1] % space.dist) && lights[pp[0] / space.dist][pp[1] / space.dist]) {
-          lights[pp[0] / space.dist][pp[1] / space.dist] = e*255
+      for (var n = 0 ; n <= nMultiMap ; n++, pp = v2D.add(pp, vecMultiMap)) {
+        if (!s && !judaSize) {
+          if (!(pp[0] % space.dist) && lights[pp[0] / space.dist] &&
+              !(pp[1] % space.dist) && lights[pp[0] / space.dist][pp[1] / space.dist]) {
+            lights[pp[0] / space.dist][pp[1] / space.dist] = e*255
+          }
+          continue;
         }
-        continue;
-      }
-      var square = [
-        Math.max(0, Math.floor(pp[0]/space.dist - s)),
-        Math.min(space.lamps[0]-1, Math.ceil(pp[0]/space.dist + s)),
-        Math.max(0, Math.floor(pp[1]/space.dist - s)),
-        Math.min(space.lamps[1]-1, Math.ceil(pp[1]/space.dist + s))
-      ]
-      for (var i = square[0] ; i <= square[1] ; i++) {
-        for (var j = square[2] ; j <= square[3] ; j++) {
-          lights[i][j] = Math.max(
-            lights[i][j],
-            e*255*(1-v2D.length(// Energy * max light *
-              v2D.sub(          // dist between
-                pp,              // agent and
-                v2D.mult(       // lamp
-                  [i,j],        // (position *
-                  space.dist    // dist)
+        var square = [
+          Math.max(0, Math.floor(pp[0]/space.dist - s - judaSize)),
+          Math.min(space.lamps[0]-1, Math.ceil(pp[0]/space.dist + s + judaSize)),
+          Math.max(0, Math.floor(pp[1]/space.dist - s - judaSize)),
+          Math.min(space.lamps[1]-1, Math.ceil(pp[1]/space.dist + s + judaSize))
+        ]
+        for (var i = square[0] ; i <= square[1] ; i++) {
+          for (var j = square[2] ; j <= square[3] ; j++) {
+            lights[i][j] = Math.max(
+              lights[i][j],
+              e*255*Math.min(1, (1-(v2D.length(// Energy * max light *
+                v2D.sub(          // dist between
+                  pp,              // agent and
+                  v2D.mult(       // lamp
+                    [i,j],        // (position *
+                    space.dist    // dist)
+                  )
                 )
-              )
-            )/(s*space.dist))   // / size
-          )
+              ) - judaSize)/(s*space.dist)))   // / size
+            )
+          }
         }
       }
     }
