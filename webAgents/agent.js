@@ -49,11 +49,11 @@ var space = {
 
 var agent = {
   color:"black", //TODO could be a state variable not directly color For debug draw purposes only
-  p:[0,0], // position
+  p:[0,0], // position en dist
   v:[0,0], // velocity
   f:[0,0], // force / steering / acceleration
   e:1, // energy
-  s:1, // size
+  s:1, // size en nombre de lampes
   m:1, // mass
   maxF:-1,
   maxV:-1,
@@ -66,19 +66,19 @@ var agent = {
   framesAdd:0,
   framesAdded:0,
   framesCent:0,
-  translate:undefined,
+  translate:undefined, // en dist
   update:function(speedCent) {
     speedCent = this.speedCent || speedCent || 100
     this.framesCent = (this.framesCent + 1) % 100
     
     var nTimes = Math.floor(speedCent/100)
     this.framesAdd = speedCent % 100
-    
+
     if (!this.framesCent) {
       this.framesAdded = 0
-      this.speedCentRemaining = Math.floor(100 / this.framesAdd)
+      this.speedCentRemaining = this.framesAdd ? Math.floor(100 / this.framesAdd) : -1
     }
-    
+
     this.speedCentRemaining = Math.min(this.speedCentRemaining, Math.floor(100 / this.framesAdd))
     
     if (this.framesAdded < this.framesAdd || speedCent < 100) {
@@ -277,7 +277,7 @@ agent.consume = function() {
   this.e = this.e > this.consumeDose ? this.e - this.consumeDose : 0
 }
 
-agent.toDie = false // better done by consume ?
+agent.toDie = false // TODO better done by consume ?
 agent.die = function() {
   this.toDie = this.e <= 0
 }
