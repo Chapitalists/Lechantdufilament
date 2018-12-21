@@ -188,53 +188,52 @@ Object.assign(balayage,
     squareLaunch:function(dir, width, length) { // 0 up puis huitième de tour en sens horaire jusqu'à 7
       length-- // transforme intervalle en lampes (poteaux et barrières)
       var startP, endP, vec
-        , size = this.balayeur.s
         , lamps = space.lamps[0]-1
         , dist = space.dist
-        , diagSize = size/Math.sqrt(2)
       switch (dir) {
         case 0:
-          startP = v2D.mult([lamps/2, lamps+size], dist)
-          endP = v2D.add(startP, v2D.mult([0, -dist], (length + size) || (lamps + 2*size)))
-          vec = [dist/2, 0]
+          startP = v2D.mult([lamps/2, lamps], dist)
+          endP = [0, -dist]
+          vec = [dist/2, 0] // TODO juste 90deg de endP ?
           break;
         case 2:
-          startP = v2D.mult([-size, lamps/2], dist)
-          endP = v2D.add(startP, v2D.mult([dist, 0], (length + size) || (lamps + 2*size)))
+          startP = v2D.mult([0, lamps/2], dist)
+          endP = [dist, 0]
           vec = [0, dist/2]
           break;
         case 4:
-          startP = v2D.mult([lamps/2, -size], dist)
-          endP = v2D.add(startP, v2D.mult([0, dist], (length + size) || (lamps + 2*size)))
+          startP = v2D.mult([lamps/2, 0], dist)
+          endP = [0, dist]
           vec = [dist/2, 0]
           break;
         case 6:
-          startP = v2D.mult([lamps+size, lamps/2], dist)
-          endP = v2D.add(startP, v2D.mult([-dist, 0], (length + size) || (lamps + 2*size)))
+          startP = v2D.mult([lamps, lamps/2], dist)
+          endP = [-dist, 0]
           vec = [0, dist/2]
           break;
         case 1:
-          startP = v2D.mult([-diagSize, lamps+diagSize], dist)
-          endP = v2D.add(startP, v2D.mult([dist, -dist], (length + diagSize) || (lamps + 2*diagSize)))
+          startP = v2D.mult([0, lamps], dist)
+          endP = [dist, -dist]
           vec = [dist/2, dist/2]
           break;
         case 3:
-          startP = v2D.mult([-diagSize, -diagSize], dist)
-          endP = v2D.add(startP, v2D.mult([dist, dist], (length + diagSize) || (lamps + 2*diagSize)))
+          startP = v2D.mult([0, 0], dist)
+          endP = [dist, dist]
           vec = [dist/2, -dist/2]
           break;
         case 5:
-          startP = v2D.mult([lamps+diagSize, -diagSize], dist)
-          endP = v2D.add(startP, v2D.mult([-dist, dist], (length + diagSize) || (lamps + 2*diagSize)))
+          startP = v2D.mult([lamps, 0], dist)
+          endP = [-dist, dist]
           vec = [dist/2, dist/2]
           break;
         case 7:
-          startP = v2D.mult([lamps+diagSize, lamps+diagSize], dist)
-          endP = v2D.add(startP, v2D.mult([-dist, -dist], (length + diagSize) || (lamps + 2*diagSize)))
+          startP = v2D.mult([lamps, lamps], dist)
+          endP = [-dist, -dist]
           vec = [dist/2, -dist/2]
           break;
       }
       var ags = [Object.create(this.balayeur)]
+      endP = v2D.add(startP, v2D.mult(endP, length || lamps))
       ags[0].trajectory = [startP, endP]
       ags[0].p = startP
       agents.push(ags[0])
@@ -311,7 +310,11 @@ Object.assign(balayage,
 Object.assign(balayage.balayeur,
   {
     maxV:5,
-    only:agent.traject
+    lates:["growNdie"],
+    growNgo:true,
+    e:0,
+    growDose:.05,
+    consumeDose:.05
   }
 )
 

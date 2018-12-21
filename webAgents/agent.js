@@ -300,10 +300,12 @@ agent.grow = function() {
 
 /////////////////////////////////// COMPLEX
 
+agent.dieOrNot = true
+
 // LATE
 agent.pauseGND = 0
 agent.stateGND = -1
-agent.dieOrNot = true
+agent.growNgo = false
 agent.growNdie = function() {
   if (this.stateGND < 0) {
     if (!this.grow()) this.stateGND = this.pauseGND
@@ -311,23 +313,17 @@ agent.growNdie = function() {
   else if (this.stateGND > 0) this.stateGND--
   else {
     this.stateGND = -1
-    this.lates = this.lates.slice() // make a copy to not modify prototype
-    this.lates.splice(this.lates.indexOf("growNdie"), 1, "consume", this.dieOrNot ? "die" : "stay")
-    this.consume()
+    if (this.growNgo) {
+      this.lates = []
+      this.only = this.traject
+      this.traject()
+    } else {
+      this.lates = this.lates.slice() // make a copy to not modify prototype
+      this.lates.splice(this.lates.indexOf("growNdie"), 1, "consume", this.dieOrNot ? "die" : "stay")
+      this.consume()
+    }
   }
 }
-
-//TODO Suppress, traject is better
-// FORCE //todo really ? but needs to change v ... is it an agent ?
-agent.destination = [0,0]
-agent.goNdie = function() {
-  if (v2D.equal(this.p, this.destination)) this.toDie = true
-  else {
-    this.v = v2D.sub(this.destination, this.p)
-  }
-}
-
-// Similar as above
 
 // ONLY
 agent.trajectory = [[0,0], [200,200]]
@@ -341,7 +337,8 @@ agent.traject = function() {
       if (this.trajectPoint == this.trajectory.length) {        // End
         switch (this.trajectMode){
           case 0:                                             // Die
-            this.toDie = true
+            this.only = undefined
+            this.lates.push("consume", this.dieOrNot ? "die" : "stay")
             return;
           case 1:                                             // Loop
             this.trajectPoint = 0
