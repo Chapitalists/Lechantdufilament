@@ -49,11 +49,11 @@ var space = {
 
 var agent = {
   color:"black", //TODO could be a state variable not directly color For debug draw purposes only
-  p:[0,0], // position
+  p:[0,0], // position en dist
   v:[0,0], // velocity
   f:[0,0], // force / steering / acceleration
   e:1, // energy
-  s:1, // size
+  s:1, // size en nombre de lampes
   m:1, // mass
   maxF:-1,
   maxV:-1,
@@ -66,21 +66,21 @@ var agent = {
   framesAdd:0,
   framesAdded:0,
   framesCent:0,
-  translate:undefined,
+  translate:undefined, // en dist
   update:function(speedCent) {
     speedCent = this.speedCent || speedCent || 100
     this.framesCent = (this.framesCent + 1) % 100
-    
+
     var nTimes = Math.floor(speedCent/100)
     this.framesAdd = speedCent % 100
-    
+
     if (!this.framesCent) {
       this.framesAdded = 0
-      this.speedCentRemaining = Math.floor(100 / this.framesAdd)
+      this.speedCentRemaining = this.framesAdd ? Math.floor(100 / this.framesAdd) : -1
     }
-    
+
     this.speedCentRemaining = Math.min(this.speedCentRemaining, Math.floor(100 / this.framesAdd))
-    
+
     if (this.framesAdded < this.framesAdd || speedCent < 100) {
       if (--this.speedCentRemaining <= 0) {
         nTimes++
@@ -274,12 +274,20 @@ agent.fold = function() { // same
 
 agent.consumeDose = 0
 agent.consume = function() {
-  this.e = this.e > this.consumeDose ? this.e - this.consumeDose : 0
+  this.e = this.e > (this.consumeDose + this.stayValue) ? this.e - this.consumeDose : this.stayValue
 }
 
-agent.toDie = false // better done by consume ?
+agent.toDie = false // TODO better done by consume ?
 agent.die = function() {
   this.toDie = this.e <= 0
+}
+
+agent.stayValue = 0 // TODO interdépendant avec consume et die, bad
+agent.stay = function() {
+  if (this.e <= this.stayValue) {
+    this.lates = []
+    this.e = this.stayValue
+  }
 }
 
 agent.maxGrow = 1
@@ -287,20 +295,25 @@ agent.growDose = 0
 agent.grow = function() {
   this.e += this.growDose
   if (this.e > this.maxGrow) this.e = this.maxGrow
+  return ! (this.e == this.maxGrow)
 }
 
 /////////////////////////////////// COMPLEX
 
 // LATE
+agent.pauseGND = 0
+agent.stateGND = -1
+agent.dieOrNot = true
 agent.growNdie = function() {
-  if (this.e < this.maxGrow) this.grow()
+  if (this.stateGND < 0) {
+    if (!this.grow()) this.stateGND = this.pauseGND
+  }
+  else if (this.stateGND > 0) this.stateGND--
   else {
+    this.stateGND = -1
     this.lates = this.lates.slice() // make a copy to not modify prototype
-    for (var i = 0; i < this.lates.length; i++)
-      if (this.lates[i] === "growNdie") { //todo indexof ?
-        this.lates.splice(i, 1, "consume", "die")
-        this.consume()
-      }
+    this.lates.splice(this.lates.indexOf("growNdie"), 1, "consume", this.dieOrNot ? "die" : "stay")
+    this.consume()
   }
 }
 

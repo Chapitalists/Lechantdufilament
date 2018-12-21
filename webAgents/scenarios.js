@@ -56,6 +56,43 @@ var scenario = {
 
 
 
+var slave = Object.create(agent)
+Object.assign(slave,
+  {
+    e: 0,
+    consumeDose: 1,
+    growDose: 1,
+    dieOrNot: false
+  }
+)
+var orchestre = Object.create(scenario)
+Object.assign(orchestre,
+  {
+    init:function() {
+      this.agents = []
+      for (var i = 0 ; i < space.lamps[0] ; i++) {
+        for (var j = 0 ; j < space.lamps[1] ; j++) {
+          var ag = Object.create(slave)
+          ag.p = v2D.mult([i,j], space.dist)
+          this.agents.push(ag)
+        }
+      }
+      agents = agents.concat(this.agents)
+    },
+    bang:function(x, y, dx, dy, e, nFrames) {
+      for (var i = x - 1 ; i < x + dx - 1 ; i++) {
+        for (var j = y - 1 ; j < y + dy - 1; j++) {
+          var ag = this.agents[j*space.lamps[0] + i]
+          ag.lates = ["growNdie"]
+          ag.maxGrow = e || 1
+          ag.peuseGND = nFrames || 1
+        }
+      }
+    }
+  }
+)
+
+
 var tourneur = Object.create(scenario)
 Object.assign(tourneur,
   {
