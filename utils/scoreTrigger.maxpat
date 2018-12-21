@@ -198,9 +198,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 725.666687, 103.0, 377.0, 22.0 ],
+					"patching_rect" : [ 725.666687, 103.0, 442.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "ossia.parameter intervalSpeed @type float @range 0.5 2. @clip both"
+					"text" : "ossia.parameter intervalSpeed @type float @range 0.5 2. @clip both @default 1."
 				}
 
 			}
@@ -529,7 +529,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 46.0, 11.5, 384.666626, 35.0 ],
 					"style" : "",
-					"text" : "SerieVagues",
 					"textjustification" : 1
 				}
 
@@ -733,11 +732,11 @@
 , 			{
 				"name" : "patchLCDF",
 				"default" : 				{
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 					"fontface" : [ 3 ],
 					"fontsize" : [ 18.0 ],
 					"fontname" : [ "Helvetica Neue Bold" ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
 				}
 ,
