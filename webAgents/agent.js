@@ -273,7 +273,7 @@ agent.fold = function() { // same
 ////////////////////////////////// LATES - ENERGY
 
 agent.consumeDose = 0
-agent.consume = function() {
+agent.consume = function() { // TODO Attention, stayValue change le comportement attendu de consume !
   this.e = this.e > (this.consumeDose + this.stayValue) ? this.e - this.consumeDose : this.stayValue
 }
 
