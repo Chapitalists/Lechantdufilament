@@ -38,6 +38,47 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"format" : 6,
+					"id" : "obj-58",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 541.0, 555.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-53",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 458.5, 542.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-37",
+					"maxclass" : "newobj",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 437.0, 593.0, 56.0, 22.0 ],
+					"style" : "",
+					"text" : "listSlider"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-66",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -70,7 +111,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 47.0, 538.0, 70.0, 22.0 ],
-					"presentation_rect" : [ 44.0, 538.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "zl group 81"
 				}
@@ -99,7 +139,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 47.0, 466.0, 62.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "comp.js",
+						"filename" : "comp",
 						"parameter_enable" : 0
 					}
 ,
@@ -154,7 +194,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 256.0, 494.0, 70.0, 22.0 ],
-					"presentation_rect" : [ 257.0, 494.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "zl group 81"
 				}
@@ -300,7 +339,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 734.0, 460.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "26921"
+					"text" : "20366"
 				}
 
 			}
@@ -826,7 +865,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 199.0, 224.0, 92.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "MaxInterface.js",
+						"filename" : "MaxInterface",
 						"parameter_enable" : 0
 					}
 ,
@@ -1071,6 +1110,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-61", 0 ],
+					"source" : [ "obj-37", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-39", 1 ],
 					"source" : [ "obj-38", 0 ]
 				}
@@ -1187,6 +1233,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-37", 1 ],
+					"source" : [ "obj-53", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"source" : [ "obj-54", 0 ]
 				}
@@ -1225,6 +1278,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-37", 2 ],
+					"source" : [ "obj-58", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-57", 0 ],
 					"source" : [ "obj-59", 0 ]
 				}
@@ -1233,6 +1293,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
+					"order" : 1,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-37", 0 ],
 					"order" : 0,
 					"source" : [ "obj-6", 0 ]
 				}
@@ -1241,7 +1309,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -1262,7 +1330,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-61", 0 ],
+					"destination" : [ "obj-37", 0 ],
 					"source" : [ "obj-62", 0 ]
 				}
 
@@ -1347,6 +1415,13 @@
 				"bootpath" : "D:/User/Documents/Lechantdufilament/javascript",
 				"patcherrelativepath" : "../javascript",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "listSlider.maxpat",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/utils",
+				"patcherrelativepath" : "../utils",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],

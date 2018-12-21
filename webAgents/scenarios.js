@@ -59,15 +59,21 @@ var scenario = {
 var slave = Object.create(agent)
 Object.assign(slave,
   {
-    e: 0
+    e: 1
   }
 )
+function addSlave(x, y) {
+  var ag = Object.create(slave)
+  ag.p = [x || Math.floor(space.lamps[0]/2)*space.dist,
+          y || Math.floor(space.lamps[1]/2)*space.dist]
+  agents.push(ag)
+}
 
 
 var orchestre = Object.create(scenario)
 Object.assign(orchestre,
   {
-    musicien:Object.create(slave),
+    musicien:Object.create(agent),
     init:function() {
       this.agents = []
       for (var i = 0 ; i < space.lamps[0] ; i++) {
@@ -92,6 +98,7 @@ Object.assign(orchestre,
 )
 Object.assign(orchestre.musicien,
   {
+    e:0,
     consumeDose: 1,
     growDose: 1,
     dieOrNot: false
