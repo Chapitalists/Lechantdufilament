@@ -340,7 +340,8 @@ Object.assign(danseDuSorbet,
             Math.floor(Math.random() * this.space.lamps[0]) * this.space.dist,
             Math.floor(Math.random() * this.space.lamps[1]) * this.space.dist
           ]
-        } while (v2D.equal(newAgent.p, this.lastP))
+        } while (v2D.equal(newAgent.p, this.lastP)
+                 && (this.space.lamps[0] > 1 && this.space.lamps[1] > 1))
         this.lastP = newAgent.p
         agents.push(newAgent)
         this.remaining = this.frameLaps
