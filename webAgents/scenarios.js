@@ -59,7 +59,7 @@ var scenario = {
 var slave = Object.create(agent)
 Object.assign(slave,
   {
-    e: 1
+    e: 0
   }
 )
 function addSlave(x, y) {

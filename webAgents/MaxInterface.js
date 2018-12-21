@@ -65,7 +65,7 @@ function direct() {
       return;
     }
     if (typeof obj[arguments[i]] != "object") {
-      error("Direct Wrong argument: " + arguments[i] + '\n')
+      error("Direct Wrong argument: " + arguments[i] + ' in ' + Array(arguments).join(' ') + '\n')
       return;
     }
     if (typeof obj[arguments[i]] != "undefined" && !obj.hasOwnProperty(arguments[i])) {
