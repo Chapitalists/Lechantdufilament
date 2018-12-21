@@ -79,15 +79,15 @@ Object.assign(orchestre,
       }
       agents = agents.concat(this.agents)
     },
-    bang:function(x, y, dx, dy, e, nFrames) {
+    bang:function(x, y, dx, dy) { // TODO ça peut déborder d'une colonne vers la suivante
+      if (!this.agents[0]) return;
       for (var i = x - 1 ; i < x + dx - 1 ; i++) {
         for (var j = y - 1 ; j < y + dy - 1; j++) {
-          var ag = this.agents[j*space.lamps[0] + i]
-          ag.lates = ["growNdie"]
-          ag.maxGrow = e || 1
-          ag.peuseGND = nFrames || 1
+          var ag = this.agents[i*space.lamps[0] + j]
+          if (ag) ag.lates = ["growNdie"]
         }
       }
+    }
   }
 )
 Object.assign(orchestre.musicien,
