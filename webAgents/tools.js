@@ -59,7 +59,7 @@ function removeFrom(tab, elt, unique) { // Todo check where it could be used
   }
 }
 
-var judaSize = 0 // en nombre de lampes
+var judaSize = 0 // en dist
   , vecMultiMap = [0,0] // en dist
   , nMultiMap = 0
 
@@ -86,10 +86,10 @@ function map(group) { //TODO should take agents as argument ?
           continue;
         }
         var square = [
-          Math.max(0, Math.floor(pp[0]/space.dist - s - judaSize)),
-          Math.min(space.lamps[0]-1, Math.ceil(pp[0]/space.dist + s + judaSize)),
-          Math.max(0, Math.floor(pp[1]/space.dist - s - judaSize)),
-          Math.min(space.lamps[1]-1, Math.ceil(pp[1]/space.dist + s + judaSize))
+          Math.max(0, Math.floor((pp[0] - judaSize)/space.dist - s)),
+          Math.min(space.lamps[0]-1, Math.ceil((pp[0] + judaSize)/space.dist + s)),
+          Math.max(0, Math.floor((pp[1] - judaSize)/space.dist - s)),
+          Math.min(space.lamps[1]-1, Math.ceil((pp[1] + judaSize)/space.dist + s))
         ]
         for (var i = square[0] ; i <= square[1] ; i++) {
           for (var j = square[2] ; j <= square[3] ; j++) {
@@ -121,7 +121,7 @@ function log(b) {
 }
 
 function debugPrint(mess) {
-  if (debugate) post(mess)
+  if (debugate) mess ? post(mess) : post()
 }
 
 ///////////////////// Send to webSocket for Max
