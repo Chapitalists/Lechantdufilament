@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 6,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 0.0, 66.0, 91.0, 398.0 ],
+		"rect" : [ -128.0, 66.0, 120.0, 398.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -190,10 +190,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 205.0, 134.102234, 59.0, 22.0 ],
+					"patching_rect" : [ 205.0, 134.102234, 59.0, 23.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 16.25, 295.0, 26.5, 53.0 ],
+					"presentation_rect" : [ 16.25, 295.0, 26.5, 55.0 ],
 					"style" : "",
 					"text" : "(F)lash",
 					"textjustification" : 1
@@ -286,19 +286,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-46",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 228.0, 330.0, 45.0, 22.0 ],
-					"style" : "",
-					"text" : "zlclear"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-48",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -330,9 +317,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 187.0, 367.0, 99.5, 22.0 ],
+					"patching_rect" : [ 187.0, 367.0, 90.0, 22.0 ],
 					"style" : "",
-					"text" : "zl group 81"
+					"text" : "zl group 32767"
 				}
 
 			}
@@ -433,13 +420,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-50", 0 ],
-					"source" : [ "obj-46", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-58", 0 ],
 					"source" : [ "obj-48", 0 ]
 				}
@@ -468,7 +448,8 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-46", 0 ],
+					"destination" : [ "obj-50", 0 ],
+					"midpoints" : [ 209.5, 324.0, 232.0, 324.0, 232.0, 358.0, 196.5, 358.0 ],
 					"source" : [ "obj-54", 1 ]
 				}
 
@@ -517,16 +498,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-50", 1 ],
-					"order" : 0,
-					"source" : [ "obj-67", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-54", 1 ],
-					"order" : 1,
 					"source" : [ "obj-67", 0 ]
 				}
 
@@ -581,11 +553,11 @@
 , 			{
 				"name" : "patchLCDF",
 				"default" : 				{
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 					"fontface" : [ 3 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontsize" : [ 18.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : [ "Helvetica Neue Bold" ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
 				}
 ,

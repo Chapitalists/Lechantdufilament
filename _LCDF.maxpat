@@ -8787,7 +8787,6 @@
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 373.752045, 286.5, 50.0, 22.0 ],
-									"presentation_rect" : [ 319.607452, 288.5, 0.0, 0.0 ],
 									"style" : ""
 								}
 
@@ -8802,7 +8801,6 @@
 									"outlettype" : [ "", "bang" ],
 									"parameter_enable" : 0,
 									"patching_rect" : [ 227.607452, 286.5, 50.0, 22.0 ],
-									"presentation_rect" : [ 272.834686, 289.5, 0.0, 0.0 ],
 									"style" : ""
 								}
 
@@ -8882,7 +8880,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 694.5, 428.0, 49.5, 23.0 ],
-									"presentation_rect" : [ 692.5, 427.75, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "Reset"
 								}
@@ -8910,7 +8907,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 694.5, 385.75, 44.5, 23.0 ],
-									"presentation_rect" : [ 694.5, 419.25, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "Play"
 								}
@@ -8939,7 +8935,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 694.5, 345.5, 44.5, 23.0 ],
-									"presentation_rect" : [ 694.5, 380.25, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "Load"
 								}
@@ -8953,7 +8948,6 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"patching_rect" : [ 661.417358, 345.5, 24.0, 24.0 ],
-									"presentation_rect" : [ 661.417358, 378.25, 0.0, 0.0 ],
 									"style" : ""
 								}
 
@@ -8968,7 +8962,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 694.5, 306.5, 44.5, 23.0 ],
-									"presentation_rect" : [ 694.5, 341.5, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "Save"
 								}
@@ -9035,7 +9028,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 568.0, 302.5, 86.0, 23.0 ],
-									"presentation_rect" : [ 647.5, 313.5, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "Record"
 								}
@@ -9878,9 +9870,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 59.0, 217.5, 101.607452, 22.0 ],
+									"patching_rect" : [ 59.0, 217.5, 90.0, 22.0 ],
 									"style" : "",
-									"text" : "zl group 81"
+									"text" : "zl group 32767"
 								}
 
 							}
@@ -10126,7 +10118,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 543.357422, 296.0, 205.059937, 163.0 ],
-									"presentation_rect" : [ 543.357422, 295.0, 0.0, 0.0 ],
 									"proportion" : 0.39,
 									"style" : ""
 								}
@@ -13852,8 +13843,8 @@
 			"obj-194::obj-139::obj-2::obj-42" : [ "live.slider[16]", "SizeSel", 0 ],
 			"obj-17::obj-42" : [ "live.slider[31]", "Mono-Sub", 0 ],
 			"obj-194::obj-139::obj-3::obj-71" : [ "live.slider[41]", "SubBalais", 0 ],
-			"obj-194::obj-139::obj-120::obj-188" : [ "live.slider[28]", "Vélocité", 0 ],
 			"obj-194::obj-139::obj-120::obj-24" : [ "live.slider[17]", "Energie", 0 ],
+			"obj-194::obj-139::obj-120::obj-188" : [ "live.slider[28]", "Vélocité", 0 ],
 			"obj-194::obj-139::obj-120::obj-32" : [ "live.text[6]", "live.text[3]", 0 ],
 			"obj-194::obj-139::obj-2::obj-71" : [ "live.slider[33]", "SubTourneur", 0 ],
 			"obj-194::obj-139::obj-3::obj-28" : [ "live.slider[39]", "Vitesse", 0 ],

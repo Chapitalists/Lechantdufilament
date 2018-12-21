@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 26.0, 107.0, 1852.0, 967.0 ],
+		"rect" : [ 34.0, 77.0, 1852.0, 929.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -935,23 +935,6 @@
 			}
 , 			{
 				"box" : 				{
-					"color" : [ 0.963735, 1.0, 0.0, 1.0 ],
-					"fontface" : 0,
-					"fontname" : "Arial",
-					"fontsize" : 12.0,
-					"id" : "obj-42",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 321.816589, 778.0, 114.0, 22.0 ],
-					"style" : "",
-					"text" : "r RemapInstallation"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -960,19 +943,6 @@
 					"patching_rect" : [ 167.02002, 557.5, 173.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
 					"text" : "ossia.remote agentParameters"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-43",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 138.02002, 787.0, 45.0, 22.0 ],
-					"style" : "",
-					"text" : "zlclear"
 				}
 
 			}
@@ -1054,9 +1024,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 258.816589, 827.643555, 82.0, 22.0 ],
+					"patching_rect" : [ 191.52002, 794.643555, 90.0, 22.0 ],
 					"style" : "",
-					"text" : "zl group 81"
+					"text" : "zl group 32767"
 				}
 
 			}
@@ -2678,6 +2648,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-58",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 0,
 									"numoutlets" : 1,
@@ -3432,7 +3403,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-136",
-					"index" : 0,
+					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -3719,20 +3690,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-87", 1 ],
-					"source" : [ "obj-42", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-87", 0 ],
-					"source" : [ "obj-43", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-57", 0 ],
 					"midpoints" : [ 414.269653, 681.555176, 147.52002, 681.555176 ],
 					"source" : [ "obj-44", 0 ]
@@ -3823,15 +3780,15 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
-					"source" : [ "obj-57", 0 ]
+					"destination" : [ "obj-87", 0 ],
+					"source" : [ "obj-57", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-87", 0 ],
-					"source" : [ "obj-57", 1 ]
+					"source" : [ "obj-57", 0 ]
 				}
 
 			}
@@ -3887,130 +3844,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-139::obj-129::obj-92" : [ "live.slider[20]", "Sorbet-temps-creation", 0 ],
-			"obj-139::obj-129::obj-9" : [ "live.text[4]", "live.text", 0 ],
-			"obj-139::obj-129::obj-90" : [ "live.slider[9]", "Sorbet-Energie", 0 ],
-			"obj-139::obj-2::obj-34" : [ "live.text[13]", "live.text[3]", 0 ],
-			"obj-139::obj-3::obj-19" : [ "live.text[23]", "live.text[3]", 0 ],
-			"obj-139::obj-2::obj-32" : [ "live.text[14]", "live.text[3]", 0 ],
-			"obj-139::obj-3::obj-34" : [ "live.text[24]", "live.text[3]", 0 ],
-			"obj-139::obj-3::obj-51" : [ "live.text[28]", "live.text[3]", 0 ],
-			"obj-139::obj-120::obj-34" : [ "live.text[9]", "live.text[3]", 0 ],
-			"obj-139::obj-120::obj-166" : [ "live.slider[24]", "Masse", 0 ],
-			"obj-139::obj-3::obj-42" : [ "live.slider[38]", "Size", 0 ],
-			"obj-113" : [ "live.slider[36]", "AgentSub", 0 ],
-			"obj-139::obj-120::obj-150" : [ "live.slider[22]", "Changement direction", 0 ],
-			"obj-139::obj-129::obj-1" : [ "live.slider[21]", "Sorbet-Fonte", 0 ],
-			"obj-18" : [ "live.text[19]", "live.text[3]", 0 ],
-			"obj-139::obj-3::obj-48" : [ "live.text[27]", "live.text[3]", 0 ],
-			"obj-139::obj-3::obj-14" : [ "live.text[17]", "live.text[3]", 0 ],
-			"obj-139::obj-2::obj-6" : [ "live.slider[34]", "Distance", 0 ],
-			"obj-139::obj-129::obj-7" : [ "live.slider[8]", "Sorbet-Formation", 0 ],
-			"obj-139::obj-120::obj-13" : [ "live.slider[15]", "Taille", 0 ],
-			"obj-139::obj-2::obj-33" : [ "live.text[8]", "live.text[3]", 0 ],
-			"obj-139::obj-2::obj-42" : [ "live.slider[16]", "SizeSel", 0 ],
-			"obj-139::obj-3::obj-71" : [ "live.slider[41]", "SubBalais", 0 ],
-			"obj-139::obj-120::obj-24" : [ "live.slider[17]", "Energie", 0 ],
-			"obj-139::obj-120::obj-188" : [ "live.slider[28]", "Vélocité", 0 ],
-			"obj-139::obj-120::obj-32" : [ "live.text[6]", "live.text[3]", 0 ],
-			"obj-139::obj-2::obj-71" : [ "live.slider[33]", "SubTourneur", 0 ],
-			"obj-139::obj-3::obj-28" : [ "live.slider[39]", "Vitesse", 0 ],
-			"obj-139::obj-2::obj-29" : [ "live.text[11]", "live.text[3]", 0 ],
-			"obj-139::obj-120::obj-119" : [ "live.text[3]", "live.text[3]", 0 ],
-			"obj-139::obj-120::obj-178" : [ "live.slider[27]", "Diff", 0 ],
-			"obj-139::obj-3::obj-7" : [ "live.text[15]", "live.text[3]", 0 ],
-			"obj-139::obj-120::obj-168" : [ "live.slider[25]", "Distance", 0 ],
-			"obj-139::obj-129::obj-19" : [ "live.slider[7]", "Temps-inter-sorbets", 0 ],
-			"obj-139::obj-120::obj-171" : [ "live.slider[26]", "Radius", 0 ],
-			"obj-139::obj-120::obj-22" : [ "live.slider[12]", "Force", 0 ],
-			"obj-139::obj-2::obj-61" : [ "live.text[10]", "live.text[3]", 0 ],
-			"obj-139::obj-129::obj-101" : [ "live.slider[13]", "Taille", 0 ],
-			"obj-139::obj-2::obj-28" : [ "live.slider[30]", "VitesseSel", 0 ],
-			"obj-139::obj-3::obj-33" : [ "live.text[26]", "live.text[3]", 0 ],
-			"obj-139::obj-120::obj-112" : [ "live.text[2]", "live.text[3]", 0 ],
-			"obj-139::obj-2::obj-26" : [ "live.text[7]", "live.text[3]", 0 ],
-			"obj-139::obj-2::obj-19" : [ "live.text[12]", "live.text[3]", 0 ],
-			"obj-150" : [ "live.slider[23]", "Vitesse Agents", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "AgentsOffsetPatch.maxpat",
-				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Sorbet.maxpat",
-				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Errant.maxpat",
-				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "randBetween.maxpat",
-				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "set_bang.maxpat",
-				"bootpath" : "D:/User/Documents/Lechantdufilament/utils",
-				"patcherrelativepath" : "../utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Tourneur.maxpat",
-				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "Balai.maxpat",
-				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "-rs.maxpat",
-				"bootpath" : "D:/User/Documents/Lechantdufilament/utils",
-				"patcherrelativepath" : "../utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "MaxInterface.js",
-				"bootpath" : "D:/User/Documents/Lechantdufilament/webAgents",
-				"patcherrelativepath" : "../webAgents",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ossia.model.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "ossia.remote.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "ossia.parameter.mxe64",
-				"type" : "mx64"
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Jamoma_highlighted_orange",
 				"default" : 				{
