@@ -264,8 +264,12 @@ Object.assign(balayage,
         ]
         , minBorder = Math.floor(Math.min(space.lamps[0], space.lamps[1])/2)
         , maxBorder = Math.floor(Math.max(space.lamps[0], space.lamps[1])/2)
+      this.square = []
+      this.center = []
+      this.fugeDelay = []
+      this.nDelay = 0
  // TODO pourquoi recalculer ça à chaque launch ?
-      for (var i = this.nDelay = 0 ; i < maxBorder ; i++) {
+      for (var i = 0 ; i < maxBorder ; i++) {
         this.square.push([corners[0][0]+i*space.dist, corners[0][1]])
         this.center.push([corners[0][0]+i*space.dist, i<minBorder ? corners[0][1]+i*space.dist : c[1]])
         this.fugeDelay.push(this.nDelay)
