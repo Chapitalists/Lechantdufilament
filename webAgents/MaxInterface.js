@@ -181,7 +181,11 @@ var MaxInterface = {
 
   tourneurChange:function() {tourneur.changeSel()},
 
-  tourneurPrep:function() {tourneur.sel = -1},
+  tourneurPrep:function() {
+    tourneur.protoAgent.maxV = tourneur.getSel().maxV
+    tourneur.protoAgent.s = tourneur.getSel().s
+    tourneur.sel = -1
+  },
 
   tourneurRm:function() {tourneur.removeSel()},
 
