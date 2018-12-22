@@ -330,7 +330,7 @@ Object.assign(balayage,
             ag.p = this.center[j]
             agents.push(ag)
           }
-          this.framesDelay++
+          if (++this.framesDelay*this.balayeur.maxV/space.dist > this.nDelay) removeFrom(scenari, this)
         }
         scenari.push(this)
       } else for (var j = 0 ; j < this.square.length ; j++) {
