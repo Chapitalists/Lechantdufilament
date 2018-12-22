@@ -163,7 +163,7 @@ var MaxInterface = {
 
   balaiVitesse:function(v) {
     balayage.balayeur.maxV = this.balaiV = v
-    balayage.balayeur.growDose = balayage.balayeur.consumeDose = balaiE * balaiV / 100
+    balayage.balayeur.growDose = balayage.balayeur.consumeDose = this.balaiE * this.balaiV / 100
   },
 
   balaiSize:function(s) {
@@ -172,7 +172,7 @@ var MaxInterface = {
 
   balaiSub:function(e) {
     balayage.balayeur.maxGrow = this.balaiE = e
-    balayage.balayeur.growDose = balayage.balayeur.consumeDose = balaiE * balaiV / 100
+    balayage.balayeur.growDose = balayage.balayeur.consumeDose = this.balaiE * this.balaiV / 100
   },
 
 //////////////////// Tourneur

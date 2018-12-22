@@ -338,6 +338,7 @@ agent.traject = function() {
         switch (this.trajectMode){
           case 0:                                             // Die
             this.only = undefined
+            this.v = [0,0]
             this.lates.push("consume", this.dieOrNot ? "die" : "stay")
             return;
           case 1:                                             // Loop
@@ -362,7 +363,9 @@ agent.traject = function() {
       if (this.trajectPoint < 0) {                              // End
         switch (this.trajectMode) {
           case 0:                                             // Die
-            this.toDie = true
+            this.only = undefined
+            this.v = [0,0]
+            this.lates.push("consume", this.dieOrNot ? "die" : "stay")
             return;
           case 1:                                             // Loop
             this.trajectPoint = this.trajectory.length - 1
