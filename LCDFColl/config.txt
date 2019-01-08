@@ -1,1 +1,1 @@
-serialPortName, usbserial-ENXQOF37;
+serialPortName, COM7;
