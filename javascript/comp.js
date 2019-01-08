@@ -111,10 +111,12 @@ function list() {
 
 for (var i = 0 ; i < modes.length ; i++) modes[i] = [1], calques[i] = []
 function mode(n, m, add) {
-  if (!m) {
+  if (!n) {
     for (var i = 0 ; i < modes.length ; i++) {
-      post(modes[i])
-      post('\n')
+      for (var j = 0 ; j < modes[i].length ; j++) {
+        post(mm[modes[i][j]])
+        post('\n')
+      }
     }
     return;
   }
