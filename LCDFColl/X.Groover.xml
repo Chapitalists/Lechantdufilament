@@ -1,0 +1,1390 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+<pattrstorage name = "X.Groover">
+	<slot number = "1">
+		<pattr name = "preset-name" value = "good ol' kick" />
+		<patcher name = "X.groove[1]">
+			<pattr name = "128n" value = "0" />
+			<pattr name = "128nd" value = "0" />
+			<pattr name = "16n" value = "0" />
+			<pattr name = "16nd" value = "0" />
+			<pattr name = "16nt" value = "0" />
+			<pattr name = "1n" value = "0" />
+			<pattr name = "1nd" value = "0" />
+			<pattr name = "1nt" value = "0" />
+			<pattr name = "2n" value = "0" />
+			<pattr name = "2nd" value = "0" />
+			<pattr name = "2nt" value = "0" />
+			<pattr name = "32n" value = "0" />
+			<pattr name = "32nd" value = "0" />
+			<pattr name = "32nt" value = "0" />
+			<pattr name = "4n" value = "0" />
+			<pattr name = "4nd" value = "0" />
+			<pattr name = "4nt" value = "0" />
+			<pattr name = "64n" value = "0" />
+			<pattr name = "64nd" value = "0" />
+			<pattr name = "8n" value = "0" />
+			<pattr name = "8nd" value = "0" />
+			<pattr name = "8nt" value = "0" />
+			<pattr name = "activate" value = "0" />
+			<pattr name = "change-cycle" value = "1" />
+			<pattr name = "change-prob" value = "75" />
+			<pattr name = "change-unit" value = "bars" />
+			<pattr name = "rest-prob" value = "25" />
+			<pattr name = "X.groove" value = "-1" />
+		</patcher>
+		<patcher name = "®Note[1]">
+			<pattr name = "dur-trigger" value = "play" />
+			<pattr name = "durations" value = "128n" />
+			<pattr name = "note-trigger" value = "play" />
+			<pattr name = "pitch-trigger" value = "pulse" />
+			<pattr name = "pitches" value = "C3 D3 C#3 D#3 E3" />
+			<pattr name = "vel-max" value = "120." />
+			<pattr name = "vel-min" value = "20." />
+			<pattr name = "vel-pow" value = "1." />
+			<pattr name = "vel-steps" value = "11" />
+			<pattr name = "vel-trigger" value = "pulse" />
+		</patcher>
+		<patcher name = "X.groove[2]">
+			<pattr name = "128n" value = "0" />
+			<pattr name = "128nd" value = "0" />
+			<pattr name = "16n" value = "0" />
+			<pattr name = "16nd" value = "0" />
+			<pattr name = "16nt" value = "0" />
+			<pattr name = "1n" value = "0" />
+			<pattr name = "1nd" value = "0" />
+			<pattr name = "1nt" value = "0" />
+			<pattr name = "2n" value = "0" />
+			<pattr name = "2nd" value = "0" />
+			<pattr name = "2nt" value = "0" />
+			<pattr name = "32n" value = "0" />
+			<pattr name = "32nd" value = "0" />
+			<pattr name = "32nt" value = "0" />
+			<pattr name = "4n" value = "0" />
+			<pattr name = "4nd" value = "0" />
+			<pattr name = "4nt" value = "0" />
+			<pattr name = "64n" value = "0" />
+			<pattr name = "64nd" value = "0" />
+			<pattr name = "8n" value = "0" />
+			<pattr name = "8nd" value = "0" />
+			<pattr name = "8nt" value = "0" />
+			<pattr name = "activate" value = "0" />
+			<pattr name = "change-cycle" value = "1" />
+			<pattr name = "change-prob" value = "75" />
+			<pattr name = "change-unit" value = "bars" />
+			<pattr name = "rest-prob" value = "25" />
+			<pattr name = "X.groove" value = "-1" />
+		</patcher>
+		<patcher name = "®Note[2]">
+			<pattr name = "dur-trigger" value = "play" />
+			<pattr name = "durations" value = "128n" />
+			<pattr name = "note-trigger" value = "play" />
+			<pattr name = "pitch-trigger" value = "play" />
+			<pattr name = "pitches" value = "G#4 A4 G#4 G#4" />
+			<pattr name = "vel-max" value = "120." />
+			<pattr name = "vel-min" value = "20." />
+			<pattr name = "vel-pow" value = "1." />
+			<pattr name = "vel-steps" value = "11" />
+			<pattr name = "vel-trigger" value = "play" />
+		</patcher>
+		<patcher name = "X.groove[3]">
+			<pattr name = "128n" value = "0" />
+			<pattr name = "128nd" value = "0" />
+			<pattr name = "16n" value = "0" />
+			<pattr name = "16nd" value = "0" />
+			<pattr name = "16nt" value = "0" />
+			<pattr name = "1n" value = "0" />
+			<pattr name = "1nd" value = "0" />
+			<pattr name = "1nt" value = "0" />
+			<pattr name = "2n" value = "0" />
+			<pattr name = "2nd" value = "0" />
+			<pattr name = "2nt" value = "0" />
+			<pattr name = "32n" value = "0" />
+			<pattr name = "32nd" value = "0" />
+			<pattr name = "32nt" value = "0" />
+			<pattr name = "4n" value = "4" />
+			<pattr name = "4nd" value = "1" />
+			<pattr name = "4nt" value = "0" />
+			<pattr name = "64n" value = "0" />
+			<pattr name = "64nd" value = "0" />
+			<pattr name = "8n" value = "1" />
+			<pattr name = "8nd" value = "1" />
+			<pattr name = "8nt" value = "0" />
+			<pattr name = "activate" value = "1" />
+			<pattr name = "change-cycle" value = "2" />
+			<pattr name = "change-prob" value = "100" />
+			<pattr name = "change-unit" value = "beats" />
+			<pattr name = "rest-prob" value = "0" />
+			<pattr name = "X.groove" value = "-1" />
+		</patcher>
+		<patcher name = "®Note[3]">
+			<pattr name = "dur-trigger" value = "play" />
+			<pattr name = "durations" value = "128n" />
+			<pattr name = "note-trigger" value = "play" />
+			<pattr name = "pitch-trigger" value = "play" />
+			<pattr name = "pitches" value = "C1" />
+			<pattr name = "vel-max" value = "120." />
+			<pattr name = "vel-min" value = "64." />
+			<pattr name = "vel-pow" value = "1." />
+			<pattr name = "vel-steps" value = "11" />
+			<pattr name = "vel-trigger" value = "play" />
+		</patcher>
+		<patcher name = "X.groove[4]">
+			<pattr name = "128n" value = "0" />
+			<pattr name = "128nd" value = "0" />
+			<pattr name = "16n" value = "0" />
+			<pattr name = "16nd" value = "0" />
+			<pattr name = "16nt" value = "0" />
+			<pattr name = "1n" value = "0" />
+			<pattr name = "1nd" value = "0" />
+			<pattr name = "1nt" value = "0" />
+			<pattr name = "2n" value = "0" />
+			<pattr name = "2nd" value = "0" />
+			<pattr name = "2nt" value = "0" />
+			<pattr name = "32n" value = "0" />
+			<pattr name = "32nd" value = "0" />
+			<pattr name = "32nt" value = "0" />
+			<pattr name = "4n" value = "0" />
+			<pattr name = "4nd" value = "0" />
+			<pattr name = "4nt" value = "0" />
+			<pattr name = "64n" value = "0" />
+			<pattr name = "64nd" value = "0" />
+			<pattr name = "8n" value = "0" />
+			<pattr name = "8nd" value = "0" />
+			<pattr name = "8nt" value = "0" />
+			<pattr name = "activate" value = "0" />
+			<pattr name = "change-cycle" value = "1" />
+			<pattr name = "change-prob" value = "75" />
+			<pattr name = "change-unit" value = "bars" />
+			<pattr name = "rest-prob" value = "25" />
+			<pattr name = "X.groove" value = "-1" />
+		</patcher>
+		<patcher name = "®Note[4]">
+			<pattr name = "dur-trigger" value = "play" />
+			<pattr name = "durations" value = "128n" />
+			<pattr name = "note-trigger" value = "play" />
+			<pattr name = "pitch-trigger" value = "play" />
+			<pattr name = "pitches" value = "F4 E4 D4 C#4" />
+			<pattr name = "vel-max" value = "120." />
+			<pattr name = "vel-min" value = "20." />
+			<pattr name = "vel-pow" value = "1." />
+			<pattr name = "vel-steps" value = "11" />
+			<pattr name = "vel-trigger" value = "play" />
+		</patcher>
+		<patcher name = "Help">
+			<patcher name = "MyGroove1">
+				<pattr name = "128n" value = "0" />
+				<pattr name = "128nd" value = "0" />
+				<pattr name = "16n" value = "0" />
+				<pattr name = "16nd" value = "0" />
+				<pattr name = "16nt" value = "0" />
+				<pattr name = "1n" value = "0" />
+				<pattr name = "1nd" value = "0" />
+				<pattr name = "1nt" value = "0" />
+				<pattr name = "2n" value = "0" />
+				<pattr name = "2nd" value = "0" />
+				<pattr name = "2nt" value = "0" />
+				<pattr name = "32n" value = "0" />
+				<pattr name = "32nd" value = "0" />
+				<pattr name = "32nt" value = "0" />
+				<pattr name = "4n" value = "1" />
+				<pattr name = "4nd" value = "0" />
+				<pattr name = "4nt" value = "0" />
+				<pattr name = "64n" value = "0" />
+				<pattr name = "64nd" value = "0" />
+				<pattr name = "8n" value = "0" />
+				<pattr name = "8nd" value = "0" />
+				<pattr name = "8nt" value = "0" />
+				<pattr name = "activate" value = "0" />
+				<pattr name = "change-cycle" value = "1" />
+				<pattr name = "change-prob" value = "75" />
+				<pattr name = "change-unit" value = "bars" />
+				<pattr name = "rest-prob" value = "25" />
+				<pattr name = "MyGroove1" value = "-1" />
+			</patcher>
+			<patcher name = "Messages[1]">
+				<patcher name = "X.groove">
+					<pattr name = "128n" value = "0" />
+					<pattr name = "128nd" value = "0" />
+					<pattr name = "16n" value = "1" />
+					<pattr name = "16nd" value = "0" />
+					<pattr name = "16nt" value = "0" />
+					<pattr name = "1n" value = "0" />
+					<pattr name = "1nd" value = "0" />
+					<pattr name = "1nt" value = "0" />
+					<pattr name = "2n" value = "0" />
+					<pattr name = "2nd" value = "0" />
+					<pattr name = "2nt" value = "0" />
+					<pattr name = "32n" value = "0" />
+					<pattr name = "32nd" value = "0" />
+					<pattr name = "32nt" value = "0" />
+					<pattr name = "4n" value = "4" />
+					<pattr name = "4nd" value = "0" />
+					<pattr name = "4nt" value = "0" />
+					<pattr name = "64n" value = "0" />
+					<pattr name = "64nd" value = "0" />
+					<pattr name = "8n" value = "2" />
+					<pattr name = "8nd" value = "0" />
+					<pattr name = "8nt" value = "0" />
+					<pattr name = "activate" value = "1" />
+					<pattr name = "change-cycle" value = "2" />
+					<pattr name = "change-prob" value = "50" />
+					<pattr name = "change-unit" value = "beats" />
+					<pattr name = "rest-prob" value = "20" />
+					<pattr name = "MyGroove2" value = "-1" />
+				</patcher>
+			</patcher>
+		</patcher>
+		<patcher name = "X.groove[5]">
+			<pattr name = "128n" value = "" />
+			<pattr name = "128nd" value = "" />
+			<pattr name = "16n" value = "" />
+			<pattr name = "16nd" value = "" />
+			<pattr name = "16nt" value = "" />
+			<pattr name = "1n" value = "" />
+			<pattr name = "1nd" value = "" />
+			<pattr name = "1nt" value = "" />
+			<pattr name = "2n" value = "" />
+			<pattr name = "2nd" value = "" />
+			<pattr name = "2nt" value = "" />
+			<pattr name = "32n" value = "" />
+			<pattr name = "32nd" value = "" />
+			<pattr name = "32nt" value = "" />
+			<pattr name = "4n" value = "" />
+			<pattr name = "4nd" value = "" />
+			<pattr name = "4nt" value = "" />
+			<pattr name = "64n" value = "" />
+			<pattr name = "64nd" value = "" />
+			<pattr name = "8n" value = "" />
+			<pattr name = "8nd" value = "" />
+			<pattr name = "8nt" value = "" />
+			<pattr name = "activate" value = "" />
+			<pattr name = "change-cycle" value = "" />
+			<pattr name = "change-prob" value = "" />
+			<pattr name = "change-unit" value = "" />
+			<pattr name = "rest-prob" value = "" />
+			<pattr name = "X.groove" value = "" />
+		</patcher>
+		<patcher name = "®Note[5]">
+			<pattr name = "dur-trigger" value = "" />
+			<pattr name = "durations" value = "" />
+			<pattr name = "note-trigger" value = "" />
+			<pattr name = "pitch-trigger" value = "" />
+			<pattr name = "pitches" value = "" />
+			<pattr name = "vel-max" value = "" />
+			<pattr name = "vel-min" value = "" />
+			<pattr name = "vel-pow" value = "" />
+			<pattr name = "vel-steps" value = "" />
+			<pattr name = "vel-trigger" value = "" />
+		</patcher>
+	</slot>
+	<slot number = "2">
+		<pattr name = "preset-name" value = "good wrist" />
+		<patcher name = "X.groove[1]">
+			<pattr name = "128n" value = "0" />
+			<pattr name = "128nd" value = "0" />
+			<pattr name = "16n" value = "0" />
+			<pattr name = "16nd" value = "0" />
+			<pattr name = "16nt" value = "0" />
+			<pattr name = "1n" value = "0" />
+			<pattr name = "1nd" value = "0" />
+			<pattr name = "1nt" value = "0" />
+			<pattr name = "2n" value = "0" />
+			<pattr name = "2nd" value = "0" />
+			<pattr name = "2nt" value = "0" />
+			<pattr name = "32n" value = "0" />
+			<pattr name = "32nd" value = "0" />
+			<pattr name = "32nt" value = "0" />
+			<pattr name = "4n" value = "0" />
+			<pattr name = "4nd" value = "0" />
+			<pattr name = "4nt" value = "0" />
+			<pattr name = "64n" value = "0" />
+			<pattr name = "64nd" value = "0" />
+			<pattr name = "8n" value = "0" />
+			<pattr name = "8nd" value = "0" />
+			<pattr name = "8nt" value = "0" />
+			<pattr name = "activate" value = "0" />
+			<pattr name = "change-cycle" value = "1" />
+			<pattr name = "change-prob" value = "75" />
+			<pattr name = "change-unit" value = "bars" />
+			<pattr name = "rest-prob" value = "25" />
+			<pattr name = "X.groove" value = "-1" />
+		</patcher>
+		<patcher name = "®Note[1]">
+			<pattr name = "dur-trigger" value = "play" />
+			<pattr name = "durations" value = "128n" />
+			<pattr name = "note-trigger" value = "play" />
+			<pattr name = "pitch-trigger" value = "pulse" />
+			<pattr name = "pitches" value = "C3 D3 C#3 D#3 E3" />
+			<pattr name = "vel-max" value = "120." />
+			<pattr name = "vel-min" value = "20." />
+			<pattr name = "vel-pow" value = "1." />
+			<pattr name = "vel-steps" value = "11" />
+			<pattr name = "vel-trigger" value = "pulse" />
+		</patcher>
+		<patcher name = "X.groove[2]">
+			<pattr name = "128n" value = "0" />
+			<pattr name = "128nd" value = "0" />
+			<pattr name = "16n" value = "2" />
+			<pattr name = "16nd" value = "0" />
+			<pattr name = "16nt" value = "0" />
+			<pattr name = "1n" value = "0" />
+			<pattr name = "1nd" value = "0" />
+			<pattr name = "1nt" value = "0" />
+			<pattr name = "2n" value = "0" />
+			<pattr name = "2nd" value = "0" />
+			<pattr name = "2nt" value = "0" />
+			<pattr name = "32n" value = "0" />
+			<pattr name = "32nd" value = "0" />
+			<pattr name = "32nt" value = "0" />
+			<pattr name = "4n" value = "0" />
+			<pattr name = "4nd" value = "0" />
+			<pattr name = "4nt" value = "0" />
+			<pattr name = "64n" value = "0" />
+			<pattr name = "64nd" value = "0" />
+			<pattr name = "8n" value = "1" />
+			<pattr name = "8nd" value = "0" />
+			<pattr name = "8nt" value = "0" />
+			<pattr name = "activate" value = "1" />
+			<pattr name = "change-cycle" value = "1" />
+			<pattr name = "change-prob" value = "75" />
+			<pattr name = "change-unit" value = "bars" />
+			<pattr name = "rest-prob" value = "25" />
+			<pattr name = "X.groove" value = "-1" />
+		</patcher>
+		<patcher name = "®Note[2]">
+			<pattr name = "dur-trigger" value = "play" />
+			<pattr name = "durations" value = "128n" />
+			<pattr name = "note-trigger" value = "play" />
+			<pattr name = "pitch-trigger" value = "play" />
+			<pattr name = "pitches" value = "G#4 A4 G#4 G#4" />
+			<pattr name = "vel-max" value = "120." />
+			<pattr name = "vel-min" value = "20." />
+			<pattr name = "vel-pow" value = "1." />
+			<pattr name = "vel-steps" value = "11" />
+			<pattr name = "vel-trigger" value = "play" />
+		</patcher>
+		<patcher name = "X.groove[3]">
+			<pattr name = "128n" value = "0" />
+			<pattr name = "128nd" value = "0" />
+			<pattr name = "16n" value = "0" />
+			<pattr name = "16nd" value = "0" />
+			<pattr name = "16nt" value = "0" />
+			<pattr name = "1n" value = "0" />
+			<pattr name = "1nd" value = "0" />
+			<pattr name = "1nt" value = "0" />
+			<pattr name = "2n" value = "0" />
+			<pattr name = "2nd" value = "0" />
+			<pattr name = "2nt" value = "0" />
+			<pattr name = "32n" value = "0" />
+			<pattr name = "32nd" value = "0" />
+			<pattr name = "32nt" value = "0" />
+			<pattr name = "4n" value = "4" />
+			<pattr name = "4nd" value = "1" />
+			<pattr name = "4nt" value = "0" />
+			<pattr name = "64n" value = "0" />
+			<pattr name = "64nd" value = "0" />
+			<pattr name = "8n" value = "1" />
+			<pattr name = "8nd" value = "1" />
+			<pattr name = "8nt" value = "0" />
+			<pattr name = "activate" value = "1" />
+			<pattr name = "change-cycle" value = "2" />
+			<pattr name = "change-prob" value = "100" />
+			<pattr name = "change-unit" value = "beats" />
+			<pattr name = "rest-prob" value = "0" />
+			<pattr name = "X.groove" value = "-1" />
+		</patcher>
+		<patcher name = "®Note[3]">
+			<pattr name = "dur-trigger" value = "play" />
+			<pattr name = "durations" value = "128n" />
+			<pattr name = "note-trigger" value = "play" />
+			<pattr name = "pitch-trigger" value = "play" />
+			<pattr name = "pitches" value = "C1" />
+			<pattr name = "vel-max" value = "120." />
+			<pattr name = "vel-min" value = "64." />
+			<pattr name = "vel-pow" value = "1." />
+			<pattr name = "vel-steps" value = "11" />
+			<pattr name = "vel-trigger" value = "play" />
+		</patcher>
+		<patcher name = "X.groove[4]">
+			<pattr name = "128n" value = "0" />
+			<pattr name = "128nd" value = "0" />
+			<pattr name = "16n" value = "0" />
+			<pattr name = "16nd" value = "0" />
+			<pattr name = "16nt" value = "0" />
+			<pattr name = "1n" value = "0" />
+			<pattr name = "1nd" value = "0" />
+			<pattr name = "1nt" value = "0" />
+			<pattr name = "2n" value = "0" />
+			<pattr name = "2nd" value = "0" />
+			<pattr name = "2nt" value = "0" />
+			<pattr name = "32n" value = "0" />
+			<pattr name = "32nd" value = "0" />
+			<pattr name = "32nt" value = "0" />
+			<pattr name = "4n" value = "0" />
+			<pattr name = "4nd" value = "0" />
+			<pattr name = "4nt" value = "0" />
+			<pattr name = "64n" value = "0" />
+			<pattr name = "64nd" value = "0" />
+			<pattr name = "8n" value = "0" />
+			<pattr name = "8nd" value = "0" />
+			<pattr name = "8nt" value = "0" />
+			<pattr name = "activate" value = "0" />
+			<pattr name = "change-cycle" value = "1" />
+			<pattr name = "change-prob" value = "75" />
+			<pattr name = "change-unit" value = "bars" />
+			<pattr name = "rest-prob" value = "25" />
+			<pattr name = "X.groove" value = "-1" />
+		</patcher>
+		<patcher name = "®Note[4]">
+			<pattr name = "dur-trigger" value = "play" />
+			<pattr name = "durations" value = "128n" />
+			<pattr name = "note-trigger" value = "play" />
+			<pattr name = "pitch-trigger" value = "play" />
+			<pattr name = "pitches" value = "F4 E4 D4 C#4" />
+			<pattr name = "vel-max" value = "120." />
+			<pattr name = "vel-min" value = "20." />
+			<pattr name = "vel-pow" value = "1." />
+			<pattr name = "vel-steps" value = "11" />
+			<pattr name = "vel-trigger" value = "play" />
+		</patcher>
+		<patcher name = "Help">
+			<patcher name = "MyGroove1">
+				<pattr name = "128n" value = "0" />
+				<pattr name = "128nd" value = "0" />
+				<pattr name = "16n" value = "0" />
+				<pattr name = "16nd" value = "0" />
+				<pattr name = "16nt" value = "0" />
+				<pattr name = "1n" value = "0" />
+				<pattr name = "1nd" value = "0" />
+				<pattr name = "1nt" value = "0" />
+				<pattr name = "2n" value = "0" />
+				<pattr name = "2nd" value = "0" />
+				<pattr name = "2nt" value = "0" />
+				<pattr name = "32n" value = "0" />
+				<pattr name = "32nd" value = "0" />
+				<pattr name = "32nt" value = "0" />
+				<pattr name = "4n" value = "1" />
+				<pattr name = "4nd" value = "0" />
+				<pattr name = "4nt" value = "0" />
+				<pattr name = "64n" value = "0" />
+				<pattr name = "64nd" value = "0" />
+				<pattr name = "8n" value = "0" />
+				<pattr name = "8nd" value = "0" />
+				<pattr name = "8nt" value = "0" />
+				<pattr name = "activate" value = "0" />
+				<pattr name = "change-cycle" value = "1" />
+				<pattr name = "change-prob" value = "75" />
+				<pattr name = "change-unit" value = "bars" />
+				<pattr name = "rest-prob" value = "25" />
+				<pattr name = "MyGroove1" value = "-1" />
+			</patcher>
+			<patcher name = "Messages[1]">
+				<patcher name = "X.groove">
+					<pattr name = "128n" value = "0" />
+					<pattr name = "128nd" value = "0" />
+					<pattr name = "16n" value = "1" />
+					<pattr name = "16nd" value = "0" />
+					<pattr name = "16nt" value = "0" />
+					<pattr name = "1n" value = "0" />
+					<pattr name = "1nd" value = "0" />
+					<pattr name = "1nt" value = "0" />
+					<pattr name = "2n" value = "0" />
+					<pattr name = "2nd" value = "0" />
+					<pattr name = "2nt" value = "0" />
+					<pattr name = "32n" value = "0" />
+					<pattr name = "32nd" value = "0" />
+					<pattr name = "32nt" value = "0" />
+					<pattr name = "4n" value = "4" />
+					<pattr name = "4nd" value = "0" />
+					<pattr name = "4nt" value = "0" />
+					<pattr name = "64n" value = "0" />
+					<pattr name = "64nd" value = "0" />
+					<pattr name = "8n" value = "2" />
+					<pattr name = "8nd" value = "0" />
+					<pattr name = "8nt" value = "0" />
+					<pattr name = "activate" value = "1" />
+					<pattr name = "change-cycle" value = "2" />
+					<pattr name = "change-prob" value = "50" />
+					<pattr name = "change-unit" value = "beats" />
+					<pattr name = "rest-prob" value = "20" />
+					<pattr name = "MyGroove2" value = "-1" />
+				</patcher>
+			</patcher>
+		</patcher>
+		<patcher name = "X.groove[5]">
+			<pattr name = "128n" value = "" />
+			<pattr name = "128nd" value = "" />
+			<pattr name = "16n" value = "" />
+			<pattr name = "16nd" value = "" />
+			<pattr name = "16nt" value = "" />
+			<pattr name = "1n" value = "" />
+			<pattr name = "1nd" value = "" />
+			<pattr name = "1nt" value = "" />
+			<pattr name = "2n" value = "" />
+			<pattr name = "2nd" value = "" />
+			<pattr name = "2nt" value = "" />
+			<pattr name = "32n" value = "" />
+			<pattr name = "32nd" value = "" />
+			<pattr name = "32nt" value = "" />
+			<pattr name = "4n" value = "" />
+			<pattr name = "4nd" value = "" />
+			<pattr name = "4nt" value = "" />
+			<pattr name = "64n" value = "" />
+			<pattr name = "64nd" value = "" />
+			<pattr name = "8n" value = "" />
+			<pattr name = "8nd" value = "" />
+			<pattr name = "8nt" value = "" />
+			<pattr name = "activate" value = "" />
+			<pattr name = "change-cycle" value = "" />
+			<pattr name = "change-prob" value = "" />
+			<pattr name = "change-unit" value = "" />
+			<pattr name = "rest-prob" value = "" />
+			<pattr name = "X.groove" value = "" />
+		</patcher>
+		<patcher name = "®Note[5]">
+			<pattr name = "dur-trigger" value = "" />
+			<pattr name = "durations" value = "" />
+			<pattr name = "note-trigger" value = "" />
+			<pattr name = "pitch-trigger" value = "" />
+			<pattr name = "pitches" value = "" />
+			<pattr name = "vel-max" value = "" />
+			<pattr name = "vel-min" value = "" />
+			<pattr name = "vel-pow" value = "" />
+			<pattr name = "vel-steps" value = "" />
+			<pattr name = "vel-trigger" value = "" />
+		</patcher>
+	</slot>
+	<slot number = "3">
+		<pattr name = "preset-name" value = "next R.Martin song" />
+		<patcher name = "X.groove[1]">
+			<pattr name = "128n" value = "0" />
+			<pattr name = "128nd" value = "0" />
+			<pattr name = "16n" value = "4" />
+			<pattr name = "16nd" value = "0" />
+			<pattr name = "16nt" value = "0" />
+			<pattr name = "1n" value = "0" />
+			<pattr name = "1nd" value = "0" />
+			<pattr name = "1nt" value = "0" />
+			<pattr name = "2n" value = "0" />
+			<pattr name = "2nd" value = "0" />
+			<pattr name = "2nt" value = "0" />
+			<pattr name = "32n" value = "0" />
+			<pattr name = "32nd" value = "0" />
+			<pattr name = "32nt" value = "0" />
+			<pattr name = "4n" value = "1" />
+			<pattr name = "4nd" value = "0" />
+			<pattr name = "4nt" value = "0" />
+			<pattr name = "64n" value = "0" />
+			<pattr name = "64nd" value = "0" />
+			<pattr name = "8n" value = "2" />
+			<pattr name = "8nd" value = "0" />
+			<pattr name = "8nt" value = "0" />
+			<pattr name = "activate" value = "1" />
+			<pattr name = "change-cycle" value = "1" />
+			<pattr name = "change-prob" value = "75" />
+			<pattr name = "change-unit" value = "beats" />
+			<pattr name = "rest-prob" value = "25" />
+			<pattr name = "X.groove" value = "-1" />
+		</patcher>
+		<patcher name = "®Note[1]">
+			<pattr name = "dur-trigger" value = "play" />
+			<pattr name = "durations" value = "128n" />
+			<pattr name = "note-trigger" value = "play" />
+			<pattr name = "pitch-trigger" value = "pulse" />
+			<pattr name = "pitches" value = "C3 D3 C#3 D#3 E3" />
+			<pattr name = "vel-max" value = "120." />
+			<pattr name = "vel-min" value = "20." />
+			<pattr name = "vel-pow" value = "1." />
+			<pattr name = "vel-steps" value = "11" />
+			<pattr name = "vel-trigger" value = "pulse" />
+		</patcher>
+		<patcher name = "X.groove[2]">
+			<pattr name = "128n" value = "0" />
+			<pattr name = "128nd" value = "0" />
+			<pattr name = "16n" value = "1" />
+			<pattr name = "16nd" value = "0" />
+			<pattr name = "16nt" value = "0" />
+			<pattr name = "1n" value = "0" />
+			<pattr name = "1nd" value = "0" />
+			<pattr name = "1nt" value = "0" />
+			<pattr name = "2n" value = "0" />
+			<pattr name = "2nd" value = "0" />
+			<pattr name = "2nt" value = "0" />
+			<pattr name = "32n" value = "0" />
+			<pattr name = "32nd" value = "0" />
+			<pattr name = "32nt" value = "0" />
+			<pattr name = "4n" value = "0" />
+			<pattr name = "4nd" value = "0" />
+			<pattr name = "4nt" value = "0" />
+			<pattr name = "64n" value = "0" />
+			<pattr name = "64nd" value = "0" />
+			<pattr name = "8n" value = "1" />
+			<pattr name = "8nd" value = "0" />
+			<pattr name = "8nt" value = "0" />
+			<pattr name = "activate" value = "1" />
+			<pattr name = "change-cycle" value = "1" />
+			<pattr name = "change-prob" value = "75" />
+			<pattr name = "change-unit" value = "bars" />
+			<pattr name = "rest-prob" value = "25" />
+			<pattr name = "X.groove" value = "-1" />
+		</patcher>
+		<patcher name = "®Note[2]">
+			<pattr name = "dur-trigger" value = "play" />
+			<pattr name = "durations" value = "128n" />
+			<pattr name = "note-trigger" value = "play" />
+			<pattr name = "pitch-trigger" value = "play" />
+			<pattr name = "pitches" value = "G#4 A4 G#4 G#4" />
+			<pattr name = "vel-max" value = "120." />
+			<pattr name = "vel-min" value = "20." />
+			<pattr name = "vel-pow" value = "1." />
+			<pattr name = "vel-steps" value = "11" />
+			<pattr name = "vel-trigger" value = "play" />
+		</patcher>
+		<patcher name = "X.groove[3]">
+			<pattr name = "128n" value = "0" />
+			<pattr name = "128nd" value = "0" />
+			<pattr name = "16n" value = "0" />
+			<pattr name = "16nd" value = "0" />
+			<pattr name = "16nt" value = "0" />
+			<pattr name = "1n" value = "0" />
+			<pattr name = "1nd" value = "0" />
+			<pattr name = "1nt" value = "0" />
+			<pattr name = "2n" value = "0" />
+			<pattr name = "2nd" value = "0" />
+			<pattr name = "2nt" value = "0" />
+			<pattr name = "32n" value = "0" />
+			<pattr name = "32nd" value = "0" />
+			<pattr name = "32nt" value = "0" />
+			<pattr name = "4n" value = "4" />
+			<pattr name = "4nd" value = "1" />
+			<pattr name = "4nt" value = "0" />
+			<pattr name = "64n" value = "0" />
+			<pattr name = "64nd" value = "0" />
+			<pattr name = "8n" value = "1" />
+			<pattr name = "8nd" value = "1" />
+			<pattr name = "8nt" value = "0" />
+			<pattr name = "activate" value = "1" />
+			<pattr name = "change-cycle" value = "2" />
+			<pattr name = "change-prob" value = "100" />
+			<pattr name = "change-unit" value = "beats" />
+			<pattr name = "rest-prob" value = "0" />
+			<pattr name = "X.groove" value = "-1" />
+		</patcher>
+		<patcher name = "®Note[3]">
+			<pattr name = "dur-trigger" value = "play" />
+			<pattr name = "durations" value = "128n" />
+			<pattr name = "note-trigger" value = "play" />
+			<pattr name = "pitch-trigger" value = "play" />
+			<pattr name = "pitches" value = "C1" />
+			<pattr name = "vel-max" value = "120." />
+			<pattr name = "vel-min" value = "64." />
+			<pattr name = "vel-pow" value = "1." />
+			<pattr name = "vel-steps" value = "11" />
+			<pattr name = "vel-trigger" value = "play" />
+		</patcher>
+		<patcher name = "X.groove[4]">
+			<pattr name = "128n" value = "0" />
+			<pattr name = "128nd" value = "0" />
+			<pattr name = "16n" value = "0" />
+			<pattr name = "16nd" value = "0" />
+			<pattr name = "16nt" value = "0" />
+			<pattr name = "1n" value = "0" />
+			<pattr name = "1nd" value = "0" />
+			<pattr name = "1nt" value = "0" />
+			<pattr name = "2n" value = "0" />
+			<pattr name = "2nd" value = "0" />
+			<pattr name = "2nt" value = "0" />
+			<pattr name = "32n" value = "0" />
+			<pattr name = "32nd" value = "0" />
+			<pattr name = "32nt" value = "0" />
+			<pattr name = "4n" value = "0" />
+			<pattr name = "4nd" value = "0" />
+			<pattr name = "4nt" value = "0" />
+			<pattr name = "64n" value = "0" />
+			<pattr name = "64nd" value = "0" />
+			<pattr name = "8n" value = "0" />
+			<pattr name = "8nd" value = "0" />
+			<pattr name = "8nt" value = "0" />
+			<pattr name = "activate" value = "0" />
+			<pattr name = "change-cycle" value = "1" />
+			<pattr name = "change-prob" value = "75" />
+			<pattr name = "change-unit" value = "bars" />
+			<pattr name = "rest-prob" value = "25" />
+			<pattr name = "X.groove" value = "-1" />
+		</patcher>
+		<patcher name = "®Note[4]">
+			<pattr name = "dur-trigger" value = "play" />
+			<pattr name = "durations" value = "128n" />
+			<pattr name = "note-trigger" value = "play" />
+			<pattr name = "pitch-trigger" value = "play" />
+			<pattr name = "pitches" value = "F4 E4 D4 C#4" />
+			<pattr name = "vel-max" value = "120." />
+			<pattr name = "vel-min" value = "20." />
+			<pattr name = "vel-pow" value = "1." />
+			<pattr name = "vel-steps" value = "11" />
+			<pattr name = "vel-trigger" value = "play" />
+		</patcher>
+		<patcher name = "Help">
+			<patcher name = "MyGroove1">
+				<pattr name = "128n" value = "0" />
+				<pattr name = "128nd" value = "0" />
+				<pattr name = "16n" value = "0" />
+				<pattr name = "16nd" value = "0" />
+				<pattr name = "16nt" value = "0" />
+				<pattr name = "1n" value = "0" />
+				<pattr name = "1nd" value = "0" />
+				<pattr name = "1nt" value = "0" />
+				<pattr name = "2n" value = "0" />
+				<pattr name = "2nd" value = "0" />
+				<pattr name = "2nt" value = "0" />
+				<pattr name = "32n" value = "0" />
+				<pattr name = "32nd" value = "0" />
+				<pattr name = "32nt" value = "0" />
+				<pattr name = "4n" value = "1" />
+				<pattr name = "4nd" value = "0" />
+				<pattr name = "4nt" value = "0" />
+				<pattr name = "64n" value = "0" />
+				<pattr name = "64nd" value = "0" />
+				<pattr name = "8n" value = "0" />
+				<pattr name = "8nd" value = "0" />
+				<pattr name = "8nt" value = "0" />
+				<pattr name = "activate" value = "0" />
+				<pattr name = "change-cycle" value = "1" />
+				<pattr name = "change-prob" value = "75" />
+				<pattr name = "change-unit" value = "bars" />
+				<pattr name = "rest-prob" value = "25" />
+				<pattr name = "MyGroove1" value = "-1" />
+			</patcher>
+			<patcher name = "Messages[1]">
+				<patcher name = "X.groove">
+					<pattr name = "128n" value = "0" />
+					<pattr name = "128nd" value = "0" />
+					<pattr name = "16n" value = "1" />
+					<pattr name = "16nd" value = "0" />
+					<pattr name = "16nt" value = "0" />
+					<pattr name = "1n" value = "0" />
+					<pattr name = "1nd" value = "0" />
+					<pattr name = "1nt" value = "0" />
+					<pattr name = "2n" value = "0" />
+					<pattr name = "2nd" value = "0" />
+					<pattr name = "2nt" value = "0" />
+					<pattr name = "32n" value = "0" />
+					<pattr name = "32nd" value = "0" />
+					<pattr name = "32nt" value = "0" />
+					<pattr name = "4n" value = "4" />
+					<pattr name = "4nd" value = "0" />
+					<pattr name = "4nt" value = "0" />
+					<pattr name = "64n" value = "0" />
+					<pattr name = "64nd" value = "0" />
+					<pattr name = "8n" value = "2" />
+					<pattr name = "8nd" value = "0" />
+					<pattr name = "8nt" value = "0" />
+					<pattr name = "activate" value = "1" />
+					<pattr name = "change-cycle" value = "2" />
+					<pattr name = "change-prob" value = "50" />
+					<pattr name = "change-unit" value = "beats" />
+					<pattr name = "rest-prob" value = "20" />
+					<pattr name = "MyGroove2" value = "-1" />
+				</patcher>
+			</patcher>
+		</patcher>
+		<patcher name = "X.groove[5]">
+			<pattr name = "128n" value = "" />
+			<pattr name = "128nd" value = "" />
+			<pattr name = "16n" value = "" />
+			<pattr name = "16nd" value = "" />
+			<pattr name = "16nt" value = "" />
+			<pattr name = "1n" value = "" />
+			<pattr name = "1nd" value = "" />
+			<pattr name = "1nt" value = "" />
+			<pattr name = "2n" value = "" />
+			<pattr name = "2nd" value = "" />
+			<pattr name = "2nt" value = "" />
+			<pattr name = "32n" value = "" />
+			<pattr name = "32nd" value = "" />
+			<pattr name = "32nt" value = "" />
+			<pattr name = "4n" value = "" />
+			<pattr name = "4nd" value = "" />
+			<pattr name = "4nt" value = "" />
+			<pattr name = "64n" value = "" />
+			<pattr name = "64nd" value = "" />
+			<pattr name = "8n" value = "" />
+			<pattr name = "8nd" value = "" />
+			<pattr name = "8nt" value = "" />
+			<pattr name = "activate" value = "" />
+			<pattr name = "change-cycle" value = "" />
+			<pattr name = "change-prob" value = "" />
+			<pattr name = "change-unit" value = "" />
+			<pattr name = "rest-prob" value = "" />
+			<pattr name = "X.groove" value = "" />
+		</patcher>
+		<patcher name = "®Note[5]">
+			<pattr name = "dur-trigger" value = "" />
+			<pattr name = "durations" value = "" />
+			<pattr name = "note-trigger" value = "" />
+			<pattr name = "pitch-trigger" value = "" />
+			<pattr name = "pitches" value = "" />
+			<pattr name = "vel-max" value = "" />
+			<pattr name = "vel-min" value = "" />
+			<pattr name = "vel-pow" value = "" />
+			<pattr name = "vel-steps" value = "" />
+			<pattr name = "vel-trigger" value = "" />
+		</patcher>
+	</slot>
+	<slot number = "4">
+		<pattr name = "preset-name" value = "GM = best sound" />
+		<patcher name = "X.groove[1]">
+			<pattr name = "128n" value = "0" />
+			<pattr name = "128nd" value = "0" />
+			<pattr name = "16n" value = "4" />
+			<pattr name = "16nd" value = "0" />
+			<pattr name = "16nt" value = "0" />
+			<pattr name = "1n" value = "0" />
+			<pattr name = "1nd" value = "0" />
+			<pattr name = "1nt" value = "0" />
+			<pattr name = "2n" value = "0" />
+			<pattr name = "2nd" value = "0" />
+			<pattr name = "2nt" value = "0" />
+			<pattr name = "32n" value = "0" />
+			<pattr name = "32nd" value = "0" />
+			<pattr name = "32nt" value = "0" />
+			<pattr name = "4n" value = "1" />
+			<pattr name = "4nd" value = "0" />
+			<pattr name = "4nt" value = "0" />
+			<pattr name = "64n" value = "0" />
+			<pattr name = "64nd" value = "0" />
+			<pattr name = "8n" value = "2" />
+			<pattr name = "8nd" value = "0" />
+			<pattr name = "8nt" value = "0" />
+			<pattr name = "activate" value = "1" />
+			<pattr name = "change-cycle" value = "1" />
+			<pattr name = "change-prob" value = "75" />
+			<pattr name = "change-unit" value = "beats" />
+			<pattr name = "rest-prob" value = "25" />
+			<pattr name = "X.groove" value = "-1" />
+		</patcher>
+		<patcher name = "®Note[1]">
+			<pattr name = "dur-trigger" value = "play" />
+			<pattr name = "durations" value = "128n" />
+			<pattr name = "note-trigger" value = "play" />
+			<pattr name = "pitch-trigger" value = "pulse" />
+			<pattr name = "pitches" value = "C3 D3 C#3 D#3 E3" />
+			<pattr name = "vel-max" value = "120." />
+			<pattr name = "vel-min" value = "20." />
+			<pattr name = "vel-pow" value = "1." />
+			<pattr name = "vel-steps" value = "11" />
+			<pattr name = "vel-trigger" value = "pulse" />
+		</patcher>
+		<patcher name = "X.groove[2]">
+			<pattr name = "128n" value = "0" />
+			<pattr name = "128nd" value = "0" />
+			<pattr name = "16n" value = "1" />
+			<pattr name = "16nd" value = "0" />
+			<pattr name = "16nt" value = "0" />
+			<pattr name = "1n" value = "0" />
+			<pattr name = "1nd" value = "0" />
+			<pattr name = "1nt" value = "0" />
+			<pattr name = "2n" value = "0" />
+			<pattr name = "2nd" value = "0" />
+			<pattr name = "2nt" value = "0" />
+			<pattr name = "32n" value = "0" />
+			<pattr name = "32nd" value = "0" />
+			<pattr name = "32nt" value = "0" />
+			<pattr name = "4n" value = "0" />
+			<pattr name = "4nd" value = "0" />
+			<pattr name = "4nt" value = "0" />
+			<pattr name = "64n" value = "0" />
+			<pattr name = "64nd" value = "0" />
+			<pattr name = "8n" value = "1" />
+			<pattr name = "8nd" value = "0" />
+			<pattr name = "8nt" value = "0" />
+			<pattr name = "activate" value = "1" />
+			<pattr name = "change-cycle" value = "1" />
+			<pattr name = "change-prob" value = "75" />
+			<pattr name = "change-unit" value = "bars" />
+			<pattr name = "rest-prob" value = "25" />
+			<pattr name = "X.groove" value = "-1" />
+		</patcher>
+		<patcher name = "®Note[2]">
+			<pattr name = "dur-trigger" value = "play" />
+			<pattr name = "durations" value = "128n" />
+			<pattr name = "note-trigger" value = "play" />
+			<pattr name = "pitch-trigger" value = "play" />
+			<pattr name = "pitches" value = "G#4 A4 G#4 G#4" />
+			<pattr name = "vel-max" value = "120." />
+			<pattr name = "vel-min" value = "20." />
+			<pattr name = "vel-pow" value = "1." />
+			<pattr name = "vel-steps" value = "11" />
+			<pattr name = "vel-trigger" value = "play" />
+		</patcher>
+		<patcher name = "X.groove[3]">
+			<pattr name = "128n" value = "0" />
+			<pattr name = "128nd" value = "0" />
+			<pattr name = "16n" value = "0" />
+			<pattr name = "16nd" value = "0" />
+			<pattr name = "16nt" value = "0" />
+			<pattr name = "1n" value = "0" />
+			<pattr name = "1nd" value = "0" />
+			<pattr name = "1nt" value = "0" />
+			<pattr name = "2n" value = "0" />
+			<pattr name = "2nd" value = "0" />
+			<pattr name = "2nt" value = "0" />
+			<pattr name = "32n" value = "0" />
+			<pattr name = "32nd" value = "0" />
+			<pattr name = "32nt" value = "0" />
+			<pattr name = "4n" value = "4" />
+			<pattr name = "4nd" value = "1" />
+			<pattr name = "4nt" value = "0" />
+			<pattr name = "64n" value = "0" />
+			<pattr name = "64nd" value = "0" />
+			<pattr name = "8n" value = "1" />
+			<pattr name = "8nd" value = "1" />
+			<pattr name = "8nt" value = "0" />
+			<pattr name = "activate" value = "1" />
+			<pattr name = "change-cycle" value = "2" />
+			<pattr name = "change-prob" value = "100" />
+			<pattr name = "change-unit" value = "beats" />
+			<pattr name = "rest-prob" value = "0" />
+			<pattr name = "X.groove" value = "-1" />
+		</patcher>
+		<patcher name = "®Note[3]">
+			<pattr name = "dur-trigger" value = "play" />
+			<pattr name = "durations" value = "128n" />
+			<pattr name = "note-trigger" value = "play" />
+			<pattr name = "pitch-trigger" value = "play" />
+			<pattr name = "pitches" value = "C1" />
+			<pattr name = "vel-max" value = "120." />
+			<pattr name = "vel-min" value = "64." />
+			<pattr name = "vel-pow" value = "1." />
+			<pattr name = "vel-steps" value = "11" />
+			<pattr name = "vel-trigger" value = "play" />
+		</patcher>
+		<patcher name = "X.groove[4]">
+			<pattr name = "128n" value = "0" />
+			<pattr name = "128nd" value = "0" />
+			<pattr name = "16n" value = "1" />
+			<pattr name = "16nd" value = "1" />
+			<pattr name = "16nt" value = "1" />
+			<pattr name = "1n" value = "0" />
+			<pattr name = "1nd" value = "0" />
+			<pattr name = "1nt" value = "0" />
+			<pattr name = "2n" value = "0" />
+			<pattr name = "2nd" value = "0" />
+			<pattr name = "2nt" value = "0" />
+			<pattr name = "32n" value = "0" />
+			<pattr name = "32nd" value = "0" />
+			<pattr name = "32nt" value = "0" />
+			<pattr name = "4n" value = "1" />
+			<pattr name = "4nd" value = "1" />
+			<pattr name = "4nt" value = "1" />
+			<pattr name = "64n" value = "0" />
+			<pattr name = "64nd" value = "0" />
+			<pattr name = "8n" value = "1" />
+			<pattr name = "8nd" value = "1" />
+			<pattr name = "8nt" value = "1" />
+			<pattr name = "activate" value = "1" />
+			<pattr name = "change-cycle" value = "2" />
+			<pattr name = "change-prob" value = "75" />
+			<pattr name = "change-unit" value = "beats" />
+			<pattr name = "rest-prob" value = "25" />
+			<pattr name = "X.groove" value = "-1" />
+		</patcher>
+		<patcher name = "®Note[4]">
+			<pattr name = "dur-trigger" value = "play" />
+			<pattr name = "durations" value = "128n" />
+			<pattr name = "note-trigger" value = "play" />
+			<pattr name = "pitch-trigger" value = "play" />
+			<pattr name = "pitches" value = "F4 E4 D4 C#4" />
+			<pattr name = "vel-max" value = "120." />
+			<pattr name = "vel-min" value = "20." />
+			<pattr name = "vel-pow" value = "1." />
+			<pattr name = "vel-steps" value = "11" />
+			<pattr name = "vel-trigger" value = "play" />
+		</patcher>
+		<patcher name = "Help">
+			<patcher name = "MyGroove1">
+				<pattr name = "128n" value = "0" />
+				<pattr name = "128nd" value = "0" />
+				<pattr name = "16n" value = "0" />
+				<pattr name = "16nd" value = "0" />
+				<pattr name = "16nt" value = "0" />
+				<pattr name = "1n" value = "0" />
+				<pattr name = "1nd" value = "0" />
+				<pattr name = "1nt" value = "0" />
+				<pattr name = "2n" value = "0" />
+				<pattr name = "2nd" value = "0" />
+				<pattr name = "2nt" value = "0" />
+				<pattr name = "32n" value = "0" />
+				<pattr name = "32nd" value = "0" />
+				<pattr name = "32nt" value = "0" />
+				<pattr name = "4n" value = "1" />
+				<pattr name = "4nd" value = "0" />
+				<pattr name = "4nt" value = "0" />
+				<pattr name = "64n" value = "0" />
+				<pattr name = "64nd" value = "0" />
+				<pattr name = "8n" value = "0" />
+				<pattr name = "8nd" value = "0" />
+				<pattr name = "8nt" value = "0" />
+				<pattr name = "activate" value = "0" />
+				<pattr name = "change-cycle" value = "1" />
+				<pattr name = "change-prob" value = "75" />
+				<pattr name = "change-unit" value = "bars" />
+				<pattr name = "rest-prob" value = "25" />
+				<pattr name = "MyGroove1" value = "-1" />
+			</patcher>
+			<patcher name = "Messages[1]">
+				<patcher name = "X.groove">
+					<pattr name = "128n" value = "0" />
+					<pattr name = "128nd" value = "0" />
+					<pattr name = "16n" value = "1" />
+					<pattr name = "16nd" value = "0" />
+					<pattr name = "16nt" value = "0" />
+					<pattr name = "1n" value = "0" />
+					<pattr name = "1nd" value = "0" />
+					<pattr name = "1nt" value = "0" />
+					<pattr name = "2n" value = "0" />
+					<pattr name = "2nd" value = "0" />
+					<pattr name = "2nt" value = "0" />
+					<pattr name = "32n" value = "0" />
+					<pattr name = "32nd" value = "0" />
+					<pattr name = "32nt" value = "0" />
+					<pattr name = "4n" value = "4" />
+					<pattr name = "4nd" value = "0" />
+					<pattr name = "4nt" value = "0" />
+					<pattr name = "64n" value = "0" />
+					<pattr name = "64nd" value = "0" />
+					<pattr name = "8n" value = "2" />
+					<pattr name = "8nd" value = "0" />
+					<pattr name = "8nt" value = "0" />
+					<pattr name = "activate" value = "1" />
+					<pattr name = "change-cycle" value = "2" />
+					<pattr name = "change-prob" value = "50" />
+					<pattr name = "change-unit" value = "beats" />
+					<pattr name = "rest-prob" value = "20" />
+					<pattr name = "MyGroove2" value = "-1" />
+				</patcher>
+			</patcher>
+		</patcher>
+		<patcher name = "X.groove[5]">
+			<pattr name = "128n" value = "" />
+			<pattr name = "128nd" value = "" />
+			<pattr name = "16n" value = "" />
+			<pattr name = "16nd" value = "" />
+			<pattr name = "16nt" value = "" />
+			<pattr name = "1n" value = "" />
+			<pattr name = "1nd" value = "" />
+			<pattr name = "1nt" value = "" />
+			<pattr name = "2n" value = "" />
+			<pattr name = "2nd" value = "" />
+			<pattr name = "2nt" value = "" />
+			<pattr name = "32n" value = "" />
+			<pattr name = "32nd" value = "" />
+			<pattr name = "32nt" value = "" />
+			<pattr name = "4n" value = "" />
+			<pattr name = "4nd" value = "" />
+			<pattr name = "4nt" value = "" />
+			<pattr name = "64n" value = "" />
+			<pattr name = "64nd" value = "" />
+			<pattr name = "8n" value = "" />
+			<pattr name = "8nd" value = "" />
+			<pattr name = "8nt" value = "" />
+			<pattr name = "activate" value = "" />
+			<pattr name = "change-cycle" value = "" />
+			<pattr name = "change-prob" value = "" />
+			<pattr name = "change-unit" value = "" />
+			<pattr name = "rest-prob" value = "" />
+			<pattr name = "X.groove" value = "" />
+		</patcher>
+		<patcher name = "®Note[5]">
+			<pattr name = "dur-trigger" value = "" />
+			<pattr name = "durations" value = "" />
+			<pattr name = "note-trigger" value = "" />
+			<pattr name = "pitch-trigger" value = "" />
+			<pattr name = "pitches" value = "" />
+			<pattr name = "vel-max" value = "" />
+			<pattr name = "vel-min" value = "" />
+			<pattr name = "vel-pow" value = "" />
+			<pattr name = "vel-steps" value = "" />
+			<pattr name = "vel-trigger" value = "" />
+		</patcher>
+	</slot>
+	<slot number = "17">
+		<pattr name = "preset-name" value = "GM = best sound" />
+		<patcher name = "X.groove[1]">
+			<pattr name = "128n" value = "0" />
+			<pattr name = "128nd" value = "0" />
+			<pattr name = "16n" value = "0" />
+			<pattr name = "16nd" value = "0" />
+			<pattr name = "16nt" value = "0" />
+			<pattr name = "1n" value = "0" />
+			<pattr name = "1nd" value = "0" />
+			<pattr name = "1nt" value = "0" />
+			<pattr name = "2n" value = "0" />
+			<pattr name = "2nd" value = "0" />
+			<pattr name = "2nt" value = "0" />
+			<pattr name = "32n" value = "0" />
+			<pattr name = "32nd" value = "0" />
+			<pattr name = "32nt" value = "0" />
+			<pattr name = "4n" value = "1" />
+			<pattr name = "4nd" value = "0" />
+			<pattr name = "4nt" value = "0" />
+			<pattr name = "64n" value = "0" />
+			<pattr name = "64nd" value = "0" />
+			<pattr name = "8n" value = "2" />
+			<pattr name = "8nd" value = "0" />
+			<pattr name = "8nt" value = "0" />
+			<pattr name = "activate" value = "1" />
+			<pattr name = "change-cycle" value = "1" />
+			<pattr name = "change-prob" value = "75" />
+			<pattr name = "change-unit" value = "beats" />
+			<pattr name = "rest-prob" value = "10" />
+			<pattr name = "X.groove" value = "-1" />
+		</patcher>
+		<patcher name = "®Note[1]">
+			<pattr name = "dur-trigger" value = "play" />
+			<pattr name = "durations" value = "128n" />
+			<pattr name = "note-trigger" value = "play" />
+			<pattr name = "pitch-trigger" value = "pulse" />
+			<pattr name = "pitches" value = "C3 D3 C#3 D#3 E3" />
+			<pattr name = "vel-max" value = "120." />
+			<pattr name = "vel-min" value = "20." />
+			<pattr name = "vel-pow" value = "1." />
+			<pattr name = "vel-steps" value = "11" />
+			<pattr name = "vel-trigger" value = "pulse" />
+		</patcher>
+		<patcher name = "X.groove[2]">
+			<pattr name = "128n" value = "0" />
+			<pattr name = "128nd" value = "0" />
+			<pattr name = "16n" value = "0" />
+			<pattr name = "16nd" value = "0" />
+			<pattr name = "16nt" value = "0" />
+			<pattr name = "1n" value = "0" />
+			<pattr name = "1nd" value = "0" />
+			<pattr name = "1nt" value = "0" />
+			<pattr name = "2n" value = "0" />
+			<pattr name = "2nd" value = "0" />
+			<pattr name = "2nt" value = "0" />
+			<pattr name = "32n" value = "0" />
+			<pattr name = "32nd" value = "0" />
+			<pattr name = "32nt" value = "0" />
+			<pattr name = "4n" value = "2" />
+			<pattr name = "4nd" value = "0" />
+			<pattr name = "4nt" value = "0" />
+			<pattr name = "64n" value = "0" />
+			<pattr name = "64nd" value = "0" />
+			<pattr name = "8n" value = "2" />
+			<pattr name = "8nd" value = "0" />
+			<pattr name = "8nt" value = "1" />
+			<pattr name = "activate" value = "1" />
+			<pattr name = "change-cycle" value = "1" />
+			<pattr name = "change-prob" value = "75" />
+			<pattr name = "change-unit" value = "bars" />
+			<pattr name = "rest-prob" value = "25" />
+			<pattr name = "X.groove" value = "-1" />
+		</patcher>
+		<patcher name = "®Note[2]">
+			<pattr name = "dur-trigger" value = "play" />
+			<pattr name = "durations" value = "128n" />
+			<pattr name = "note-trigger" value = "play" />
+			<pattr name = "pitch-trigger" value = "play" />
+			<pattr name = "pitches" value = "G#4 A4 G#4 G#4" />
+			<pattr name = "vel-max" value = "120." />
+			<pattr name = "vel-min" value = "20." />
+			<pattr name = "vel-pow" value = "1." />
+			<pattr name = "vel-steps" value = "11" />
+			<pattr name = "vel-trigger" value = "play" />
+		</patcher>
+		<patcher name = "X.groove[3]">
+			<pattr name = "128n" value = "0" />
+			<pattr name = "128nd" value = "0" />
+			<pattr name = "16n" value = "0" />
+			<pattr name = "16nd" value = "0" />
+			<pattr name = "16nt" value = "0" />
+			<pattr name = "1n" value = "0" />
+			<pattr name = "1nd" value = "0" />
+			<pattr name = "1nt" value = "0" />
+			<pattr name = "2n" value = "0" />
+			<pattr name = "2nd" value = "0" />
+			<pattr name = "2nt" value = "0" />
+			<pattr name = "32n" value = "0" />
+			<pattr name = "32nd" value = "0" />
+			<pattr name = "32nt" value = "0" />
+			<pattr name = "4n" value = "4" />
+			<pattr name = "4nd" value = "1" />
+			<pattr name = "4nt" value = "0" />
+			<pattr name = "64n" value = "0" />
+			<pattr name = "64nd" value = "0" />
+			<pattr name = "8n" value = "1" />
+			<pattr name = "8nd" value = "0" />
+			<pattr name = "8nt" value = "0" />
+			<pattr name = "activate" value = "1" />
+			<pattr name = "change-cycle" value = "2" />
+			<pattr name = "change-prob" value = "100" />
+			<pattr name = "change-unit" value = "beats" />
+			<pattr name = "rest-prob" value = "15" />
+			<pattr name = "X.groove" value = "-1" />
+		</patcher>
+		<patcher name = "®Note[3]">
+			<pattr name = "dur-trigger" value = "play" />
+			<pattr name = "durations" value = "128n" />
+			<pattr name = "note-trigger" value = "play" />
+			<pattr name = "pitch-trigger" value = "play" />
+			<pattr name = "pitches" value = "C1" />
+			<pattr name = "vel-max" value = "120." />
+			<pattr name = "vel-min" value = "64." />
+			<pattr name = "vel-pow" value = "1." />
+			<pattr name = "vel-steps" value = "11" />
+			<pattr name = "vel-trigger" value = "play" />
+		</patcher>
+		<patcher name = "X.groove[4]">
+			<pattr name = "128n" value = "0" />
+			<pattr name = "128nd" value = "0" />
+			<pattr name = "16n" value = "0" />
+			<pattr name = "16nd" value = "0" />
+			<pattr name = "16nt" value = "0" />
+			<pattr name = "1n" value = "0" />
+			<pattr name = "1nd" value = "0" />
+			<pattr name = "1nt" value = "0" />
+			<pattr name = "2n" value = "0" />
+			<pattr name = "2nd" value = "0" />
+			<pattr name = "2nt" value = "0" />
+			<pattr name = "32n" value = "0" />
+			<pattr name = "32nd" value = "0" />
+			<pattr name = "32nt" value = "0" />
+			<pattr name = "4n" value = "2" />
+			<pattr name = "4nd" value = "0" />
+			<pattr name = "4nt" value = "1" />
+			<pattr name = "64n" value = "0" />
+			<pattr name = "64nd" value = "0" />
+			<pattr name = "8n" value = "1" />
+			<pattr name = "8nd" value = "0" />
+			<pattr name = "8nt" value = "1" />
+			<pattr name = "activate" value = "1" />
+			<pattr name = "change-cycle" value = "2" />
+			<pattr name = "change-prob" value = "75" />
+			<pattr name = "change-unit" value = "beats" />
+			<pattr name = "rest-prob" value = "20" />
+			<pattr name = "X.groove" value = "-1" />
+		</patcher>
+		<patcher name = "®Note[4]">
+			<pattr name = "dur-trigger" value = "play" />
+			<pattr name = "durations" value = "128n" />
+			<pattr name = "note-trigger" value = "play" />
+			<pattr name = "pitch-trigger" value = "play" />
+			<pattr name = "pitches" value = "F4 E4 D4 C#4" />
+			<pattr name = "vel-max" value = "120." />
+			<pattr name = "vel-min" value = "20." />
+			<pattr name = "vel-pow" value = "1." />
+			<pattr name = "vel-steps" value = "11" />
+			<pattr name = "vel-trigger" value = "play" />
+		</patcher>
+		<patcher name = "Help">
+			<patcher name = "MyGroove1">
+				<pattr name = "128n" value = "0" />
+				<pattr name = "128nd" value = "0" />
+				<pattr name = "16n" value = "0" />
+				<pattr name = "16nd" value = "0" />
+				<pattr name = "16nt" value = "0" />
+				<pattr name = "1n" value = "0" />
+				<pattr name = "1nd" value = "0" />
+				<pattr name = "1nt" value = "0" />
+				<pattr name = "2n" value = "0" />
+				<pattr name = "2nd" value = "0" />
+				<pattr name = "2nt" value = "0" />
+				<pattr name = "32n" value = "0" />
+				<pattr name = "32nd" value = "0" />
+				<pattr name = "32nt" value = "0" />
+				<pattr name = "4n" value = "1" />
+				<pattr name = "4nd" value = "0" />
+				<pattr name = "4nt" value = "0" />
+				<pattr name = "64n" value = "0" />
+				<pattr name = "64nd" value = "0" />
+				<pattr name = "8n" value = "0" />
+				<pattr name = "8nd" value = "0" />
+				<pattr name = "8nt" value = "0" />
+				<pattr name = "activate" value = "0" />
+				<pattr name = "change-cycle" value = "1" />
+				<pattr name = "change-prob" value = "75" />
+				<pattr name = "change-unit" value = "bars" />
+				<pattr name = "rest-prob" value = "25" />
+				<pattr name = "MyGroove1" value = "-1" />
+			</patcher>
+			<patcher name = "Messages[1]">
+				<patcher name = "X.groove">
+					<pattr name = "128n" value = "0" />
+					<pattr name = "128nd" value = "0" />
+					<pattr name = "16n" value = "1" />
+					<pattr name = "16nd" value = "0" />
+					<pattr name = "16nt" value = "0" />
+					<pattr name = "1n" value = "0" />
+					<pattr name = "1nd" value = "0" />
+					<pattr name = "1nt" value = "0" />
+					<pattr name = "2n" value = "0" />
+					<pattr name = "2nd" value = "0" />
+					<pattr name = "2nt" value = "0" />
+					<pattr name = "32n" value = "0" />
+					<pattr name = "32nd" value = "0" />
+					<pattr name = "32nt" value = "0" />
+					<pattr name = "4n" value = "4" />
+					<pattr name = "4nd" value = "0" />
+					<pattr name = "4nt" value = "0" />
+					<pattr name = "64n" value = "0" />
+					<pattr name = "64nd" value = "0" />
+					<pattr name = "8n" value = "2" />
+					<pattr name = "8nd" value = "0" />
+					<pattr name = "8nt" value = "0" />
+					<pattr name = "activate" value = "1" />
+					<pattr name = "change-cycle" value = "2" />
+					<pattr name = "change-prob" value = "50" />
+					<pattr name = "change-unit" value = "beats" />
+					<pattr name = "rest-prob" value = "20" />
+					<pattr name = "MyGroove2" value = "-1" />
+				</patcher>
+			</patcher>
+		</patcher>
+		<patcher name = "X.groove[5]">
+			<pattr name = "128n" value = "0" />
+			<pattr name = "128nd" value = "0" />
+			<pattr name = "16n" value = "0" />
+			<pattr name = "16nd" value = "0" />
+			<pattr name = "16nt" value = "0" />
+			<pattr name = "1n" value = "0" />
+			<pattr name = "1nd" value = "0" />
+			<pattr name = "1nt" value = "0" />
+			<pattr name = "2n" value = "0" />
+			<pattr name = "2nd" value = "0" />
+			<pattr name = "2nt" value = "0" />
+			<pattr name = "32n" value = "0" />
+			<pattr name = "32nd" value = "0" />
+			<pattr name = "32nt" value = "0" />
+			<pattr name = "4n" value = "1" />
+			<pattr name = "4nd" value = "0" />
+			<pattr name = "4nt" value = "0" />
+			<pattr name = "64n" value = "0" />
+			<pattr name = "64nd" value = "0" />
+			<pattr name = "8n" value = "0" />
+			<pattr name = "8nd" value = "0" />
+			<pattr name = "8nt" value = "0" />
+			<pattr name = "activate" value = "0" />
+			<pattr name = "change-cycle" value = "1" />
+			<pattr name = "change-prob" value = "75" />
+			<pattr name = "change-unit" value = "bars" />
+			<pattr name = "rest-prob" value = "25" />
+			<pattr name = "X.groove" value = "-1" />
+		</patcher>
+		<patcher name = "®Note[5]">
+			<pattr name = "dur-trigger" value = "play" />
+			<pattr name = "durations" value = "128n" />
+			<pattr name = "note-trigger" value = "play" />
+			<pattr name = "pitch-trigger" value = "play" />
+			<pattr name = "pitches" value = "F4 E4 D4 C#4" />
+			<pattr name = "vel-max" value = "120." />
+			<pattr name = "vel-min" value = "20." />
+			<pattr name = "vel-pow" value = "1." />
+			<pattr name = "vel-steps" value = "11" />
+			<pattr name = "vel-trigger" value = "play" />
+		</patcher>
+	</slot>
+</pattrstorage>
+
