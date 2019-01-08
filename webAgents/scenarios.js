@@ -358,8 +358,8 @@ Object.assign(balayage.balayeur,
 )
 
 
-var danseDuSorbet = Object.create(scenario)
-Object.assign(danseDuSorbet,
+var sorbetiere = Object.create(scenario)
+Object.assign(sorbetiere,
   {
     space:Object.create(space),
     frameLaps:100,
@@ -388,7 +388,7 @@ Object.assign(danseDuSorbet,
     }
   }
 )
-Object.assign(danseDuSorbet.sorbet,
+Object.assign(sorbetiere.sorbet,
   {
     e:0.01,
     consumeDose:0.01,
@@ -398,6 +398,9 @@ Object.assign(danseDuSorbet.sorbet,
     lates:["growNdie"]
   }
 )
+var freezer = Object.create(scenario)
+Object.assign(freezer, sorbetiere)
+
 
 
 var errants = Object.create(scenario) //TODO CLEAN

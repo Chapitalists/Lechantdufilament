@@ -219,17 +219,17 @@ var MaxInterface = {
   decFrames:0,
 
   sorbet:function(toggle) {
-    if (toggle) danseDuSorbet.play()
-    else danseDuSorbet.stop()
+    if (toggle) sorbetiere.play()
+    else sorbetiere.stop()
   },
 
   sorbetSize:function(s) {
-    danseDuSorbet.sorbet.s = s
+    sorbetiere.sorbet.s = s
   },
 
   sorbetMaxEnergy:function(m) {
     if (m <= 0) return
-    with (danseDuSorbet) {
+    with (sorbetiere) {
       sorbet.maxGrow    = m
       sorbet.growDose   = m / this.incFrames
       sorbet.consumDose = m / this.decFrames
@@ -239,27 +239,27 @@ var MaxInterface = {
   sorbetIncFrames:function(ti) {
     if (ti < 1) ti = 1
     this.incFrames = ti
-    with (danseDuSorbet.sorbet)
+    with (sorbetiere.sorbet)
       growDose = maxGrow / ti
   },
 
   sorbetDecFrames:function(td) {
     if (td < 1) td = 1
     this.decFrames = td
-    with (danseDuSorbet.sorbet)
+    with (sorbetiere.sorbet)
       consumeDose = maxGrow / td
   },
 
   sorbetLapsFrames:function(l) {
-    danseDuSorbet.frameLaps = l
+    sorbetiere.frameLaps = l
   },
 
   sorbetSpace:function(x,y) {
-    danseDuSorbet.space.lamps = [x,y]
+    sorbetiere.space.lamps = [x,y]
   },
 
   sorbetTranslate:function(x,y) {
-    danseDuSorbet.sorbet.translate = [x,y]
+    sorbetiere.sorbet.translate = [x,y]
   },
 
 /////////////////// Errant
