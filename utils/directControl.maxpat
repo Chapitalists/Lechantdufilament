@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 6,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 1263.0, 48.0, 91.0, 226.0 ],
+		"rect" : [ 1263.0, 51.0, 120.0, 226.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -236,9 +236,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 134.0, 5.0, 80.0, 28.0 ],
+					"patching_rect" : [ 134.0, 5.0, 80.0, 27.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 16.0, 6.0, 56.0, 28.0 ],
+					"presentation_rect" : [ 16.0, 6.0, 56.0, 27.0 ],
 					"style" : "patchLCDF",
 					"text" : "Projo"
 				}
@@ -313,7 +313,7 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-70",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -381,9 +381,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 523.5, 574.0, 396.0, 35.0 ],
+					"patching_rect" : [ 523.5, 574.0, 396.0, 36.0 ],
 					"style" : "",
-					"text" : "0 9 0 11 1 0 1 1 1 2 1 3 1 4 1 5 1 6 1 7 1 8 1 10 2 0 2 4 3 1 3 5 4 2 4 6 5 3 5 7 6 0 6 1 6 2 6 3 7 4 7 5 7 6 7 7"
+					"text" : "0 9 0 11 1 0 1 1 1 2 1 3 1 4 1 5 1 6 1 7 2 0 2 4 3 1 3 5 4 2 4 6 5 3 5 7 6 0 6 1 6 2 6 3 7 4 7 5 7 6 7 7"
 				}
 
 			}
@@ -984,6 +984,20 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "ossia.model.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "ossia.parameter.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "ossia.remote.mxe64",
+				"type" : "mx64"
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Jamoma_highlighted_orange",
 				"default" : 				{
@@ -996,12 +1010,12 @@
 , 			{
 				"name" : "patchLCDF",
 				"default" : 				{
-					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
-					"fontface" : [ 3 ],
-					"fontsize" : [ 18.0 ],
 					"fontname" : [ "Helvetica Neue Bold" ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+					"fontface" : [ 3 ],
+					"fontsize" : [ 18.0 ]
 				}
 ,
 				"parentstyle" : "",
