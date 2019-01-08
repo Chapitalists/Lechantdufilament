@@ -14,7 +14,7 @@ setoutletassist(1, "max of the lists in order")
 setoutletassist(0, "bang when entire list has been send")
 
 var max_value = 255
-  , lists = new Array()
+  , lists = []
   , calques = new Array(jsarguments[1] || 0)
   , modes = new Array(calques.length)
   , len = 0
@@ -88,11 +88,15 @@ function bang() {
             break;
         }
       }
+
+      calques[j] = []
     }
 
     outlet(1,m)
   }
-  lists = new Array()
+
+  lists = []
+  len = 0
 
   outlet(0,"bang")
 }
