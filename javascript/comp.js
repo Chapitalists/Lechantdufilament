@@ -17,6 +17,7 @@ var max_value = 255
   , lists = new Array()
   , calques = new Array(jsarguments[1] || 0)
   , modes = new Array(calques.length)
+  , len = 0
   , lastLen = 0
   , mm = [
     "none",
@@ -29,7 +30,7 @@ var max_value = 255
   ]
 
 function bang() {
-  if (!lists.length) {
+  if (!lists.length && calques.every(function (v) {!v.length})) {
 
     if (lastLen) {
       outlet(2, lastLen)
@@ -43,14 +44,14 @@ function bang() {
     return;
   }
 
-  lastLen = lists[0].length
+  lastLen = len
 
-  outlet(2, lists[0].length)
+  outlet(2, len)
 
-  for(i = 0 ; i < lists[0].length ; i++) {
-    var m = lists[0][i]
+  for(i = 0 ; i < len ; i++) {
+    var m = 0
 
-    for(j = 1 ; j < lists.length ; j++) {
+    for(j = 0 ; j < lists.length ; j++) {
       m = Math.max(lists[j][i],m)
     }
 
@@ -97,9 +98,10 @@ function bang() {
 }
 
 function list() {
-  if (lists.length && (arguments.length != lists[0].length)) {
+  if (!len) len = arguments.length
+  else if (arguments.length != len) {
     error("comp.js : different list length (" + arguments.length +
-          " instead of " + lists[0].length + ") from inlet " + inlet)
+          " instead of " + len + ") from inlet " + inlet)
   } else if (inlet) {
     calques[inlet-1] = arguments
   } else {
@@ -109,6 +111,13 @@ function list() {
 
 for (var i = 0 ; i < modes.length ; i++) modes[i] = [1], calques[i] = []
 function mode(n, m, add) {
+  if (!m) {
+    for (var i = 0 ; i < modes.length ; i++) {
+      post(modes[i])
+      post('\n')
+    }
+    return;
+  }
   if (--n < 0 || n >= modes.length) {
     error("Out of inlets\n")
     return;
