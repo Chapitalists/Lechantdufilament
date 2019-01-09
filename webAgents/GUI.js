@@ -1,5 +1,8 @@
 // Author : Clément Bossut
 
+log(1)
+unblock()
+
 var GUI = {
 
   names:{//todo could we use same names and transform directly string into var ?
@@ -23,8 +26,8 @@ var GUI = {
     bCP:bCP,
     bCF:bCF,*/
     balai:balayage.balayeur,
-    sorbet:danseDuSorbet,
-    sorbetagent:danseDuSorbet.sorbet,
+    sorbet:sorbetiere,
+    sorbetagent:sorbetiere.sorbet,
     laps:"frameLaps",
     dec:"consumeDose",
     inc:"growDose",

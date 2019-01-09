@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 42.0, 85.0, 1391.0, 929.0 ],
+		"rect" : [ -1530.0, -270.0, 1391.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,68 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-112",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 647.0, 850.0, 44.0, 22.0 ],
+					"style" : "",
+					"text" : "print 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-110",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 13.5, 396.0, 44.0, 22.0 ],
+					"style" : "",
+					"text" : "print 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-108",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 47.0, 432.0, 31.0, 22.0 ],
+					"style" : "",
+					"text" : "thru"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-106",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 893.0, 7.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "ONOFF"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-102",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 906.0, 25.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-52",
 					"maxclass" : "newobj",
@@ -221,13 +283,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-152",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 172.5, 866.0, 50.0, 22.0 ],
+					"patching_rect" : [ 172.5, 866.0, 50.0, 36.0 ],
 					"style" : "",
-					"text" : "25."
+					"text" : "14.60437"
 				}
 
 			}
@@ -393,7 +456,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1099.5, 842.0, 66.0, 22.0 ],
 					"style" : "",
-					"text" : "25."
+					"text" : "12.953866"
 				}
 
 			}
@@ -953,25 +1016,6 @@
 			}
 , 			{
 				"box" : 				{
-					"bgmode" : 0,
-					"border" : 0,
-					"clickthrough" : 0,
-					"enablehscroll" : 0,
-					"enablevscroll" : 0,
-					"id" : "obj-65",
-					"lockeddragscroll" : 0,
-					"maxclass" : "bpatcher",
-					"name" : "serialSender.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 63.0, 783.0, 168.0, 49.0 ],
-					"viewvisibility" : 1
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-71",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -1217,7 +1261,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 47.0, 466.0, 62.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "comp",
+						"filename" : "comp.js",
 						"parameter_enable" : 0
 					}
 ,
@@ -1979,8 +2023,24 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
+					"destination" : [ "obj-108", 0 ],
 					"source" : [ "obj-101", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"order" : 1,
+					"source" : [ "obj-102", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-92", 0 ],
+					"order" : 0,
+					"source" : [ "obj-102", 0 ]
 				}
 
 			}
@@ -2002,6 +2062,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-83", 0 ],
 					"source" : [ "obj-107", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-110", 0 ],
+					"order" : 1,
+					"source" : [ "obj-108", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
+					"order" : 0,
+					"source" : [ "obj-108", 0 ]
 				}
 
 			}
@@ -2049,7 +2125,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
+					"destination" : [ "obj-108", 0 ],
 					"source" : [ "obj-119", 0 ]
 				}
 
@@ -2077,21 +2153,30 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
+					"destination" : [ "obj-108", 0 ],
 					"source" : [ "obj-125", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
+					"destination" : [ "obj-108", 0 ],
 					"source" : [ "obj-127", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-112", 0 ],
+					"order" : 0,
+					"source" : [ "obj-128", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-60", 1 ],
+					"order" : 1,
 					"source" : [ "obj-128", 0 ]
 				}
 
@@ -2289,7 +2374,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
+					"destination" : [ "obj-108", 0 ],
 					"source" : [ "obj-173", 0 ]
 				}
 
@@ -2332,7 +2417,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
+					"destination" : [ "obj-108", 0 ],
 					"source" : [ "obj-184", 0 ]
 				}
 
@@ -2674,16 +2759,16 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-37", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-108", 0 ],
+					"order" : 2,
 					"source" : [ "obj-6", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
-					"order" : 2,
+					"destination" : [ "obj-37", 0 ],
+					"order" : 0,
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -2751,14 +2836,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
+					"destination" : [ "obj-108", 0 ],
 					"source" : [ "obj-64", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
+					"destination" : [ "obj-108", 0 ],
 					"source" : [ "obj-66", 0 ]
 				}
 
@@ -3113,30 +3198,15 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "serialSender.maxpat",
+				"name" : "directControl.maxpat",
 				"bootpath" : "D:/User/Documents/Lechantdufilament/utils",
 				"patcherrelativepath" : "../utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "patchCB",
-				"bootpath" : "D:/User/Documents/Lechantdufilament/LCDFColl",
-				"patcherrelativepath" : "../LCDFColl",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "config.txt",
-				"bootpath" : "D:/User/Documents/Lechantdufilament/LCDFColl",
-				"patcherrelativepath" : "../LCDFColl",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "directControl.maxpat",
-				"bootpath" : "D:/User/Documents/Lechantdufilament/utils",
-				"patcherrelativepath" : "../utils",
+				"name" : "thru.maxpat",
+				"bootpath" : "C74:/patchers/m4l/Pluggo for Live resources/patches",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -3166,12 +3236,12 @@
 , 			{
 				"name" : "patchLCDF",
 				"default" : 				{
+					"fontface" : [ 3 ],
+					"fontsize" : [ 18.0 ],
 					"fontname" : [ "Helvetica Neue Bold" ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
-					"fontface" : [ 3 ],
-					"fontsize" : [ 18.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

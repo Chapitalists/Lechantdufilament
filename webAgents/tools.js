@@ -2,8 +2,8 @@
 
 // For browser compatibility
 if (!this.post) {
-  this.post = console.log
-  this.error = console.error
+  this.post = function(m){console.log(m)}
+  this.error = function(m){console.error(m)}
   this.include = function(a){console.log("Non Include ", a)}
   this.setoutletassist = function(){}
   this.outlets = undefined

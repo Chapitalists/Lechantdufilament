@@ -31,15 +31,15 @@ if (this.post) { // If in Max/MSP
   setoutletassist(0,"bang when finished")
 }
 
-debugPrint("Chargé")
-debugPrint()
+post("Chargé")
+post()
 
 var ready = false
   , speedCent = 100
 
 function unblock() {
-  debugPrint("raidie")
-  debugPrint()
+  post("raidie")
+  post()
   ready = true
 }
 
@@ -69,6 +69,7 @@ function direct() {
       return;
     }
     if (typeof obj[arguments[i]] != "undefined" && !obj.hasOwnProperty(arguments[i])) {
+      debugPrint("Copy of " + arguments[i] + '\n')
       if (Array.isArray(obj[arguments[i]])) obj[arguments[i]] = obj[arguments[i]].slice()
       else obj[arguments[i]] = Object.create(obj[arguments[i]])
     }
