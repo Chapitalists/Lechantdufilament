@@ -95,14 +95,14 @@ function bang() {
 
   lists = []
   len = 0
-  calques.fill([])
+  calques.forEach(function(v,i,a) {calques[i] = []})
 
   outlet(0,"bang")
 }
 
 function list() {
   if (!len) len = arguments.length
-  else if (arguments.length != len) {
+  if (arguments.length != len) {
     error("comp.js : different list length (" + arguments.length +
           " instead of " + len + ") from inlet " + inlet)
   } else if (inlet) {
