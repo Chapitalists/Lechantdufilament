@@ -398,8 +398,7 @@ Object.assign(sorbetiere.sorbet,
     lates:["growNdie"]
   }
 )
-var freezer = Object.create(scenario)
-Object.assign(freezer, sorbetiere)
+var freezer = Object.create(sorbetiere)
 
 
 
