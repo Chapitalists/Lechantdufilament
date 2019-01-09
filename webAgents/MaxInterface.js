@@ -128,6 +128,8 @@ function panic() { // Should go in MaxInterface (see comment for anything())
   scenari = []
 }
 
+var incFrames = 10
+  , decFrames = 10
 var MaxInterface = {
 
   myDebug:function() {
@@ -216,9 +218,6 @@ var MaxInterface = {
 
 //////////////////// Sorbet
 
-  incFrames:0,
-  decFrames:0,
-
   sorbet:function(toggle) {
     if (toggle) sorbetiere.play()
     else sorbetiere.stop()
@@ -232,21 +231,21 @@ var MaxInterface = {
     if (m <= 0) return
     with (sorbetiere) {
       sorbet.maxGrow    = m
-      sorbet.growDose   = m / this.incFrames
-      sorbet.consumDose = m / this.decFrames
+      sorbet.growDose   = m / incFrames
+      sorbet.consumDose = m / decFrames
     }
   },
 
   sorbetIncFrames:function(ti) {
     if (ti < 1) ti = 1
-    this.incFrames = ti
+    incFrames = ti
     with (sorbetiere.sorbet)
       growDose = maxGrow / ti
   },
 
   sorbetDecFrames:function(td) {
     if (td < 1) td = 1
-    this.decFrames = td
+    decFrames = td
     with (sorbetiere.sorbet)
       consumeDose = maxGrow / td
   },
