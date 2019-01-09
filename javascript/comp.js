@@ -88,8 +88,6 @@ function bang() {
             break;
         }
       }
-
-      calques[j] = []
     }
 
     outlet(1,m)
@@ -97,6 +95,7 @@ function bang() {
 
   lists = []
   len = 0
+  calques.fill([])
 
   outlet(0,"bang")
 }
