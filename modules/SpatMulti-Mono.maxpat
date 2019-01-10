@@ -71,7 +71,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "float" ],
 					"patching_rect" : [ 1336.693237, 124.0, 31.0, 22.0 ],
-					"presentation_rect" : [ 1339.443237, 93.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "t b f"
 				}
@@ -85,7 +84,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1336.693237, 57.121002, 75.0, 22.0 ],
-					"presentation_rect" : [ 1339.443237, 56.121002, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "round 0.001"
 				}
@@ -217,19 +215,6 @@
 					"patching_rect" : [ 186.0, 26.5, 66.0, 22.0 ],
 					"style" : "",
 					"text" : "r InitLights"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-11",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "bang", "float" ],
-					"patching_rect" : [ 1049.0, 49.655914, 31.0, 22.0 ],
-					"style" : "",
-					"text" : "t b f"
 				}
 
 			}
@@ -1369,8 +1354,8 @@
 					"id" : "obj-212",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 4,
+					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 260.0, 1156.072266, 353.0, 22.0 ],
 					"style" : "",
 					"text" : "j.dbap @dimensions 2 @num_sources 5 @num_destinations 81"
@@ -1463,9 +1448,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1022.848816, 83.177032, 49.0, 22.0 ],
+					"patching_rect" : [ 1022.848816, 83.177032, 43.0, 22.0 ],
 					"style" : "",
-					"text" : "pack f f"
+					"text" : "pak f f"
 				}
 
 			}
@@ -1540,9 +1525,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 855.733643, 83.177032, 49.0, 22.0 ],
+					"patching_rect" : [ 855.733643, 83.177032, 43.0, 22.0 ],
 					"style" : "",
-					"text" : "pack f f"
+					"text" : "pak f f"
 				}
 
 			}
@@ -1617,9 +1602,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 688.618591, 83.177032, 49.0, 22.0 ],
+					"patching_rect" : [ 688.618591, 83.177032, 43.0, 22.0 ],
 					"style" : "",
-					"text" : "pack f f"
+					"text" : "pak f f"
 				}
 
 			}
@@ -1694,9 +1679,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 521.503418, 83.177032, 49.0, 22.0 ],
+					"patching_rect" : [ 521.503418, 83.177032, 43.0, 22.0 ],
 					"style" : "",
-					"text" : "pack f f"
+					"text" : "pak f f"
 				}
 
 			}
@@ -1771,9 +1756,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 354.388214, 83.177032, 49.0, 22.0 ],
+					"patching_rect" : [ 354.388214, 83.177032, 43.0, 22.0 ],
 					"style" : "",
-					"text" : "pack f f"
+					"text" : "pak f f"
 				}
 
 			}
@@ -2280,8 +2265,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 204.115906, -3.0, 100.0, 34.0 ],
 					"style" : "",
-					"text" : "(S)ouris",
-					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"text" : "(S)ouris"
 				}
 
 			}
@@ -4337,20 +4321,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 1 ],
-					"source" : [ "obj-11", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-104", 2 ],
 					"source" : [ "obj-111", 1 ]
 				}
@@ -5116,7 +5086,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
+					"destination" : [ "obj-22", 1 ],
 					"source" : [ "obj-35", 1 ]
 				}
 
@@ -5600,8 +5570,8 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-106" : [ "live.slider[1]", "Remanence", 0 ],
 			"obj-61" : [ "live.slider[2]", "Multi-Sub", 0 ],
+			"obj-106" : [ "live.slider[1]", "Remanence", 0 ],
 			"obj-42" : [ "live.slider[31]", "Mono-Sub", 0 ],
 			"obj-102" : [ "live.slider", "Intensite", 0 ]
 		}
@@ -5637,6 +5607,10 @@
 				"type" : "mx64"
 			}
 , 			{
+				"name" : "j.dbap.mxe64",
+				"type" : "mx64"
+			}
+, 			{
 				"name" : "OpenSoundControl.mxe64",
 				"type" : "mx64"
 			}
@@ -5656,10 +5630,10 @@
 				"default" : 				{
 					"fontface" : [ 3 ],
 					"fontsize" : [ 18.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"fontname" : [ "Helvetica Neue Bold" ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
+					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
