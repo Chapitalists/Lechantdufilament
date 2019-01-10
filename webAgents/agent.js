@@ -66,7 +66,7 @@ var agent = {
   framesAdd:0,
   framesAdded:0,
   framesCent:0,
-  translate:undefined, // en dist
+  translate:undefined, // en lamps
   update:function(speedCent) {
     speedCent = this.speedCent || speedCent || 100
     this.framesCent = (this.framesCent + 1) % 100
@@ -118,7 +118,7 @@ var agent = {
       for (var k = 0 ; k < this.lates.length ; k++) this[this.lates[k]]()
     }
   },
-  translateXY:function(x,y) {this.translate = [x,y]}
+  translateXY:function(x,y) {this.translate = v2D.mult([x,y], space.dist)}
 }
 
 //////////////////////////// FORCES
