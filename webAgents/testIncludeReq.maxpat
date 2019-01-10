@@ -38,6 +38,19 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-70",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1050.0, 622.0, 115.0, 22.0 ],
+					"style" : "",
+					"text" : "sorbetMaxEnergy 2"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-112",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -283,14 +296,14 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-152",
-					"linecount" : 2,
+					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 172.5, 866.0, 50.0, 36.0 ],
+					"patching_rect" : [ 172.5, 866.0, 24.0, 77.0 ],
 					"style" : "",
-					"text" : "14.60437"
+					"text" : "72.771318"
 				}
 
 			}
@@ -456,7 +469,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1099.5, 842.0, 66.0, 22.0 ],
 					"style" : "",
-					"text" : "12.953866"
+					"text" : "72.771318"
 				}
 
 			}
@@ -913,7 +926,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1190.0, 652.0, 92.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "MaxInterface",
+						"filename" : "MaxInterface.js",
 						"parameter_enable" : 0
 					}
 ,
@@ -1261,7 +1274,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 47.0, 466.0, 62.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "comp.js",
+						"filename" : "comp",
 						"parameter_enable" : 0
 					}
 ,
@@ -1974,7 +1987,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 199.0, 224.0, 92.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "MaxInterface",
+						"filename" : "MaxInterface.js",
 						"parameter_enable" : 0
 					}
 ,
@@ -2873,6 +2886,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-1", 0 ],
 					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-84", 0 ],
+					"source" : [ "obj-70", 0 ]
 				}
 
 			}
