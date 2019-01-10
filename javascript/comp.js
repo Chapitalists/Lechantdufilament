@@ -29,6 +29,9 @@ var max_value = 255
     "product"
   ]
 
+for (var i = 0 ; i < modes.length ; i++) modes[i] = [1]
+init_calques()
+
 function bang() {
   if (!lists.length && calques.every(function (v) {!v.length})) {
 
@@ -48,15 +51,19 @@ function bang() {
 
   outlet(2, len)
 
-  for(i = 0 ; i < len ; i++) {
+  for (i = 0 ; i < len ; i++) {
     var m = 0
 
-    for(j = 0 ; j < lists.length ; j++) {
+    for (j = 0 ; j < lists.length ; j++) {
       m = Math.max(lists[j][i],m)
     }
 
     for (j = 0 ; j < modes.length ; j++) {
-      var l = calques[j][i] || 0
+      var l = 0
+
+      for (k = 0 ; k < calques[j].length ; k++) {
+        l = Math.max(calques[j][k][i], l)
+      }
 
       for (k = 0 ; k < modes[j].length ; k++) {
         switch(modes[j][k]) {
@@ -95,7 +102,7 @@ function bang() {
 
   lists = []
   len = 0
-  calques.forEach(function(v,i,a) {calques[i] = []})
+  init_calques()
 
   outlet(0,"bang")
 }
@@ -106,13 +113,12 @@ function list() {
     error("comp.js : different list length (" + arguments.length +
           " instead of " + len + ") from inlet " + inlet)
   } else if (inlet) {
-    calques[inlet-1] = arguments
+    calques[inlet-1].push(arguments)
   } else {
     lists.push(arguments)
   }
 }
 
-for (var i = 0 ; i < modes.length ; i++) modes[i] = [1], calques[i] = []
 function mode(n, m, add) {
   if (!n) {
     for (var i = 0 ; i < modes.length ; i++) {
@@ -131,4 +137,10 @@ function mode(n, m, add) {
   if (nm == -1) error("Wrong mode " + m + '\n')
   else if (add) modes[n].push(nm)
   else modes[n] = [nm]
+}
+
+function init_calques() {
+  for (var i = 0 ; i < calques.length ; i++) {
+    calques[i] = []
+  }
 }
