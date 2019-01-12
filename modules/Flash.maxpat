@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -128.0, 66.0, 120.0, 398.0 ],
+		"rect" : [ 137.0, 45.0, 91.0, 362.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -28,7 +28,7 @@
 		"toolbars_unpinned_last_save" : 9,
 		"tallnewobj" : 0,
 		"boxanimatetime" : 200,
-		"enablehscroll" : 1,
+		"enablehscroll" : 0,
 		"enablevscroll" : 0,
 		"devicewidth" : 0.0,
 		"description" : "",
@@ -82,9 +82,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 7.0, 58.0, 375.0, 22.0 ],
+					"patching_rect" : [ 7.0, 58.0, 509.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
-					"text" : "ossia.parameter sub @type int @range 0 255 @clip both @default 0"
+					"text" : "ossia.parameter sub @type int @range 0 255 @clip both @default 0 @repetitions 0 @rate 25"
 				}
 
 			}
@@ -190,10 +190,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 205.0, 134.102234, 59.0, 23.0 ],
+					"patching_rect" : [ 205.0, 134.102234, 59.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 16.25, 295.0, 26.5, 55.0 ],
+					"presentation_rect" : [ 16.25, 295.0, 26.5, 53.0 ],
 					"style" : "",
 					"text" : "(F)lash",
 					"textjustification" : 1
@@ -555,10 +555,10 @@
 				"default" : 				{
 					"fontface" : [ 3 ],
 					"fontsize" : [ 18.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 					"fontname" : [ "Helvetica Neue Bold" ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
