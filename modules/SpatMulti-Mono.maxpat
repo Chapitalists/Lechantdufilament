@@ -122,7 +122,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1474.443237, 188.5, 150.0, 34.0 ],
+					"patching_rect" : [ 1474.443237, 188.5, 151.0, 34.0 ],
 					"style" : "",
 					"text" : "control Score IPa2D avec la souris"
 				}
@@ -398,9 +398,9 @@
 					"numinlets" : 4,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 541.000122, 728.420288, 179.397583, 22.0 ],
+					"patching_rect" : [ 541.000122, 728.420288, 60.0, 22.0 ],
 					"style" : "",
-					"text" : "pack f f f f"
+					"text" : "pak f f f f"
 				}
 
 			}
@@ -1356,7 +1356,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 260.0, 1156.072266, 353.0, 22.0 ],
+					"patching_rect" : [ 260.0, 1156.072266, 355.0, 22.0 ],
 					"style" : "",
 					"text" : "j.dbap @dimensions 2 @num_sources 5 @num_destinations 81"
 				}
@@ -1894,7 +1894,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 447.671631, -161.535034, 340.0, 22.0 ],
+					"patching_rect" : [ 447.671631, -161.535034, 342.0, 22.0 ],
 					"style" : "",
 					"text" : "ossia.parameter Spat4Y @type float @range -1. 1. @clip both"
 				}
@@ -1910,7 +1910,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 447.671631, -190.535034, 340.0, 22.0 ],
+					"patching_rect" : [ 447.671631, -190.535034, 342.0, 22.0 ],
 					"style" : "",
 					"text" : "ossia.parameter Spat3Y @type float @range -1. 1. @clip both"
 				}
@@ -1926,7 +1926,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 447.671631, -219.535034, 340.0, 22.0 ],
+					"patching_rect" : [ 447.671631, -219.535034, 342.0, 22.0 ],
 					"style" : "",
 					"text" : "ossia.parameter Spat2Y @type float @range -1. 1. @clip both"
 				}
@@ -1942,7 +1942,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 447.671631, -247.0, 340.0, 22.0 ],
+					"patching_rect" : [ 447.671631, -247.0, 342.0, 22.0 ],
 					"style" : "",
 					"text" : "ossia.parameter Spat1Y @type float @range -1. 1. @clip both"
 				}
@@ -2022,7 +2022,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 212.659912, -396.759949, 447.0, 22.0 ],
+					"patching_rect" : [ 212.659912, -396.759949, 451.0, 22.0 ],
 					"style" : "",
 					"text" : "ossia.parameter Remanence @type float @range 0.1 50. @clip both @default 50."
 				}
@@ -2153,7 +2153,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 530.851562, -365.865967, 437.0, 22.0 ],
+					"patching_rect" : [ 530.851562, -365.865967, 441.0, 22.0 ],
 					"style" : "",
 					"text" : "ossia.parameter SpatMulti-Sub @type float @range 0. 1. @clip both @default 0."
 				}
@@ -2170,7 +2170,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 530.851562, -337.514954, 442.0, 22.0 ],
+					"patching_rect" : [ 530.851562, -337.514954, 446.0, 22.0 ],
 					"style" : "",
 					"text" : "ossia.parameter SpatMono-Sub @type float @range 0. 1. @clip both @default 0."
 				}
@@ -2289,7 +2289,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1432.443237, -332.119141, 150.0, 34.0 ],
+					"patching_rect" : [ 1432.443237, -332.119141, 152.0, 34.0 ],
 					"style" : "",
 					"text" : "Permits to enable Keypad to guide SpatMono"
 				}
@@ -2370,7 +2370,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 113.233643, 58.0, 172.646973, 77.0 ],
+					"patching_rect" : [ 113.233643, 58.0, 173.0, 77.0 ],
 					"style" : "",
 					"text" : "xyz 1 -0.52872 0.729585 0., xyz 2 0.504152 0.699135 0., xyz 3 -0.529066 -0.621453 0., xyz 4 0.573495 -0.60263 0., xyz 5 -0.014934 0.004116 0."
 				}
@@ -2540,6 +2540,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-30",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -2725,6 +2726,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-30",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -2910,6 +2912,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-30",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -3095,6 +3098,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-30",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -3280,6 +3284,7 @@
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
 									"id" : "obj-30",
+									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 2,
 									"numoutlets" : 1,
@@ -5570,10 +5575,10 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-61" : [ "live.slider[2]", "Multi-Sub", 0 ],
+			"obj-102" : [ "live.slider", "Intensite", 0 ],
 			"obj-106" : [ "live.slider[1]", "Remanence", 0 ],
 			"obj-42" : [ "live.slider[31]", "Mono-Sub", 0 ],
-			"obj-102" : [ "live.slider", "Intensite", 0 ]
+			"obj-61" : [ "live.slider[2]", "Multi-Sub", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -5632,8 +5637,8 @@
 					"fontsize" : [ 18.0 ],
 					"fontname" : [ "Helvetica Neue Bold" ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
