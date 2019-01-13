@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ -1530.0, -270.0, 1391.0, 929.0 ],
+		"rect" : [ 42.0, 85.0, 1391.0, 929.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,46 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-126",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 903.0, 390.0, 223.0, 22.0 ],
+					"style" : "",
+					"text" : "direct sorbetiere sorbet consumeDose 0"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-121",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 876.0, 314.0, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-118",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 770.0, 320.0, 100.0, 22.0 ],
+					"style" : "",
+					"text" : "errantVelocity $1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-70",
 					"maxclass" : "message",
@@ -261,9 +301,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1248.0, 230.0, 126.0, 22.0 ],
+					"patching_rect" : [ 1248.0, 230.0, 125.0, 22.0 ],
 					"style" : "",
-					"text" : "vexpr ($f1 *2 - 1)*100"
+					"text" : "vexpr ($f1 *2 - 1)*300"
 				}
 
 			}
@@ -296,14 +336,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-152",
-					"linecount" : 5,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 172.5, 866.0, 24.0, 77.0 ],
+					"patching_rect" : [ 219.0, 859.0, 28.0, 22.0 ],
 					"style" : "",
-					"text" : "72.771318"
+					"text" : "25."
 				}
 
 			}
@@ -467,9 +506,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1099.5, 842.0, 66.0, 22.0 ],
+					"patching_rect" : [ 1099.5, 842.0, 72.0, 22.0 ],
 					"style" : "",
-					"text" : "72.771318"
+					"text" : "25."
 				}
 
 			}
@@ -926,7 +965,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1190.0, 652.0, 92.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "MaxInterface.js",
+						"filename" : "MaxInterface",
 						"parameter_enable" : 0
 					}
 ,
@@ -1461,7 +1500,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 734.0, 460.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "422703"
+					"text" : "68"
 				}
 
 			}
@@ -1987,7 +2026,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 199.0, 224.0, 92.0, 22.0 ],
 					"saved_object_attributes" : 					{
-						"filename" : "MaxInterface.js",
+						"filename" : "MaxInterface",
 						"parameter_enable" : 0
 					}
 ,
@@ -2138,6 +2177,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-1", 0 ],
+					"source" : [ "obj-118", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-108", 0 ],
 					"source" : [ "obj-119", 0 ]
 				}
@@ -2147,6 +2193,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-6", 0 ],
 					"source" : [ "obj-12", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-118", 0 ],
+					"source" : [ "obj-121", 0 ]
 				}
 
 			}
@@ -2168,6 +2221,13 @@
 				"patchline" : 				{
 					"destination" : [ "obj-108", 0 ],
 					"source" : [ "obj-125", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-84", 0 ],
+					"source" : [ "obj-126", 0 ]
 				}
 
 			}
@@ -3256,12 +3316,12 @@
 , 			{
 				"name" : "patchLCDF",
 				"default" : 				{
-					"fontface" : [ 3 ],
-					"fontsize" : [ 18.0 ],
 					"fontname" : [ "Helvetica Neue Bold" ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"fontface" : [ 3 ],
+					"fontsize" : [ 18.0 ]
 				}
 ,
 				"parentstyle" : "",

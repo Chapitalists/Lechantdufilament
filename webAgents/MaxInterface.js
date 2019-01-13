@@ -184,7 +184,7 @@ var MaxInterface = {
 
   tourneurChange:function() {tourneur.changeSel()},
 
-  tourneurPrep:function() {
+  tourneurPrep:function() { // TODO copy entire prep ?
     tourneur.protoAgent.maxV = tourneur.getSel().maxV
     tourneur.protoAgent.s = tourneur.getSel().s
     tourneur.sel = -1
@@ -272,7 +272,7 @@ var MaxInterface = {
     errants.changeSel()
   },
 
-  errantPrep:function() {errants.sel = -1},
+  errantPrep:function() {errants.sel = -1}, // TODO copy actual to prep ?
 
   errantDel:function() {
     errants.removeSel()
