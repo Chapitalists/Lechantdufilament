@@ -365,11 +365,12 @@ Object.assign(balayage.balayeur,
 )
 
 
-var sorbetiere = Object.create(scenario)
-Object.assign(sorbetiere,
-  {
-    space:Object.create(space),
-    frameLaps:100,
+function makeDanseDuSorbet() {
+  var dds = Object.create(scenario)
+  Object.assign(dds,
+    {
+      space:Object.create(space),
+      frameLaps:100,
     remaining:0,
     lastP:[-1,-1],
     sorbet:Object.create(agent),
@@ -392,20 +393,23 @@ Object.assign(sorbetiere,
         agents.push(newAgent)
         this.remaining = this.frameLaps
       }
+      }
     }
-  }
-)
-Object.assign(sorbetiere.sorbet,
-  {
-    e:0.01,
-    consumeDose:0.01,
+  )
+  Object.assign(dds.sorbet,
+    {
+      e:0.01,
+      consumeDose:0.01,
     growDose:0.01,
     maxGrow:1,
     s:0.5,
-    lates:["growNdie"]
-  }
-)
-var freezer = Object.create(sorbetiere)
+      lates:["growNdie"]
+    }
+  )
+  return dds
+}
+var sorbetiere = makeDanseDuSorbet()
+  , freezer = makeDanseDuSorbet()
 
 
 
