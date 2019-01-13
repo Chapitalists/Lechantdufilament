@@ -16,6 +16,7 @@ var scenario = {
   protoAgent:agent,
   agents:[],
   sel:-1,
+  playing:false,
   changeSel:function() { //TODO use that in other scenarios (see tourneur)
     if (!this.agents.length) this.sel = -1
     else {
@@ -37,10 +38,16 @@ var scenario = {
     this.agents = [] // Create copy into new scenario to prevent modifying prototype
   },
   play:function() {
+    if (this.playing) return;
+
+    this.playing = true
     this.init()
     scenari.push(this)
   },
   stop:function() { //TODO weird ? TODO stop Sorbet ne semble pas faire ça ? les sorbets restent
+    if (!this.playing) return;
+
+    this.playing = false
     for (var i = scenari.length - 1 ; i >= 0 ; i--)
       if (scenari[i] === this) scenari.splice(i, 1)
     for (var i = 0 ; i < this.agents.length ; i++) {
