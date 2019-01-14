@@ -205,8 +205,8 @@ agent.move = function() { // same
   this.p[1] += this.v[1]
 }*/
 
-agent.insideDist = space.dist
-agent.insideSquare = undefined //todo : is it a good idea ?
+agent.insideDist = space.dist // en dist
+agent.insideSquare = undefined //TODO : is it a good idea ? // en dist
 agent.insideMaxF = 0.2
 agent.insideRule = "wander"
 agent.inside = function() {

@@ -184,7 +184,7 @@ var MaxInterface = {
 
   tourneurChange:function() {tourneur.changeSel()},
 
-  tourneurPrep:function() {
+  tourneurPrep:function() { // TODO copy entire prep ?
     tourneur.protoAgent.maxV = tourneur.getSel().maxV
     tourneur.protoAgent.s = tourneur.getSel().s
     tourneur.sel = -1
@@ -272,7 +272,7 @@ var MaxInterface = {
     errants.changeSel()
   },
 
-  errantPrep:function() {errants.sel = -1},
+  errantPrep:function() {errants.sel = -1}, // TODO copy actual to prep ?
 
   errantDel:function() {
     errants.removeSel()
@@ -335,8 +335,12 @@ var MaxInterface = {
     }
   },
 
-  errantSquare:function(x, y, dx, dy) { // x y in lamps from 1, apply to all errants
-    errants.errant.insideSquare = [
+  errantInsideDist:function(d) { // d in dist
+    errants.getSel().insideDist = d
+  },
+
+  errantSquare:function(x, y, dx, dy) { // x y in lamps from 1
+    errants.getSel().insideSquare = [
       (x - 1) * space.dist,
       (y - 1) * space.dist,
       (x + dx - 1) * space.dist,
