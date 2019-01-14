@@ -371,28 +371,28 @@ function makeDanseDuSorbet() {
     {
       space:Object.create(space),
       frameLaps:100,
-    remaining:0,
-    lastP:[-1,-1],
-    sorbet:Object.create(agent),
-    init:function() {
-      this.remaining = 0
-      this.lastP = [-1,-1]
-    },
-    update:function() {
-      if (this.remaining > this.frameLaps) this.remaining = this.frameLaps
-      if (--this.remaining <= 0) {
-        var newAgent = Object.create(this.sorbet)
-        do {
-          newAgent.p = [
-            Math.floor(Math.random() * this.space.lamps[0]) * this.space.dist,
-            Math.floor(Math.random() * this.space.lamps[1]) * this.space.dist
-          ]
-        } while (v2D.equal(newAgent.p, this.lastP)
-                 && (this.space.lamps[0] > 1 && this.space.lamps[1] > 1))
-        this.lastP = newAgent.p
-        agents.push(newAgent)
-        this.remaining = this.frameLaps
-      }
+      remaining:0,
+      lastP:[-1,-1],
+      sorbet:Object.create(agent),
+      init:function() {
+        this.remaining = 0
+        this.lastP = [-1,-1]
+      },
+      update:function() {
+        if (this.remaining > this.frameLaps) this.remaining = this.frameLaps
+        if (--this.remaining <= 0) {
+          var newAgent = Object.create(this.sorbet)
+          do {
+            newAgent.p = [
+              Math.floor(Math.random() * this.space.lamps[0]) * this.space.dist,
+              Math.floor(Math.random() * this.space.lamps[1]) * this.space.dist
+            ]
+          } while (v2D.equal(newAgent.p, this.lastP)
+                   && (this.space.lamps[0] > 1 && this.space.lamps[1] > 1))
+          this.lastP = newAgent.p
+          agents.push(newAgent)
+          this.remaining = this.frameLaps
+        }
       }
     }
   )
@@ -400,9 +400,9 @@ function makeDanseDuSorbet() {
     {
       e:0.01,
       consumeDose:0.01,
-    growDose:0.01,
-    maxGrow:1,
-    s:0.5,
+      growDose:0.01,
+      maxGrow:1,
+      s:0.5,
       lates:["growNdie"]
     }
   )
@@ -429,9 +429,6 @@ Object.assign(errants, //TODO many things are more or less copy of tourneur => g
                         //TODO is it still useful ? */
       this.sel = this.agents.push(newAgent) - 1 //TODO pushing into prototype ? see scenario.init
       agents.push(newAgent)
-    },
-    remove:function() { //TODO should select which errant to remove
-      removeFrom(agents, this.agents.shift())
     }
   }
 )

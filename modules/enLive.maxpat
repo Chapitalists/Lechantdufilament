@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 698.0, 171.0, 1102.0, 759.0 ],
+		"rect" : [ 757.0, 199.0, 1102.0, 759.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -37,6 +37,19 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-58",
+					"linecount" : 3,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 582.0, 255.0, 154.0, 48.0 ],
+					"style" : "",
+					"text" : "update t b f energy envoie dans un autre float, pas dans ossia ?"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-56",
 					"maxclass" : "newobj",
@@ -281,7 +294,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 423.0, 78.0, 182.0, 22.0 ],
+					"patching_rect" : [ 539.0, 89.0, 182.0, 22.0 ],
 					"style" : "",
 					"text" : "ossia.remote freezerDecFrames"
 				}
@@ -294,7 +307,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 354.0, 34.0, 177.0, 22.0 ],
+					"patching_rect" : [ 424.0, 59.0, 177.0, 22.0 ],
 					"style" : "",
 					"text" : "ossia.remote freezerIncFrames"
 				}
@@ -307,7 +320,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 266.0, 11.0, 158.0, 22.0 ],
+					"patching_rect" : [ 305.0, 29.0, 158.0, 22.0 ],
 					"style" : "",
 					"text" : "ossia.remote freezerEnergy"
 				}
@@ -475,7 +488,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "float" ],
-					"patching_rect" : [ 238.0, 78.0, 31.0, 22.0 ],
+					"patching_rect" : [ 245.0, 72.0, 31.0, 22.0 ],
 					"style" : "",
 					"text" : "t b f"
 				}
@@ -490,7 +503,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 219.0, 48.0, 50.0, 22.0 ],
+					"patching_rect" : [ 245.0, 29.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -530,7 +543,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 354.0, 84.0, 50.0, 22.0 ],
+					"patching_rect" : [ 481.0, 89.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -542,7 +555,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 348.0, 120.0, 31.0, 22.0 ],
+					"patching_rect" : [ 510.0, 128.0, 31.0, 22.0 ],
 					"style" : "",
 					"text" : "!/ 1."
 				}
@@ -556,7 +569,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 296.0, 58.0, 50.0, 22.0 ],
+					"patching_rect" : [ 354.0, 59.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -568,7 +581,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 290.0, 94.0, 31.0, 22.0 ],
+					"patching_rect" : [ 354.0, 106.0, 31.0, 22.0 ],
 					"style" : "",
 					"text" : "!/ 1."
 				}
@@ -692,7 +705,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 266.0, 128.0, 50.0, 22.0 ],
+					"patching_rect" : [ 261.0, 137.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -1058,7 +1071,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-45", 1 ],
-					"source" : [ "obj-35", 0 ]
+					"source" : [ "obj-35", 1 ]
 				}
 
 			}
@@ -1109,7 +1122,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-45", 2 ],
-					"source" : [ "obj-41", 0 ]
+					"source" : [ "obj-41", 1 ]
 				}
 
 			}
@@ -1123,14 +1136,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-45", 3 ],
-					"source" : [ "obj-43", 0 ]
+					"source" : [ "obj-43", 1 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-40", 0 ],
-					"source" : [ "obj-44", 0 ]
+					"source" : [ "obj-44", 1 ]
 				}
 
 			}
@@ -1284,7 +1297,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-45", 0 ],
-					"source" : [ "obj-8", 0 ]
+					"source" : [ "obj-8", 1 ]
 				}
 
 			}
@@ -1308,12 +1321,12 @@
 , 			{
 				"name" : "patchLCDF",
 				"default" : 				{
-					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
-					"fontface" : [ 3 ],
-					"fontsize" : [ 18.0 ],
 					"fontname" : [ "Helvetica Neue Bold" ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+					"fontface" : [ 3 ],
+					"fontsize" : [ 18.0 ]
 				}
 ,
 				"parentstyle" : "",
