@@ -232,7 +232,7 @@ var MaxInterface = {
   },
 
   tourneurPopReverse:function() {
-    let bro = tourneur.getSel()
+    var bro = tourneur.getSel()
     tourneur.agents = tourneur.agents.slice()
     popper = Object.create(tourneur.derviche)
     popper.trajectory = tourneur.mkTraj(bro.rad)
