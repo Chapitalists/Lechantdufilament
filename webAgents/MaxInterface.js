@@ -102,7 +102,7 @@ function speed(s) {
   speedCent = s
 }
 
-let popFlag = false
+var popFlag = false
   , popper = null
 function popping() {
   if (popFlag && popper
