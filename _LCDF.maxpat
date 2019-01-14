@@ -1312,7 +1312,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 162.0, 136.0, 731.0, 587.0 ],
+						"rect" : [ 70.0, 79.0, 731.0, 587.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1341,6 +1341,82 @@
 						"subpatcher_template" : "",
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-37",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 249.0, 320.5, 65.0, 20.0 ],
+									"presentation_rect" : [ 249.0, 318.5, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "mode3 >"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-36",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 249.0, 304.5, 65.0, 20.0 ],
+									"presentation_rect" : [ 251.0, 296.5, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "mode2 >"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-35",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 249.0, 287.5, 65.0, 20.0 ],
+									"presentation_rect" : [ 255.0, 288.5, 0.0, 0.0 ],
+									"style" : "",
+									"text" : "mode1 >"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-34",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 254.0, 271.5, 55.0, 20.0 ],
+									"style" : "",
+									"text" : "comp >"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-31",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 156.0, 448.0, 126.0, 20.0 ],
+									"style" : "",
+									"text" : "mode4 non utilisé"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"id" : "obj-18",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 388.0, 349.0, 45.0, 33.0 ],
+									"style" : "",
+									"text" : "   ^\nLamps\n"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-16",
 									"linecount" : 7,
@@ -1428,7 +1504,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 615.0, 259.5, 51.0, 102.0 ],
 									"style" : "",
-									"text" : "0 2 1 2 2 2 3 2 4 2 5 3 6 2 7 1 8 0 9 0 10 0 11 3"
+									"text" : "0 0 1 0 2 0 3 0 4 0 5 0 6 0 7 0 8 0 9 0 10 0 11 0"
 								}
 
 							}
