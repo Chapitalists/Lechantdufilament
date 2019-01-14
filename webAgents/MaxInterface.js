@@ -225,6 +225,20 @@ var MaxInterface = {
     tourneur.getSel().s = s
   },
 
+  tourneurVitesseAll:function(v) {
+    tourneur.agents.forEach(function(ag) {
+      delete ag.maxV
+    })
+    tourneur.derviche.maxV = v
+  },
+
+  tourneurSizeAll:function(s) {
+    tourneur.agents.forEach(function(ag) {
+      delete ag.s
+    })
+    tourneur.derviche.s = s
+  },
+
   tourneurStopSolo:function(x,y) {
     var ag = tourneur.getSel()
     ag.trajectory.push([(x-1)*space.dist, (y-1)*space.dist])
