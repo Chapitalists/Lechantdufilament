@@ -102,7 +102,22 @@ function speed(s) {
   speedCent = s
 }
 
+let popFlag = false
+  , popper = null
+function popping() {
+  if (popFlag && popper
+      && tourneur.getSel().trajectPoint == 1
+      && tourneur.getSel().p[0] <= 4*space.dist
+      && tourneur.getSel().p[0] + tourneur.getSel().maxV > 4*space.dist) {
+    tourneur.sel = tourneur.agents.push(popper) - 1
+    agents.push(popper)
+    popFlag = false
+    popper = null
+  }
+}
+
 function bang() {
+  popping()
   update(speedCent)
   var lights = map()
     , lights2 = map(2)
@@ -214,6 +229,18 @@ var MaxInterface = {
     var ag = tourneur.getSel()
     ag.trajectory.push([(x-1)*space.dist, (y-1)*space.dist])
     ag.trajectMode = 3
+  },
+
+  tourneurPopReverse:function() {
+    let bro = tourneur.getSel()
+    tourneur.agents = tourneur.agents.slice()
+    popper = Object.create(tourneur.derviche)
+    popper.trajectory = tourneur.mkTraj(bro.rad)
+    Object.assign(popper, bro)
+    popper.p = [4*space.dist, 0*space.dist]
+    popper.trajectPoint = 1
+    popper.trajectReverse()
+    popFlag = true
   },
 
 //////////////////// Sorbet
