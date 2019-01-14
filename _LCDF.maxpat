@@ -80,7 +80,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-43",
@@ -1340,7 +1339,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-14",
@@ -10375,7 +10373,7 @@
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 619.0, 132.0, 787.0, 745.0 ],
+						"rect" : [ 615.0, 227.0, 787.0, 745.0 ],
 						"bgcolor" : [ 0.861592, 0.861592, 0.861592, 1.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
@@ -10403,7 +10401,6 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"color" : [ 0.447059, 0.584314, 1.0, 1.0 ],
