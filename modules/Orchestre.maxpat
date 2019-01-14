@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -56,7 +56,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1099.0, 250.251266, 130.0, 22.0 ],
-					"presentation_rect" : [ 1100.0, 251.251282, 0.0, 0.0 ],
 					"style" : "Jamoma_highlighted_orange",
 					"text" : "ossia.remote transport"
 				}
@@ -126,7 +125,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 800.707458, 75.5, 78.0, 34.0 ],
+					"patching_rect" : [ 800.707458, 75.5, 78.0, 33.0 ],
 					"style" : "",
 					"text" : "reset Scenario"
 				}
@@ -153,9 +152,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 673.0, 704.0, 53.0, 64.0 ],
+					"patching_rect" : [ 673.0, 704.0, 53.0, 62.0 ],
 					"style" : "",
-					"text" : "direct orchestre bang 1 6 4 4"
+					"text" : "direct orchestre bang 0 0 0 0"
 				}
 
 			}
@@ -184,7 +183,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1089.0, 212.251266, 150.0, 34.0 ],
+					"patching_rect" : [ 1089.0, 212.251266, 150.0, 33.0 ],
 					"style" : "",
 					"text" : "36-39 : 4 instruments\n43 : nextScenario"
 				}
@@ -197,7 +196,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 921.142578, 559.0, 150.0, 34.0 ],
+					"patching_rect" : [ 921.142578, 559.0, 150.0, 33.0 ],
 					"style" : "",
 					"text" : "TODO faire une velocite par instrument dans js"
 				}
@@ -356,7 +355,7 @@
 					"patching_rect" : [ 964.894958, 36.0, 130.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 47.390503, 22.903595, 54.062958, 40.0 ],
+					"presentation_rect" : [ 47.390503, 22.903595, 54.062958, 39.0 ],
 					"style" : "",
 					"text" : "midiin \"Akai MPD24\""
 				}
@@ -407,7 +406,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 876.0, 140.0, 110.0, 34.0 ],
+					"patching_rect" : [ 876.0, 140.0, 110.0, 33.0 ],
 					"style" : "",
 					"text" : "premier bang pour initialiser counter\n"
 				}
@@ -697,7 +696,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1095.0, 270.0, 150.0, 34.0 ],
+					"patching_rect" : [ 1095.0, 270.0, 150.0, 33.0 ],
 					"style" : "",
 					"text" : "Zone 1 et 5 même instru pour la séquence intro"
 				}
@@ -755,7 +754,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 658.269958, 236.251266, 83.0, 36.0 ],
+					"patching_rect" : [ 658.269958, 236.251266, 83.0, 35.0 ],
 					"style" : "Jamoma_highlighted_orange",
 					"text" : "ossia.remote nextScenario"
 				}
@@ -836,9 +835,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 21.25, 10.903595, 90.0, 25.0 ],
+					"patching_rect" : [ 21.25, 10.903595, 90.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 10.509888, 1.5, 90.0, 25.0 ],
+					"presentation_rect" : [ 10.509888, 1.5, 90.0, 24.0 ],
 					"style" : "",
 					"text" : "Orchestre"
 				}
@@ -1036,7 +1035,7 @@
 					"outlettype" : [ "int", "", "", "int" ],
 					"patching_rect" : [ 690.269958, 281.0, 67.0, 22.0 ],
 					"style" : "",
-					"text" : "counter 15"
+					"text" : "counter 14"
 				}
 
 			}
@@ -1202,7 +1201,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 5,
+							"revision" : 6,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1352,7 +1351,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -1686,7 +1685,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u770008839"
+													"varname" : "u101009219"
 												}
 
 											}
@@ -1971,7 +1970,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 3,
-															"revision" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -2784,7 +2783,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 3,
-															"revision" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -3811,7 +3810,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 3,
-															"revision" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -5559,7 +5558,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 945.0, 464.0, 153.0, 20.0 ],
 									"style" : "",
-									"text" : "4n 1"
+									"text" : "rest-prob 25"
 								}
 
 							}
@@ -5642,7 +5641,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5701,7 +5700,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 3,
-															"revision" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -5760,7 +5759,7 @@
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 654.0, 177.0, 137.0, 28.0 ],
 																	"style" : "",
-																	"text" : ";\r\nMyGroove2 storagewindow"
+																	"text" : ";\rMyGroove2 storagewindow"
 																}
 
 															}
@@ -5776,7 +5775,7 @@
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 548.0, 177.0, 101.0, 28.0 ],
 																	"style" : "",
-																	"text" : ";\r\nMyGroove2 recall 1"
+																	"text" : ";\rMyGroove2 recall 1"
 																}
 
 															}
@@ -5792,7 +5791,7 @@
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 445.0, 177.0, 99.0, 28.0 ],
 																	"style" : "",
-																	"text" : ";\r\nMyGroove2 store 1"
+																	"text" : ";\rMyGroove2 store 1"
 																}
 
 															}
@@ -5851,7 +5850,7 @@
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 584.0, 227.0, 119.0, 28.0 ],
 																	"style" : "",
-																	"text" : "1;\r\nMyGroove2 getclientlist"
+																	"text" : "1;\rMyGroove2 getclientlist"
 																}
 
 															}
@@ -5867,7 +5866,7 @@
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 609.0, 260.0, 93.0, 28.0 ],
 																	"style" : "",
-																	"text" : "1;\r\nMyGroove2 dump"
+																	"text" : "1;\rMyGroove2 dump"
 																}
 
 															}
@@ -6028,7 +6027,7 @@
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 282.0, 425.0, 127.0, 28.0 ],
 																	"style" : "",
-																	"text" : ";\r\nMyGroove2 clientwindow"
+																	"text" : ";\rMyGroove2 clientwindow"
 																}
 
 															}
@@ -6395,7 +6394,7 @@
 																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 23.0, 425.0, 239.0, 28.0 ],
 																	"style" : "",
-																	"text" : ";\r\nMyGroove2 4n 0, 8n 0, 16n 0, 4nt 3, 8nd 4, 32n 1"
+																	"text" : ";\rMyGroove2 4n 0, 8n 0, 16n 0, 4nt 3, 8nd 4, 32n 1"
 																}
 
 															}
@@ -7543,7 +7542,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 193.0, 256.0, 153.0, 20.0 ],
 													"style" : "",
-													"text" : "4n 1"
+													"text" : "rest-prob 25"
 												}
 
 											}
@@ -8067,7 +8066,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -8401,7 +8400,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u814008808"
+													"varname" : "u565009211"
 												}
 
 											}
@@ -8686,7 +8685,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 3,
-															"revision" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -9499,7 +9498,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 3,
-															"revision" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -10526,7 +10525,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 3,
-															"revision" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -12274,7 +12273,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 517.0, 464.0, 153.0, 20.0 ],
 									"style" : "",
-									"text" : "4n 1"
+									"text" : "rest-prob 20"
 								}
 
 							}
@@ -12391,7 +12390,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -12725,7 +12724,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u879008809"
+													"varname" : "u081009208"
 												}
 
 											}
@@ -13010,7 +13009,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 3,
-															"revision" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -13823,7 +13822,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 3,
-															"revision" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -14850,7 +14849,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 3,
-															"revision" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -16598,7 +16597,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 81.0, 464.0, 153.0, 20.0 ],
 									"style" : "",
-									"text" : "4n 1"
+									"text" : "rest-prob 15"
 								}
 
 							}
@@ -16715,7 +16714,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -17049,7 +17048,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u839008810"
+													"varname" : "u262009205"
 												}
 
 											}
@@ -17333,7 +17332,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 3,
-															"revision" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -18146,7 +18145,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 3,
-															"revision" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -19173,7 +19172,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 3,
-															"revision" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -20921,7 +20920,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 517.0, 203.0, 153.0, 20.0 ],
 									"style" : "",
-									"text" : "4n 1"
+									"text" : "rest-prob 25"
 								}
 
 							}
@@ -21063,9 +21062,9 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 739.0, 138.0, 151.0, 32.0 ],
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 218, 50, 590, 567 ],
+										"client_rect" : [ 217, 99, 707, 589 ],
 										"parameter_enable" : 0,
-										"storage_rect" : [ 220, 49, 877, 199 ]
+										"storage_rect" : [ 842, 68, 1334, 357 ]
 									}
 ,
 									"style" : "",
@@ -21165,7 +21164,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 5,
+											"revision" : 6,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -21499,7 +21498,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u508008814"
+													"varname" : "u036009202"
 												}
 
 											}
@@ -21784,7 +21783,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 3,
-															"revision" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -22597,7 +22596,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 3,
-															"revision" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -23624,7 +23623,7 @@
 														"appversion" : 														{
 															"major" : 7,
 															"minor" : 3,
-															"revision" : 5,
+															"revision" : 6,
 															"architecture" : "x64",
 															"modernui" : 1
 														}
@@ -25372,7 +25371,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 81.0, 203.0, 153.0, 20.0 ],
 									"style" : "",
-									"text" : "4n 1"
+									"text" : "rest-prob 10"
 								}
 
 							}
@@ -27293,72 +27292,6 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-74" : [ "live.text[29]", "live.text[3]", 0 ],
-			"obj-31" : [ "live.text[20]", "live.text[3]", 0 ],
-			"obj-113" : [ "live.slider[37]", "Sub", 0 ]
-		}
-,
-		"dependency_cache" : [ 			{
-				"name" : "X.groove.maxpat",
-				"bootpath" : "./examples/sequencing-looping/CyclistMusic/lib/abstractions",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "X.note2number-C3.txt",
-				"bootpath" : "./examples/sequencing-looping/CyclistMusic/lib/others",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "X.number2note-C3.txt",
-				"bootpath" : "./examples/sequencing-looping/CyclistMusic/lib/others",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "X.Groover.xml",
-				"bootpath" : "D:/User/Documents/Lechantdufilament/LCDFColl",
-				"patcherrelativepath" : "../LCDFColl",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "SpacesChanger.maxpat",
-				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "spaces.txt",
-				"bootpath" : "D:/User/Documents/Lechantdufilament/LCDFColl",
-				"patcherrelativepath" : "../LCDFColl",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "set_bang.maxpat",
-				"bootpath" : "D:/User/Documents/Lechantdufilament/utils",
-				"patcherrelativepath" : "../utils",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ossia.model.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "ossia.parameter.mxe64",
-				"type" : "mx64"
-			}
-, 			{
-				"name" : "ossia.remote.mxe64",
-				"type" : "mx64"
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Jamoma_highlighted_orange",
 				"default" : 				{
