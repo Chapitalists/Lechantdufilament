@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 5,
+			"revision" : 6,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 452.0, 226.0, 837.0, 604.0 ],
+		"rect" : [ 34.0, 300.0, 837.0, 604.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,45 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 46.0, 555.0, 476.0, 22.0 ],
+					"style" : "Jamoma_highlighted_orange",
+					"text" : "ossia.parameter nMultiMap @type int @range 0 20 @clip both @repetitions 0 @rate 25"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 41.0, 520.0, 399.0, 22.0 ],
+					"style" : "Jamoma_highlighted_orange",
+					"text" : "ossia.parameter vecPhaseMultiMap @type float @repetitions 0 @rate 25"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 41.0, 490.0, 390.0, 22.0 ],
+					"style" : "Jamoma_highlighted_orange",
+					"text" : "ossia.parameter vecAmpMultiMap @type float @repetitions 0 @rate 25"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-56",
 					"linecount" : 2,
 					"maxclass" : "newobj",
@@ -58,8 +97,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 489.0, 337.86441, 316.0, 36.0 ],
-					"style" : "",
+					"patching_rect" : [ 489.0, 337.86441, 316.0, 35.0 ],
+					"style" : "Jamoma_highlighted_orange",
 					"text" : "ossia.parameter errantInsideDist @type int @default 100 @repetitions 0 @rate 25"
 				}
 
@@ -72,8 +111,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 489.0, 277.291534, 335.0, 36.0 ],
-					"style" : "",
+					"patching_rect" : [ 489.0, 277.291534, 335.0, 35.0 ],
+					"style" : "Jamoma_highlighted_orange",
 					"text" : "ossia.parameter errantSquareDY @type float @repetitions 0 @rate 25"
 				}
 
@@ -86,8 +125,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 489.0, 216.718628, 336.0, 36.0 ],
-					"style" : "",
+					"patching_rect" : [ 489.0, 216.718628, 336.0, 35.0 ],
+					"style" : "Jamoma_highlighted_orange",
 					"text" : "ossia.parameter errantSquareDX @type float @repetitions 0 @rate 25"
 				}
 
@@ -100,8 +139,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 489.0, 156.145767, 327.0, 36.0 ],
-					"style" : "",
+					"patching_rect" : [ 489.0, 156.145767, 327.0, 35.0 ],
+					"style" : "Jamoma_highlighted_orange",
 					"text" : "ossia.parameter errantSquareY @type float @repetitions 0 @rate 25"
 				}
 
@@ -114,8 +153,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 489.0, 95.572884, 327.0, 36.0 ],
-					"style" : "",
+					"patching_rect" : [ 489.0, 95.572884, 327.0, 35.0 ],
+					"style" : "Jamoma_highlighted_orange",
 					"text" : "ossia.parameter errantSquareX @type float @repetitions 0 @rate 25"
 				}
 
@@ -128,7 +167,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 45.0, 228.0, 393.0, 22.0 ],
-					"style" : "",
+					"style" : "Jamoma_highlighted_orange",
 					"text" : "ossia.parameter sorbetiereSpaceY @type float @repetitions 0 @rate 25"
 				}
 
@@ -141,7 +180,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 40.0, 195.0, 393.0, 22.0 ],
-					"style" : "",
+					"style" : "Jamoma_highlighted_orange",
 					"text" : "ossia.parameter sorbetiereSpaceX @type float @repetitions 0 @rate 25"
 				}
 
@@ -154,7 +193,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 41.0, 415.0, 359.0, 22.0 ],
-					"style" : "",
+					"style" : "Jamoma_highlighted_orange",
 					"text" : "ossia.parameter freezerSize @type float @repetitions 0 @rate 25"
 				}
 
@@ -167,7 +206,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 41.0, 457.0, 245.0, 22.0 ],
-					"style" : "",
+					"style" : "Jamoma_highlighted_orange",
 					"text" : "ossia.parameter freezerStop @type impulse"
 				}
 
@@ -180,7 +219,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 41.0, 373.0, 387.0, 22.0 ],
-					"style" : "",
+					"style" : "Jamoma_highlighted_orange",
 					"text" : "ossia.parameter freezerFrameLaps @type int @repetitions 0 @rate 25"
 				}
 
@@ -193,7 +232,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 45.0, 330.0, 387.0, 22.0 ],
-					"style" : "",
+					"style" : "Jamoma_highlighted_orange",
 					"text" : "ossia.parameter freezerDecFrames @type int @repetitions 0 @rate 25"
 				}
 
@@ -206,7 +245,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 45.0, 297.0, 382.0, 22.0 ],
-					"style" : "",
+					"style" : "Jamoma_highlighted_orange",
 					"text" : "ossia.parameter freezerIncFrames @type int @repetitions 0 @rate 25"
 				}
 
@@ -219,7 +258,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 45.0, 263.0, 373.0, 22.0 ],
-					"style" : "",
+					"style" : "Jamoma_highlighted_orange",
 					"text" : "ossia.parameter freezerEnergy @type float @repetitions 0 @rate 25"
 				}
 
@@ -232,7 +271,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 36.0, 152.0, 409.0, 22.0 ],
-					"style" : "",
+					"style" : "Jamoma_highlighted_orange",
 					"text" : "ossia.parameter sorbetiereTranslateY @type float @repetitions 0 @rate 25"
 				}
 
@@ -245,7 +284,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 36.0, 116.0, 409.0, 22.0 ],
-					"style" : "",
+					"style" : "Jamoma_highlighted_orange",
 					"text" : "ossia.parameter sorbetiereTranslateX @type float @repetitions 0 @rate 25"
 				}
 
@@ -258,7 +297,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 36.0, 82.0, 409.0, 22.0 ],
-					"style" : "",
+					"style" : "Jamoma_highlighted_orange",
 					"text" : "ossia.parameter sorbetiereSpaceSize @type float @repetitions 0 @rate 25"
 				}
 
@@ -271,19 +310,13 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 36.0, 35.0, 248.0, 22.0 ],
-					"style" : "",
+					"style" : "Jamoma_highlighted_orange",
 					"text" : "ossia.parameter prepFreezer @type impulse"
 				}
 
 			}
  ],
 		"lines" : [  ],
-		"dependency_cache" : [ 			{
-				"name" : "ossia.parameter.mxe64",
-				"type" : "mx64"
-			}
- ],
-		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Jamoma_highlighted_orange",
 				"default" : 				{
@@ -296,11 +329,11 @@
 , 			{
 				"name" : "patchLCDF",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 					"fontface" : [ 3 ],
 					"fontsize" : [ 18.0 ],
 					"fontname" : [ "Helvetica Neue Bold" ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ]
 				}
 ,

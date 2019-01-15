@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 90.0, 177.0, 1440.0, 851.0 ],
+		"rect" : [ 65.0, 88.0, 1440.0, 851.0 ],
 		"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -39,14 +39,40 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-12",
-					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 218.0, 450.0, 94.0, 22.0 ],
+					"id" : "obj-7",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 623.178589, 203.0, 150.0, 20.0 ],
+					"presentation_rect" : [ 621.0, 203.0, 0.0, 0.0 ],
 					"style" : "",
-					"text" : "zl.compare wait"
+					"text" : "play button"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 181.0, 454.0, 150.0, 20.0 ],
+					"style" : "",
+					"text" : "play button led on"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 340.0, 546.0, 60.0, 22.0 ],
+					"presentation_rect" : [ 793.142883, 29.0, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "loadbang"
 				}
 
 			}
@@ -59,18 +85,6 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 116.0, 431.0, 24.0, 24.0 ],
 					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-2",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 116.0, 497.5, 61.0, 22.0 ],
-					"style" : "",
-					"text" : "s midiOut"
 				}
 
 			}
@@ -90,13 +104,13 @@
 , 			{
 				"box" : 				{
 					"id" : "obj-65",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 673.0, 183.0, 150.0, 33.0 ],
+					"patching_rect" : [ 731.0, 68.0, 150.0, 47.0 ],
 					"style" : "",
-					"text" : "TODO à brancher sur nanoKontrol2"
+					"text" : "INFO peut être redondant avec le patch Korg Controller ?"
 				}
 
 			}
@@ -238,7 +252,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 802.0, 72.0, 169.0, 22.0 ],
+					"patching_rect" : [ 340.0, 580.0, 169.0, 22.0 ],
 					"style" : "",
 					"text" : "port \"nanoKONTROL2 CTRL\""
 				}
@@ -277,34 +291,9 @@
 					"numinlets" : 7,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 825.0, 128.0, 82.0, 22.0 ],
+					"patching_rect" : [ 363.0, 636.0, 82.0, 22.0 ],
 					"style" : "",
 					"text" : "midiformat 2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-61",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 846.0, 97.0, 59.0, 22.0 ],
-					"style" : "",
-					"text" : "r midiOut"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-60",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 681.178589, 453.5, 61.0, 22.0 ],
-					"style" : "",
-					"text" : "s midiOut"
 				}
 
 			}
@@ -358,7 +347,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 802.0, 157.0, 56.285721, 22.0 ],
+					"patching_rect" : [ 340.0, 665.0, 56.285721, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 6.14286, 77.0, 48.285721, 22.0 ],
 					"style" : "default",
@@ -373,7 +362,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 681.178589, 423.0, 34.0, 22.0 ],
+					"patching_rect" : [ 681.178589, 374.0, 34.0, 22.0 ],
 					"style" : "",
 					"text" : "41 0"
 				}
@@ -481,7 +470,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 57.0, 11.5, 373.666626, 35.0 ],
 					"style" : "",
-					"text" : "AzSallonge",
 					"textjustification" : 1
 				}
 
@@ -539,16 +527,14 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-27", 0 ],
-					"order" : 1,
-					"source" : [ "obj-20", 0 ]
+					"destination" : [ "obj-29", 0 ],
+					"source" : [ "obj-2", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-29", 0 ],
-					"order" : 0,
+					"destination" : [ "obj-27", 0 ],
 					"source" : [ "obj-20", 0 ]
 				}
 
@@ -583,7 +569,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-2", 0 ],
+					"destination" : [ "obj-62", 2 ],
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -611,7 +597,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
+					"destination" : [ "obj-62", 2 ],
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -620,13 +606,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
 					"source" : [ "obj-50", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-62", 2 ],
-					"source" : [ "obj-61", 0 ]
 				}
 
 			}
@@ -650,12 +629,12 @@
 , 			{
 				"name" : "patchLCDF",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 					"fontface" : [ 3 ],
 					"fontsize" : [ 18.0 ],
-					"fontname" : [ "Helvetica Neue Bold" ]
+					"fontname" : [ "Helvetica Neue Bold" ],
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ]
 				}
 ,
 				"parentstyle" : "",
