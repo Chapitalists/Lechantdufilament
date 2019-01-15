@@ -46,7 +46,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 489.0, 35.0, 304.0, 36.0 ],
 					"style" : "",
-					"text" : "ossia.parameter errantsSpeed @type int @default 100 @repetitions 0 @rate 25"
+					"text" : "ossia.parameter errantsSpeed @type int @default 100 @repetitions 1 @rate 25"
 				}
 
 			}
@@ -278,6 +278,12 @@
 			}
  ],
 		"lines" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "ossia.parameter.mxe64",
+				"type" : "mx64"
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Jamoma_highlighted_orange",
 				"default" : 				{
@@ -290,12 +296,12 @@
 , 			{
 				"name" : "patchLCDF",
 				"default" : 				{
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 					"fontface" : [ 3 ],
 					"fontsize" : [ 18.0 ],
 					"fontname" : [ "Helvetica Neue Bold" ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ]
 				}
 ,
 				"parentstyle" : "",

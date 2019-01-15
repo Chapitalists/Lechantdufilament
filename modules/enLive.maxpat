@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 757.0, 199.0, 1102.0, 759.0 ],
+		"rect" : [ 138.0, 144.0, 1102.0, 759.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -147,9 +147,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 748.0, 691.0, 111.0, 22.0 ],
+					"patching_rect" : [ 748.0, 691.0, 125.0, 22.0 ],
 					"style" : "",
-					"text" : "errantInsideDist $1"
+					"text" : "errantInsideDistAll $1"
 				}
 
 			}
@@ -160,9 +160,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 678.0, 654.0, 148.0, 22.0 ],
+					"patching_rect" : [ 678.0, 654.0, 161.0, 22.0 ],
 					"style" : "",
-					"text" : "errantSquare $1 $2 $3 $4"
+					"text" : "errantSquareAll $1 $2 $3 $4"
 				}
 
 			}
@@ -765,7 +765,7 @@
 				"box" : 				{
 					"comment" : "to agent params",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1309,6 +1309,34 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "enLiveParams.maxpat",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "matrixLights.js",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ossia.model.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "ossia.parameter.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "ossia.remote.mxe64",
+				"type" : "mx64"
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Jamoma_highlighted_orange",
 				"default" : 				{
@@ -1321,12 +1349,12 @@
 , 			{
 				"name" : "patchLCDF",
 				"default" : 				{
-					"fontname" : [ "Helvetica Neue Bold" ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 					"fontface" : [ 3 ],
-					"fontsize" : [ 18.0 ]
+					"fontsize" : [ 18.0 ],
+					"fontname" : [ "Helvetica Neue Bold" ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ]
 				}
 ,
 				"parentstyle" : "",

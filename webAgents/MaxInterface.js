@@ -355,6 +355,20 @@ var MaxInterface = {
     errants.getSel().s = s
   },
 
+  errantSizeAll:function(s) {
+    errants.agents.forEach(function(ag) {
+      delete ag.s
+    })
+    errants.errant.s = s
+  },
+
+  errantCopy:function() {
+    errants.agents = errants.agents.slice()
+    var ag = Object.create(errants.getSel())
+    errants.sel = errants.agents.push(ag) - 1
+    agents.push(ag)
+  },
+
   errantMode:function(m) { // 0:inside, 1:fold, 2:wrap, 3:clip
     var ag = errants.getSel()
     if (m == 0) {
@@ -380,8 +394,27 @@ var MaxInterface = {
     errants.getSel().insideDist = d
   },
 
+  errantInsideDistAll:function(d) {
+    errants.agents.forEach(function(ag) {
+      delete ag.insideDist
+    })
+    errants.errant.insideDist = d
+  },
+
   errantSquare:function(x, y, dx, dy) { // x y in lamps from 1
     errants.getSel().insideSquare = [
+      (x - 1) * space.dist,
+      (y - 1) * space.dist,
+      (x + dx - 1) * space.dist,
+      (y + dy - 1) * space.dist
+    ]
+  },
+
+  errantSquareAll:function(x, y, dx, dy) { // x y in lamps from 1
+    errants.agents.forEach(function(ag) {
+      delete ag.insideSquare
+    })
+    errants.errant.insideSquare = [
       (x - 1) * space.dist,
       (y - 1) * space.dist,
       (x + dx - 1) * space.dist,
