@@ -44,9 +44,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 489.0, 35.0, 304.0, 36.0 ],
-					"style" : "",
-					"text" : "ossia.parameter errantsSpeed @type int @default 100 @repetitions 1 @rate 25"
+					"patching_rect" : [ 489.0, 35.0, 341.0, 35.0 ],
+					"style" : "Jamoma_highlighted_orange",
+					"text" : "ossia.parameter errantsSpeed @type int @default 100 @rate 25"
 				}
 
 			}
