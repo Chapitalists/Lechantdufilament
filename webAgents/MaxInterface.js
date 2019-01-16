@@ -355,6 +355,13 @@ var MaxInterface = {
     errants.getSel().s = s
   },
 
+  errantVelocityAll:function(v) {
+    errants.agents.forEach(function(ag) {
+      delete ag.maxV
+    })
+    errants.errant.maxV = v
+  },
+
   errantSizeAll:function(s) {
     errants.agents.forEach(function(ag) {
       delete ag.s

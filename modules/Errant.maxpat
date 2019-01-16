@@ -38,12 +38,59 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-128",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 603.5, 687.507935, 546.0, 22.0 ],
+					"style" : "Jamoma_highlighted_orange",
+					"text" : "ossia.parameter velocityAll @type float @range 0. 8. @clip both @default 4. @repetitions 0 @rate 25"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"color" : [ 0.963735, 1.0, 0.0, 1.0 ],
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-129",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 603.5, 797.42627, 218.0, 22.0 ],
+					"presentation_rect" : [ 660.065613, 817.399963, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "ossia.remote /Agents/agentParameters"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-130",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 603.5, 761.452576, 113.0, 22.0 ],
+					"presentation_rect" : [ 660.065613, 781.42627, 0.0, 0.0 ],
+					"style" : "",
+					"text" : "errantVelocityAll $1"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-106",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 1003.065613, 769.481628, 208.0, 22.0 ],
+					"patching_rect" : [ 1075.065674, 771.66095, 208.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
 					"text" : "ossia.parameter copy @type impulse"
 				}
@@ -60,8 +107,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 1003.065613, 879.399963, 218.0, 22.0 ],
-					"presentation_rect" : [ 1003.065613, 879.399963, 0.0, 0.0 ],
+					"patching_rect" : [ 1075.065674, 881.579285, 218.0, 22.0 ],
 					"style" : "",
 					"text" : "ossia.remote /Agents/agentParameters"
 				}
@@ -76,8 +122,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1003.065613, 843.42627, 70.0, 22.0 ],
-					"presentation_rect" : [ 1003.065613, 843.42627, 0.0, 0.0 ],
+					"patching_rect" : [ 1075.065674, 845.605591, 70.0, 22.0 ],
 					"style" : "",
 					"text" : "errantCopy"
 				}
@@ -90,7 +135,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 771.065613, 723.481628, 544.0, 22.0 ],
+					"patching_rect" : [ 843.065613, 725.66095, 544.0, 22.0 ],
 					"style" : "Jamoma_highlighted_orange",
 					"text" : "ossia.parameter sizeAll @type float @range 0. 100. @clip both @default 1. @repetitions 0 @rate 25"
 				}
@@ -107,7 +152,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 771.065613, 833.399963, 218.0, 22.0 ],
+					"patching_rect" : [ 843.065613, 835.579285, 218.0, 22.0 ],
 					"style" : "",
 					"text" : "ossia.remote /Agents/agentParameters"
 				}
@@ -122,7 +167,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 771.065613, 797.42627, 95.0, 22.0 ],
+					"patching_rect" : [ 843.065613, 799.605591, 95.0, 22.0 ],
 					"style" : "",
 					"text" : "errantSizeAll $1"
 				}
@@ -937,7 +982,7 @@
 					"patching_rect" : [ 1636.408447, 167.473083, 72.0, 34.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 694.510315, 6.40509, 64.0, 34.0 ],
+					"presentation_rect" : [ 694.510315, 6.40509, 65.0, 34.0 ],
 					"style" : "",
 					"text" : "Max Time Rapide"
 				}
@@ -1136,7 +1181,7 @@
 					"patching_rect" : [ 1340.075195, 181.84668, 38.0, 48.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 450.5, 6.40509, 64.0, 34.0 ],
+					"presentation_rect" : [ 450.5, 6.40509, 65.0, 34.0 ],
 					"style" : "",
 					"text" : "Max Time Lent"
 				}
@@ -2554,8 +2599,22 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-130", 0 ],
+					"source" : [ "obj-128", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-12", 0 ],
 					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-129", 0 ],
+					"source" : [ "obj-130", 0 ]
 				}
 
 			}
@@ -3210,19 +3269,19 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-22" : [ "live.slider[12]", "Force", 0 ],
-			"obj-32" : [ "live.text[6]", "live.text[3]", 0 ],
-			"obj-34" : [ "live.text[9]", "live.text[3]", 0 ],
-			"obj-168" : [ "live.slider[25]", "Distance", 0 ],
-			"obj-166" : [ "live.slider[24]", "Masse", 0 ],
-			"obj-150" : [ "live.slider[22]", "Changement direction", 0 ],
+			"obj-119" : [ "live.text[3]", "live.text[3]", 0 ],
 			"obj-13" : [ "live.slider[15]", "Taille", 0 ],
 			"obj-188" : [ "live.slider[28]", "Vélocité", 0 ],
-			"obj-24" : [ "live.slider[17]", "Energie", 0 ],
-			"obj-119" : [ "live.text[3]", "live.text[3]", 0 ],
+			"obj-34" : [ "live.text[9]", "live.text[3]", 0 ],
 			"obj-171" : [ "live.slider[26]", "Radius", 0 ],
+			"obj-168" : [ "live.slider[25]", "Distance", 0 ],
+			"obj-24" : [ "live.slider[17]", "Energie", 0 ],
 			"obj-178" : [ "live.slider[27]", "Diff", 0 ],
-			"obj-112" : [ "live.text[2]", "live.text[3]", 0 ]
+			"obj-32" : [ "live.text[6]", "live.text[3]", 0 ],
+			"obj-22" : [ "live.slider[12]", "Force", 0 ],
+			"obj-112" : [ "live.text[2]", "live.text[3]", 0 ],
+			"obj-166" : [ "live.slider[24]", "Masse", 0 ],
+			"obj-150" : [ "live.slider[22]", "Changement direction", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -3265,12 +3324,12 @@
 , 			{
 				"name" : "patchLCDF",
 				"default" : 				{
+					"fontface" : [ 3 ],
+					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+					"fontsize" : [ 18.0 ],
 					"fontname" : [ "Helvetica Neue Bold" ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
-					"fontface" : [ 3 ],
-					"fontsize" : [ 18.0 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
