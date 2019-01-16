@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 6,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 51.0, 79.0, 1102.0, 759.0 ],
+		"rect" : [ 51.0, 85.0, 1102.0, 759.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -214,7 +214,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 587.0, 58.0, 165.0, 47.0 ],
+					"patching_rect" : [ 587.0, 58.0, 165.0, 48.0 ],
 					"style" : "",
 					"text" : "update t b f energy envoie dans un autre float, pas   dans ossia ?                   ->"
 				}
@@ -373,7 +373,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 11.0, 44.0, 94.0, 24.0 ],
+					"patching_rect" : [ 11.0, 44.0, 94.0, 25.0 ],
 					"style" : "",
 					"text" : "r FromAgent"
 				}
@@ -794,7 +794,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 146.0, 44.0, 102.0, 24.0 ],
+					"patching_rect" : [ 146.0, 44.0, 102.0, 25.0 ],
 					"style" : "",
 					"text" : "r FromAgent2"
 				}
@@ -862,7 +862,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 868.0, 200.0, 61.5, 22.0 ],
+					"patching_rect" : [ 868.0, 200.0, 62.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -936,7 +936,7 @@
 				"box" : 				{
 					"comment" : "to agent params",
 					"id" : "obj-2",
-					"index" : 1,
+					"index" : 0,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -1226,13 +1226,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-45", 2 ],
 					"source" : [ "obj-41", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-38", 0 ],
-					"source" : [ "obj-42", 0 ]
 				}
 
 			}
@@ -1561,6 +1554,34 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "enLiveParams.maxpat",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/modules",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "matrixLights.js",
+				"bootpath" : "D:/User/Documents/Lechantdufilament/javascript",
+				"patcherrelativepath" : "../javascript",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ossia.model.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "ossia.parameter.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "ossia.remote.mxe64",
+				"type" : "mx64"
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Jamoma_highlighted_orange",
 				"default" : 				{
@@ -1573,12 +1594,12 @@
 , 			{
 				"name" : "patchLCDF",
 				"default" : 				{
+					"fontface" : [ 3 ],
+					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 					"fontsize" : [ 18.0 ],
 					"fontname" : [ "Helvetica Neue Bold" ],
-					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
-					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
-					"fontface" : [ 3 ]
+					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ]
 				}
 ,
 				"parentstyle" : "",
