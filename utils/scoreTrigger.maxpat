@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 65.0, 88.0, 1440.0, 851.0 ],
+		"rect" : [ 245.0, 174.0, 461.0, 105.0 ],
 		"bgcolor" : [ 0.65098, 0.666667, 0.662745, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -44,7 +44,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 623.178589, 203.0, 150.0, 20.0 ],
-					"presentation_rect" : [ 621.0, 203.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "play button"
 				}
@@ -70,7 +69,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 340.0, 546.0, 60.0, 22.0 ],
-					"presentation_rect" : [ 793.142883, 29.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "loadbang"
 				}
@@ -470,6 +468,7 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 57.0, 11.5, 373.666626, 35.0 ],
 					"style" : "",
+					"text" : "Mise",
 					"textjustification" : 1
 				}
 
@@ -631,8 +630,8 @@
 				"default" : 				{
 					"fontface" : [ 3 ],
 					"fontsize" : [ 18.0 ],
-					"fontname" : [ "Helvetica Neue Bold" ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"fontname" : [ "Helvetica Neue Bold" ],
 					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
 					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ]
 				}

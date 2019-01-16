@@ -43,9 +43,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 1114.64502, 449.0, 171.0, 33.0 ],
+					"patching_rect" : [ 1119.375, 412.0, 212.0, 33.0 ],
 					"style" : "",
-					"text" : "laisser ce message à droite des boites 1 à 5"
+					"text" : "laisser les direct \nà droite des boites 1 à 5"
 				}
 
 			}
@@ -56,8 +56,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1103.64502, 425.0, 219.0, 22.0 ],
-					"presentation_rect" : [ 1143.415039, 497.0, 0.0, 0.0 ],
+					"patching_rect" : [ 1114.64502, 448.0, 219.0, 22.0 ],
 					"style" : "",
 					"text" : "direct orchestre musicien maxGrow 0.6"
 				}
@@ -207,7 +206,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 673.0, 704.0, 53.0, 62.0 ],
 					"style" : "",
-					"text" : "direct orchestre bang 0 0 0 0"
+					"text" : "direct orchestre bang 5 1 5 5"
 				}
 
 			}
@@ -249,7 +248,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 921.142578, 559.0, 150.0, 33.0 ],
+					"patching_rect" : [ 1176.372559, 529.0, 150.0, 33.0 ],
 					"style" : "",
 					"text" : "TODO faire une velocite par instrument dans js"
 				}
@@ -264,7 +263,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1095.0, 122.0, 50.0, 22.0 ],
 					"style" : "",
-					"text" : "37"
+					"text" : "36"
 				}
 
 			}
@@ -277,7 +276,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 859.415039, 559.0, 50.0, 22.0 ],
+					"patching_rect" : [ 1114.64502, 529.0, 50.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -289,7 +288,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
-					"patching_rect" : [ 859.415039, 521.0, 41.0, 22.0 ],
+					"patching_rect" : [ 1114.64502, 491.0, 41.0, 22.0 ],
 					"style" : "",
 					"text" : "/ 127."
 				}
@@ -302,7 +301,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 859.415039, 599.0, 215.0, 22.0 ],
+					"patching_rect" : [ 1114.64502, 569.0, 215.0, 22.0 ],
 					"style" : "",
 					"text" : "direct orchestre musicien maxGrow $1"
 				}
@@ -1169,7 +1168,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 201.0, 239.751251, 29.5, 22.0 ],
 					"style" : "",
-					"text" : "1"
+					"text" : "2"
 				}
 
 			}
@@ -1738,7 +1737,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u102009719"
+													"varname" : "u334009689"
 												}
 
 											}
@@ -8453,7 +8452,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u406009711"
+													"varname" : "u921009681"
 												}
 
 											}
@@ -12296,7 +12295,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 711.0, 510.0, 38.0, 20.0 ],
 									"style" : "",
-									"text" : "8nt"
+									"text" : "4nt"
 								}
 
 							}
@@ -12777,7 +12776,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u274009708"
+													"varname" : "u776009678"
 												}
 
 											}
@@ -16620,7 +16619,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 275.0, 510.0, 38.0, 20.0 ],
 									"style" : "",
-									"text" : "4n"
+									"text" : "4nd"
 								}
 
 							}
@@ -17101,7 +17100,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u384009705"
+													"varname" : "u617009675"
 												}
 
 											}
@@ -21551,7 +21550,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u826009702"
+													"varname" : "u725009672"
 												}
 
 											}
@@ -26664,6 +26663,23 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"angle" : 100.0,
+					"bgcolor" : [ 0.258824, 0.294118, 0.301961, 0.501961 ],
+					"border" : 1,
+					"bordercolor" : [ 0.258824, 0.294118, 0.301961, 1.0 ],
+					"id" : "obj-64",
+					"maxclass" : "panel",
+					"mode" : 0,
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 1095.0, 408.26001, 260.750061, 220.740005 ],
+					"proportion" : 0.39,
+					"style" : ""
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -26804,7 +26820,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-109", 0 ],
-					"order" : 2,
+					"order" : 0,
 					"source" : [ "obj-2", 3 ]
 				}
 
@@ -26812,7 +26828,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-109", 0 ],
-					"order" : 2,
+					"order" : 0,
 					"source" : [ "obj-2", 2 ]
 				}
 
@@ -26820,7 +26836,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-109", 0 ],
-					"order" : 2,
+					"order" : 0,
 					"source" : [ "obj-2", 1 ]
 				}
 
@@ -26828,7 +26844,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-109", 0 ],
-					"order" : 3,
+					"order" : 0,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -26852,24 +26868,8 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-2", 3 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
-					"order" : 1,
-					"source" : [ "obj-2", 2 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-60", 0 ],
-					"order" : 1,
-					"source" : [ "obj-2", 1 ]
 				}
 
 			}
@@ -26877,6 +26877,22 @@
 				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
 					"order" : 2,
+					"source" : [ "obj-2", 2 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
+					"order" : 2,
+					"source" : [ "obj-2", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
+					"order" : 3,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -26884,7 +26900,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-66", 0 ],
-					"order" : 1,
+					"order" : 2,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -26892,7 +26908,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-67", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-2", 1 ]
 				}
 
@@ -26900,7 +26916,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-68", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-2", 2 ]
 				}
 
@@ -26908,7 +26924,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-70", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-2", 3 ]
 				}
 
@@ -26916,7 +26932,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-71", 0 ],
-					"order" : 0,
+					"order" : 1,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -27294,13 +27310,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-54", 0 ],
 					"source" : [ "obj-70", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-54", 0 ],
-					"source" : [ "obj-71", 0 ]
 				}
 
 			}
