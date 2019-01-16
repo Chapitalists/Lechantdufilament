@@ -48,13 +48,9 @@ var scenario = {
     if (!this.playing) return;
 
     this.playing = false
-    for (var i = scenari.length - 1 ; i >= 0 ; i--)
-      if (scenari[i] === this) scenari.splice(i, 1)
+    removeFrom(scenari, this)
     for (var i = 0 ; i < this.agents.length ; i++) {
-      for (var j = agents.length - 1 ; j >= 0 ; j--)
-        if (agents[j] === this.agents[i]) {
-          agents.splice(i, 1)
-        }
+      removeFrom(agents, this.agents[i])
     }
     this.agents = []
   },
@@ -82,6 +78,7 @@ Object.assign(orchestre,
   {
     musicien:Object.create(agent),
     init:function() {
+      this.playing = true
       this.agents = []
       for (var i = 0 ; i < space.lamps[0] ; i++) {
         for (var j = 0 ; j < space.lamps[1] ; j++) {
