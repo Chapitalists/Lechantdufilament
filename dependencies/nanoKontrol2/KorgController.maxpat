@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 34.0, 826.0, 340.0 ],
+		"rect" : [ 59.0, 104.0, 826.0, 340.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -469,6 +469,7 @@
 						"tags" : "",
 						"style" : "",
 						"subpatcher_template" : "",
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-29",
@@ -513,11 +514,11 @@
 									"fontname" : "Arial",
 									"fontsize" : 10.0,
 									"id" : "obj-16",
-									"linecount" : 50,
+									"linecount" : 49,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 469.0, 150.0, 159.0, 565.0 ],
+									"patching_rect" : [ 469.0, 150.0, 160.0, 554.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 18,
 									"presentation_rect" : [ 313.0, 78.0, 627.0, 208.0 ],
@@ -626,9 +627,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 913.5, 174.0, 32.5, 20.0 ],
+									"patching_rect" : [ 913.5, 174.0, 29.5, 20.0 ],
 									"style" : "",
-									"text" : "1"
+									"text" : "0"
 								}
 
 							}
@@ -1323,7 +1324,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 202.166626, 178.0, 52.0, 20.0 ],
 									"style" : "",
-									"text" : "48 0"
+									"text" : "39 0"
 								}
 
 							}
@@ -1685,11 +1686,11 @@
 								"name" : "patchLCDF",
 								"default" : 								{
 									"fontface" : [ 3 ],
+									"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 									"fontsize" : [ 18.0 ],
 									"fontname" : [ "Helvetica Neue Bold" ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
-									"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ]
+									"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
 								}
 ,
 								"parentstyle" : "",
@@ -6674,23 +6675,7 @@
 				}
 
 			}
- ],
-		"dependency_cache" : [ 			{
-				"name" : "nanoKontrolDialSlider.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/nanoKontrol2",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "nanoKontrolButton.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/nanoKontrol2",
-				"patcherrelativepath" : ".",
-				"type" : "JSON",
-				"implicit" : 1
-			}
- ],
-		"autosave" : 0
+ ]
 	}
 
 }
