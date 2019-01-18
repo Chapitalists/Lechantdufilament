@@ -269,11 +269,11 @@ var MaxInterface = {
   },
 
   sorbetMaxEnergy:function(m) {
-    if (m <= 0) return
+    if (m < 0) return
     with (sorbetiere) {
       sorbet.maxGrow    = m
       sorbet.growDose   = m / incFrames
-      sorbet.consumDose = m / decFrames
+      sorbet.consumeDose = m ? m / decFrames : sorbet.consumeDose
     }
   },
 
