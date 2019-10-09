@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1372.0, 783.0 ],
+		"rect" : [ 42.0, 85.0, 1372.0, 783.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -44,7 +44,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 885.5, 635.251282, 41.0, 22.0 ],
-					"presentation_rect" : [ 979.64502, 632.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "/ 127."
 				}
@@ -269,19 +268,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-115",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 1095.0, 122.0, 50.0, 22.0 ],
-					"style" : "",
-					"text" : "36"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"format" : 6,
 					"id" : "obj-111",
 					"maxclass" : "flonum",
@@ -417,12 +403,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 964.894958, 36.0, 130.0, 19.0 ],
+					"patching_rect" : [ 964.894958, 36.0, 80.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 47.390503, 22.903595, 54.062958, 40.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 47.390503, 22.903595, 54.062958, 29.0 ],
 					"style" : "",
-					"text" : "midiin \"Akai MPD24\""
+					"text" : "midiin nanoPAD2"
 				}
 
 			}
@@ -1750,7 +1736,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u225009707"
+													"varname" : "u410002110"
 												}
 
 											}
@@ -3187,6 +3173,7 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 10.435669,
 																	"id" : "obj-7",
+																	"linecount" : 2,
 																	"maxclass" : "comment",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -5623,7 +5610,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 945.0, 464.0, 153.0, 20.0 ],
 									"style" : "",
-									"text" : "rest-prob 25"
+									"text" : "4n 1"
 								}
 
 							}
@@ -7607,7 +7594,7 @@
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 193.0, 256.0, 153.0, 20.0 ],
 													"style" : "",
-													"text" : "rest-prob 25"
+													"text" : "4n 1"
 												}
 
 											}
@@ -8465,7 +8452,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u452009699"
+													"varname" : "u574002102"
 												}
 
 											}
@@ -9902,6 +9889,7 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 10.435669,
 																	"id" : "obj-7",
+																	"linecount" : 2,
 																	"maxclass" : "comment",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -12338,7 +12326,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 517.0, 464.0, 153.0, 20.0 ],
 									"style" : "",
-									"text" : "rest-prob 20"
+									"text" : "4n 1"
 								}
 
 							}
@@ -12789,7 +12777,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u294009696"
+													"varname" : "u752002099"
 												}
 
 											}
@@ -14226,6 +14214,7 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 10.435669,
 																	"id" : "obj-7",
+																	"linecount" : 2,
 																	"maxclass" : "comment",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -16662,7 +16651,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 81.0, 464.0, 153.0, 20.0 ],
 									"style" : "",
-									"text" : "rest-prob 15"
+									"text" : "4n 1"
 								}
 
 							}
@@ -17113,7 +17102,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u871009693"
+													"varname" : "u863002096"
 												}
 
 											}
@@ -18549,6 +18538,7 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 10.435669,
 																	"id" : "obj-7",
+																	"linecount" : 2,
 																	"maxclass" : "comment",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -20985,7 +20975,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 517.0, 203.0, 153.0, 20.0 ],
 									"style" : "",
-									"text" : "rest-prob 25"
+									"text" : "4n 1"
 								}
 
 							}
@@ -21127,9 +21117,9 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 739.0, 138.0, 151.0, 32.0 ],
 									"saved_object_attributes" : 									{
-										"client_rect" : [ 217, 99, 707, 589 ],
+										"client_rect" : [ 218, 50, 590, 567 ],
 										"parameter_enable" : 0,
-										"storage_rect" : [ 842, 68, 1334, 357 ]
+										"storage_rect" : [ 220, 49, 877, 199 ]
 									}
 ,
 									"style" : "",
@@ -21563,7 +21553,7 @@
 ,
 													"style" : "",
 													"text" : "autopattr",
-													"varname" : "u042009690"
+													"varname" : "u695002093"
 												}
 
 											}
@@ -23000,6 +22990,7 @@
 																	"fontname" : "Arial",
 																	"fontsize" : 10.435669,
 																	"id" : "obj-7",
+																	"linecount" : 2,
 																	"maxclass" : "comment",
 																	"numinlets" : 1,
 																	"numoutlets" : 0,
@@ -25436,7 +25427,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 81.0, 203.0, 153.0, 20.0 ],
 									"style" : "",
-									"text" : "rest-prob 10"
+									"text" : "4n 1"
 								}
 
 							}
@@ -26873,6 +26864,14 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-60", 0 ],
+					"order" : 0,
+					"source" : [ "obj-2", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-60", 0 ],
 					"order" : 1,
 					"source" : [ "obj-2", 4 ]
 				}
@@ -26953,6 +26952,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-82", 0 ],
+					"order" : 1,
 					"source" : [ "obj-2", 5 ]
 				}
 
@@ -27427,15 +27427,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-100", 0 ],
-					"order" : 1,
-					"source" : [ "obj-85", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-115", 1 ],
-					"order" : 0,
 					"source" : [ "obj-85", 0 ]
 				}
 
@@ -27462,6 +27453,72 @@
 
 			}
  ],
+		"parameters" : 		{
+			"obj-113" : [ "live.slider[37]", "Sub", 0 ],
+			"obj-31" : [ "live.text[20]", "live.text[3]", 0 ],
+			"obj-74" : [ "live.text[29]", "live.text[3]", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "X.groove.maxpat",
+				"bootpath" : "C:/ProgramData/Max 7/examples/sequencing-looping/CyclistMusic/lib/abstractions",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "X.note2number-C3.txt",
+				"bootpath" : "C:/ProgramData/Max 7/examples/sequencing-looping/CyclistMusic/lib/others",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "X.number2note-C3.txt",
+				"bootpath" : "C:/ProgramData/Max 7/examples/sequencing-looping/CyclistMusic/lib/others",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "X.Groover.xml",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/LCDFColl",
+				"patcherrelativepath" : "../LCDFColl",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "SpacesChanger.maxpat",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/modules",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "spaces.txt",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/LCDFColl",
+				"patcherrelativepath" : "../LCDFColl",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "set_bang.maxpat",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/utils",
+				"patcherrelativepath" : "../utils",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ossia.model.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "ossia.parameter.mxe64",
+				"type" : "mx64"
+			}
+, 			{
+				"name" : "ossia.remote.mxe64",
+				"type" : "mx64"
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "Jamoma_highlighted_orange",
 				"default" : 				{
