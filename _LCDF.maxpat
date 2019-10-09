@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 6,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1189.0, 787.0 ],
+		"rect" : [ 42.0, 85.0, 1189.0, 787.0 ],
 		"bgcolor" : [ 0.694118, 0.694118, 0.694118, 1.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
@@ -39,20 +39,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-77",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 285.5, 96.5, 88.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 277.0, 749.928589, 88.0, 22.0 ],
-					"style" : "",
-					"text" : "KorgController"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-76",
 					"maxclass" : "newobj",
 					"numinlets" : 0,
@@ -62,7 +48,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -1106,9 +1092,9 @@
 								"name" : "patchLCDF",
 								"default" : 								{
 									"fontface" : [ 3 ],
-									"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 									"fontsize" : [ 18.0 ],
 									"fontname" : [ "Helvetica Neue Bold" ],
+									"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
 								}
@@ -1321,7 +1307,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2032,7 +2018,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -2402,9 +2388,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 299.75, 132.666656, 155.0, 30.0 ],
+					"patching_rect" : [ 299.75, 132.666656, 155.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 510.0, 745.928589, 120.0, 30.0 ],
+					"presentation_rect" : [ 510.0, 745.928589, 120.0, 29.0 ],
 					"style" : "patchLCDF",
 					"text" : "scoreTrigger"
 				}
@@ -2495,9 +2481,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 169.446289, 126.0, 30.0 ],
+					"patching_rect" : [ 13.0, 169.446289, 126.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 378.5, 745.928589, 126.0, 30.0 ],
+					"presentation_rect" : [ 378.5, 745.928589, 126.0, 29.0 ],
 					"style" : "patchLCDF",
 					"text" : "directControl"
 				}
@@ -2797,12 +2783,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 234.0, 79.0, 1172.0, 700.0 ],
+						"rect" : [ 234.0, 85.0, 1172.0, 700.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -2848,7 +2834,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 921.357178, 1118.0, 150.0, 20.0 ],
-									"presentation_rect" : [ 918.857178, 1118.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "nanoKontrolHelper 6"
 								}
@@ -2861,7 +2846,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 1054.357178, 1114.0, 150.0, 20.0 ],
-									"presentation_rect" : [ 1235.923218, 1068.0, 0.0, 0.0 ],
 									"style" : "",
 									"text" : "nanoKontrolHelper 7"
 								}
@@ -3215,7 +3199,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 535.862549, 557.0, 184.0, 35.0 ],
+									"patching_rect" : [ 535.862549, 557.0, 184.0, 36.0 ],
 									"style" : "Jamoma_highlighted_orange",
 									"text" : "ossia.remote Agents/Errant/Preparation"
 								}
@@ -3411,7 +3395,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 257.875, 1079.0, 108.0, 49.0 ],
+									"patching_rect" : [ 257.875, 1079.0, 108.0, 50.0 ],
 									"style" : "Jamoma_highlighted_orange",
 									"text" : "ossia.remote Algo/GOL/GenereMatrice"
 								}
@@ -3539,7 +3523,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 35.071442, 615.0, 159.0, 60.0 ],
+									"patching_rect" : [ 35.071442, 615.0, 159.0, 62.0 ],
 									"style" : "Jamoma_highlighted_orange",
 									"text" : "permet de basculer sur la bonne visualisation dans le patch lorsqu'on utilise le controleur MIDI"
 								}
@@ -3720,7 +3704,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4199,9 +4183,9 @@
 												"name" : "patchLCDF",
 												"default" : 												{
 													"fontface" : [ 3 ],
-													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 													"fontsize" : [ 18.0 ],
 													"fontname" : [ "Helvetica Neue Bold" ],
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
 												}
@@ -4247,7 +4231,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 657.142883, 337.0, 138.0, 35.0 ],
+									"patching_rect" : [ 657.142883, 337.0, 138.0, 36.0 ],
 									"style" : "Jamoma_highlighted_orange",
 									"text" : "ossia.remote Orchestre/Tempo"
 								}
@@ -4261,7 +4245,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 257.142853, 337.0, 123.0, 35.0 ],
+									"patching_rect" : [ 257.142853, 337.0, 123.0, 36.0 ],
 									"style" : "Jamoma_highlighted_orange",
 									"text" : "ossia.remote Orchestre/Sub"
 								}
@@ -4275,7 +4259,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 948.214355, 826.0, 174.0, 35.0 ],
+									"patching_rect" : [ 948.214355, 826.0, 174.0, 36.0 ],
 									"style" : "Jamoma_highlighted_orange",
 									"text" : "ossia.remote Agents/Sorbet/maxBtwn"
 								}
@@ -4289,7 +4273,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 921.357178, 794.0, 171.0, 35.0 ],
+									"patching_rect" : [ 921.357178, 794.0, 171.0, 36.0 ],
 									"style" : "Jamoma_highlighted_orange",
 									"text" : "ossia.remote Agents/Sorbet/minBtwn"
 								}
@@ -4303,7 +4287,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 872.642883, 739.5, 151.0, 35.0 ],
+									"patching_rect" : [ 872.642883, 739.5, 151.0, 36.0 ],
 									"style" : "Jamoma_highlighted_orange",
 									"text" : "ossia.remote Agents/Sorbet/fonte"
 								}
@@ -4317,7 +4301,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 848.642883, 707.5, 175.0, 35.0 ],
+									"patching_rect" : [ 848.642883, 707.5, 175.0, 36.0 ],
 									"style" : "Jamoma_highlighted_orange",
 									"text" : "ossia.remote Agents/Sorbet/formation"
 								}
@@ -4331,7 +4315,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 815.642883, 675.5, 192.0, 35.0 ],
+									"patching_rect" : [ 815.642883, 675.5, 192.0, 36.0 ],
 									"style" : "Jamoma_highlighted_orange",
 									"text" : "ossia.remote Agents/Sorbet/lapsCreation"
 								}
@@ -4358,7 +4342,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 1038.776855, 743.5, 165.0, 35.0 ],
+									"patching_rect" : [ 1038.776855, 743.5, 165.0, 36.0 ],
 									"style" : "Jamoma_highlighted_orange",
 									"text" : "ossia.remote Agents/Sorbet/goBtwn"
 								}
@@ -4398,7 +4382,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 974.214355, 649.0, 148.0, 35.0 ],
+									"patching_rect" : [ 974.214355, 649.0, 148.0, 36.0 ],
 									"style" : "Jamoma_highlighted_orange",
 									"text" : "ossia.remote Agents/Sorbet/Play"
 								}
@@ -4412,7 +4396,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 789.330322, 645.5, 149.0, 35.0 ],
+									"patching_rect" : [ 789.330322, 645.5, 149.0, 36.0 ],
 									"style" : "Jamoma_highlighted_orange",
 									"text" : "ossia.remote Agents/Sorbet/taille"
 								}
@@ -4426,7 +4410,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 762.785767, 615.0, 161.0, 35.0 ],
+									"patching_rect" : [ 762.785767, 615.0, 161.0, 36.0 ],
 									"style" : "Jamoma_highlighted_orange",
 									"text" : "ossia.remote Agents/Sorbet/energy"
 								}
@@ -4456,7 +4440,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -4935,9 +4919,9 @@
 												"name" : "patchLCDF",
 												"default" : 												{
 													"fontface" : [ 3 ],
-													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 													"fontsize" : [ 18.0 ],
 													"fontname" : [ "Helvetica Neue Bold" ],
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
 												}
@@ -4996,7 +4980,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 492.776825, 800.0, 188.0, 35.0 ],
+									"patching_rect" : [ 492.776825, 800.0, 188.0, 36.0 ],
 									"style" : "Jamoma_highlighted_orange",
 									"text" : "ossia.remote Agents/Errant/Felin/go"
 								}
@@ -5010,7 +4994,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 275.687531, 664.0, 152.0, 35.0 ],
+									"patching_rect" : [ 275.687531, 664.0, 152.0, 36.0 ],
 									"style" : "Jamoma_highlighted_orange",
 									"text" : "ossia.remote Agents/Errant/force"
 								}
@@ -5024,7 +5008,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 306.964294, 694.0, 139.0, 35.0 ],
+									"patching_rect" : [ 306.964294, 694.0, 139.0, 36.0 ],
 									"style" : "Jamoma_highlighted_orange",
 									"text" : "ossia.remote Agents/Errant/diff"
 								}
@@ -5038,7 +5022,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 332.928589, 728.0, 208.0, 35.0 ],
+									"patching_rect" : [ 332.928589, 728.0, 208.0, 36.0 ],
 									"style" : "Jamoma_highlighted_orange",
 									"text" : "ossia.remote Agents/Errant/lapsFrames"
 								}
@@ -5052,7 +5036,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 253.875, 633.5, 161.0, 35.0 ],
+									"patching_rect" : [ 253.875, 633.5, 161.0, 36.0 ],
 									"style" : "Jamoma_highlighted_orange",
 									"text" : "ossia.remote Agents/Errant/velocity"
 								}
@@ -5066,7 +5050,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 577.862549, 588.0, 163.0, 35.0 ],
+									"patching_rect" : [ 577.862549, 588.0, 163.0, 36.0 ],
 									"style" : "Jamoma_highlighted_orange",
 									"text" : "ossia.remote Agents/Errant/Change"
 								}
@@ -5080,7 +5064,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 227.330383, 604.5, 145.0, 35.0 ],
+									"patching_rect" : [ 227.330383, 604.5, 145.0, 36.0 ],
 									"style" : "Jamoma_highlighted_orange",
 									"text" : "ossia.remote Agents/Errant/size"
 								}
@@ -5094,7 +5078,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 200.785736, 574.0, 158.0, 35.0 ],
+									"patching_rect" : [ 200.785736, 574.0, 158.0, 36.0 ],
 									"style" : "Jamoma_highlighted_orange",
 									"text" : "ossia.remote Agents/Errant/energy"
 								}
@@ -5107,7 +5091,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 624.0, 80.5, 227.0, 47.0 ],
+									"patching_rect" : [ 624.0, 80.5, 227.0, 48.0 ],
 									"style" : "",
 									"text" : "filtrage parfois nécessaire car la  BCR2000 peut envoyer 3 fois la même valeur si ça lui chante"
 								}
@@ -5121,7 +5105,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 439.687531, 664.0, 141.0, 35.0 ],
+									"patching_rect" : [ 439.687531, 664.0, 141.0, 36.0 ],
 									"style" : "Jamoma_highlighted_orange",
 									"text" : "ossia.remote Agents/Errant/Del"
 								}
@@ -5135,7 +5119,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 412.285736, 604.5, 145.0, 35.0 ],
+									"patching_rect" : [ 412.285736, 604.5, 145.0, 36.0 ],
 									"style" : "Jamoma_highlighted_orange",
 									"text" : "ossia.remote Agents/Errant/Add"
 								}
@@ -5165,7 +5149,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -5644,9 +5628,9 @@
 												"name" : "patchLCDF",
 												"default" : 												{
 													"fontface" : [ 3 ],
-													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 													"fontsize" : [ 18.0 ],
 													"fontname" : [ "Helvetica Neue Bold" ],
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
 												}
@@ -5696,7 +5680,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6176,9 +6160,9 @@
 												"name" : "patchLCDF",
 												"default" : 												{
 													"fontface" : [ 3 ],
-													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 													"fontsize" : [ 18.0 ],
 													"fontname" : [ "Helvetica Neue Bold" ],
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
 												}
@@ -6261,7 +6245,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 10.571442, 197.0, 150.0, 47.0 ],
+									"patching_rect" : [ 10.571442, 197.0, 150.0, 48.0 ],
 									"style" : "",
 									"text" : "4 boutons en bas à droite (dans le sens de lecture européen)"
 								}
@@ -6304,7 +6288,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -6784,9 +6768,9 @@
 												"name" : "patchLCDF",
 												"default" : 												{
 													"fontface" : [ 3 ],
-													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 													"fontsize" : [ 18.0 ],
 													"fontname" : [ "Helvetica Neue Bold" ],
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
 												}
@@ -6845,7 +6829,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 604.0, 269.0, 123.0, 35.0 ],
+									"patching_rect" : [ 604.0, 269.0, 123.0, 36.0 ],
 									"style" : "Jamoma_highlighted_orange",
 									"text" : "ossia.remote Agents/vitesse"
 								}
@@ -6876,7 +6860,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -7355,9 +7339,9 @@
 												"name" : "patchLCDF",
 												"default" : 												{
 													"fontface" : [ 3 ],
-													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 													"fontsize" : [ 18.0 ],
 													"fontname" : [ "Helvetica Neue Bold" ],
+													"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 													"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
 												}
@@ -7389,7 +7373,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 328.142883, 15.5, 150.0, 33.0 ],
+									"patching_rect" : [ 328.142883, 15.5, 150.0, 34.0 ],
 									"style" : "",
 									"text" : "Interface midi BCRotary 2000 (preset 1)"
 								}
@@ -7416,7 +7400,7 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 311.0, 132.0, 74.0, 22.0 ],
 									"style" : "",
-									"text" : "62 7 2"
+									"text" : "107 9 11"
 								}
 
 							}
@@ -7570,7 +7554,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 204.0, 276.0, 107.0, 35.0 ],
+									"patching_rect" : [ 204.0, 276.0, 107.0, 36.0 ],
 									"style" : "Jamoma_highlighted_orange",
 									"text" : "ossia.remote Agents/Sub"
 								}
@@ -7583,7 +7567,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 921.357178, 1038.0, 283.0, 33.0 ],
+									"patching_rect" : [ 921.357178, 1038.0, 287.0, 34.0 ],
 									"style" : "",
 									"text" : "patch dependancies/NanoKontrol/KorgController.maxpat\n"
 								}
@@ -9078,9 +9062,9 @@
 								"name" : "patchLCDF",
 								"default" : 								{
 									"fontface" : [ 3 ],
-									"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 									"fontsize" : [ 18.0 ],
 									"fontname" : [ "Helvetica Neue Bold" ],
+									"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
 								}
@@ -9091,9 +9075,9 @@
  ]
 					}
 ,
-					"patching_rect" : [ 13.0, 132.666656, 63.0, 30.0 ],
+					"patching_rect" : [ 13.0, 132.666656, 63.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 193.0, 745.928589, 172.0, 30.0 ],
+					"presentation_rect" : [ 193.0, 745.928589, 172.0, 29.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -9222,7 +9206,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9468,9 +9452,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1090.5, 38.479858, 55.0, 24.0 ],
+					"patching_rect" : [ 1090.5, 38.479858, 55.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 502.0, 4.0, 59.0, 24.0 ],
+					"presentation_rect" : [ 502.0, 4.0, 59.0, 25.0 ],
 					"style" : "",
 					"text" : "Values",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -9511,9 +9495,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 928.5, 38.479858, 52.0, 24.0 ],
+					"patching_rect" : [ 928.5, 38.479858, 52.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 566.0, 4.0, 59.0, 24.0 ],
+					"presentation_rect" : [ 566.0, 4.0, 59.0, 25.0 ],
 					"style" : "",
 					"text" : "Lights",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -9635,7 +9619,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1069.5, 272.067078, 182.0, 35.0 ],
 					"style" : "",
-					"text" : ";\rmax sortpatcherdictonsave 1;\r"
+					"text" : ";\r\nmax sortpatcherdictonsave 1;\r\n"
 				}
 
 			}
@@ -9698,7 +9682,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -9996,10 +9980,10 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 405.0, 56.666664, 165.0, 31.0 ],
+					"patching_rect" : [ 405.0, 56.666664, 165.0, 32.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 340.0, 0.5, 165.0, 31.0 ],
+					"presentation_rect" : [ 340.0, 0.5, 165.0, 32.0 ],
 					"style" : "",
 					"text" : "developpement Max Bruckert \nClement Bossut / Jaime Chao"
 				}
@@ -10079,7 +10063,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -10482,7 +10466,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -12192,9 +12176,9 @@
 								"name" : "patchLCDF",
 								"default" : 								{
 									"fontface" : [ 3 ],
-									"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 									"fontsize" : [ 18.0 ],
 									"fontname" : [ "Helvetica Neue Bold" ],
+									"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
 								}
@@ -12205,9 +12189,9 @@
  ]
 					}
 ,
-					"patching_rect" : [ 13.0, 6.0, 172.0, 30.0 ],
+					"patching_rect" : [ 13.0, 6.0, 172.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 745.928589, 172.0, 30.0 ],
+					"presentation_rect" : [ 7.0, 745.928589, 172.0, 29.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -12288,9 +12272,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 218.0, 287.067078, 39.0, 24.0 ],
+					"patching_rect" : [ 218.0, 287.067078, 39.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1009.0, 18.25, 42.0, 24.0 ],
+					"presentation_rect" : [ 1009.0, 18.25, 42.0, 25.0 ],
 					"style" : "",
 					"text" : "INIT",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -12351,9 +12335,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 306.0, 286.067078, 55.0, 24.0 ],
+					"patching_rect" : [ 306.0, 286.067078, 55.0, 25.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1055.5, 18.25, 55.0, 24.0 ],
+					"presentation_rect" : [ 1055.5, 18.25, 55.0, 25.0 ],
 					"style" : "",
 					"text" : "Kill All",
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ]
@@ -12366,9 +12350,9 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 13.0, 91.0, 72.0, 30.0 ],
+					"patching_rect" : [ 13.0, 91.0, 72.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 636.5, 745.928589, 170.0, 30.0 ],
+					"presentation_rect" : [ 636.5, 745.928589, 170.0, 29.0 ],
 					"style" : "patchLCDF",
 					"text" : "OOsc2",
 					"varname" : "OSc"
@@ -12386,7 +12370,7 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 6,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}
@@ -12906,7 +12890,7 @@
 										"appversion" : 										{
 											"major" : 7,
 											"minor" : 3,
-											"revision" : 6,
+											"revision" : 5,
 											"architecture" : "x64",
 											"modernui" : 1
 										}
@@ -13352,7 +13336,7 @@
 									"fontsize" : 11.0,
 									"hint" : "",
 									"id" : "obj-48",
-									"items" : [ 1, ",", 2, ",", 4, ",", 8, ",", 16, ",", 32, ",", 64, ",", 128, ",", 256, ",", 512, ",", 1024, ",", 2048, ",", 4096 ],
+									"items" : [ 1, ",", 2, ",", 4, ",", 8, ",", 16, ",", 32, ",", 64, ",", 128, ",", 256, ",", 512, ",", 1024, ",", 2048 ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -13460,7 +13444,7 @@
 									"fontsize" : 11.0,
 									"hint" : "",
 									"id" : "obj-93",
-									"items" : [ 44100, ",", 48000, ",", 88200, ",", 96000 ],
+									"items" : "<empty>",
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -13736,7 +13720,7 @@
 									"fontsize" : 11.0,
 									"hint" : "",
 									"id" : "obj-64",
-									"items" : [ "Built-in Output", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)", ",", "Périphérique à sortie multiple" ],
+									"items" : [ "None", ",", "Haut-parleurs (2- Realtek High " ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -13781,7 +13765,7 @@
 									"fontsize" : 11.0,
 									"hint" : "",
 									"id" : "obj-69",
-									"items" : [ "Built-in Microphone", ",", "Soundflower (2ch)", ",", "Soundflower (64ch)" ],
+									"items" : [ "None", ",", "Microphone (2- Realtek High Def" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -13826,7 +13810,7 @@
 									"fontsize" : 11.0,
 									"hint" : "",
 									"id" : "obj-71",
-									"items" : [ "None", ",", "Core Audio", ",", "NonRealTime", ",", "ad_portaudio", "Core Audio", ",", "ad_rewire", ",", "Live" ],
+									"items" : [ "None", ",", "ad_asio", "Audient USB Audio ASIO Driver", ",", "ad_directsound", "", ",", "ad_mme", "", ",", "NonRealTime", ",", "ad_rewire", ",", "Live" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -14272,7 +14256,7 @@
 									"fontsize" : 11.0,
 									"hint" : "",
 									"id" : "obj-62",
-									"items" : "<empty>",
+									"items" : [ "Low", ",", "Medium", ",", "High", ",", "Highest" ],
 									"maxclass" : "umenu",
 									"numinlets" : 1,
 									"numoutlets" : 3,
@@ -14885,9 +14869,9 @@
 								"name" : "patchLCDF",
 								"default" : 								{
 									"fontface" : [ 3 ],
-									"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 									"fontsize" : [ 18.0 ],
 									"fontname" : [ "Helvetica Neue Bold" ],
+									"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 									"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
 								}
@@ -14898,9 +14882,9 @@
  ]
 					}
 ,
-					"patching_rect" : [ 13.0, 47.666664, 172.0, 30.0 ],
+					"patching_rect" : [ 13.0, 47.666664, 172.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 812.0, 745.928589, 171.0, 30.0 ],
+					"presentation_rect" : [ 812.0, 745.928589, 171.0, 29.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -14966,9 +14950,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 399.0, 6.0, 190.0, 42.0 ],
+					"patching_rect" : [ 399.0, 6.0, 190.0, 43.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 4.0, 486.0, 24.0 ],
+					"presentation_rect" : [ 7.0, 4.0, 486.0, 25.0 ],
 					"style" : "",
 					"text" : "Introspectiv Tungsten - Nicolas Villenave",
 					"textcolor" : [ 1.0, 1.0, 1.0, 1.0 ]
@@ -15495,569 +15479,549 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-194::obj-139::obj-129::obj-92" : [ "live.slider[20]", "Sorbet-temps-creation", 0 ],
-			"obj-17::obj-42" : [ "live.slider[31]", "Mono-Sub", 0 ],
-			"obj-180::obj-188::obj-11" : [ "live.text[1]", "live.text[1]", 0 ],
-			"obj-194::obj-139::obj-3::obj-33" : [ "live.text[26]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-120::obj-168" : [ "live.slider[25]", "Distance", 0 ],
-			"obj-17::obj-106" : [ "live.slider[1]", "Remanence", 0 ],
-			"obj-194::obj-18" : [ "live.text[19]", "live.text[3]", 0 ],
-			"obj-48::obj-42" : [ "vitesseProcess", "vitesseProcess", 0 ],
-			"obj-134::obj-488" : [ "live.text", "live.text", 0 ],
-			"obj-194::obj-139::obj-129::obj-101" : [ "live.slider[13]", "Taille", 0 ],
-			"obj-194::obj-139::obj-120::obj-22" : [ "live.slider[12]", "Force", 0 ],
 			"obj-194::obj-139::obj-2::obj-26" : [ "live.text[7]", "live.text[3]", 0 ],
-			"obj-44::obj-113" : [ "live.slider[37]", "Sub", 0 ],
-			"obj-194::obj-139::obj-129::obj-1" : [ "live.slider[21]", "Sorbet-Fonte", 0 ],
-			"obj-194::obj-139::obj-3::obj-14" : [ "live.text[17]", "live.text[3]", 0 ],
-			"obj-55" : [ "live.text[16]", "live.text[1]", 0 ],
-			"obj-194::obj-139::obj-2::obj-42" : [ "live.slider[16]", "SizeSel", 0 ],
-			"obj-194::obj-139::obj-2::obj-29" : [ "live.text[11]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-3::obj-19" : [ "live.text[23]", "live.text[3]", 0 ],
-			"obj-84" : [ "live.slider[29]", "SlideDown", 0 ],
-			"obj-194::obj-139::obj-3::obj-51" : [ "live.text[28]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-2::obj-34" : [ "live.text[13]", "live.text[3]", 0 ],
-			"obj-180::obj-188::obj-7" : [ "live.text[5]", "live.text", 0 ],
-			"obj-194::obj-139::obj-2::obj-32" : [ "live.text[14]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-3::obj-71" : [ "live.slider[41]", "SubBalais", 0 ],
-			"obj-44::obj-31" : [ "live.text[20]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-129::obj-19" : [ "live.slider[7]", "Temps-inter-sorbets", 0 ],
+			"obj-194::obj-139::obj-120::obj-32" : [ "live.text[6]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-2::obj-19" : [ "live.text[12]", "live.text[3]", 0 ],
+			"obj-1" : [ "live.slider[19]", "Sorbet-Fonte", 0 ],
+			"obj-194::obj-139::obj-129::obj-92" : [ "live.slider[20]", "Sorbet-temps-creation", 0 ],
+			"obj-194::obj-139::obj-129::obj-9" : [ "live.text[4]", "live.text", 0 ],
+			"obj-194::obj-139::obj-120::obj-178" : [ "live.slider[27]", "Diff", 0 ],
+			"obj-194::obj-139::obj-120::obj-24" : [ "live.slider[17]", "Energie", 0 ],
 			"obj-180::obj-188::obj-145" : [ "live.slider[18]", "Densite", 0 ],
-			"obj-194::obj-139::obj-2::obj-28" : [ "live.slider[30]", "VitesseSel", 0 ],
-			"obj-194::obj-139::obj-3::obj-7" : [ "live.text[15]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-120::obj-13" : [ "live.slider[15]", "Taille", 0 ],
-			"obj-92" : [ "live.slider[5]", "SlideUp", 0 ],
-			"obj-180::obj-1::obj-28" : [ "live.slider[6]", "MSNSub", 0 ],
+			"obj-162" : [ "live.slider[14]", "Master", 0 ],
+			"obj-194::obj-139::obj-2::obj-6" : [ "live.slider[34]", "Distance", 0 ],
+			"obj-194::obj-139::obj-120::obj-22" : [ "live.slider[12]", "Force", 0 ],
+			"obj-194::obj-139::obj-2::obj-97" : [ "live.slider[35]", "SizeAll", 0 ],
 			"obj-194::obj-139::obj-2::obj-33" : [ "live.text[8]", "live.text[3]", 0 ],
-			"obj-180::obj-188::obj-28" : [ "live.slider[4]", "GOLSub", 0 ],
-			"obj-194::obj-139::obj-120::obj-166" : [ "live.slider[24]", "Masse", 0 ],
+			"obj-194::obj-139::obj-129::obj-1" : [ "live.slider[21]", "Sorbet-Fonte", 0 ],
+			"obj-194::obj-139::obj-3::obj-7" : [ "live.text[15]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-3::obj-51" : [ "live.text[28]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-3::obj-33" : [ "live.text[26]", "live.text[3]", 0 ],
+			"obj-44::obj-113" : [ "live.slider[37]", "Sub", 0 ],
+			"obj-180::obj-188::obj-7" : [ "live.text[5]", "live.text", 0 ],
+			"obj-194::obj-139::obj-2::obj-71" : [ "live.slider[33]", "SubTourneur", 0 ],
 			"obj-194::obj-139::obj-3::obj-42" : [ "live.slider[38]", "Size", 0 ],
-			"obj-194::obj-139::obj-120::obj-150" : [ "live.slider[22]", "Changement direction", 0 ],
-			"obj-194::obj-139::obj-120::obj-188" : [ "live.slider[28]", "Vélocité", 0 ],
+			"obj-194::obj-18" : [ "live.text[19]", "live.text[3]", 0 ],
+			"obj-180::obj-188::obj-11" : [ "live.text[1]", "live.text[1]", 0 ],
+			"obj-194::obj-139::obj-129::obj-101" : [ "live.slider[13]", "Taille", 0 ],
+			"obj-194::obj-139::obj-3::obj-14" : [ "live.text[17]", "live.text[3]", 0 ],
 			"obj-194::obj-139::obj-2::obj-93" : [ "live.slider[32]", "VitesseAll", 0 ],
-			"obj-194::obj-150" : [ "live.slider[23]", "Vitesse Agents", 0 ],
+			"obj-92" : [ "live.slider[5]", "SlideUp", 0 ],
+			"obj-194::obj-139::obj-120::obj-166" : [ "live.slider[24]", "Masse", 0 ],
 			"obj-194::obj-139::obj-2::obj-75" : [ "live.text[30]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-3::obj-34" : [ "live.text[24]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-120::obj-150" : [ "live.slider[22]", "Changement direction", 0 ],
+			"obj-17::obj-106" : [ "live.slider[1]", "Remanence", 0 ],
+			"obj-48::obj-42" : [ "vitesseProcess", "vitesseProcess", 0 ],
+			"obj-194::obj-139::obj-3::obj-71" : [ "live.slider[41]", "SubBalais", 0 ],
+			"obj-194::obj-139::obj-3::obj-19" : [ "live.text[23]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-120::obj-112" : [ "live.text[2]", "live.text[3]", 0 ],
+			"obj-44::obj-31" : [ "live.text[20]", "live.text[3]", 0 ],
+			"obj-180::obj-1::obj-28" : [ "live.slider[6]", "MSNSub", 0 ],
+			"obj-194::obj-113" : [ "live.slider[36]", "AgentSub", 0 ],
+			"obj-44::obj-74" : [ "live.text[29]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-120::obj-13" : [ "live.slider[15]", "Taille", 0 ],
+			"obj-194::obj-139::obj-2::obj-42" : [ "live.slider[16]", "SizeSel", 0 ],
+			"obj-194::obj-139::obj-120::obj-188" : [ "live.slider[28]", "Vélocité", 0 ],
+			"obj-180::obj-188::obj-28" : [ "live.slider[4]", "GOLSub", 0 ],
+			"obj-17::obj-42" : [ "live.slider[31]", "Mono-Sub", 0 ],
+			"obj-84" : [ "live.slider[29]", "SlideDown", 0 ],
+			"obj-194::obj-139::obj-2::obj-29" : [ "live.text[11]", "live.text[3]", 0 ],
+			"obj-194::obj-150" : [ "live.slider[23]", "Vitesse Agents", 0 ],
+			"obj-194::obj-139::obj-129::obj-90" : [ "live.slider[9]", "Sorbet-Energie", 0 ],
+			"obj-194::obj-139::obj-2::obj-34" : [ "live.text[13]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-120::obj-119" : [ "live.text[3]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-3::obj-28" : [ "live.slider[39]", "Vitesse", 0 ],
+			"obj-194::obj-139::obj-129::obj-7" : [ "live.slider[8]", "Sorbet-Formation", 0 ],
+			"obj-194::obj-139::obj-2::obj-32" : [ "live.text[14]", "live.text[3]", 0 ],
+			"obj-17::obj-102" : [ "live.slider", "Intensite", 0 ],
+			"obj-194::obj-139::obj-120::obj-34" : [ "live.text[9]", "live.text[3]", 0 ],
 			"obj-194::obj-139::obj-3::obj-48" : [ "live.text[27]", "live.text[3]", 0 ],
 			"obj-46::obj-71" : [ "Flash[1]", "Flash", 0 ],
-			"obj-194::obj-139::obj-120::obj-171" : [ "live.slider[26]", "Radius", 0 ],
-			"obj-1" : [ "live.slider[19]", "Sorbet-Fonte", 0 ],
-			"obj-194::obj-139::obj-2::obj-19" : [ "live.text[12]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-3::obj-34" : [ "live.text[24]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-2::obj-6" : [ "live.slider[34]", "Distance", 0 ],
-			"obj-194::obj-113" : [ "live.slider[36]", "AgentSub", 0 ],
+			"obj-55" : [ "live.text[16]", "live.text[1]", 0 ],
 			"obj-180::obj-3::obj-86" : [ "live.slider[11]", "PINGSub", 0 ],
-			"obj-194::obj-139::obj-120::obj-112" : [ "live.text[2]", "live.text[3]", 0 ],
+			"obj-194::obj-139::obj-2::obj-28" : [ "live.slider[30]", "VitesseSel", 0 ],
 			"obj-17::obj-61" : [ "live.slider[2]", "Multi-Sub", 0 ],
-			"obj-194::obj-139::obj-2::obj-71" : [ "live.slider[33]", "SubTourneur", 0 ],
-			"obj-44::obj-74" : [ "live.text[29]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-120::obj-32" : [ "live.text[6]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-129::obj-90" : [ "live.slider[9]", "Sorbet-Energie", 0 ],
-			"obj-194::obj-139::obj-120::obj-34" : [ "live.text[9]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-129::obj-9" : [ "live.text[4]", "live.text", 0 ],
-			"obj-17::obj-102" : [ "live.slider", "Intensite", 0 ],
-			"obj-194::obj-139::obj-129::obj-19" : [ "live.slider[7]", "Temps-inter-sorbets", 0 ],
-			"obj-194::obj-139::obj-129::obj-7" : [ "live.slider[8]", "Sorbet-Formation", 0 ],
+			"obj-194::obj-139::obj-120::obj-171" : [ "live.slider[26]", "Radius", 0 ],
 			"obj-194::obj-139::obj-2::obj-61" : [ "live.text[10]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-120::obj-119" : [ "live.text[3]", "live.text[3]", 0 ],
-			"obj-194::obj-139::obj-120::obj-24" : [ "live.slider[17]", "Energie", 0 ],
-			"obj-162" : [ "live.slider[14]", "Master", 0 ],
-			"obj-194::obj-139::obj-2::obj-97" : [ "live.slider[35]", "SizeAll", 0 ],
-			"obj-194::obj-139::obj-120::obj-178" : [ "live.slider[27]", "Diff", 0 ],
-			"obj-194::obj-139::obj-3::obj-28" : [ "live.slider[39]", "Vitesse", 0 ]
+			"obj-194::obj-139::obj-120::obj-168" : [ "live.slider[25]", "Distance", 0 ],
+			"obj-134::obj-488" : [ "live.text", "live.text", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "SpatMulti-Mono.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "-rs.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/utils",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/utils",
 				"patcherrelativepath" : "./utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "FilterMap.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/utils",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/utils",
 				"patcherrelativepath" : "./utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "setLights.js",
-				"bootpath" : "~/Workspace/Lechantdufilament/javascript",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/javascript",
 				"patcherrelativepath" : "./javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OOsc2.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MXtgtOSC.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/MX",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/dependencies/MX",
 				"patcherrelativepath" : "./dependencies/MX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "TUNGoscdestinations.txt",
-				"bootpath" : "~/Workspace/Lechantdufilament/LCDFColl",
-				"patcherrelativepath" : "./LCDFColl",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament//LCDFColl",
+				"patcherrelativepath" : ".//LCDFColl",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MXmapOSC.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/MX",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/dependencies/MX",
 				"patcherrelativepath" : "./dependencies/MX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SRinhibit.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/MX",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/dependencies/MX",
 				"patcherrelativepath" : "./dependencies/MX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "TUNGoscinputs.txt",
-				"bootpath" : "~/Workspace/Lechantdufilament/LCDFColl",
-				"patcherrelativepath" : "./LCDFColl",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament//LCDFColl",
+				"patcherrelativepath" : ".//LCDFColl",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MXpattrPaths.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/MX",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/dependencies/MX",
 				"patcherrelativepath" : "./dependencies/MX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "OscMapping.json",
-				"bootpath" : "~/Workspace/Lechantdufilament/LCDFColl",
-				"patcherrelativepath" : "./LCDFColl",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament//LCDFColl",
+				"patcherrelativepath" : ".//LCDFColl",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "FeuilleDePatche.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "FeuilleDePatcheOLA_KDK.txt",
-				"bootpath" : "~/Workspace/Lechantdufilament/LCDFColl",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/LCDFColl",
 				"patcherrelativepath" : "./LCDFColl",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "comp.js",
-				"bootpath" : "~/Workspace/Lechantdufilament/javascript",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/javascript",
 				"patcherrelativepath" : "./javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "serialSender.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/utils",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/utils",
 				"patcherrelativepath" : "./utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "patchCB",
-				"bootpath" : "~/Workspace/Lechantdufilament/LCDFColl",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/LCDFColl",
 				"patcherrelativepath" : "./LCDFColl",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "config.txt",
-				"bootpath" : "~/Workspace/Lechantdufilament/LCDFColl",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/LCDFColl",
 				"patcherrelativepath" : "./LCDFColl",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "recPlay.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/utils",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/utils",
 				"patcherrelativepath" : "./utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "listSlider.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/utils",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/utils",
 				"patcherrelativepath" : "./utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Algo.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "GameOfLife.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "set_bang.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/utils",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/utils",
 				"patcherrelativepath" : "./utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MSNoise.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MakeSomeNoise.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MSPing.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AudioPing.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "TapRythm.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m-countbang.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/MX",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/dependencies/MX",
 				"patcherrelativepath" : "./dependencies/MX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Multidelays.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m-multidel.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/MX",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/dependencies/MX",
 				"patcherrelativepath" : "./dependencies/MX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MakeSomePings.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m-del.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/MX",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/dependencies/MX",
 				"patcherrelativepath" : "./dependencies/MX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "m-lramp.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/MX",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/dependencies/MX",
 				"patcherrelativepath" : "./dependencies/MX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MXkey.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/MX",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/dependencies/MX",
 				"patcherrelativepath" : "./dependencies/MX",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MatriceLights.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "matrixLights.js",
-				"bootpath" : "~/Workspace/Lechantdufilament/javascript",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/javascript",
 				"patcherrelativepath" : "./javascript",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MatriceValue.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Interface.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Agents.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "AgentsOffsetPatch.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Sorbet.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Errant.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "randBetween.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Tourneur.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Balai.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "MaxInterface.js",
-				"bootpath" : "~/Workspace/Lechantdufilament/webAgents",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/webAgents",
 				"patcherrelativepath" : "./webAgents",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "FiltreBoutons.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/utils",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/utils",
 				"patcherrelativepath" : "./utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Orchestre.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "X.groove.maxpat",
-				"bootpath" : "/Users/Shared/Max 7/Examples/sequencing-looping/CyclistMusic/lib/abstractions",
-				"patcherrelativepath" : "../../../Shared/Max 7/Examples/sequencing-looping/CyclistMusic/lib/abstractions",
+				"bootpath" : "C:/ProgramData/Max 7/examples/sequencing-looping/CyclistMusic/lib/abstractions",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "X.note2number-C3.txt",
-				"bootpath" : "/Users/Shared/Max 7/Examples/sequencing-looping/CyclistMusic/lib/others",
-				"patcherrelativepath" : "../../../Shared/Max 7/Examples/sequencing-looping/CyclistMusic/lib/others",
+				"bootpath" : "C:/ProgramData/Max 7/examples/sequencing-looping/CyclistMusic/lib/others",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "X.number2note-C3.txt",
-				"bootpath" : "/Users/Shared/Max 7/Examples/sequencing-looping/CyclistMusic/lib/others",
-				"patcherrelativepath" : "../../../Shared/Max 7/Examples/sequencing-looping/CyclistMusic/lib/others",
+				"bootpath" : "C:/ProgramData/Max 7/examples/sequencing-looping/CyclistMusic/lib/others",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "X.Groover.xml",
-				"bootpath" : "~/Workspace/Lechantdufilament/LCDFColl",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/LCDFColl",
 				"patcherrelativepath" : "./LCDFColl",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SpacesChanger.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "spaces.txt",
-				"bootpath" : "~/Workspace/Lechantdufilament/LCDFColl",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/LCDFColl",
 				"patcherrelativepath" : "./LCDFColl",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "directControl.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/utils",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/utils",
 				"patcherrelativepath" : "./utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Flash.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "scoreTrigger.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/utils",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/utils",
 				"patcherrelativepath" : "./utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "nanoKontrolHelper.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/nanoKontrol2",
-				"patcherrelativepath" : "./dependencies/nanoKontrol2",
+				"name" : "XtouchMini.maxpat",
+				"bootpath" : "D:/User/Documents/Travail/Max",
+				"patcherrelativepath" : "../Max",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "enLive.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "enLiveParams.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/modules",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/modules",
 				"patcherrelativepath" : "./modules",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "matrixRouter.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/utils",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/utils",
 				"patcherrelativepath" : "./utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "directOverride.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/utils",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/utils",
 				"patcherrelativepath" : "./utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "KorgController.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/nanoKontrol2",
-				"patcherrelativepath" : "./dependencies/nanoKontrol2",
-				"type" : "JSON",
-				"implicit" : 1
+				"name" : "ossia.model.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "nanoKontrolDialSlider.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/nanoKontrol2",
-				"patcherrelativepath" : "./dependencies/nanoKontrol2",
-				"type" : "JSON",
-				"implicit" : 1
+				"name" : "ossia.remote.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "nanoKontrolButton.maxpat",
-				"bootpath" : "~/Workspace/Lechantdufilament/dependencies/nanoKontrol2",
-				"patcherrelativepath" : "./dependencies/nanoKontrol2",
-				"type" : "JSON",
-				"implicit" : 1
+				"name" : "ossia.parameter.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "ossia.model.mxo",
-				"type" : "iLaX"
+				"name" : "ambimonitor.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "ossia.remote.mxo",
-				"type" : "iLaX"
+				"name" : "j.dbap.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "ossia.parameter.mxo",
-				"type" : "iLaX"
+				"name" : "OpenSoundControl.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "ambimonitor.mxo",
-				"type" : "iLaX"
+				"name" : "OSC-route.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "j.dbap.mxo",
-				"type" : "iLaX"
+				"name" : "jit.pass.mxe64",
+				"type" : "mx64"
 			}
 , 			{
-				"name" : "OpenSoundControl.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "OSC-route.mxo",
-				"type" : "iLaX"
-			}
-, 			{
-				"name" : "ossia.device.mxo",
-				"type" : "iLaX"
+				"name" : "ossia.device.mxe64",
+				"type" : "mx64"
 			}
  ],
 		"autosave" : 0,
@@ -16074,9 +16038,9 @@
 				"name" : "patchLCDF",
 				"default" : 				{
 					"fontface" : [ 3 ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 					"fontsize" : [ 18.0 ],
 					"fontname" : [ "Helvetica Neue Bold" ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
 				}

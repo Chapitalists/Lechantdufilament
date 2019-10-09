@@ -1,1 +1,1 @@
-serialPortName, COM7;
+serialPortName, COM3;
