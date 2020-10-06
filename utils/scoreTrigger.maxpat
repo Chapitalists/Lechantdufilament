@@ -39,6 +39,35 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-8",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 1397.0, 292.0, 82.0, 22.0 ],
+					"style" : "",
+					"text" : "loadmess 1.1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"format" : 6,
+					"id" : "obj-5",
+					"maxclass" : "flonum",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "bang" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 1397.0, 336.0, 50.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 381.0, 49.5, 50.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-107",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -86,7 +115,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1160.0, 87.0, 34.0, 22.0 ],
-					"presentation_rect" : [ 1209.0, 31.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "15 1"
 				}
@@ -126,7 +154,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1343.678589, 255.0, 118.0, 22.0 ],
-					"presentation_rect" : [ 1334.678589, 160.0, 0.0, 0.0 ],
 					"style" : "Jamoma_highlighted_orange",
 					"text" : "ossia.remote launch"
 				}
@@ -153,7 +180,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1275.0, 292.0, 29.5, 22.0 ],
-					"presentation_rect" : [ 1377.0, 303.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "0."
 				}
@@ -167,7 +193,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1192.0, 292.0, 29.5, 22.0 ],
-					"presentation_rect" : [ 1331.0, 304.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "-1."
 				}
@@ -180,10 +205,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 1318.0, 292.0, 29.5, 22.0 ],
-					"presentation_rect" : [ 1291.0, 300.0, 0.0, 0.0 ],
+					"patching_rect" : [ 1318.0, 292.0, 33.0, 22.0 ],
 					"style" : "",
-					"text" : "1."
+					"text" : "184."
 				}
 
 			}
@@ -260,7 +284,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1046.0, 411.0, 41.0, 22.0 ],
-					"presentation_rect" : [ 1138.0, 244.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "round"
 				}
@@ -274,7 +297,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "float" ],
 					"patching_rect" : [ 1046.0, 376.0, 35.0, 22.0 ],
-					"presentation_rect" : [ 1138.0, 209.0, 0.0, 0.0 ],
 					"style" : "",
 					"text" : "* 50."
 				}
@@ -379,7 +401,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1065.5, 606.0, 156.0, 22.0 ],
-					"presentation_rect" : [ 1072.285767, 147.0, 0.0, 0.0 ],
 					"style" : "Jamoma_highlighted_orange",
 					"text" : "ossia.remote intervalSpeed"
 				}
@@ -715,6 +736,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-82", 1 ],
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-42", 0 ],
 					"source" : [ "obj-50", 0 ]
 				}
@@ -829,6 +857,13 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
 					"midpoints" : [ 1241.5, 591.0, 1075.0, 591.0 ],
 					"source" : [ "obj-81", 0 ]
@@ -926,8 +961,8 @@
 			}
 , 			{
 				"name" : "XtouchMini.maxpat",
-				"bootpath" : "D:/User/Documents/Travail/Max",
-				"patcherrelativepath" : "../../Max",
+				"bootpath" : "D:/User/Documents/Travail/Lechantdufilament/dependencies",
+				"patcherrelativepath" : "../dependencies",
 				"type" : "JSON",
 				"implicit" : 1
 			}
@@ -959,10 +994,10 @@
 				"default" : 				{
 					"fontface" : [ 3 ],
 					"fontsize" : [ 18.0 ],
-					"fontname" : [ "Helvetica Neue Bold" ],
-					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ],
 					"textcolor_inverse" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ]
+					"fontname" : [ "Helvetica Neue Bold" ],
+					"accentcolor" : [ 0.556863, 0.556863, 0.556863, 1.0 ],
+					"bgcolor" : [ 1.0, 1.0, 1.0, 0.15 ]
 				}
 ,
 				"parentstyle" : "",

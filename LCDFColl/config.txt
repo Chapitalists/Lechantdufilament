@@ -1,2 +1,2 @@
-serialPortName, COM3;
+serialPortName, COM5;
 tailleTrameDMX, 350;
